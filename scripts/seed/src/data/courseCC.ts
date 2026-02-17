@@ -1,18 +1,15 @@
 import type Course from "@/types/course.interface";
 
 export const courseCC: Course = {
-  id: 1,
   slug: "ciencia-da-computacao",
   name: "Ciência da Computação",
   alternativeName: "Computação",
   semesters: [
     {
       // Etapa 1
-      id: 1,
       number: 1,
       subjects: [
         {
-          id: 1,
           number: 1,
           name: "Circuitos Digitais",
           url: "https://www.youtube.com/playlist?list=PLXyWBo_coJnMYO9Na3t-oYsc2X4kPJBWf",
@@ -25,7 +22,6 @@ export const courseCC: Course = {
           ],
         },
         {
-          id: 2,
           number: 2,
           name: "Matemática Discreta",
           url: "https://www.youtube.com/watch?v=KGoSTh1sgyM&list=PL6mfjjCaO1WrEJ0JKRyXO3QjaPkJaSvAS",
@@ -38,7 +34,6 @@ export const courseCC: Course = {
           ],
         },
         {
-          id: 3,
           number: 3,
           name: "Linguagens de Programação",
           url: "https://www.youtube.com/watch?v=xfDdxqbkiSQ&list=PLnzT8EWpmbka4KukGR184tifzqcuq_ZDv",
@@ -51,7 +46,6 @@ export const courseCC: Course = {
           ],
         },
         {
-          id: 4,
           number: 4,
           name: "Introdução à Ciência da Computação com Python I",
           url: "https://youtube.com/playlist?list=PLcoJJSvnDgcKpOi_UeneTNTIVOigRQwcn",
@@ -64,7 +58,6 @@ export const courseCC: Course = {
           ],
         },
         {
-          id: 5,
           number: 5,
           name: "Geometria Analítica",
           url: "https://www.youtube.com/watch?v=ijkDjQT7UPM&list=PL82Svt6JAgOH3M6TCELx8oegTVCriUg3L",
@@ -80,11 +73,9 @@ export const courseCC: Course = {
     },
     {
       // Etapa 2
-      id: 2,
       number: 2,
       subjects: [
         {
-          id: 6,
           number: 1,
           name: "Cálculo I",
           url: "https://www.youtube.com/watch?v=WgHUHPlJETs&list=PLAudUnJeNg4tr-aiNyYCXE46L3qEZ2Nzx",
@@ -97,7 +88,6 @@ export const courseCC: Course = {
           ],
         },
         {
-          id: 7,
           number: 2,
           name: "Álgebra Linear I",
           url: "https://www.youtube.com/playlist?list=PLIEzh1OveCVczEZAjhVIVd7Qs-X8ILgnI",
@@ -110,7 +100,6 @@ export const courseCC: Course = {
           ],
         },
         {
-          id: 8,
           number: 3,
           name: "Estruturas de Dados",
           url: "https://www.youtube.com/watch?v=0hT3EKGhbpI&list=PLndfcZyvAqbofQl2kLLdeWWjCcPlOPnrW",
@@ -126,7 +115,6 @@ export const courseCC: Course = {
           ],
         },
         {
-          id: 9,
           number: 4,
           name: "Introdução à Ciência da Computação com Python II",
           url: "https://youtube.com/playlist?list=PLcoJJSvnDgcKpOi_UeneTNTIVOigRQwcn&si=RT7FxhHXAYGUuYJD",
@@ -139,7 +127,6 @@ export const courseCC: Course = {
           ],
         },
         {
-          id: 10,
           number: 5,
           name: "Laboratório de Programação Orientada a Objetos I",
           url: "https://www.youtube.com/playlist?list=PLTeQ2u81sjqfsFNWrUCIoqJZBSJrai8M7",
@@ -155,11 +142,9 @@ export const courseCC: Course = {
     },
     {
       // Etapa 3
-      id: 3,
       number: 3,
       subjects: [
         {
-          id: 11,
           number: 1,
           name: "Algoritmos em Grafos",
           url: "https://www.youtube.com/watch?v=fjOiu6CD5pc&list=PLrPn-zKAOzUzKdPqFNF52g-i9p1f-vmsk",
@@ -172,7 +157,6 @@ export const courseCC: Course = {
           ],
         },
         {
-          id: 12,
           number: 2,
           name: "Arquitetura de Computadores I",
           url: "https://www.youtube.com/playlist?list=PLEUHFTHcrJmswfeq7QEHskgkT6HER3gK6",
@@ -185,7 +169,6 @@ export const courseCC: Course = {
           ],
         },
         {
-          id: 13,
           number: 3,
           name: "Probabilidade e Estatística",
           url: "https://www.youtube.com/watch?v=snXf8YT7L3U&list=PLrOyM49ctTx8HWnxWRBtKrfcuf7ew_3nm",
@@ -198,7 +181,6 @@ export const courseCC: Course = {
           ],
         },
         {
-          id: 14,
           number: 4,
           name: "Cálculo II",
           url: "https://www.youtube.com/watch?v=lQdzRBRL9Tw&list=PLAudUnJeNg4sd0TEJ9EG6hr-3d3jqrddN",
@@ -211,7 +193,6 @@ export const courseCC: Course = {
           ],
         },
         {
-          id: 15,
           number: 5,
           name: "Programação Funcional em Haskell",
           url: "https://www.youtube.com/watch?v=eTisiy5FB7k&list=PLYItvall0TqJ25sVTLcMhxsE0Hci58mpQ",
@@ -227,11 +208,9 @@ export const courseCC: Course = {
     },
     {
       // Etapa 4
-      id: 4,
       number: 4,
       subjects: [
         {
-          id: 16,
           number: 1,
           name: "Análise de Algoritmos",
           url: "https://www.youtube.com/watch?v=_HBTCUNPxOg&list=PLncEdvQ20-mgGanwuFczm-4IwIdIcIiha",
@@ -244,7 +223,6 @@ export const courseCC: Course = {
           ],
         },
         {
-          id: 17,
           number: 2,
           name: "Métodos Numéricos I",
           url: "https://www.youtube.com/watch?v=a6nNQ6qKgiY&list=PLI9WiBCz67cPTTRER4CrsN0wpRN-NmjGA",
@@ -260,7 +238,6 @@ export const courseCC: Course = {
           ],
         },
         {
-          id: 18,
           number: 3,
           name: "Banco de Dados",
           url: "https://www.youtube.com/watch?v=pmAxIs5U1KI&list=PLxI8Can9yAHeHQr2McJ01e-ANyh3K0Lfq",
@@ -273,7 +250,6 @@ export const courseCC: Course = {
           ],
         },
         {
-          id: 19,
           number: 4,
           name: "Arquitetura de Computadores II",
           url: "https://www.youtube.com/playlist?list=PLEUHFTHcrJmsqKX-GDD-hBvkF8h2_BfKJ",
@@ -289,7 +265,6 @@ export const courseCC: Course = {
           ],
         },
         {
-          id: 20,
           number: 5,
           name: "Programação Lógica",
           url: "https://youtube.com/playlist?list=PLZ-Bk6jzsb-OScKa7vhpcQXoU2uxYGaFx",
@@ -305,11 +280,9 @@ export const courseCC: Course = {
     },
     {
       // Etapa 5
-      id: 5,
       number: 5,
       subjects: [
         {
-          id: 21,
           number: 1,
           name: "Redes de Computadores",
           url: "https://www.youtube.com/playlist?list=PLvHXLbw-JSPfKp65psX5C9tyNLHHC4uoR",
@@ -322,7 +295,6 @@ export const courseCC: Course = {
           ],
         },
         {
-          id: 22,
           number: 2,
           name: "Introdução à Engenharia de Software",
           url: "https://www.youtube.com/watch?v=h_hEI1Kfm2U&list=PLhBaeEzs3d7lsn_Mq2n3R4_api16Wkp1Q",
@@ -335,7 +307,6 @@ export const courseCC: Course = {
           ],
         },
         {
-          id: 23,
           number: 3,
           name: "Sistemas Operacionais",
           url: "https://www.youtube.com/watch?v=EGn8fOf7zE0&list=PLSmh8AKk_aUn9HxFs5FnjQupdQnV56MXV",
@@ -348,7 +319,6 @@ export const courseCC: Course = {
           ],
         },
         {
-          id: 24,
           number: 4,
           name: "Programação Matemática",
           url: "https://www.youtube.com/watch?v=8rrgnFCL9LM&list=PL2peXovwG2kuqXC6sECjFSiG-MT1yXMQ-",
@@ -361,7 +331,6 @@ export const courseCC: Course = {
           ],
         },
         {
-          id: 25,
           number: 5,
           name: "Fundamentos de Computação Gráfica",
           url: "https://www.youtube.com/watch?v=AVSAesOiKYY&list=PLE51fUFkeIwLXwe4rvG4EMgw7zgjP-tDx",
@@ -377,11 +346,9 @@ export const courseCC: Course = {
     },
     {
       // Etapa 6
-      id: 6,
       number: 6,
       subjects: [
         {
-          id: 26,
           number: 1,
           name: "Linguagens Formais e Autômatos",
           url: "https://www.youtube.com/watch?v=4zMwOozUt9U&list=PLncEdvQ20-mhD_qMeLHtLnA3XDT1Fr_k4",
@@ -394,7 +361,6 @@ export const courseCC: Course = {
           ],
         },
         {
-          id: 27,
           number: 2,
           name: "Inteligência Artificial",
           url: "https://www.youtube.com/watch?v=-T3zDFxngf4&list=PLeejGOroKw_txh7j7S3etF5eudI2WvMx0",
@@ -407,7 +373,6 @@ export const courseCC: Course = {
           ],
         },
         {
-          id: 28,
           number: 3,
           name: "Sistemas Distribuídos",
           url: "https://www.youtube.com/watch?v=TEEy5f46h_Q&list=PLP0bYj2MTFcuXa4-EbBKhvehr-rkxpeR8",
@@ -420,7 +385,6 @@ export const courseCC: Course = {
           ],
         },
         {
-          id: 29,
           number: 4,
           name: "Teoria dos Grafos",
           url: "https://www.youtube.com/watch?v=kfHqZLYHfHU&list=PLndfcZyvAqbr2MLCOLEvBNX6FgD8UNWfX",
@@ -433,7 +397,6 @@ export const courseCC: Course = {
           ],
         },
         {
-          id: 30,
           number: 5,
           name: "Cálculo III",
           url: "https://www.youtube.com/watch?v=8mBTfk7s63s&list=PLAudUnJeNg4ugGUJo52dtgFZ_tCm1Ds5W",
@@ -449,11 +412,9 @@ export const courseCC: Course = {
     },
     {
       // Etapa 7
-      id: 7,
       number: 7,
       subjects: [
         {
-          id: 31,
           number: 1,
           name: "Teoria da Computação",
           url: "https://www.youtube.com/watch?v=dWRxL30aoes&list=PLYLYA7XrlskNgCeSpJf9PQHHb8Z4WpRm4",
@@ -466,7 +427,6 @@ export const courseCC: Course = {
           ],
         },
         {
-          id: 32,
           number: 2,
           name: "Deep Learning",
           url: "https://www.youtube.com/watch?v=0VD_2t6EdS4&list=PL9At2PVRU0ZqVArhU9QMyI3jSe113_m2-",
@@ -479,7 +439,6 @@ export const courseCC: Course = {
           ],
         },
         {
-          id: 33,
           number: 3,
           name: "Compiladores",
           url: "https://youtube.com/playlist?list=PLX6Nyaq0ebfhI396WlWN6WlBm-tp7vDtV",
@@ -492,7 +451,6 @@ export const courseCC: Course = {
           ],
         },
         {
-          id: 34,
           number: 4,
           name: "Computação Quântica",
           url: "https://youtube.com/playlist?list=PLUFcRbu9t-v4peHdmDy4rtG3EnbZNS86R",
@@ -505,7 +463,6 @@ export const courseCC: Course = {
           ],
         },
         {
-          id: 35,
           number: 5,
           name: "Metodologia da Pesquisa",
           url: "https://youtube.com/playlist?list=PLclUQno6PMpQO0-XrDwWsPzRzEvjwp1__",

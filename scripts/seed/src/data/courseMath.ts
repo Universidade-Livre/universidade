@@ -1,18 +1,14 @@
 import type Course from "@/types/course.interface";
 
 export const courseMath: Course = {
-  id: 2,
   slug: "matematica",
   name: "Matemática",
-  alternativeName: "Matemática",
   semesters: [
     {
       // Etapa 1
-      id: 8,
       number: 1,
       subjects: [
         {
-          id: 36,
           number: 1,
           name: "Ingredientes básicos para o Cálculo",
           url: "https://www.youtube.com/playlist?list=PL2xox8ncv81W698VTHptmp7ZNvcKqlyHO",
@@ -20,7 +16,6 @@ export const courseMath: Course = {
           books: [],
         },
         {
-          id: 37,
           number: 2,
           name: "Teoria dos Conjuntos",
           url: "https://www.youtube.com/playlist?list=PL2xox8ncv81X2Cp3FClIjRE9sG_Vq6sZ_",
@@ -28,7 +23,6 @@ export const courseMath: Course = {
           books: [],
         },
         {
-          id: 38,
           number: 3,
           name: "Lógica e Matemática Discreta",
           url: "https://www.youtube.com/playlist?list=PLxI8Can9yAHf6oB0nf8FwLhqSOcBLqOxH",
@@ -36,7 +30,6 @@ export const courseMath: Course = {
           books: [],
         },
         {
-          id: 39,
           number: 4,
           name: "Geometria Analítica",
           url: "https://www.youtube.com/playlist?list=PLxI8Can9yAHcSZv2BBUJAfGsXx0D0hn-2",
@@ -44,7 +37,6 @@ export const courseMath: Course = {
           books: [],
         },
         {
-          id: 40,
           number: 5,
           name: "Algoritmos e Programação em Python",
           url: "https://www.youtube.com/playlist?list=PLvE-ZAFRgX8hnECDn1v9HNTI71veL3oW0",
@@ -55,11 +47,9 @@ export const courseMath: Course = {
     },
     {
       // Etapa 2
-      id: 9,
       number: 2,
       subjects: [
         {
-          id: 41,
           number: 1,
           name: "Cálculo I",
           url: "https://www.youtube.com/playlist?list=PL2D9B691A704C6F7B",
@@ -67,7 +57,6 @@ export const courseMath: Course = {
           books: [],
         },
         {
-          id: 42,
           number: 2,
           name: "Projeto e Análise de Algoritmos",
           url: "https://www.youtube.com/playlist?list=PLxI8Can9yAHdNN5fpKWRF8bbLG-2P-0LW",
@@ -75,7 +64,6 @@ export const courseMath: Course = {
           books: [],
         },
         {
-          id: 43,
           number: 3,
           name: "Álgebra Linear",
           url: "https://www.youtube.com/playlist?list=PLxI8Can9yAHdUtWDKtTA9AmuICNyX9EIr",
@@ -83,7 +71,6 @@ export const courseMath: Course = {
           books: [],
         },
         {
-          id: 44,
           number: 4,
           name: "Álgebra Linear (avançada)",
           url: "https://www.youtube.com/playlist?list=PL2xox8ncv81WXIutzWJDQ7E78riZqJClA",
@@ -91,7 +78,6 @@ export const courseMath: Course = {
           books: [],
         },
         {
-          id: 45,
           number: 5,
           name: "Teoria dos Números",
           url: "https://www.youtube.com/playlist?list=PLxI8Can9yAHcfxDjfTmU-t7XC1w2GVwc_",
@@ -102,11 +88,9 @@ export const courseMath: Course = {
     },
     {
       // Etapa 3
-      id: 10,
       number: 3,
       subjects: [
         {
-          id: 46,
           number: 1,
           name: "Cálculo II",
           url: "https://www.youtube.com/playlist?list=PLxI8Can9yAHeZfF4HwiVmv4D6n3acKLER",
@@ -114,7 +98,6 @@ export const courseMath: Course = {
           books: [],
         },
         {
-          id: 47,
           number: 2,
           name: "Estruturas Algébricas",
           url: "https://www.youtube.com/playlist?list=PL6eyvTm7LSBsdkBBKzEDcyYbdujN_6TmL",
@@ -122,7 +105,6 @@ export const courseMath: Course = {
           books: [],
         },
         {
-          id: 48,
           number: 3,
           name: "Equações Diferenciais Ordinárias",
           url: "https://www.youtube.com/playlist?list=PLo4jXE-LdDTR9q44hqm2w3NWtvyP_ZoiP",
@@ -130,7 +112,6 @@ export const courseMath: Course = {
           books: [],
         },
         {
-          id: 49,
           number: 4,
           name: "Física Geral I",
           url: "https://www.youtube.com/playlist?list=PL7581C21F8ADD6C8E",
@@ -138,7 +119,6 @@ export const courseMath: Course = {
           books: [],
         },
         {
-          id: 50,
           number: 5,
           name: "História da Matemática",
           url: "https://www.youtube.com/playlist?list=PLxI8Can9yAHdOIYVPQPS6oUPBk8mb1CVU",
@@ -149,11 +129,9 @@ export const courseMath: Course = {
     },
     {
       // Etapa 4
-      id: 11,
       number: 4,
       subjects: [
         {
-          id: 51,
           number: 1,
           name: "Cálculo III",
           url: "https://www.youtube.com/playlist?list=PLFBA21F349930F92F",
@@ -161,7 +139,6 @@ export const courseMath: Course = {
           books: [],
         },
         {
-          id: 52,
           number: 2,
           name: "Física Geral II",
           url: "https://www.youtube.com/playlist?list=PL516F59E9AE8F5BF7",
@@ -169,7 +146,6 @@ export const courseMath: Course = {
           books: [],
         },
         {
-          id: 53,
           number: 3,
           name: "Estatística e Probabilidade",
           url: "https://www.youtube.com/playlist?list=PLxI8Can9yAHeeWqe3m9HZFiBhT33Mfxew",
@@ -177,7 +153,6 @@ export const courseMath: Course = {
           books: [],
         },
         {
-          id: 54,
           number: 4,
           name: "Programação Linear",
           url: "https://youtube.com/playlist?list=PLRJ_PBuYGr64QKVnwx3kx0qLeG5WQY_Hl&si=2SlZOlDfYH70f0ak",
@@ -185,7 +160,6 @@ export const courseMath: Course = {
           books: [],
         },
         {
-          id: 55,
           number: 5,
           name: "Análise na Reta",
           url: "https://www.youtube.com/playlist?list=PL2xox8ncv81UTkjNN2WQM8knGQJpu1j_z",
@@ -196,11 +170,9 @@ export const courseMath: Course = {
     },
     {
       // Etapa 5
-      id: 12,
       number: 5,
       subjects: [
         {
-          id: 56,
           number: 1,
           name: "Cálculo IV (Métodos Matemáticos)",
           url: "https://www.youtube.com/playlist?list=PLxI8Can9yAHeOiMYCBlkyCALloROQ58OY",
@@ -208,7 +180,6 @@ export const courseMath: Course = {
           books: [],
         },
         {
-          id: 57,
           number: 2,
           name: "Introdução a Topologia Geral",
           url: "https://www.youtube.com/playlist?list=PLhueTEPO9C1KEX8jTphPeb9kEF9it4b5x",
@@ -216,7 +187,6 @@ export const courseMath: Course = {
           books: [],
         },
         {
-          id: 58,
           number: 3,
           name: "Cálculo com variável complexa",
           url: "https://www.youtube.com/playlist?list=PLpizEtrJatZEUjIgADKdbE6_jGhcXFxht",
@@ -224,7 +194,6 @@ export const courseMath: Course = {
           books: [],
         },
         {
-          id: 59,
           number: 4,
           name: "Teoria dos Grafos",
           url: "https://www.youtube.com/playlist?list=PLndfcZyvAqbr2MLCOLEvBNX6FgD8UNWfX",
@@ -232,7 +201,6 @@ export const courseMath: Course = {
           books: [],
         },
         {
-          id: 60,
           number: 5,
           name: "Física Geral III",
           url: "https://www.youtube.com/playlist?list=PLxI8Can9yAHdG8tw2QofrU02IuAEVyGlL",
@@ -243,11 +211,9 @@ export const courseMath: Course = {
     },
     {
       // Etapa 6
-      id: 13,
       number: 6,
       subjects: [
         {
-          id: 61,
           number: 1,
           name: "Alfabetização em anéis",
           url: "https://www.youtube.com/playlist?list=PL2xox8ncv81XSiyT7czJX8q7I7kNmc8Bk",
@@ -255,7 +221,6 @@ export const courseMath: Course = {
           books: [],
         },
         {
-          id: 62,
           number: 2,
           name: "Física Moderna",
           url: "https://www.youtube.com/playlist?list=PLW5Hta-B_II5vB4Vn9wVWaJVHTo4XxB_i",
@@ -263,7 +228,6 @@ export const courseMath: Course = {
           books: [],
         },
         {
-          id: 63,
           number: 3,
           name: "Teoria de Corpos",
           url: "https://www.youtube.com/playlist?list=PL2xox8ncv81W0HbBtma7QQMeyVllJMk0m",
@@ -271,7 +235,6 @@ export const courseMath: Course = {
           books: [],
         },
         {
-          id: 64,
           number: 4,
           name: "Análise Complexa",
           url: "https://www.youtube.com/playlist?list=PLo4jXE-LdDTRQ07QOEFl0x6mvyTl2hlRn",
@@ -279,7 +242,6 @@ export const courseMath: Course = {
           books: [],
         },
         {
-          id: 65,
           number: 5,
           name: "Equações Diferenciais Parciais",
           url: "https://www.youtube.com/playlist?list=PLpB72X90N5xST4NmvjQicgfRgpt-9rgw-",

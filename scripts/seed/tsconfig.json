@@ -12,6 +12,7 @@
     "types": ["node"],
     "baseUrl": ".",
     "paths": {
+      "@root/*": ["*"],
       "@/*": ["src/*"]
     },
     // For nodejs:
@@ -44,7 +45,7 @@
     "noUncheckedSideEffectImports": true,
     "moduleResolution": "bundler",
     "moduleDetection": "force",
-    "skipLibCheck": true,
+    "skipLibCheck": true
   },
   "include": ["src"]
 }

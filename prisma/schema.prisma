@@ -10,7 +10,6 @@ generator client {
 
 datasource db {
   provider = "postgresql"
-  url      = env("DATABASE_URL")
 }
 
 model User {
@@ -80,10 +79,10 @@ model Course {
   id              String     @id @default(cuid())
   slug            String     @unique
   name            String
-  alternativeName String
+  alternativeName String?
   semesters       Semester[]
 
-  @@index([slug])
+  @@map("course")
 }
 
 model Semester {
@@ -94,45 +93,56 @@ model Semester {
   subjects Subject[]
 
   @@unique([courseId, number])
+  @@map("semester")
 }
 
 model Subject {
-  id                String         @id @default(cuid())
-  number            Int
-  name              String
-
-  prerequisites     Subject[]     @relation("SubjectPrerequisites")
-  dependentSubjects Subject[]     @relation("SubjectPrerequisites")
-
-  url               String
-  duration          Int?
-  lessons           Lesson[]
-  books             SubjectBook[]
-
-  semesterId        String
-  semester          Semester      @relation(fields: [semesterId], references: [id], onDelete: Cascade)
+  id            String                @id @default(cuid())
+  number        Int
+  name          String
+  url           String
+  prerequisites SubjectPrerequisite[] @relation("SubjectPrerequisites")
+  dependents    SubjectPrerequisite[] @relation("SubjectDependents")
+  lessons       Lesson[]
+  books         SubjectBook[]
+  semesterId    String
+  semester      Semester              @relation(fields: [semesterId], references: [id], onDelete: Cascade)
 
   @@unique([semesterId, number])
+  @@map("subject")
+}
+
+model SubjectPrerequisite {
+  dependentId    String
+  prerequisiteId String
+  dependent      Subject @relation("SubjectDependents", fields: [dependentId], references: [id], onDelete: Cascade)
+  prerequisite   Subject @relation("SubjectPrerequisites", fields: [prerequisiteId], references: [id], onDelete: Cascade)
+
+  @@id([dependentId, prerequisiteId])
+  @@index([prerequisiteId])
+  @@map("subject_prerequisite")
 }
 
 model SubjectBook {
   id        String  @id @default(cuid())
   name      String
   url       String
-
   subjectId String
   subject   Subject @relation(fields: [subjectId], references: [id], onDelete: Cascade)
+
+  @@index([subjectId])
+  @@map("subject_book")
 }
 
 model Lesson {
-  id        String   @id @default(cuid())
-  number    Int
-  name      String
-  duration  Int?
-  embedUrl  String
-
-  subjectId String
-  subject   Subject  @relation(fields: [subjectId], references: [id], onDelete: Cascade)
+  id              String  @id @default(cuid())
+  number          Int
+  name            String
+  durationSeconds Int?
+  embedUrl        String
+  subjectId       String
+  subject         Subject @relation(fields: [subjectId], references: [id], onDelete: Cascade)
 
   @@unique([subjectId, number])
+  @@map("lesson")
 }
