@@ -4,16 +4,18 @@ import { Card } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 import { cn } from "@/lib/utils";
 import useUserProgressStore from "@/stores/user-progress-store";
-import { Course } from "@/types/course/course.interface";
-import { Subject } from "@/types/course/subject.interface";
+import { CourseOverview } from "@/types/course/course.interface";
+import { SemesterOverview } from "@/types/course/semester.interface";
+import { SubjectOverview } from "@/types/course/subject.interface";
 import { UserSubjectProgress } from "@/types/user-progress/user-subject-progress.interface";
 import { ArrowRight, CheckCircle2, Circle } from "lucide-react";
 import Link from "next/link";
 
 interface SubjectProgressProps {
-  semesterNumber: number;
-  subjectNumber: number;
-  course: Course;
+  course: CourseOverview;
+  semester: SemesterOverview;
+  subject: SubjectOverview;
+  totalLessons: number;
 }
 
 export const getTheme = (progress: number) => {
@@ -43,22 +45,14 @@ export const getTheme = (progress: number) => {
     };
 };
 
-export const SubjectProgress = ({ semesterNumber, subjectNumber, course }: SubjectProgressProps) => {
+export const SubjectProgress = ({ course, semester, subject, totalLessons }: SubjectProgressProps) => {
   const getSubjectProgress = useUserProgressStore((state) => state.getSubjectProgress);
-  const subject: Subject | undefined = course.semesters
-    .find((semester) => semester.number === semesterNumber)
-    ?.subjects.find((subject) => subject.number === subjectNumber);
-
-  if (!subject) {
-    return null;
-  }
-
-  const progress: UserSubjectProgress = getSubjectProgress(subject.id, subject.lessons);
+  const progress: UserSubjectProgress = getSubjectProgress(subject.id, totalLessons);
   const theme = getTheme(progress.percentage);
 
   return (
     <Link
-      href={`/meu-curso/${course.slug}/etapas/${semesterNumber}/disciplinas/${subjectNumber}`}
+      href={`/meu-curso/${course.slug}/etapas/${semester.number}/disciplinas/${subject.number}`}
       className="group block"
     >
       <Card

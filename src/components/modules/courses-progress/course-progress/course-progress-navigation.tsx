@@ -5,7 +5,7 @@ import {
 } from "@/components/ui/navigation-menu";
 import { ScrollBar } from "@/components/ui/scroll-area";
 import { Course } from "@/types/course/course.interface";
-import { Semester } from "@/types/course/semester.interface";
+import { SemesterOverview } from "@/types/course/semester.interface";
 import { ScrollArea as ScrollAreaPrimitive } from "radix-ui";
 
 interface CourseProgressNavigationProps {
@@ -13,13 +13,11 @@ interface CourseProgressNavigationProps {
   course: Course;
 }
 
-export const CourseProgressNavigation = ({
-  activeSemesterNumber,
-  course,
-}: CourseProgressNavigationProps) => {
-  const semesters: Semester[] = [...course.semesters].sort(
+export const CourseProgressNavigation = ({ activeSemesterNumber, course }: CourseProgressNavigationProps) => {
+  const semesters: SemesterOverview[] = [...course.semesters].sort(
     (a, b) => a.number - b.number,
   );
+
   return (
     <ScrollAreaPrimitive.Root className="w-full">
       <ScrollAreaPrimitive.Viewport className="w-full">

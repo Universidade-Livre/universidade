@@ -47,7 +47,7 @@ export const useUserActiveSubjects = () => {
     return [...unorderedActiveSubjects].sort((a, b) => {
       switch (orderBy) {
         case UserActiveSubjectOrder.Progress:
-          return a.subjectProgress.percentage - b.subjectProgress.percentage;
+          return b.subjectProgress.percentage - a.subjectProgress.percentage;
         case UserActiveSubjectOrder.Semester:
           return a.semester.number - b.semester.number;
         case UserActiveSubjectOrder.Course:

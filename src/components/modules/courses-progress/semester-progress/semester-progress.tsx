@@ -1,21 +1,20 @@
 import SemesterCard from "@/components/common/courses/semester/semester-card";
 import { SemesterStats } from "@/components/common/courses/semester/semester-stats";
-import { Course } from "@/types/course/course.interface";
+import { Semester } from "@/types/course/semester.interface";
 
 interface SemesterProgressProps {
-  semesterNumber: number;
-  course: Course;
+  semester: Semester;
 }
 
-export const SemesterProgress = ({ semesterNumber, course }: SemesterProgressProps) => {
+export const SemesterProgress = ({ semester }: SemesterProgressProps) => {
   return (
     <div className="flex flex-col space-y-6">
       <SemesterCard
-        semesterNumber={semesterNumber}
+        semesterNumber={semester.number}
         label="Progresso da Etapa"
         className="md:p-8"
       >
-        <SemesterStats semesterNumber={semesterNumber} course={course} />
+        <SemesterStats semester={semester} />
       </SemesterCard>
     </div>
   );
