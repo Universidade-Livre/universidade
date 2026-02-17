@@ -1,41 +1,38 @@
+import {
+  getLessonById,
+  getLessonsBySubjectId,
+} from "@/server/services/lesson.service";
 import { createTRPCRouter, publicProcedure } from "@/server/trpc/trpc";
-import { getCourse } from "@/services/course.service";
-import { getLessons } from "@/services/lesson.service";
-import Course from "@/types/course/course.interface";
-import Lesson from "@/types/course/lesson.interface";
-import Semester from "@/types/course/semester.interface";
-import Subject from "@/types/course/subject.interface";
+import { Lesson } from "@/types/course/lesson.interface";
 import { TRPCError } from "@trpc/server";
 import { z } from "zod";
 
 export const lessonRouter = createTRPCRouter({
-  bySubject: publicProcedure
+  byId: publicProcedure
     .input(
       z.object({
-        courseSlug: z.string().min(1),
-        semesterNumber: z.number().int().positive(),
-        subjectNumber: z.number().int().positive(),
+        lessonId: z.string(),
       }),
     )
-    .query(async ({ input }): Promise<Lesson[]> => {
-      const course: Course | undefined = await getCourse(input.courseSlug);
-      if (!course) {
+    .query(async ({ input: { lessonId } }): Promise<Lesson> => {
+      const lesson: Lesson | null = await getLessonById(lessonId);
+      if (!lesson) {
         throw new TRPCError({
           code: "NOT_FOUND",
-          message: "Curso não encontrado.",
+          message: "Aula não encontrada.",
         });
       }
 
-      const semester: Semester | undefined = course.semesters.find((semester) => semester.number === input.semesterNumber);
-      const subject: Subject | undefined = semester?.subjects.find((subject) => subject.number === input.subjectNumber);
-      if (!subject) {
-        throw new TRPCError({
-          code: "NOT_FOUND",
-          message: "Disciplina não encontrada.",
-        });
-      }
-
-      const lessons: Lesson[] | undefined = await getLessons(input.courseSlug, input.semesterNumber, subject.id);
+      return lesson;
+    }),
+  bySubjectId: publicProcedure
+    .input(
+      z.object({
+        subjectId: z.string(),
+      }),
+    )
+    .query(async ({ input: { subjectId } }): Promise<Lesson[]> => {
+      const lessons: Lesson[] = await getLessonsBySubjectId(subjectId);
       if (!lessons) {
         throw new TRPCError({
           code: "NOT_FOUND",

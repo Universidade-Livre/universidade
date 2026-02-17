@@ -1,15 +1,11 @@
 import SemesterStatsProgress from "@/components/common/courses/semester/semester-stats-progress";
 import { formatDuration } from "@/lib/time";
-import Course from "@/types/course/course.interface";
-import Semester from "@/types/course/semester.interface";
+import { Course } from "@/types/course/course.interface";
+import { Semester } from "@/types/course/semester.interface";
 import { BookOpen, Clock } from "lucide-react";
 
 type SemesterStatsPropsFromSemester = { semester: Semester };
-type SemesterStatsPropsFromCourse = {
-  semesterNumber: number;
-  course: Course;
-  showProgress?: boolean;
-};
+type SemesterStatsPropsFromCourse = { semesterNumber: number; course: Course; showProgress?: boolean };
 type SemesterStatsProps =
   | SemesterStatsPropsFromSemester
   | SemesterStatsPropsFromCourse;
@@ -25,7 +21,7 @@ export const SemesterStats = (props: SemesterStatsProps) => {
   }
 
   const semesterDuration: string = formatDuration(
-    semester.subjects.reduce((acc, lesson) => acc + (lesson.duration ?? 0), 0),
+    semester.subjects.reduce((acc, subject) => acc + (subject.lessonsDurationSeconds ?? 0), 0),
   );
 
   return (

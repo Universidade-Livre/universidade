@@ -1,5 +1,5 @@
-import { getAllCourses, getCourse } from "@/services/course.service";
-import Course from "@/types/course/course.interface";
+import { getAllCourses, getCourseBySlug } from "@/server/services/course.service";
+import { Course } from "@/types/course/course.interface";
 import { notFound, redirect } from "next/navigation";
 import { z } from "zod";
 
@@ -21,7 +21,7 @@ export const CourseProgressRedirectPage = async ({ params: rawParams }: { params
   }
 
   const { courseSlug } = params.data;
-  const course: Course | undefined = await getCourse(courseSlug);
+  const course: Course | null = await getCourseBySlug(courseSlug);
   if (!course || course.semesters.length === 0) {
     notFound();
   }

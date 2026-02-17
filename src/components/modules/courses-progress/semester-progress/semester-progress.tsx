@@ -1,6 +1,6 @@
 import SemesterCard from "@/components/common/courses/semester/semester-card";
 import { SemesterStats } from "@/components/common/courses/semester/semester-stats";
-import Course from "@/types/course/course.interface";
+import { Course } from "@/types/course/course.interface";
 
 interface SemesterProgressProps {
   semesterNumber: number;

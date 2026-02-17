@@ -4,8 +4,8 @@ import {
   NavigationMenuList,
 } from "@/components/ui/navigation-menu";
 import { ScrollBar } from "@/components/ui/scroll-area";
-import Course from "@/types/course/course.interface";
-import Semester from "@/types/course/semester.interface";
+import { Course } from "@/types/course/course.interface";
+import { Semester } from "@/types/course/semester.interface";
 import { ScrollArea as ScrollAreaPrimitive } from "radix-ui";
 
 interface CourseProgressNavigationProps {

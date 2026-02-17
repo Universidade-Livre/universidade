@@ -1,7 +1,7 @@
 import ViewportAnchor from "@/components/common/viewport-anchor";
 import CourseHeader from "@/components/modules/courses/course/course-header";
 import { Semester } from "@/components/modules/courses/semester/semester";
-import CourseType from "@/types/course/course.interface";
+import { Course as CourseType } from "@/types/course/course.interface";
 
 interface CourseProps {
   course: CourseType;

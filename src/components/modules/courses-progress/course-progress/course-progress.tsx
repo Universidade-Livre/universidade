@@ -1,8 +1,8 @@
 import CourseProgressNavigation from "@/components/modules/courses-progress/course-progress/course-progress-navigation";
 import SemesterProgress from "@/components/modules/courses-progress/semester-progress/semester-progress";
 import SubjectProgress from "@/components/modules/courses-progress/subject-progress/subject-progress";
-import Course from "@/types/course/course.interface";
-import Semester from "@/types/course/semester.interface";
+import { Course } from "@/types/course/course.interface";
+import { Semester } from "@/types/course/semester.interface";
 
 interface CourseProgressProps {
   semesterNumber: number;

@@ -1,9 +1,12 @@
-import Semester from "@/types/course/semester.interface";
+import { Semester } from "@/types/course/semester.interface";
 
-export default interface Course {
-  id: number;
+export interface CourseOverview {
+  id: string;
   slug: string;
   name: string;
-  alternativeName: string;
+  alternativeName: string | null;
+}
+
+export interface Course extends CourseOverview {
   semesters: Semester[];
 }

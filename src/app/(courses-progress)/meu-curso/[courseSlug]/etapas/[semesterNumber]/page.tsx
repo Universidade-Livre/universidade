@@ -1,6 +1,6 @@
 import CourseProgress from "@/components/modules/courses-progress/course-progress/course-progress";
-import { getAllCourses, getCourse } from "@/services/course.service";
-import Course from "@/types/course/course.interface";
+import { getAllCourses, getCourseBySlug } from "@/server/services/course.service";
+import { Course } from "@/types/course/course.interface";
 import { notFound } from "next/navigation";
 import { z } from "zod";
 
@@ -26,7 +26,7 @@ export const CourseProgressPage = async ({ params: rawParams }: { params: Promis
   }
 
   const { courseSlug, semesterNumber } = params.data;
-  const course: Course | undefined = await getCourse(courseSlug);
+  const course: Course | null = await getCourseBySlug(courseSlug);
   if (!course || !course.semesters.map((semester) => semester.number).includes(semesterNumber)) {
     notFound();
   }
