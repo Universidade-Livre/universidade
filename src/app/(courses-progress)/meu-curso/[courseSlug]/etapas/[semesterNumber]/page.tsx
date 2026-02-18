@@ -1,5 +1,5 @@
 import CourseProgress from "@/components/modules/courses-progress/course-progress/course-progress";
-import { getAllCourses, getCourseBySlug } from "@/server/services/course.service";
+import { getCourseBySlug } from "@/server/services/course.service";
 import { Course } from "@/types/course/course.interface";
 import { notFound } from "next/navigation";
 import { z } from "zod";
@@ -8,16 +8,6 @@ const paramsSchema = z.object({
   courseSlug: z.string().min(1),
   semesterNumber: z.coerce.number().int().positive(),
 });
-
-export const generateStaticParams = async () => {
-  const courses: Course[] = await getAllCourses();
-  return courses.flatMap((course) =>
-    course.semesters.map((semester) => ({
-      courseSlug: course.slug,
-      semesterNumber: String(semester.number),
-    })),
-  );
-};
 
 export const CourseProgressPage = async ({ params: rawParams }: { params: Promise<z.input<typeof paramsSchema>> }) => {
   const params = paramsSchema.safeParse(await rawParams);

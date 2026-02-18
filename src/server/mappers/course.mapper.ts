@@ -4,7 +4,7 @@ import { courseInclude } from "@/server/repositories/course.repository";
 import { Course } from "@/types/course/course.interface";
 import { Prisma } from "@prisma/client";
 
-export function toCourseFromPayload(course: Prisma.CourseGetPayload<{ include: typeof courseInclude }>): Course {
+export function toCourseFromInclude(course: Prisma.CourseGetPayload<{ include: typeof courseInclude }>): Course {
   return {
     id: course.id,
     slug: course.slug,

@@ -26,22 +26,9 @@ export const courseInclude = {
   },
 };
 
-export async function getAllCourseModels() {
-  return prisma.course.findMany({
-    orderBy: { name: "asc" },
-    include: courseInclude,
-  });
-}
-
 export async function getCourseModelBySlug(courseSlug: string) {
-  const course = await prisma.course.findUnique({
+  return await prisma.course.findUnique({
     where: { slug: courseSlug },
     include: courseInclude,
   });
-
-  if (!course) {
-    return null;
-  }
-
-  return course;
 }

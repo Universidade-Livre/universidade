@@ -1,5 +1,5 @@
 import SubjectProgress from "@/components/modules/subject-progress/subject-progress";
-import { getAllCourses, getCourseBySlug } from "@/server/services/course.service";
+import { getCourseBySlug } from "@/server/services/course.service";
 import { getLessonsBySubjectId } from "@/server/services/lesson.service";
 import { Course } from "@/types/course/course.interface";
 import { Lesson } from "@/types/course/lesson.interface";
@@ -14,31 +14,6 @@ const paramsSchema = z.object({
   subjectNumber: z.coerce.number().int().positive(),
   lessonNumber: z.coerce.number().int().positive(),
 });
-
-export const generateStaticParams = async () => {
-  const courses: Course[] = await getAllCourses();
-  const params = await Promise.all(
-    courses.flatMap((course) =>
-      course.semesters.flatMap((semester) =>
-        semester.subjects.map(async (subject) => {
-          const lessons: Lesson[] | undefined = await getLessonsBySubjectId(subject.id);
-          if (!lessons || lessons.length === 0) {
-            return [];
-          }
-
-          return lessons.map((lesson) => ({
-            courseSlug: course.slug,
-            semesterNumber: String(semester.number),
-            subjectNumber: String(subject.number),
-            lessonNumber: String(lesson.number),
-          }));
-        }),
-      ),
-    ),
-  );
-
-  return params.flat();
-};
 
 export const LessonPage = async ({ params: rawParams }: { params: Promise<z.input<typeof paramsSchema>> }) => {
   const params = paramsSchema.safeParse(await rawParams);

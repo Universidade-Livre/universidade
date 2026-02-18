@@ -1,4 +1,4 @@
-import { getAllCourses, getCourseBySlug } from "@/server/services/course.service";
+import { getCourseBySlug } from "@/server/services/course.service";
 import { getLessonsBySubjectId } from "@/server/services/lesson.service";
 import { Course } from "@/types/course/course.interface";
 import { Lesson } from "@/types/course/lesson.interface";
@@ -10,23 +10,6 @@ const paramsSchema = z.object({
   semesterNumber: z.coerce.number().int().positive(),
   subjectNumber: z.coerce.number().int().positive(),
 });
-
-export const generateStaticParams = async () => {
-  const courses: Course[] = await getAllCourses();
-  const params = await Promise.all(
-    courses.flatMap((course) =>
-      course.semesters.flatMap((semester) =>
-        semester.subjects.map(async (subject) => ({
-          courseSlug: course.slug,
-          semesterNumber: String(semester.number),
-          subjectNumber: String(subject.number),
-        })),
-      ),
-    ),
-  );
-
-  return params.flat();
-};
 
 export const SubjectPage = async ({ params: rawParams }: { params: Promise<z.input<typeof paramsSchema>> }) => {
   const params = paramsSchema.safeParse(await rawParams);
