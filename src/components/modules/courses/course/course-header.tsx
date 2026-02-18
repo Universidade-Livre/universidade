@@ -1,6 +1,6 @@
 import CourseGraphDialog from "@/components/modules/courses/course/node-graphs/course-graph-dialog";
 import { Separator } from "@/components/ui/separator";
-import Course from "@/types/course/course.interface";
+import { Course } from "@/types/course/course.interface";
 import { GraduationCap } from "lucide-react";
 
 interface CourseHeaderProps {

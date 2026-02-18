@@ -1,5 +1,7 @@
 "use client";
 
+import CourseNode from "@/components/modules/courses/course/node-graphs/course-node";
+import { Course } from "@/types/course/course.interface";
 import {
   Background,
   MarkerType,
@@ -9,15 +11,13 @@ import {
   type Edge,
   type Node,
 } from "@xyflow/react";
-import React from "react";
 import "@xyflow/react/dist/style.css";
-import Course from "@/types/course/course.interface";
-import CourseNode from "@/components/modules/courses/course/node-graphs/course-node";
+import React from "react";
 
 interface CourseGraphNode extends Node {
   data: {
     name: string;
-    preReq: string[];
+    prerequisites: string[];
     semester: number;
     isSelected?: boolean;
     isClicked?: boolean;
@@ -43,7 +43,7 @@ const buildCourseGraph = (course: Course) => {
         type: "courseNode",
         data: {
           name: subject.name,
-          preReq: subject.prerequisites,
+          prerequisites: subject.prerequisites.map((prerequisite) => prerequisite.name),
           semester: semester.number,
         },
         position: {
@@ -57,12 +57,12 @@ const buildCourseGraph = (course: Course) => {
   course.semesters.forEach((semester) => {
     semester.subjects.forEach((subject) => {
       if (subject.prerequisites && subject.prerequisites.length > 0) {
-        subject.prerequisites.forEach((preReq) => {
-          const sourceExist = nodes.find((node) => node.id === preReq);
+        subject.prerequisites.forEach((prerequisite) => {
+          const sourceExist = nodes.find((node) => node.id === prerequisite.name);
           if (!sourceExist) return;
           edges.push({
-            id: `e-${preReq}-${subject.name}`,
-            source: preReq,
+            id: `e-${prerequisite}-${subject.name}`,
+            source: prerequisite.name,
             target: subject.name,
             type: "smoothstep",
             markerEnd: {

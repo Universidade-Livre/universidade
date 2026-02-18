@@ -1,13 +1,14 @@
-export default interface Subject {
-  id: number;
-  number: number;
+import { SubjectBook } from "@/types/course/subject-book.interface";
+
+export interface SubjectOverview {
+  id: string;
   name: string;
-  prerequisites: string[];
-  url: string;
-  duration?: number;
+  number: number;
+}
+
+export interface Subject extends SubjectOverview {
   lessons: number;
-  books: {
-    name: string;
-    url: string;
-  }[];
+  lessonsDurationSeconds: number;
+  books: SubjectBook[];
+  prerequisites: SubjectOverview[];
 }

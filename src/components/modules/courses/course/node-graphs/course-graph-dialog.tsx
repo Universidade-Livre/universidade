@@ -8,7 +8,7 @@ import {
   DialogContent,
   DialogTitle,
 } from "@/components/ui/dialog";
-import type Course from "@/types/course/course.interface";
+import { Course } from "@/types/course/course.interface";
 import { Network, X } from "lucide-react";
 import { useState } from "react";
 

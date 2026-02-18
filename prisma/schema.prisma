@@ -1,37 +1,29 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-
-// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
-// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
-
 generator client {
   provider = "prisma-client-js"
 }
 
 datasource db {
   provider = "postgresql"
-  url      = env("DATABASE_URL")
 }
 
 model User {
   id            String    @id
   name          String
-  email         String
+  email         String    @unique
   emailVerified Boolean   @default(false)
   image         String?
   createdAt     DateTime  @default(now())
   updatedAt     DateTime  @updatedAt
-  sessions      Session[]
   accounts      Account[]
+  sessions      Session[]
 
-  @@unique([email])
   @@map("user")
 }
 
 model Session {
   id        String   @id
   expiresAt DateTime
-  token     String
+  token     String   @unique
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
   ipAddress String?
@@ -39,7 +31,6 @@ model Session {
   userId    String
   user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
 
-  @@unique([token])
   @@index([userId])
   @@map("session")
 }
@@ -49,7 +40,6 @@ model Account {
   accountId             String
   providerId            String
   userId                String
-  user                  User      @relation(fields: [userId], references: [id], onDelete: Cascade)
   accessToken           String?
   refreshToken          String?
   idToken               String?
@@ -59,6 +49,7 @@ model Account {
   password              String?
   createdAt             DateTime  @default(now())
   updatedAt             DateTime  @updatedAt
+  user                  User      @relation(fields: [userId], references: [id], onDelete: Cascade)
 
   @@index([userId])
   @@map("account")
@@ -74,4 +65,76 @@ model Verification {
 
   @@index([identifier])
   @@map("verification")
+}
+
+model Course {
+  id              String     @id @default(cuid())
+  slug            String     @unique
+  name            String
+  alternativeName String?
+  semesters       Semester[]
+
+  @@map("course")
+}
+
+model Semester {
+  id       String    @id @default(cuid())
+  number   Int
+  courseId String
+  course   Course    @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  subjects Subject[]
+
+  @@unique([courseId, number])
+  @@map("semester")
+}
+
+model Subject {
+  id            String                @id @default(cuid())
+  number        Int
+  name          String
+  url           String
+  semesterId    String
+  lessons       Lesson[]
+  semester      Semester              @relation(fields: [semesterId], references: [id], onDelete: Cascade)
+  books         SubjectBook[]
+  dependents    SubjectPrerequisite[] @relation("SubjectDependents")
+  prerequisites SubjectPrerequisite[] @relation("SubjectPrerequisites")
+
+  @@unique([semesterId, number])
+  @@map("subject")
+}
+
+model SubjectPrerequisite {
+  dependentId    String
+  prerequisiteId String
+  dependent      Subject @relation("SubjectDependents", fields: [dependentId], references: [id], onDelete: Cascade)
+  prerequisite   Subject @relation("SubjectPrerequisites", fields: [prerequisiteId], references: [id], onDelete: Cascade)
+
+  @@id([dependentId, prerequisiteId])
+  @@index([prerequisiteId])
+  @@map("subject_prerequisite")
+}
+
+model SubjectBook {
+  id        String  @id @default(cuid())
+  name      String
+  url       String
+  subjectId String
+  subject   Subject @relation(fields: [subjectId], references: [id], onDelete: Cascade)
+
+  @@index([subjectId])
+  @@map("subject_book")
+}
+
+model Lesson {
+  id              String  @id @default(cuid())
+  number          Int
+  name            String
+  durationSeconds Int?
+  embedUrl        String
+  subjectId       String
+  subject         Subject @relation(fields: [subjectId], references: [id], onDelete: Cascade)
+
+  @@unique([subjectId, number])
+  @@map("lesson")
 }

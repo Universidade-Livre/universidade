@@ -1,7 +1,10 @@
-import Subject from "@/types/course/subject.interface";
+import { Subject } from "@/types/course/subject.interface";
 
-export default interface Semester {
-  id: number;
+export interface SemesterOverview {
+  id: string;
   number: number;
+}
+
+export interface Semester extends SemesterOverview {
   subjects: Subject[];
 }

@@ -1,31 +1,17 @@
-import SemesterStatsProgress from "@/components/common/courses/semester/semester-stats-progress";
 import { formatDuration } from "@/lib/time";
-import Course from "@/types/course/course.interface";
-import Semester from "@/types/course/semester.interface";
+import { Semester } from "@/types/course/semester.interface";
 import { BookOpen, Clock } from "lucide-react";
 
-type SemesterStatsPropsFromSemester = { semester: Semester };
-type SemesterStatsPropsFromCourse = {
-  semesterNumber: number;
-  course: Course;
-  showProgress?: boolean;
-};
-type SemesterStatsProps =
-  | SemesterStatsPropsFromSemester
-  | SemesterStatsPropsFromCourse;
+interface SemesterStatsProps {
+  semester: Semester;
+}
 
-export const SemesterStats = (props: SemesterStatsProps) => {
-  const semester: Semester | undefined =
-    "semester" in props
-      ? props.semester
-      : props.course.semesters.find((semester) => semester.number === props.semesterNumber);
-
-  if (!semester) {
-    return null;
-  }
-
+export const SemesterStats = ({ semester }: SemesterStatsProps) => {
   const semesterDuration: string = formatDuration(
-    semester.subjects.reduce((acc, lesson) => acc + (lesson.duration ?? 0), 0),
+    semester.subjects.reduce(
+      (acc, subject) => acc + (subject.lessonsDurationSeconds ?? 0),
+      0,
+    ),
   );
 
   return (
@@ -39,18 +25,7 @@ export const SemesterStats = (props: SemesterStatsProps) => {
             Disciplinas
           </span>
           <span className="text-zinc-200 font-medium">
-            {"course" in props && props.showProgress ? (
-              <>
-                <SemesterStatsProgress
-                  semesterNumber={semester.number}
-                  course={props.course}
-                />
-                <span className="text-zinc-600">/</span>
-                <span>{semester.subjects.length}</span>
-              </>
-            ) : (
-              <>{semester.subjects.length}</>
-            )}
+            {semester.subjects.length}
           </span>
         </div>
       </div>

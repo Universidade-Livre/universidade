@@ -1,8 +1,7 @@
 "use client";
 
-import useCourseProgress from "@/hooks/use-course-progress";
-import CourseProgress from "@/types/course-progress/course-progress.interface";
-import Course from "@/types/course/course.interface";
+import useUserProgressStore from "@/stores/user-progress-store";
+import { Course } from "@/types/course/course.interface";
 
 interface SemesterStatsProgressProps {
   semesterNumber: number;
@@ -10,12 +9,15 @@ interface SemesterStatsProgressProps {
 }
 
 export const SemesterStatsProgress = ({ semesterNumber, course }: SemesterStatsProgressProps) => {
-  const courseProgress: CourseProgress = useCourseProgress({ course });
+  const getSubjectProgress = useUserProgressStore((state) => state.getSubjectProgress);
   return (
     <span>
-      {courseProgress.semesters
+      {course.semesters
         .find((semester) => semester.number === semesterNumber)
-        ?.subjects.filter((subject) => subject.progress === 100).length ?? 0}
+        ?.subjects.filter(
+          (subject) =>
+            getSubjectProgress(subject.id, subject.lessons).percentage === 100,
+        ).length ?? 0}
     </span>
   );
 };

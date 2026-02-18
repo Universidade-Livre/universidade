@@ -1,24 +1,22 @@
-import LessonProgressBreadcrumb from "@/components/modules/subject-progress/lesson-progress/lesson-progress-breadcrumb";
 import { VideoPlayer } from "@/components/common/video-player";
+import LessonProgressBreadcrumb from "@/components/modules/subject-progress/lesson-progress/lesson-progress-breadcrumb";
 import { Card } from "@/components/ui/card";
 import { formatDuration } from "@/lib/time";
-import Course from "@/types/course/course.interface";
-import Lesson from "@/types/course/lesson.interface";
-import Subject from "@/types/course/subject.interface";
+import { Lesson } from "@/types/course/lesson.interface";
 import { Clock3, ListVideo } from "lucide-react";
 
 interface LessonProgressProps {
-  course: Course;
-  subject: Subject;
+  courseName: string;
+  subjectName: string;
   lesson: Lesson;
 }
 
-export const LessonProgress = ({ course, subject, lesson }: LessonProgressProps) => {
+export const LessonProgress = ({ courseName, subjectName, lesson }: LessonProgressProps) => {
   return (
     <Card className="flex min-h-0 flex-col gap-3 border-0 bg-transparent p-4 shadow-none sm:gap-4 sm:p-6 lg:h-full">
       <LessonProgressBreadcrumb
-        courseAlternativeName={course.alternativeName}
-        subjectName={subject.name}
+        courseName={courseName}
+        subjectName={subjectName}
         lessonName={lesson.name}
       />
       <div className="relative w-full aspect-video min-h-55 sm:min-h-80 lg:aspect-auto lg:flex-1 lg:min-h-0">
@@ -34,10 +32,12 @@ export const LessonProgress = ({ course, subject, lesson }: LessonProgressProps)
                 <ListVideo className="h-3.5 w-3.5 text-zinc-400" />
                 <span>Aula {lesson.number}</span>
               </span>
-              {lesson.duration && (
+              {lesson.durationSeconds && (
                 <span className="inline-flex items-center gap-1.5 border-l border-zinc-600/70 pl-2 text-zinc-300">
                   <Clock3 className="h-3.5 w-3.5 text-zinc-400" />
-                  <span className="font-medium">{formatDuration(lesson.duration)}</span>
+                  <span className="font-medium">
+                    {formatDuration(lesson.durationSeconds)}
+                  </span>
                 </span>
               )}
             </div>
@@ -45,7 +45,7 @@ export const LessonProgress = ({ course, subject, lesson }: LessonProgressProps)
               {lesson.name}
             </h2>
             <p className="text-sm text-zinc-400">
-              Disciplina: <span className="text-zinc-400">{subject.name}</span>
+              Disciplina: <span className="text-zinc-400">{subjectName}</span>
             </p>
           </div>
         </div>

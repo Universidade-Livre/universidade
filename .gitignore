@@ -31,7 +31,7 @@ yarn-error.log*
 .pnpm-debug.log*
 
 # env files (can opt-in for committing if needed)
-*.env*
+*.env
 !*.env.*.example*
 
 # vercel
@@ -44,7 +44,4 @@ next-env.d.ts
 # prisma
 /src/generated/prisma
 
-# sqlite3
-*.db
-*.sqlite
-*.sqlite3
+/src/generated/prisma

@@ -1,7 +1,7 @@
-export default interface Lesson {
-  id: number;
+export interface Lesson {
+  id: string;
   number: number;
   name: string;
-  duration?: number;
+  durationSeconds: number | null;
   embedUrl: string;
 }

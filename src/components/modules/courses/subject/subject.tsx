@@ -2,20 +2,17 @@ import SubjectBooks from "@/components/modules/courses/subject/subject-books";
 import SubjectBooksToggle from "@/components/modules/courses/subject/subject-books-toggle";
 import SubjectPrerequisites from "@/components/modules/courses/subject/subject-prerequisites";
 import { cn } from "@/lib/utils";
+import { Subject as SubjectType } from "@/types/subject.interface";
 
 interface SubjectProps {
-  subject: {
-    name: string;
-    prerequisites: string[];
-    books?: { name: string; url: string }[];
-  };
   index: number;
+  subject: SubjectType;
 }
 
-export const Subject = ({ subject, index }: SubjectProps) => {
+export const Subject = ({ index, subject }: SubjectProps) => {
   return (
     <li
-      key={index}
+      key={subject.id}
       className={cn(
         "group px-4 py-2 shadow-sm",
         index % 2 === 0 ? "bg-zinc-900/75" : "bg-zinc-800/75",
@@ -30,7 +27,11 @@ export const Subject = ({ subject, index }: SubjectProps) => {
             </h3>
           </div>
           <div className="mt-2 flex flex-wrap items-center gap-2">
-            <SubjectPrerequisites prerequisites={subject.prerequisites} />
+            <SubjectPrerequisites
+              prerequisites={subject.prerequisites.map(
+                (prerequisite) => prerequisite.name,
+              )}
+            />
           </div>
         </div>
 

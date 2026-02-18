@@ -1,7 +1,7 @@
 import SemesterCard from "@/components/common/courses/semester/semester-card";
 import { SemesterStats } from "@/components/common/courses/semester/semester-stats";
 import { cn } from "@/lib/utils";
-import Semester from "@/types/course/semester.interface";
+import { Semester } from "@/types/course/semester.interface";
 import { ChevronRight } from "lucide-react";
 
 interface SemesterHeaderProps {

@@ -15,13 +15,13 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import useSubjectsWithProgress, {
-  SubjectWithProgressOrder,
-} from "@/hooks/use-subjects-with-progress";
+import useUserActiveSubjects, {
+  UserActiveSubjectOrder,
+} from "@/hooks/use-user-active-subjects";
 
 export const HomeProgress = () => {
-  const { subjectsWithProgress, orderBy, setOrderBy, isLoading, isError } = useSubjectsWithProgress();
-  if (!subjectsWithProgress || subjectsWithProgress.length === 0 || isLoading || isError) {
+  const { activeSubjects, orderBy, setOrderBy, isLoading, isError } = useUserActiveSubjects();
+  if (!activeSubjects || activeSubjects.length === 0 || isLoading || isError) {
     return null;
   }
 
@@ -40,14 +40,14 @@ export const HomeProgress = () => {
               <Select
                 value={orderBy}
                 onValueChange={(value) =>
-                  setOrderBy(value as SubjectWithProgressOrder)
+                  setOrderBy(value as UserActiveSubjectOrder)
                 }
               >
                 <SelectTrigger className="w-32 cursor-pointer">
                   <SelectValue placeholder="Ordenar por" />
                 </SelectTrigger>
                 <SelectContent>
-                  {Object.values(SubjectWithProgressOrder).map((option) => (
+                  {Object.values(UserActiveSubjectOrder).map((option) => (
                     <SelectItem
                       key={option}
                       value={option}
@@ -67,10 +67,10 @@ export const HomeProgress = () => {
 
         <ScrollArea className="h-60">
           <div className="pt-0 pr-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 items-start">
-            {subjectsWithProgress.map((subjectWithProgress) => (
+            {activeSubjects.map((subjectWithProgress) => (
               <HomeProgressItem
-                key={subjectWithProgress.id}
-                subjectWithProgress={subjectWithProgress}
+                key={subjectWithProgress.subject.id}
+                activeSubject={subjectWithProgress}
               />
             ))}
           </div>
