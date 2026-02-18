@@ -1,0 +1,191 @@
+[
+  {
+    "id": 1385,
+    "number": 1,
+    "name": "Apresentação do Curso | Compiladores",
+    "duration": 4114,
+    "embedUrl": "https://www.youtube.com/embed/jgI711CrnnY"
+  },
+  {
+    "id": 1386,
+    "number": 2,
+    "name": "Aula 00 - Introdução | Aplicações | Fases de Compilação | Estrutura de um Compilador | Compiladores",
+    "duration": 4732,
+    "embedUrl": "https://www.youtube.com/embed/Q5lLGCOSYIk"
+  },
+  {
+    "id": 1387,
+    "number": 3,
+    "name": "Aula 01 - Ambiente Linux | Histórico | Terminal | Shell | g++ | gdb | make | cmake | Compiladores",
+    "duration": 7211,
+    "embedUrl": "https://www.youtube.com/embed/JJmf1wlNGeQ"
+  },
+  {
+    "id": 1388,
+    "number": 4,
+    "name": "Aula 02 - Ambiente VS Code | Visual Studio Code | C++ | Make | CMake | g++ | gdb | Compiladores",
+    "duration": 5605,
+    "embedUrl": "https://www.youtube.com/embed/7WrTl_MaLk8"
+  },
+  {
+    "id": 1389,
+    "number": 5,
+    "name": "Aula 03 - Tradução Dirigida por Sintaxe | Árvore | Derivação | Ambiguidade | Esquema | Compiladores",
+    "duration": 7040,
+    "embedUrl": "https://www.youtube.com/embed/6k2i710Agh8"
+  },
+  {
+    "id": 1390,
+    "number": 6,
+    "name": "Aula 04 - Análise Sintática | Descendente | Analisador Preditivo | Conjuntos FIRST | Compiladores",
+    "duration": 5838,
+    "embedUrl": "https://www.youtube.com/embed/FE5QwYEADak"
+  },
+  {
+    "id": 1391,
+    "number": 7,
+    "name": "Aula 05 - Construção do Tradutor | Esquema de Tradução | Implementação | C++ | Compiladores",
+    "duration": 4888,
+    "embedUrl": "https://www.youtube.com/embed/OOx6f8jD4_k"
+  },
+  {
+    "id": 1392,
+    "number": 8,
+    "name": "Aula 06 - Análise Léxica | Espaços | Constantes | Palavras-Chave | Identificadores | Compiladores",
+    "duration": 6572,
+    "embedUrl": "https://www.youtube.com/embed/gzY-CTY4msg"
+  },
+  {
+    "id": 1393,
+    "number": 9,
+    "name": "Aula 07 - Expansão do Tradutor | Esquema de Tradução | Analisador Léxico | Compiladores",
+    "duration": 6842,
+    "embedUrl": "https://www.youtube.com/embed/XzxafZl3dZo"
+  },
+  {
+    "id": 1394,
+    "number": 10,
+    "name": "Aula 08 - Tabela de Símbolos | Escopos | Blocos Aninhados | Implementação | Compiladores",
+    "duration": 6694,
+    "embedUrl": "https://www.youtube.com/embed/k2jm1uplI5Y"
+  },
+  {
+    "id": 1395,
+    "number": 11,
+    "name": "Aula 09 - Exercícios e Revisão | Gramáticas | Operadores Lógicos | Relacionais | Compiladores",
+    "duration": 6342,
+    "embedUrl": "https://www.youtube.com/embed/vEwI5_BZO1s"
+  },
+  {
+    "id": 1396,
+    "number": 12,
+    "name": "Aula 10 - Análise Semântica | Árvore Sintática | Verificação Sintática e de Tipos | Compiladores",
+    "duration": 7631,
+    "embedUrl": "https://www.youtube.com/embed/msv_0QqXz7s"
+  },
+  {
+    "id": 1397,
+    "number": 13,
+    "name": "Aula 11 - Geração de Código Intermediário | Três Endereços | Árvore de Sintaxe | Compiladores",
+    "duration": 5861,
+    "embedUrl": "https://www.youtube.com/embed/k43ROBQoTM4"
+  },
+  {
+    "id": 1398,
+    "number": 14,
+    "name": "Aula 12 - Expressões Regulares | Tokens | Padrões | Lexemas | Cadeias | Linguagens | Compiladores",
+    "duration": 7014,
+    "embedUrl": "https://www.youtube.com/embed/zoEBnC9BXcU"
+  },
+  {
+    "id": 1399,
+    "number": 15,
+    "name": "Aula 13 - Reconhecimento de Tokens | Expressões Regulares | Diagramas de Transição | Compiladores",
+    "duration": 6445,
+    "embedUrl": "https://www.youtube.com/embed/EBHc6hlrjRk"
+  },
+  {
+    "id": 1400,
+    "number": 16,
+    "name": "Aula 14 - Flex | Regras | Tradução | Exemplos | Lex | yylex | yytext | yyleng | Compiladores",
+    "duration": 6099,
+    "embedUrl": "https://www.youtube.com/embed/7_TX7OtLWe8"
+  },
+  {
+    "id": 1401,
+    "number": 17,
+    "name": "Aula 15 - Aplicações do Flex | Lex | Estados | Contagem | Vários Arquivos | Números | Compiladores",
+    "duration": 6335,
+    "embedUrl": "https://www.youtube.com/embed/WyQwPaLMvU4"
+  },
+  {
+    "id": 1402,
+    "number": 18,
+    "name": "Aula 16 - Autômatos Finitos | NFA e DFA | Conversão de Expressões Regulares | Compiladores",
+    "duration": 6381,
+    "embedUrl": "https://www.youtube.com/embed/5fvRRCd7mNs"
+  },
+  {
+    "id": 1403,
+    "number": 19,
+    "name": "Aula 17 - Geração de Analisadores Léxicos | Autômato | DFA | Simulação | Minimização | Compiladores",
+    "duration": 6476,
+    "embedUrl": "https://www.youtube.com/embed/DXEIuWUaJdg"
+  },
+  {
+    "id": 1404,
+    "number": 20,
+    "name": "Aula 18 - Exercícios e Revisão | RegExp | Diagramas de Transição | Analisador Léxico | Compiladores",
+    "duration": 7240,
+    "embedUrl": "https://www.youtube.com/embed/CuMmRZGRnwE"
+  },
+  {
+    "id": 1405,
+    "number": 21,
+    "name": "Aula 19 - Gramáticas | Derivações | Árvores de Derivação | LL e LR | Ambiguidade | Compiladores",
+    "duration": 5018,
+    "embedUrl": "https://www.youtube.com/embed/MLyFS7ClMf0"
+  },
+  {
+    "id": 1406,
+    "number": 22,
+    "name": "Aula 20 - Transformação de Gramáticas | Ambiguidade |  Recursão Esquerda | Fatoração | Compiladores",
+    "duration": 6122,
+    "embedUrl": "https://www.youtube.com/embed/6wi_A-_1NaA"
+  },
+  {
+    "id": 1407,
+    "number": 23,
+    "name": "Aula 21 - Análise Descendente | Descida Recursiva | Conjuntos FIRST e FOLLOW | Compiladores",
+    "duration": 4570,
+    "embedUrl": "https://www.youtube.com/embed/smoczWyJQsU"
+  },
+  {
+    "id": 1408,
+    "number": 24,
+    "name": "Aula 22 - Analisador Preditivo | Gramática LL | Tabela de Reconhecimento | Erros | Compiladores",
+    "duration": 6413,
+    "embedUrl": "https://www.youtube.com/embed/8evMAwPF_vc"
+  },
+  {
+    "id": 1409,
+    "number": 25,
+    "name": "Aula 23 - Análise Ascendente | Shift | Reduce | Handle | Conflitos | Analisador LR | Compiladores",
+    "duration": 5787,
+    "embedUrl": "https://www.youtube.com/embed/EEKkSsHEKyg"
+  },
+  {
+    "id": 1410,
+    "number": 26,
+    "name": "Aula 24 - Gerador de Analisador Sintático | Yacc | Bison | Flex | Gramáticas Ambíguas | Compiladores",
+    "duration": 6312,
+    "embedUrl": "https://www.youtube.com/embed/Y8FkgaSlsHA"
+  },
+  {
+    "id": 1411,
+    "number": 27,
+    "name": "Aula 25 - Aplicações do Bison | Flex & Bison | Calculadora | Reconhecedor de Frases | Compiladores",
+    "duration": 6701,
+    "embedUrl": "https://www.youtube.com/embed/mGRN6WagUKM"
+  }
+]

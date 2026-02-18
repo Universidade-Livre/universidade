@@ -1,0 +1,135 @@
+[
+  {
+    "id": 2134,
+    "number": 1,
+    "name": "Análise na reta 01 | O corpo dos números reais",
+    "duration": 6022,
+    "embedUrl": "https://www.youtube.com/embed/fPvI7Hqspko"
+  },
+  {
+    "id": 2135,
+    "number": 2,
+    "name": "Análise na reta 02 | Intervalos e limitação",
+    "duration": 6011,
+    "embedUrl": "https://www.youtube.com/embed/nHlR8fSU4fo"
+  },
+  {
+    "id": 2136,
+    "number": 3,
+    "name": "Análise na reta 03 | A não-enumerabilidade de ℝ",
+    "duration": 5442,
+    "embedUrl": "https://www.youtube.com/embed/bhj44pczzA4"
+  },
+  {
+    "id": 2137,
+    "number": 4,
+    "name": "Análise na reta 04 | Sequências e convergência",
+    "duration": 4897,
+    "embedUrl": "https://www.youtube.com/embed/N8CBiCntRRg"
+  },
+  {
+    "id": 2138,
+    "number": 5,
+    "name": "Análise na reta 05 | Sequências limitadas: O Teorema de Bolzano-Weierstrass",
+    "duration": 5094,
+    "embedUrl": "https://www.youtube.com/embed/4OdulDrEi6A"
+  },
+  {
+    "id": 2139,
+    "number": 6,
+    "name": "Análise na reta 06 | Limites e desigualdades",
+    "duration": 2642,
+    "embedUrl": "https://www.youtube.com/embed/F-P9MfB2Ln8"
+  },
+  {
+    "id": 2140,
+    "number": 7,
+    "name": "Análise na reta 07 | Operações com limites",
+    "duration": 4621,
+    "embedUrl": "https://www.youtube.com/embed/QgTh__yGGPo"
+  },
+  {
+    "id": 2141,
+    "number": 8,
+    "name": "Análise na reta 08 | Radiciação",
+    "duration": 7371,
+    "embedUrl": "https://www.youtube.com/embed/aDJLDoMNuJE"
+  },
+  {
+    "id": 2142,
+    "number": 9,
+    "name": "Análise na reta 09 | Potências com expoente racional",
+    "duration": 3804,
+    "embedUrl": "https://www.youtube.com/embed/Dssd_XZJU6s"
+  },
+  {
+    "id": 2143,
+    "number": 10,
+    "name": "Análise na reta 10 | Limites infinitos",
+    "duration": 4855,
+    "embedUrl": "https://www.youtube.com/embed/HWgIonsSg_8"
+  },
+  {
+    "id": 2144,
+    "number": 11,
+    "name": "Análise na reta 11 | Séries de números de reais",
+    "duration": 6838,
+    "embedUrl": "https://www.youtube.com/embed/-jIm2iNb1C0"
+  },
+  {
+    "id": 2145,
+    "number": 12,
+    "name": "Análise na reta 12 | Critério de convergência para séries",
+    "duration": 4842,
+    "embedUrl": "https://www.youtube.com/embed/7XAjYFaJMx0"
+  },
+  {
+    "id": 2146,
+    "number": 13,
+    "name": "Análise na reta 13 | Topologia da reta: conjuntos abertos",
+    "duration": 4516,
+    "embedUrl": "https://www.youtube.com/embed/CSKSxL-DSFE"
+  },
+  {
+    "id": 2147,
+    "number": 14,
+    "name": "Análise na reta 14 | Topologia da reta: conjuntos fechados",
+    "duration": 3829,
+    "embedUrl": "https://www.youtube.com/embed/P3A-5YKW8LI"
+  },
+  {
+    "id": 2148,
+    "number": 15,
+    "name": "Análise na reta 15 | Topologia da reta: cisão e acumulação",
+    "duration": 5461,
+    "embedUrl": "https://www.youtube.com/embed/4GJvDRKA1Tw"
+  },
+  {
+    "id": 2149,
+    "number": 16,
+    "name": "Análise na reta 16 | Topologia da reta: conjuntos compactos",
+    "duration": 5711,
+    "embedUrl": "https://www.youtube.com/embed/tsYEBC-k8Y0"
+  },
+  {
+    "id": 2150,
+    "number": 17,
+    "name": "Análise na reta 17 | Limites de funções",
+    "duration": 6864,
+    "embedUrl": "https://www.youtube.com/embed/kADZMhn6ihw"
+  },
+  {
+    "id": 2151,
+    "number": 18,
+    "name": "Análise na reta 18 | Limites laterais",
+    "duration": 5227,
+    "embedUrl": "https://www.youtube.com/embed/c-G7K8UWzn8"
+  },
+  {
+    "id": 2152,
+    "number": 19,
+    "name": "Análise na reta 19 | Limites no infinito",
+    "duration": 4251,
+    "embedUrl": "https://www.youtube.com/embed/OJqtQ-xxgm8"
+  }
+]

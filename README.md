@@ -1,84 +1,66 @@
-## Universidade
-O projeto é um portal em construção voltado para estudos no curso de Ciência da Computação, inspirado no projeto Universidade Brasileira Livre (UBL)
+# Plataforma Cursos UBL (Universidade Brasileira Livre)
 
-Atualmente, temos disponível a grade curricular do curso da UBL
+Este projeto é um portal de estudos open-source voltado para o curso de **Ciência da Computação**, inspirado na iniciativa da **Universidade Brasileira Livre (UBL)**. 
 
-![image](https://github.com/user-attachments/assets/f668e7ed-f89c-4bfb-b7e7-5b90d9b8261f)
+O objetivo é centralizar conteúdos educacionais gratuitos, permitindo que estudantes acompanhem seu progresso, visualizem a grade curricular e assistam às aulas diretamente pela plataforma, sem distrações.
 
-### Objetivos futuros
-1. Canal de atividades para cada cadeira, onde pessoas podem contribuir enviando em arquivo .md
-2. Criação de um fórum no site para dúvidas relacionadas a cada disciplina ou aula presente. Claro, contar com pessoas para responder também é um objetivo, rsrs.
+## Funcionalidades
 
-### Aulas no Portal
-![image](https://github.com/user-attachments/assets/a260f2fb-0e39-4281-8987-63b231a632e1)
+- **Grade Curricular Interativa**: Visualização das disciplinas divididas por etapas/semestres.
+- **Player de Vídeo Integrado**: Assista às aulas do YouTube diretamente na plataforma.
+- **Acompanhamento de Progresso**: Marque aulas como concluídas e visualize seu avanço no curso.
+- **Cursos Disponíveis**: Suporte inicial para Ciência da Computação e Matemática.
 
-1. Atualmente, o projeto oferece 2 cursos gratuitos, que podem ser acessados e assistidos diretamente no site, sem a necessidade de ir ao YouTube. Isso ajuda a evitar distrações e facilita o foco no conteúdo.
+## Tecnologias Utilizadas
 
-### Obs: 
+- React (TypeScript) e Next.js;
 
-O site não tem objetivo de cobrar nada para funcionar, estou usando ferramentas gratuitas de hospedagem e nenhum conteúdo presente é de minha propriedade, se trata de um projeto aberto
+## Instalação e Uso
 
-## Como contribuir?
+Siga os passos abaixo para rodar o projeto localmente:
 
-```git
-git checkout -b feature/adicionar-cursos-embutidos
-```
+1. **Clone o repositório**
+   ```bash
+   git clone <url-do-repositorio>
+   cd UBL
+   ```
 
-Realize commits pequenos e com frequência. Isso ajuda a manter o histórico de mudanças limpo e fácil de entender. Cada commit deve ser uma unidade lógica de trabalho.
+2. **Instale as dependências**
+   ```bash
+   npm install
+   ```
 
-```git
-git add .
-git commit -m "Adiciona estrutura para exibir cursos com vídeos embutidos"
-git push origin feature/adicionar-cursos-embutidos
-````
+3. **Execute o servidor de desenvolvimento**
+   ```bash
+   npm run dev
+   ```
 
-As mensagens de commit devem ser descritivas e claras, explicando o que foi feito. A convenção recomendada é:
-1. Primeira linha: Resumo curto do que foi feito (máximo 50 caracteres).
-2. Linhas seguintes: Descrição detalhada, se necessário, explicando o motivo da mudança.
+4. **Acesse o projeto**
+   Abra seu navegador e acesse `http://localhost:3000` (ou a porta indicada no terminal).
 
-```git
-git commit -m "Adiciona suporte a vídeos embutidos para os cursos"
-```
+## 🤝 Como contribuir?
 
-Sempre que estiver trabalhando em uma branch e for fazer o git pull, utilize a opção --rebase para evitar merges desnecessários. Isso mantém o histórico linear e limpo.
+Siga os passos para contribuir com o projeto:
 
-```git
-git pull --rebase origin master
-```
+1. Faça um **Fork** do projeto.
+2. Crie uma **Branch** para sua feature (`git switch -c feature/minha-feature`).
+3. Faça suas alterações e commit (`git add . && git commit -m "Adiciona nova feature"`).
+4. Faça o **Push** para a branch (`git push origin feature/minha-feature`).
+5. Abra um **Pull Request**.
+6. Aguarde a aprovação.
 
-Para adicionar os cursos do YouTube manualmente na plataforma, sem utilizar a API do YouTube, você pode configurar um processo para embutir os vídeos diretamente em sua aplicação. Vou te mostrar um exemplo básico de como isso poderia ser feito, além de algumas sugestões para organizar o código.
+Leia mais em: [Guia de Contribuição Open Source](https://opensource.guide/pt/how-to-contribute/)
 
-1. Estrutura para Adicionar Cursos Manualmente
-Você pode criar um arquivo de dados ou estrutura para armazenar as informações dos cursos, como título, descrição, e o ID do vídeo do YouTube (para o embed). Vamos supor que você armazene isso em um arquivo de configuração no seu projeto, como um array de objetos.
+## Lista de Tarefas (To-Do)
 
-2. Exemplo de Código
-Aqui está um exemplo de como você pode adicionar os cursos manualmente no seu projeto:
+Confira o que está planejado para o futuro do projeto:
+- Veja em [TODO.md](TODO.md).
 
-```Typescript
-  "2": {
-    id: "2" <- Id do curso,
-    title: "Nome Do curso",
-    description: "Descrição do Curso",
-    professor: {
-      name: "Nome do Projeto",
-      bio: "Professor de Matemática Discreta",
-      imageUrl: "/douglasmaioli.jpg?height=200&width=200"
-    },
-    "videos": [
-      {
-        id: "1",
-        title: "Aula #01 - Tabela Verdade dos Conectivos (Parte I de Lógica) | Fundamentos Matemáticos para Computação",
-        videoId: "QE6ruiq632o",
-        completed": false
-      },
-    ]
-  }
-```
+## ⚠️ Aviso Legal
 
-No componente ```course-page``` adicione a playlist referente ao curso, prioridade aos cursos que tem linkado na UBL.
+Este é um projeto **educacional** e **sem fins lucrativos**. O site utiliza ferramentas gratuitas de hospedagem e organiza conteúdos públicos disponíveis na internet. Nenhum conteúdo de vídeo é hospedado diretamente nos servidores deste projeto bem como seu conteúdo.
 
+---
 
-O projeto é em Next, tendo node instalado e clonado o projeto, você pode mandar o ```npm run dev``` e acessar a localhost:3000 que irá encontrar o projeto rodando em sua máquina
-
-Referências
-https://github.com/Universidade-Livre/ciencia-da-computacao
+**Referências:**
+[Universidade Brasileira Livre - Ciência da Computação](https://github.com/Universidade-Livre/ciencia-da-computacao)

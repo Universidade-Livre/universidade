@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1766,
+    "number": 1,
+    "name": "Álgebra Linear: A origem",
+    "duration": 3114,
+    "embedUrl": "https://www.youtube.com/embed/c5gknW-7CQ8"
+  },
+  {
+    "id": 1767,
+    "number": 2,
+    "name": "Álgebra Linear 01 | Álgebra de matrizes",
+    "duration": 5468,
+    "embedUrl": "https://www.youtube.com/embed/ET9BR4cuJDA"
+  },
+  {
+    "id": 1768,
+    "number": 3,
+    "name": "Álgebra Linear 02 | Matrizes invertíveis",
+    "duration": 2561,
+    "embedUrl": "https://www.youtube.com/embed/eiDzE_ABXS8"
+  },
+  {
+    "id": 1769,
+    "number": 4,
+    "name": "Álgebra Linear 03 | Matrizes elementares",
+    "duration": 3970,
+    "embedUrl": "https://www.youtube.com/embed/bGsL9KdSFYY"
+  },
+  {
+    "id": 1770,
+    "number": 5,
+    "name": "Álgebra Linear 04 | Sistemas de equações lineares (Parte 1)",
+    "duration": 4559,
+    "embedUrl": "https://www.youtube.com/embed/PdIJ0NcnTAE"
+  },
+  {
+    "id": 1771,
+    "number": 6,
+    "name": "Álgebra Linear 05 | Sistemas lineares (Parte 2)",
+    "duration": 5025,
+    "embedUrl": "https://www.youtube.com/embed/l0RtI3Ur8YE"
+  },
+  {
+    "id": 1772,
+    "number": 7,
+    "name": "Álgebra Linear 06 | Espaços vetoriais",
+    "duration": 4307,
+    "embedUrl": "https://www.youtube.com/embed/stbG_r-0JK8"
+  },
+  {
+    "id": 1773,
+    "number": 8,
+    "name": "Álgebra Linear 07 | Subespaços vetoriais",
+    "duration": 4675,
+    "embedUrl": "https://www.youtube.com/embed/dICkXu54yKM"
+  },
+  {
+    "id": 1774,
+    "number": 9,
+    "name": "Álgebra Linear 08 | Bases",
+    "duration": 3601,
+    "embedUrl": "https://www.youtube.com/embed/QJ3T80Mla74"
+  },
+  {
+    "id": 1775,
+    "number": 10,
+    "name": "Álgebra Linear 09 | A dimensão de um espaço vetorial",
+    "duration": 4700,
+    "embedUrl": "https://www.youtube.com/embed/_BNMmXH8nJA"
+  },
+  {
+    "id": 1776,
+    "number": 11,
+    "name": "Álgebra Linear 10 | Dimensão finita",
+    "duration": 3892,
+    "embedUrl": "https://www.youtube.com/embed/9lhEr0B3CI4"
+  },
+  {
+    "id": 1777,
+    "number": 12,
+    "name": "Álgebra Linear 11 | Transformações lineares (Parte 1)",
+    "duration": 4150,
+    "embedUrl": "https://www.youtube.com/embed/ZDHgF4XkHh0"
+  },
+  {
+    "id": 1778,
+    "number": 13,
+    "name": "Álgebra Linear 12 | Transformações lineares (Parte 2)",
+    "duration": 5648,
+    "embedUrl": "https://www.youtube.com/embed/-Iv5DlC8mvE"
+  },
+  {
+    "id": 1779,
+    "number": 14,
+    "name": "Álgebra Linear 13 | O Teorema do Núcleo e da Imagem (feat. Espaços vetoriais quocientes)",
+    "duration": 5504,
+    "embedUrl": "https://www.youtube.com/embed/tqo3NcgrRLE"
+  },
+  {
+    "id": 1780,
+    "number": 15,
+    "name": "Álgebra Linear 14 - Soma direta de espaços vetoriais",
+    "duration": 4444,
+    "embedUrl": "https://www.youtube.com/embed/5-f0HO-h4QQ"
+  },
+  {
+    "id": 1781,
+    "number": 16,
+    "name": "Álgebra Linear 15 | O espaço de transformações lineares Parte 1: Nasce o dual",
+    "duration": 3186,
+    "embedUrl": "https://www.youtube.com/embed/VvIXFvyzW6E"
+  },
+  {
+    "id": 1782,
+    "number": 17,
+    "name": "Álgebra Linear 16 | O espaço de transformações lineares Parte 2: O ataque do dual",
+    "duration": 3523,
+    "embedUrl": "https://www.youtube.com/embed/JrzR1OEIYNU"
+  },
+  {
+    "id": 1783,
+    "number": 18,
+    "name": "Álgebra Linear 17 |  Matrizes arbitrárias VS Transformações lineares (Parte 1)",
+    "duration": 4453,
+    "embedUrl": "https://www.youtube.com/embed/HfRa76nLs7s"
+  },
+  {
+    "id": 1784,
+    "number": 19,
+    "name": "Álgebra Linear 18 | Matrizes arbitrárias VS Transformações lineares (Parte 2)",
+    "duration": 3318,
+    "embedUrl": "https://www.youtube.com/embed/BnglDDD2uww"
+  },
+  {
+    "id": 1785,
+    "number": 20,
+    "name": "Álgebra Linear 19 | O espaço de transformações lineares em dimensão infinita",
+    "duration": 7717,
+    "embedUrl": "https://www.youtube.com/embed/urtcsvStKqA"
+  }
+]

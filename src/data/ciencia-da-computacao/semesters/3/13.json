@@ -1,0 +1,282 @@
+[
+  {
+    "id": 645,
+    "number": 1,
+    "name": "Probabilidade e Estatística Aula 01 - O que é Estatística?",
+    "duration": 948,
+    "embedUrl": "https://www.youtube.com/embed/snXf8YT7L3U"
+  },
+  {
+    "id": 646,
+    "number": 2,
+    "name": "Probabilidade Aula 02 - Introdução à Probabilidade",
+    "duration": 1735,
+    "embedUrl": "https://www.youtube.com/embed/u8Ltc5645Nk"
+  },
+  {
+    "id": 647,
+    "number": 3,
+    "name": "Probabilidade Aula 03 - Teorema da Soma - Probabilidade da União de dois eventos",
+    "duration": 1674,
+    "embedUrl": "https://www.youtube.com/embed/YsZJzP1rs5U"
+  },
+  {
+    "id": 648,
+    "number": 4,
+    "name": "Probabilidade Aula 04 - Probabilidade do Evento Complementar",
+    "duration": 740,
+    "embedUrl": "https://www.youtube.com/embed/8yuHqWVrQXk"
+  },
+  {
+    "id": 649,
+    "number": 5,
+    "name": "Probabilidade Aula 05 - Exercícios de Probabilidade",
+    "duration": 2362,
+    "embedUrl": "https://www.youtube.com/embed/LNIwcYjI2sc"
+  },
+  {
+    "id": 650,
+    "number": 6,
+    "name": "Probabilidade Aula 06 - Combinatória na Probabilidade (Parte I)",
+    "duration": 1652,
+    "embedUrl": "https://www.youtube.com/embed/f6rTZHc98aU"
+  },
+  {
+    "id": 651,
+    "number": 7,
+    "name": "Probabilidade Aula 07 - Combinatória na Probabilidade (Parte II)",
+    "duration": 1224,
+    "embedUrl": "https://www.youtube.com/embed/4lZDBkeZqis"
+  },
+  {
+    "id": 652,
+    "number": 8,
+    "name": "Probabilidade Aula 08 - Probabilidade Condicional",
+    "duration": 1316,
+    "embedUrl": "https://www.youtube.com/embed/nons0GcdVqM"
+  },
+  {
+    "id": 653,
+    "number": 9,
+    "name": "Probabilidade Aula 09 - Eventos Independentes",
+    "duration": 1970,
+    "embedUrl": "https://www.youtube.com/embed/8z932KFK9dU"
+  },
+  {
+    "id": 654,
+    "number": 10,
+    "name": "Probabilidade Aula 10 - Probabilidade em Espaços não Equiprováveis",
+    "duration": 2813,
+    "embedUrl": "https://www.youtube.com/embed/QbQq3I4DVpM"
+  },
+  {
+    "id": 655,
+    "number": 11,
+    "name": "Probabilidade Aula 11 - Teorema da Probabilidade Total",
+    "duration": 2269,
+    "embedUrl": "https://www.youtube.com/embed/FZcBwjXBKWk"
+  },
+  {
+    "id": 656,
+    "number": 12,
+    "name": "Probabilidade Aula 12 - Teorema de Bayes",
+    "duration": 1727,
+    "embedUrl": "https://www.youtube.com/embed/dWdyxWQrxAY"
+  },
+  {
+    "id": 657,
+    "number": 13,
+    "name": "O Problema que só foi resolvido pela mulher mais inteligente do mundo!",
+    "duration": 1269,
+    "embedUrl": "https://www.youtube.com/embed/0rPnzm7iklQ"
+  },
+  {
+    "id": 658,
+    "number": 14,
+    "name": "Probabilidade Aula 13 - Variáveis Aleatórias Contínuas e Discretas",
+    "duration": 1154,
+    "embedUrl": "https://www.youtube.com/embed/It1-TRv2Rzw"
+  },
+  {
+    "id": 659,
+    "number": 15,
+    "name": "Probabilidade Aula 14 - Função de Probabilidade",
+    "duration": 1661,
+    "embedUrl": "https://www.youtube.com/embed/L_c0EBLBEDE"
+  },
+  {
+    "id": 660,
+    "number": 16,
+    "name": "Probabilidade Aula 15 - Exercício de Função de Probabilidade",
+    "duration": 1507,
+    "embedUrl": "https://www.youtube.com/embed/DCfV3LV8NkE"
+  },
+  {
+    "id": 661,
+    "number": 17,
+    "name": "Probabilidade Aula 16 - Esperança (Valor Esperado), Variância e Desvio Padrão",
+    "duration": 1707,
+    "embedUrl": "https://www.youtube.com/embed/bD8q4xbVCwI"
+  },
+  {
+    "id": 662,
+    "number": 18,
+    "name": "Probabilidade Aula 17 - Distribuições de Probabilidade - Distribuição Uniforme Discreta",
+    "duration": 651,
+    "embedUrl": "https://www.youtube.com/embed/WQOvHXIE-P8"
+  },
+  {
+    "id": 663,
+    "number": 19,
+    "name": "Probabilidade Aula 18 - Distribuição de Bernoulli e Binomial",
+    "duration": 2825,
+    "embedUrl": "https://www.youtube.com/embed/5EyJARJ6bo4"
+  },
+  {
+    "id": 664,
+    "number": 20,
+    "name": "Probabilidade Aula 19 - Distribuição de Poisson",
+    "duration": 1357,
+    "embedUrl": "https://www.youtube.com/embed/y2g-fzpmQkE"
+  },
+  {
+    "id": 665,
+    "number": 21,
+    "name": "Probabilidade Aula 20 - Variável Aleatória Contínua e Função Densidade de Probabilidade",
+    "duration": 844,
+    "embedUrl": "https://www.youtube.com/embed/QrOaBB8bi3Q"
+  },
+  {
+    "id": 666,
+    "number": 22,
+    "name": "Probabilidade Aula 21 - Distribuição Normal",
+    "duration": 1737,
+    "embedUrl": "https://www.youtube.com/embed/AB4wWER_wAI"
+  },
+  {
+    "id": 667,
+    "number": 23,
+    "name": "Probabilidade Aula 22 - Exercícios da Distribuição Normal - Ficha Resumo de Probabilidade",
+    "duration": 2551,
+    "embedUrl": "https://www.youtube.com/embed/fDSsMtzu7Io"
+  },
+  {
+    "id": 668,
+    "number": 24,
+    "name": "Estatística Aula 23 - Amostragem (Estatística Descritiva)",
+    "duration": 1851,
+    "embedUrl": "https://www.youtube.com/embed/TV-8D20Ul78"
+  },
+  {
+    "id": 669,
+    "number": 25,
+    "name": "Estatística Aula 24 - Distribuição de Frequências e Histograma",
+    "duration": 1597,
+    "embedUrl": "https://www.youtube.com/embed/vpL_E5nR4Dk"
+  },
+  {
+    "id": 670,
+    "number": 26,
+    "name": "Estatística Aula 25 - Medidas de Posição Central",
+    "duration": 1516,
+    "embedUrl": "https://www.youtube.com/embed/3-Qc8ZTrFXI"
+  },
+  {
+    "id": 671,
+    "number": 27,
+    "name": "Estatística Aula 26 - Medidas de Dispersão",
+    "duration": 1611,
+    "embedUrl": "https://www.youtube.com/embed/eIwy6lyxS7Q"
+  },
+  {
+    "id": 672,
+    "number": 28,
+    "name": "Inferência Aula 27 - Estatística Inferencial",
+    "duration": 1228,
+    "embedUrl": "https://www.youtube.com/embed/vOMMwcRLtXw"
+  },
+  {
+    "id": 673,
+    "number": 29,
+    "name": "Inferência Aula 28 - Intervalo de Confiança para a Média com Variância Conhecida",
+    "duration": 2156,
+    "embedUrl": "https://www.youtube.com/embed/NpEd2p2kb-s"
+  },
+  {
+    "id": 674,
+    "number": 30,
+    "name": "Inferência Aula 29 - Intervalo de Confiança para a Média com Variância Desconhecida",
+    "duration": 1704,
+    "embedUrl": "https://www.youtube.com/embed/y5Q0nH0PXnM"
+  },
+  {
+    "id": 675,
+    "number": 31,
+    "name": "Inferência Aula 30 - Intervalo de Confiança para a Proporção",
+    "duration": 1598,
+    "embedUrl": "https://www.youtube.com/embed/LWMJvwY-JCc"
+  },
+  {
+    "id": 676,
+    "number": 32,
+    "name": "Inferência Aula 31 - Teste de Hipótese para Média com Variância Conhecida",
+    "duration": 3565,
+    "embedUrl": "https://www.youtube.com/embed/A10LYLm-NgQ"
+  },
+  {
+    "id": 677,
+    "number": 33,
+    "name": "Inferência Aula 32 - Teste de Hipótese para Média com Variância Desconhecida",
+    "duration": 1102,
+    "embedUrl": "https://www.youtube.com/embed/IxPbPxyUUFA"
+  },
+  {
+    "id": 678,
+    "number": 34,
+    "name": "Inferência Aula 33 - Teste de Hipótese para Proporção",
+    "duration": 1088,
+    "embedUrl": "https://www.youtube.com/embed/hORgEga59EE"
+  },
+  {
+    "id": 679,
+    "number": 35,
+    "name": "Inferência Aula 34 - O que é Correlação?",
+    "duration": 2518,
+    "embedUrl": "https://www.youtube.com/embed/3NrjXOWkKLs"
+  },
+  {
+    "id": 680,
+    "number": 36,
+    "name": "Inferência Aula 35 - Regressão Linear",
+    "duration": 1333,
+    "embedUrl": "https://www.youtube.com/embed/YV_Q-cKfbyE"
+  },
+  {
+    "id": 681,
+    "number": 37,
+    "name": "Como calcular a eficácia de uma vacina - Matemática na prática",
+    "duration": 1191,
+    "embedUrl": "https://www.youtube.com/embed/bZp5th6rb-w"
+  },
+  {
+    "id": 682,
+    "number": 38,
+    "name": "Live de Revisão de Probabilidade e Estatística com o Professor Douglas Maioli",
+    "duration": 9550,
+    "embedUrl": "https://www.youtube.com/embed/jbMlDSz8RGg"
+  },
+  {
+    "id": 683,
+    "number": 39,
+    "name": "Prova Probabilidade e Estatística 2021 - Turma Licenciatura em Matemática UNIVESP",
+    "duration": 2229,
+    "embedUrl": "https://www.youtube.com/embed/c7EnpLmbpoc"
+  },
+  {
+    "id": 684,
+    "number": 40,
+    "name": "Prova de Probabilidade e Estatística 2021 - Turma Eixo Computação - UNIVESP",
+    "duration": 2294,
+    "embedUrl": "https://www.youtube.com/embed/PXQfMpuGxJg"
+  }
+]

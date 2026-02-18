@@ -1,0 +1,93 @@
+[
+  {
+    "id": 207,
+    "number": 1,
+    "name": "Aula #01 - Discussão sobre os Critérios para Avaliação de LPs |  Linguagens de Programação",
+    "duration": 4361,
+    "embedUrl": "https://www.youtube.com/embed/xfDdxqbkiSQ"
+  },
+  {
+    "id": 208,
+    "number": 2,
+    "name": "Aula #02 - Discussão sobre Nomes e Vinculações |  Linguagens de Programação",
+    "duration": 6040,
+    "embedUrl": "https://www.youtube.com/embed/sCbRKDqxJZw"
+  },
+  {
+    "id": 209,
+    "number": 3,
+    "name": "Aula #03 - Discussão sobre Escopo Estático e Dinâmico |  Linguagens de Programação",
+    "duration": 3060,
+    "embedUrl": "https://www.youtube.com/embed/2ZnIanX1P0I"
+  },
+  {
+    "id": 210,
+    "number": 4,
+    "name": "Aula #04 - Discussão sobre História das Linguagens de Programação |  Linguagens de Programação",
+    "duration": 2211,
+    "embedUrl": "https://www.youtube.com/embed/32sZ82fnKzY"
+  },
+  {
+    "id": 211,
+    "number": 5,
+    "name": "Aula #05 - Discussão sobre Tipo de Dados - Parte I |  Linguagens de Programação",
+    "duration": 6445,
+    "embedUrl": "https://www.youtube.com/embed/hDRP3LZsIBk"
+  },
+  {
+    "id": 212,
+    "number": 6,
+    "name": "Aula #06 - Discussão sobre Tipo de Dados - Parte II |  Linguagens de Programação",
+    "duration": 4861,
+    "embedUrl": "https://www.youtube.com/embed/tXFByMlfARY"
+  },
+  {
+    "id": 213,
+    "number": 7,
+    "name": "Aula #07 - Discussão sobre Expressões e Sentença de Atribuição |  Linguagens de Programação",
+    "duration": 3866,
+    "embedUrl": "https://www.youtube.com/embed/gQRr23V7ze8"
+  },
+  {
+    "id": 214,
+    "number": 8,
+    "name": "Aula #08 - Discussão sobre Estruturas de Controle no Nível de Sentença |  Linguagens de Programação",
+    "duration": 3941,
+    "embedUrl": "https://www.youtube.com/embed/jK_vpphZn3A"
+  },
+  {
+    "id": 215,
+    "number": 9,
+    "name": "Aula #09 - Discussão sobre Subprogramas |  Linguagens de Programação",
+    "duration": 5440,
+    "embedUrl": "https://www.youtube.com/embed/SHTw2SuGTHM"
+  },
+  {
+    "id": 216,
+    "number": 10,
+    "name": "Aula #10 - Discussão sobre Implementando Subprogramas |  Linguagens de Programação",
+    "duration": 5125,
+    "embedUrl": "https://www.youtube.com/embed/K-qvhDJe5n8"
+  },
+  {
+    "id": 217,
+    "number": 11,
+    "name": "Aula #11 - Discussão sobre Tipos Abstratos de Dados |  Linguagens de Programação",
+    "duration": 4490,
+    "embedUrl": "https://www.youtube.com/embed/fvKcffZexWA"
+  },
+  {
+    "id": 218,
+    "number": 12,
+    "name": "Aula #12 - Discussão sobre Suporte a Programação Orientada a Objeto |  Linguagens de Programação",
+    "duration": 5190,
+    "embedUrl": "https://www.youtube.com/embed/rCclQcyfaMc"
+  },
+  {
+    "id": 219,
+    "number": 13,
+    "name": "Aula #03 - Discussão sobre Escopo Estático e Dinâmico |  Linguagens de Programação",
+    "duration": 4190,
+    "embedUrl": "https://www.youtube.com/embed/eukk6HeTpUQ"
+  }
+]

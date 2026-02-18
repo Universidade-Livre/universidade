@@ -1,0 +1,387 @@
+[
+  {
+    "id": 1681,
+    "number": 1,
+    "name": "Cursos Unicamp: Cálculo I - Aula 1 - Introdução",
+    "duration": 2435,
+    "embedUrl": "https://www.youtube.com/embed/XJCmMuZV-JA"
+  },
+  {
+    "id": 1682,
+    "number": 2,
+    "name": "Cursos Unicamp: Cálculo I - Aula 2 - Funções - Parte 1",
+    "duration": 2694,
+    "embedUrl": "https://www.youtube.com/embed/vBxka1HhlAs"
+  },
+  {
+    "id": 1683,
+    "number": 3,
+    "name": "Cursos Unicamp: Cálculo I - Aula 3 - Funções - Parte 2",
+    "duration": 2251,
+    "embedUrl": "https://www.youtube.com/embed/qFXs4iSsbrk"
+  },
+  {
+    "id": 1684,
+    "number": 4,
+    "name": "Cursos Unicamp: Cálculo I - Aula 4 - Criando Funções - Parte 1",
+    "duration": 2476,
+    "embedUrl": "https://www.youtube.com/embed/LDbD0z2_xdQ"
+  },
+  {
+    "id": 1685,
+    "number": 5,
+    "name": "Cursos Unicamp: Cálculo I - Aula 5 - Criando Funções - Parte 2",
+    "duration": 2505,
+    "embedUrl": "https://www.youtube.com/embed/ECblTdistvE"
+  },
+  {
+    "id": 1686,
+    "number": 6,
+    "name": "Cursos Unicamp: Cálculo I - Aula 6 - Limite - Parte 1",
+    "duration": 2445,
+    "embedUrl": "https://www.youtube.com/embed/8_Sgh5YnxY8"
+  },
+  {
+    "id": 1687,
+    "number": 7,
+    "name": "Cursos Unicamp: Cálculo I - Aula 7 - Limite - Parte 2",
+    "duration": 2191,
+    "embedUrl": "https://www.youtube.com/embed/6xUHE4ctIt8"
+  },
+  {
+    "id": 1688,
+    "number": 8,
+    "name": "Cursos Unicamp: Cálculo I - Aula 8 - Regras de Cálculo de Limite - parte 1",
+    "duration": 2369,
+    "embedUrl": "https://www.youtube.com/embed/_bKzJP0Q778"
+  },
+  {
+    "id": 1689,
+    "number": 9,
+    "name": "Cursos Unicamp: Cálculo I / aula 9 - Regras de Cálculo de Limite - parte 2",
+    "duration": 2438,
+    "embedUrl": "https://www.youtube.com/embed/wBe4f-MVkTA"
+  },
+  {
+    "id": 1690,
+    "number": 10,
+    "name": "Cursos Unicamp: Cálculo 1 / aula 10 - Limite da Composição - parte 1",
+    "duration": 2766,
+    "embedUrl": "https://www.youtube.com/embed/Z0wNGmPGlGk"
+  },
+  {
+    "id": 1691,
+    "number": 11,
+    "name": "Cursos Unicamp: Cálculo 1 / aula 11 - Limite da Composição - parte 2",
+    "duration": 2437,
+    "embedUrl": "https://www.youtube.com/embed/eAEN9Zfa3ZU"
+  },
+  {
+    "id": 1692,
+    "number": 12,
+    "name": "Cursos Unicamp: Cálculo 1 / aula 12 - Funções contínuas - parte 1",
+    "duration": 2473,
+    "embedUrl": "https://www.youtube.com/embed/jXIP2GciTaY"
+  },
+  {
+    "id": 1693,
+    "number": 13,
+    "name": "Cursos Unicamp: Cálculo 1 / aula 13 - Funções Contínuas - parte 2",
+    "duration": 2326,
+    "embedUrl": "https://www.youtube.com/embed/ebj4X4q6Dk0"
+  },
+  {
+    "id": 1694,
+    "number": 14,
+    "name": "Cursos Unicamp: Cálculo I - Aula 14 - A Derivada como uma Função - Parte 1",
+    "duration": 2892,
+    "embedUrl": "https://www.youtube.com/embed/HK6DDx8G7ZU"
+  },
+  {
+    "id": 1695,
+    "number": 15,
+    "name": "Cursos Unicamp: Cálculo I / aula 15 - A Derivada como uma Função - parte 2",
+    "duration": 2468,
+    "embedUrl": "https://www.youtube.com/embed/eQsN_tJ9CyA"
+  },
+  {
+    "id": 1696,
+    "number": 16,
+    "name": "Cálculo I - Aula 16 - Derivadas de funções trigonométricas - Regra da cadeia - parte 1",
+    "duration": 2680,
+    "embedUrl": "https://www.youtube.com/embed/JMtmSdWcjqA"
+  },
+  {
+    "id": 1697,
+    "number": 17,
+    "name": "Cálculo 1 / aula 17 - Derivadas de funções trigonométricas - Regra da cadeia - parte 2",
+    "duration": 2606,
+    "embedUrl": "https://www.youtube.com/embed/rPzFJpGIEh0"
+  },
+  {
+    "id": 1698,
+    "number": 18,
+    "name": "Cursos Unicamp: Cálculo 1 / aula 18 - Diferenciação Implícita / Derivadas Superiores - parte1",
+    "duration": 2403,
+    "embedUrl": "https://www.youtube.com/embed/f_PwzFrWp7Q"
+  },
+  {
+    "id": 1699,
+    "number": 19,
+    "name": "Cursos Unicamp: Cálculo 1 / aula 19 - Diferenciação Implícita / Derivadas Superiores - parte 2",
+    "duration": 2819,
+    "embedUrl": "https://www.youtube.com/embed/J_pgvEewQU0"
+  },
+  {
+    "id": 1700,
+    "number": 20,
+    "name": "Cálculo 1 / aula 20 - Derivadas de Funções Logarítmicas / Funções Hiperbólicas - parte 1",
+    "duration": 2666,
+    "embedUrl": "https://www.youtube.com/embed/h4Y65dlhCy4"
+  },
+  {
+    "id": 1701,
+    "number": 21,
+    "name": "Cálculo 1 / aula 21 - Derivadas de Funções Logarítmicas / Funções Hiperbólicas - parte 2",
+    "duration": 2779,
+    "embedUrl": "https://www.youtube.com/embed/E2NnUgDFryg"
+  },
+  {
+    "id": 1702,
+    "number": 22,
+    "name": "Cursos Unicamp: Cálculo 1 / aula 22 - Revisão I - parte 1",
+    "duration": 2656,
+    "embedUrl": "https://www.youtube.com/embed/C5X4JDhOBJ8"
+  },
+  {
+    "id": 1703,
+    "number": 23,
+    "name": "Cursos Unicamp: Cálculo 1 / aula 23 - Revisão I - parte 2",
+    "duration": 2465,
+    "embedUrl": "https://www.youtube.com/embed/aYTDGK5ymM0"
+  },
+  {
+    "id": 1704,
+    "number": 24,
+    "name": "Cursos Unicamp: Cálculo 1 / aula 24 - Taxas Relacionadas - parte 1",
+    "duration": 2735,
+    "embedUrl": "https://www.youtube.com/embed/2NAPSX-GHPI"
+  },
+  {
+    "id": 1705,
+    "number": 25,
+    "name": "Cursos Unicamp: Cálculo 1 / aula 25 - Taxas Relacionadas - parte 2",
+    "duration": 2640,
+    "embedUrl": "https://www.youtube.com/embed/MO3Pq3aP43Y"
+  },
+  {
+    "id": 1706,
+    "number": 26,
+    "name": "Cursos Unicamp: Cálculo 1 / aula 26 - Funções Hiperbólicas - parte 1",
+    "duration": 2743,
+    "embedUrl": "https://www.youtube.com/embed/weAcF2HdpJo"
+  },
+  {
+    "id": 1707,
+    "number": 27,
+    "name": "Cursos Unicamp: Cálculo 1 / aula 27 - Funções Hiperbólicas - Parte 2",
+    "duration": 2628,
+    "embedUrl": "https://www.youtube.com/embed/dGFcHsuBD-I"
+  },
+  {
+    "id": 1708,
+    "number": 28,
+    "name": "Cálculo 1 / aula 28 - Aproximações Lineares e Diferenciais - Valores Máximos e Mínimos - 1",
+    "duration": 2790,
+    "embedUrl": "https://www.youtube.com/embed/sIAowfuIz6Q"
+  },
+  {
+    "id": 1709,
+    "number": 29,
+    "name": "Cálculo 1 / aula 29 -  Aproximações Lineares e Diferenciais - Valores Máximos e Mínimos - 2",
+    "duration": 2753,
+    "embedUrl": "https://www.youtube.com/embed/5HNxdN5QleM"
+  },
+  {
+    "id": 1710,
+    "number": 30,
+    "name": "Cursos Unicamp: Cálculo 1 / aula 30 - Teorema do Valor Médio - parte 1",
+    "duration": 2834,
+    "embedUrl": "https://www.youtube.com/embed/pEMM0IKPJ1Y"
+  },
+  {
+    "id": 1711,
+    "number": 31,
+    "name": "Cursos Unicamp: Cálculo 1 / aula 31 - Teorema do Valor Médio - parte 2",
+    "duration": 2680,
+    "embedUrl": "https://www.youtube.com/embed/JOhvpKNCUbM"
+  },
+  {
+    "id": 1712,
+    "number": 32,
+    "name": "Cursos Unicamp: Cálculo 1 / aula 32 - Formas Indeterminadas e a Regra de L'Hôpital - parte 1",
+    "duration": 2682,
+    "embedUrl": "https://www.youtube.com/embed/aYC5UqqDWP4"
+  },
+  {
+    "id": 1713,
+    "number": 33,
+    "name": "Cursos Unicamp: Cálculo 1 / aula 33 -  Formas Indeterminadas e a Regra de L'Hôpital - parte 2",
+    "duration": 2453,
+    "embedUrl": "https://www.youtube.com/embed/xw8wRpk8pbQ"
+  },
+  {
+    "id": 1714,
+    "number": 34,
+    "name": "Cursos Unicamp: Cálculo 1 / aula 34 - Regra de L'Hôpital - parte 1",
+    "duration": 2603,
+    "embedUrl": "https://www.youtube.com/embed/gzOkqOFEJFE"
+  },
+  {
+    "id": 1715,
+    "number": 35,
+    "name": "Cursos Unicamp: Cálculo 1 / aula 35 - Regra de L'Hôpital - parte 2",
+    "duration": 2498,
+    "embedUrl": "https://www.youtube.com/embed/pAhjTa3lZ0o"
+  },
+  {
+    "id": 1716,
+    "number": 36,
+    "name": "Cursos Unicamp: Cálculo 1 / aula 36 - Integração / Motivação Geométrica: Área - parte 1",
+    "duration": 2691,
+    "embedUrl": "https://www.youtube.com/embed/p-HMNfGRgvE"
+  },
+  {
+    "id": 1717,
+    "number": 37,
+    "name": "Cursos Unicamp: Cálculo 1 / aula 37 - Motivação Geométrica: área - parte 2",
+    "duration": 2681,
+    "embedUrl": "https://www.youtube.com/embed/x60T7SmOCDg"
+  },
+  {
+    "id": 1718,
+    "number": 38,
+    "name": "Cursos Unicamp: Cálculo 1 / aula 38 - Propriedades da Integral",
+    "duration": 2996,
+    "embedUrl": "https://www.youtube.com/embed/QOFmqqdJkos"
+  },
+  {
+    "id": 1719,
+    "number": 39,
+    "name": "Cursos Unicamp: Cálculo 1 / aula 39 - Teorema Fundamental do Cálculo",
+    "duration": 2731,
+    "embedUrl": "https://www.youtube.com/embed/NaIgyOeN8KM"
+  },
+  {
+    "id": 1720,
+    "number": 40,
+    "name": "Cursos Unicamp: Cálculo 1 / aula 40 - Teorema Fundamental do Cálculo - parte 2",
+    "duration": 2628,
+    "embedUrl": "https://www.youtube.com/embed/pi8et8w6epw"
+  },
+  {
+    "id": 1721,
+    "number": 41,
+    "name": "Cursos Unicamp: Cálculo 1 / aula 41 - Teorema Fundamental do Cálculo - parte 3",
+    "duration": 2470,
+    "embedUrl": "https://www.youtube.com/embed/FllUpA1B7Fk"
+  },
+  {
+    "id": 1722,
+    "number": 42,
+    "name": "Cursos Unicamp: Cálculo 1 / aula 42 - O Logaritmo definido como uma Integral - parte 1",
+    "duration": 2734,
+    "embedUrl": "https://www.youtube.com/embed/qpQZALtRqgk"
+  },
+  {
+    "id": 1723,
+    "number": 43,
+    "name": "Cursos Unicamp: Cálculo 1 / aula 43 - O Logaritmo definido como uma Integral - parte 2",
+    "duration": 2691,
+    "embedUrl": "https://www.youtube.com/embed/aJ5E8rLO0Ug"
+  },
+  {
+    "id": 1724,
+    "number": 44,
+    "name": "Cursos Unicamp: Cálculo 1 / aula 44 - Áreas entre curvas - parte 1",
+    "duration": 2986,
+    "embedUrl": "https://www.youtube.com/embed/KP-bf_Qwhdk"
+  },
+  {
+    "id": 1725,
+    "number": 45,
+    "name": "Cursos Unicamp: Cálculo 1 / aula 45 - Áreas entre curvas - parte 2",
+    "duration": 2483,
+    "embedUrl": "https://www.youtube.com/embed/jZIpl6iWFfc"
+  },
+  {
+    "id": 1726,
+    "number": 46,
+    "name": "Cursos Unicamp: Cálculo 1 / aula 46 - Volumes - parte 1",
+    "duration": 2609,
+    "embedUrl": "https://www.youtube.com/embed/njO-gPgQbjs"
+  },
+  {
+    "id": 1727,
+    "number": 47,
+    "name": "Cursos Unicamp: Cálculo 1 / aula 47 - Volumes - parte 2",
+    "duration": 2669,
+    "embedUrl": "https://www.youtube.com/embed/agEKx6LzGKw"
+  },
+  {
+    "id": 1728,
+    "number": 48,
+    "name": "Cursos Unicamp: Cálculo 1 / aula 48 - Volumes por Cascas Cilíndricas - parte 1",
+    "duration": 2581,
+    "embedUrl": "https://www.youtube.com/embed/N9rbdULDKSc"
+  },
+  {
+    "id": 1729,
+    "number": 49,
+    "name": "Cursos Unicamp: Cálculo 1 / aula 49 - Volumes por Cascas Cilíndricas - parte 2",
+    "duration": 2619,
+    "embedUrl": "https://www.youtube.com/embed/8bIx_Tg6v6w"
+  },
+  {
+    "id": 1730,
+    "number": 50,
+    "name": "Cursos Unicamp: Cálculo 1 / aula 50 - Integrais Trigonométricas - parte 1",
+    "duration": 3049,
+    "embedUrl": "https://www.youtube.com/embed/kau-Uto7A88"
+  },
+  {
+    "id": 1731,
+    "number": 51,
+    "name": "Cursos Unicamp: Cálculo 1 / aula 51 - Integrais Trigonométricas - parte 2",
+    "duration": 2638,
+    "embedUrl": "https://www.youtube.com/embed/RJ9nl9leXvI"
+  },
+  {
+    "id": 1732,
+    "number": 52,
+    "name": "Cursos Unicamp: Cálculo 1 / aula 52 - Substituição Trigonométrica - parte 1",
+    "duration": 2123,
+    "embedUrl": "https://www.youtube.com/embed/Mm21ME5eqnA"
+  },
+  {
+    "id": 1733,
+    "number": 53,
+    "name": "Cursos Unicamp: Cálculo 1 / aula 53 - Substituição Trigonométrica - parte 2",
+    "duration": 2701,
+    "embedUrl": "https://www.youtube.com/embed/jvzuPH4fnbU"
+  },
+  {
+    "id": 1734,
+    "number": 54,
+    "name": "Cursos Unicamp: Cálculo 1 / aula 54 - Funções Racionais / Frações Parciais - parte 1",
+    "duration": 2758,
+    "embedUrl": "https://www.youtube.com/embed/iEhKfVjSw5A"
+  },
+  {
+    "id": 1735,
+    "number": 55,
+    "name": "Cursos Unicamp: Cálculo 1 / aula 55 - Funções Racionais / Frações Parciais - parte 2",
+    "duration": 2537,
+    "embedUrl": "https://www.youtube.com/embed/AQR5gr8Es40"
+  }
+]

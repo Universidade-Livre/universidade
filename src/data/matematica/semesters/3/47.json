@@ -1,0 +1,352 @@
+[
+  {
+    "id": 1871,
+    "number": 1,
+    "name": "Estruturas Algébricas | Teoria de Grupos: Grupos e Grupos Abelianos/Comutativos (definição)",
+    "duration": 296,
+    "embedUrl": "https://www.youtube.com/embed/HtfVKyjrj9c"
+  },
+  {
+    "id": 1872,
+    "number": 2,
+    "name": "Exemplos de grupos.",
+    "duration": 210,
+    "embedUrl": "https://www.youtube.com/embed/7cx5Aa3crt8"
+  },
+  {
+    "id": 1873,
+    "number": 3,
+    "name": "Exercícios resolvidos sobre Teoria de Grupos",
+    "duration": 492,
+    "embedUrl": "https://www.youtube.com/embed/n4QQ5iZIlv0"
+  },
+  {
+    "id": 1874,
+    "number": 4,
+    "name": "Exercícios resolvidos sobre Teoria de Grupos (Continuação)",
+    "duration": 233,
+    "embedUrl": "https://www.youtube.com/embed/ynNbcjxUVIg"
+  },
+  {
+    "id": 1875,
+    "number": 5,
+    "name": "Exercícios resolvidos sobre Teoria de Grupos. EX 2.",
+    "duration": 408,
+    "embedUrl": "https://www.youtube.com/embed/zIIIDb9hga4"
+  },
+  {
+    "id": 1876,
+    "number": 6,
+    "name": "Exercício Resolvido sobre Teoria de Grupos. Ex. 3.",
+    "duration": 568,
+    "embedUrl": "https://www.youtube.com/embed/vlDKrkxljMw"
+  },
+  {
+    "id": 1877,
+    "number": 7,
+    "name": "Estruturas Algébricas - Aula 1: Teoria de Grupos (definição de grupo, grupo abeliano e exemplos)",
+    "duration": 1096,
+    "embedUrl": "https://www.youtube.com/embed/qo5ruHriU34"
+  },
+  {
+    "id": 1878,
+    "number": 8,
+    "name": "Estruturas Algébricas: Exercício resolvido sobre Teoria de Grupos. Ex. 4",
+    "duration": 241,
+    "embedUrl": "https://www.youtube.com/embed/XVYGd0pF-oM"
+  },
+  {
+    "id": 1879,
+    "number": 9,
+    "name": "Estruturas Algébricas - Aula 2: Teoria de Grupos (propriedades imediatas, grupos finitos e tábua)",
+    "duration": 1257,
+    "embedUrl": "https://www.youtube.com/embed/6cb-vbC3AyI"
+  },
+  {
+    "id": 1880,
+    "number": 10,
+    "name": "Estruturas Algébricas - Aula 3: Teoria de Grupos (Grupos Lineares de Grau n e Grupos de Permutações)",
+    "duration": 1063,
+    "embedUrl": "https://www.youtube.com/embed/61CPef1a6kk"
+  },
+  {
+    "id": 1881,
+    "number": 11,
+    "name": "Estruturas Algébricas - Aula 4: Teoria de Grupos (Definição de subgrupo e propriedades relacionadas)",
+    "duration": 874,
+    "embedUrl": "https://www.youtube.com/embed/GC6JaC4a98A"
+  },
+  {
+    "id": 1882,
+    "number": 12,
+    "name": "Estruturas Algébricas - Aula 5: Teoria de Grupos (Potenciação em um grupo e resolução de exercício)",
+    "duration": 621,
+    "embedUrl": "https://www.youtube.com/embed/Zoup9YOnzps"
+  },
+  {
+    "id": 1883,
+    "number": 13,
+    "name": "Estruturas Algébricas - Aula 6: Homomorfismos de Grupos (Definição, exemplos e propriedades element)",
+    "duration": 828,
+    "embedUrl": "https://www.youtube.com/embed/GoJFHuVtQmY"
+  },
+  {
+    "id": 1884,
+    "number": 14,
+    "name": "Estruturas Algébricas - Aula 7: Núcleo de um Homomorfismo (Definição, exercícios e uma propriedade)",
+    "duration": 716,
+    "embedUrl": "https://www.youtube.com/embed/5HXTVtu8JDE"
+  },
+  {
+    "id": 1885,
+    "number": 15,
+    "name": "Estruturas Algébricas: Demonstração de que um homomorfismo é injetor se e somente se N(f)={e}. Ex. 5",
+    "duration": 394,
+    "embedUrl": "https://www.youtube.com/embed/Dg4wb8WlSNI"
+  },
+  {
+    "id": 1886,
+    "number": 16,
+    "name": "Estruturas Algébricas - Aula 8: Isomorfismo de Grupos (Definição e resolução de um exercício)",
+    "duration": 743,
+    "embedUrl": "https://www.youtube.com/embed/Efa3jZX4kw8"
+  },
+  {
+    "id": 1887,
+    "number": 17,
+    "name": "Estruturas Algébricas - Aula 9: Exercício sobre grupos isomorfos e o isomorfismo inverso",
+    "duration": 678,
+    "embedUrl": "https://www.youtube.com/embed/-5FYwGUimUQ"
+  },
+  {
+    "id": 1888,
+    "number": 18,
+    "name": "Estruturas Algébricas - Aula 10: Grupos Cíclicos e Exercícios",
+    "duration": 1354,
+    "embedUrl": "https://www.youtube.com/embed/wlFYcBcJqgY"
+  },
+  {
+    "id": 1889,
+    "number": 19,
+    "name": "Estruturas Algébricas - Demonstre que todo grupo de ordem 2 ou 3 é cíclico. Ex. 6.",
+    "duration": 465,
+    "embedUrl": "https://www.youtube.com/embed/uPKARQueKIE"
+  },
+  {
+    "id": 1890,
+    "number": 20,
+    "name": "Exercícios: 7) A ordem do elemento é 2 se somente se a=a^(-1). 8) a, b, ab tem ordem 2, então ab=ba.",
+    "duration": 382,
+    "embedUrl": "https://www.youtube.com/embed/TtmB8qDEklo"
+  },
+  {
+    "id": 1891,
+    "number": 21,
+    "name": "Estruturas Algébricas - Aula 11: Subgrupos de Grupos Cíclicos, Proposições e Ordem de um Elemento",
+    "duration": 1055,
+    "embedUrl": "https://www.youtube.com/embed/UhEUVdm2_Hk"
+  },
+  {
+    "id": 1892,
+    "number": 22,
+    "name": "Estruturas Algébricas - Exercício: 9) Mostre que (Zm, +) é cíclico para todo m maior que 1.",
+    "duration": 277,
+    "embedUrl": "https://www.youtube.com/embed/8rzCIOQi8iI"
+  },
+  {
+    "id": 1893,
+    "number": 23,
+    "name": "Estruturas Algébricas - Aula 12: Todo grupo cíclico é abeliano e se tiver ordem n é isomorfo a Zn",
+    "duration": 760,
+    "embedUrl": "https://www.youtube.com/embed/KJK2O7ehvq8"
+  },
+  {
+    "id": 1894,
+    "number": 24,
+    "name": "Estruturas Algébricas - Aula 13: Classes Laterais, exemplos e proposições relacionadas (parte 1)",
+    "duration": 1179,
+    "embedUrl": "https://www.youtube.com/embed/VZaz4eZDjjk"
+  },
+  {
+    "id": 1895,
+    "number": 25,
+    "name": "Estruturas Algébricas - Aula 14: Teorema de Lagrange e outros resultados (Classes laterais - p. 2)",
+    "duration": 892,
+    "embedUrl": "https://www.youtube.com/embed/gAU3zrteUjU"
+  },
+  {
+    "id": 1896,
+    "number": 26,
+    "name": "Exercício 10: Determine todas as classes laterais de H={0, 3, 6, 9} no grupo aditivo Z_{12}.",
+    "duration": 482,
+    "embedUrl": "https://www.youtube.com/embed/dcEDwR1fV4I"
+  },
+  {
+    "id": 1897,
+    "number": 27,
+    "name": "Estruturas Algébricas - Aula 15: SUBGRUPOS NORMAIS e GRUPOS QUOCIENTES",
+    "duration": 1504,
+    "embedUrl": "https://www.youtube.com/embed/TUTfjZ506KM"
+  },
+  {
+    "id": 1898,
+    "number": 28,
+    "name": "Estruturas Algébricas: Mostre que, se N é subgrupo normal de G, a∈G e n∈N, então existe n' tq an=n'a",
+    "duration": 196,
+    "embedUrl": "https://www.youtube.com/embed/w_36aOs-HJU"
+  },
+  {
+    "id": 1899,
+    "number": 29,
+    "name": "Estruturas Algébricas - Aula 16: Anéis (parte 1: definição, exemplos, propriedades e um exercício)",
+    "duration": 1126,
+    "embedUrl": "https://www.youtube.com/embed/ZsUGKoCVp3Y"
+  },
+  {
+    "id": 1900,
+    "number": 30,
+    "name": "Estruturas Algébricas - Aula 17: Anéis (parte 2: Anéis finitos, Anéis Comutativos e com Unidade)",
+    "duration": 1542,
+    "embedUrl": "https://www.youtube.com/embed/g-63MU4hQYE"
+  },
+  {
+    "id": 1901,
+    "number": 31,
+    "name": "Exercício 11: Seja x∗y=x+y-3 e x∆y=x+y-xy/3. Mostre que (Q, ∗, ∆) é um anel comutativo com unidade.",
+    "duration": 1270,
+    "embedUrl": "https://www.youtube.com/embed/4GEdWpa3NvQ"
+  },
+  {
+    "id": 1902,
+    "number": 32,
+    "name": "Estruturas Algébricas - Aula 18: Anéis (parte 3: Subanéis, Anéis de Integridade, Corpos e exemplos)",
+    "duration": 1041,
+    "embedUrl": "https://www.youtube.com/embed/0uB9YvZzjG0"
+  },
+  {
+    "id": 1903,
+    "number": 33,
+    "name": "Exercício 12: Mostre que (Q,+,.) é um corpo.",
+    "duration": 357,
+    "embedUrl": "https://www.youtube.com/embed/fnfY55_3eu0"
+  },
+  {
+    "id": 1904,
+    "number": 34,
+    "name": "Exercício 13: Mostre que o conjunto das funções f(x)=ax+b é um grupo para a composição de funções.",
+    "duration": 704,
+    "embedUrl": "https://www.youtube.com/embed/hzFiilP_EPU"
+  },
+  {
+    "id": 1905,
+    "number": 35,
+    "name": "Estruturas Algébricas - Aula 19: Anéis (parte 4: Domínio é corpo? Corpo é domínio? Def. de Subcorpo)",
+    "duration": 931,
+    "embedUrl": "https://www.youtube.com/embed/e-7ji93FXMY"
+  },
+  {
+    "id": 1906,
+    "number": 36,
+    "name": "Estruturas Algébricas - Aula 20: Anéis (parte 5: Homomorfismos de Anéis. Proposições. Exercícios)",
+    "duration": 1406,
+    "embedUrl": "https://www.youtube.com/embed/1ofAmb21674"
+  },
+  {
+    "id": 1907,
+    "number": 37,
+    "name": "Estruturas Algébricas - Aula 21: Anéis (parte 6: Núcleo de um Homomorfismo de Anéis)",
+    "duration": 1264,
+    "embedUrl": "https://www.youtube.com/embed/V86CdnwFqJY"
+  },
+  {
+    "id": 1908,
+    "number": 38,
+    "name": "Estruturas Algébricas - Aula 22: Anéis (Parte 7: Isomorfismo de Anéis e resolução de um exercício)",
+    "duration": 1428,
+    "embedUrl": "https://www.youtube.com/embed/c9Qj2mIBp84"
+  },
+  {
+    "id": 1909,
+    "number": 39,
+    "name": "Exercício 13: Mostre que f de A em A dada por f(x)=axa^(-1) é isomorfismo e dê a fórmula de fa o fb.",
+    "duration": 757,
+    "embedUrl": "https://www.youtube.com/embed/cjBRvcPEha0"
+  },
+  {
+    "id": 1910,
+    "number": 40,
+    "name": "Exercício 14: Mostrar que f é um homomorfismo de anéis e verificar se é um isomorfismo.",
+    "duration": 565,
+    "embedUrl": "https://www.youtube.com/embed/ZRyEkcxzebk"
+  },
+  {
+    "id": 1911,
+    "number": 41,
+    "name": "Estruturas Algébricas - Aula 23: ANÉIS (P. 8 Corpo de Frações em um DOMÍNIO: QUOCIENTES EM UM CORPO)",
+    "duration": 1196,
+    "embedUrl": "https://www.youtube.com/embed/EKVvKAYIr2Y"
+  },
+  {
+    "id": 1912,
+    "number": 42,
+    "name": "Exercício 15: Defina o que é corpo e mostre que (Z_3, +, .) é um corpo.",
+    "duration": 990,
+    "embedUrl": "https://www.youtube.com/embed/VcoxgaQ0jAI"
+  },
+  {
+    "id": 1913,
+    "number": 43,
+    "name": "Exercício 16: O subconjunto C é um SUBANEL do anel (M_2(|R), +, .)?",
+    "duration": 697,
+    "embedUrl": "https://www.youtube.com/embed/4Mc4aKVCM2E"
+  },
+  {
+    "id": 1914,
+    "number": 44,
+    "name": "Estruturas Algébricas - Aula 24: Corpo de frações de um Anel de Integridade (ANÉIS Parte 9)",
+    "duration": 1255,
+    "embedUrl": "https://www.youtube.com/embed/sAEDvEaYC64"
+  },
+  {
+    "id": 1915,
+    "number": 45,
+    "name": "Exercício 17: Sendo A um corpo, determine o corpo de frações de A.",
+    "duration": 601,
+    "embedUrl": "https://www.youtube.com/embed/QE7FMGGjGBg"
+  },
+  {
+    "id": 1916,
+    "number": 46,
+    "name": "Exercício 18: Seja G um grupo e H um subgrupo. Mostre que H é normal se e só se ghg^{-1} está em H.",
+    "duration": 629,
+    "embedUrl": "https://www.youtube.com/embed/NDALS2rcChM"
+  },
+  {
+    "id": 1917,
+    "number": 47,
+    "name": "Exercício 19: Seja f:G→J um homomorfismo sobrejetor. Se H é normal em G, então 𝑓(𝐻) é normal de 𝐽",
+    "duration": 817,
+    "embedUrl": "https://www.youtube.com/embed/Il_MpSZw59U"
+  },
+  {
+    "id": 1918,
+    "number": 48,
+    "name": "Exercício 20: Mostre que (R^2, +, ∙) é um corpo.",
+    "duration": 1258,
+    "embedUrl": "https://www.youtube.com/embed/H9Svdcl69eI"
+  },
+  {
+    "id": 1919,
+    "number": 49,
+    "name": "Exercício 21: Verifique se Z_5×Z_4 e Z_7^∗ são cíclicos para a adição e para a multiplicação.",
+    "duration": 873,
+    "embedUrl": "https://www.youtube.com/embed/IEBZ3lDPXYk"
+  },
+  {
+    "id": 1920,
+    "number": 50,
+    "name": "Estruturas Algébricas - Aula 25: Característica de um Anel (ANÉIS Parte 10)",
+    "duration": 1271,
+    "embedUrl": "https://www.youtube.com/embed/OwC1PiUyUd0"
+  }
+]

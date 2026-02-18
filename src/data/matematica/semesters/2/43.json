@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1751,
+    "number": 1,
+    "name": "Álgebra Linear - Apresentação",
+    "duration": 185,
+    "embedUrl": "https://www.youtube.com/embed/WsLmdMPU3Rc"
+  },
+  {
+    "id": 1752,
+    "number": 2,
+    "name": "Álgebra Linear - Aula 01 - Matrizes e Determinantes  (Parte 1)",
+    "duration": 1319,
+    "embedUrl": "https://www.youtube.com/embed/r1o7RryS8WM"
+  },
+  {
+    "id": 1753,
+    "number": 3,
+    "name": "Álgebra Linear - Aula 02 - Matrizes e Determinantes (Parte 2)",
+    "duration": 1262,
+    "embedUrl": "https://www.youtube.com/embed/u4xKswRO4bQ"
+  },
+  {
+    "id": 1754,
+    "number": 4,
+    "name": "Álgebra Linear - Aula 03 - Equações",
+    "duration": 500,
+    "embedUrl": "https://www.youtube.com/embed/nPds6INVaEo"
+  },
+  {
+    "id": 1755,
+    "number": 5,
+    "name": "Álgebra Linear - Aula 04 - Sistemas de Equações Lineares",
+    "duration": 1472,
+    "embedUrl": "https://www.youtube.com/embed/oGYDPxcNMmw"
+  },
+  {
+    "id": 1756,
+    "number": 6,
+    "name": "Álgebra Linear - Aula 05 - Vetores e espaço vetorial",
+    "duration": 1194,
+    "embedUrl": "https://www.youtube.com/embed/FAJ5DFY6d0k"
+  },
+  {
+    "id": 1757,
+    "number": 7,
+    "name": "Álgebra Linear - Aula 06 - Base, mudança de base",
+    "duration": 1341,
+    "embedUrl": "https://www.youtube.com/embed/lQT17sdopbA"
+  },
+  {
+    "id": 1758,
+    "number": 8,
+    "name": "Álgebra Linear - Aula 07 - Transformações Lineares",
+    "duration": 1100,
+    "embedUrl": "https://www.youtube.com/embed/FcNZNzdOugY"
+  },
+  {
+    "id": 1759,
+    "number": 9,
+    "name": "Álgebra Linear - Aula 08 - Transformações lineares planas",
+    "duration": 928,
+    "embedUrl": "https://www.youtube.com/embed/NrzNe_AJeCs"
+  },
+  {
+    "id": 1760,
+    "number": 10,
+    "name": "Álgebra Linear - Aula 09 - Transformações lineares no espaço",
+    "duration": 1041,
+    "embedUrl": "https://www.youtube.com/embed/FW7VQEubh3w"
+  },
+  {
+    "id": 1761,
+    "number": 11,
+    "name": "Álgebra Linear - Aula 10 - Resolução de exercícios e operadores lineares",
+    "duration": 1127,
+    "embedUrl": "https://www.youtube.com/embed/wm4Vlu9LFCg"
+  },
+  {
+    "id": 1762,
+    "number": 12,
+    "name": "Álgebra Linear - Aula 11 - Autovalores e Autovetores",
+    "duration": 1150,
+    "embedUrl": "https://www.youtube.com/embed/SazzwSJPd_g"
+  },
+  {
+    "id": 1763,
+    "number": 13,
+    "name": "Álgebra Linear - Aula 12 - Autovalores e Autovetores - Aplicações",
+    "duration": 480,
+    "embedUrl": "https://www.youtube.com/embed/h_cKoTIEgHg"
+  },
+  {
+    "id": 1764,
+    "number": 14,
+    "name": "Álgebra Linear - Aula 13 - Espaços vetoriais com produtos internos",
+    "duration": 1455,
+    "embedUrl": "https://www.youtube.com/embed/0D-8NoSYPPk"
+  },
+  {
+    "id": 1765,
+    "number": 15,
+    "name": "Álgebra Linear - Aula 14 - Espaços vetoriais com produtos internos - aplicações",
+    "duration": 695,
+    "embedUrl": "https://www.youtube.com/embed/ngQp4Uh84Pk"
+  }
+]

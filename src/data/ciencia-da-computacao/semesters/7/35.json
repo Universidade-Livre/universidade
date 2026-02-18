@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1433,
+    "number": 1,
+    "name": "O Método Científico (Módulo 1/20)",
+    "duration": 3138,
+    "embedUrl": "https://www.youtube.com/embed/wfb3QmYWVVg"
+  },
+  {
+    "id": 1434,
+    "number": 2,
+    "name": "Pesquisa como Resolução de Problemas (Módulo 2/20)",
+    "duration": 3811,
+    "embedUrl": "https://www.youtube.com/embed/W0kcg-lHmis"
+  },
+  {
+    "id": 1435,
+    "number": 3,
+    "name": "Design de Pesquisas (Módulo 3/20)",
+    "duration": 3910,
+    "embedUrl": "https://www.youtube.com/embed/ZZ53FvZ7YYE"
+  },
+  {
+    "id": 1436,
+    "number": 4,
+    "name": "Design de Experimentos (Módulo 4/20)",
+    "duration": 5516,
+    "embedUrl": "https://www.youtube.com/embed/WpJ1skhVKkg"
+  },
+  {
+    "id": 1437,
+    "number": 5,
+    "name": "Ética, diversidade e responsabilidade na pesquisa (Módulo 5/20)",
+    "duration": 3955,
+    "embedUrl": "https://www.youtube.com/embed/kK7tOsITmOk"
+  },
+  {
+    "id": 1438,
+    "number": 6,
+    "name": "Revisão Sistemática da Literatura (Módulo 6/20)",
+    "duration": 4125,
+    "embedUrl": "https://www.youtube.com/embed/XFRmnjh7Ph0"
+  },
+  {
+    "id": 1439,
+    "number": 7,
+    "name": "Como ler um artigo científico? (Módulo 7/20)",
+    "duration": 4146,
+    "embedUrl": "https://www.youtube.com/embed/eadVmuwEuAI"
+  },
+  {
+    "id": 1440,
+    "number": 8,
+    "name": "Avaliação de Algoritmos, Prototipação e Simulação (Módulo 8/20)",
+    "duration": 4143,
+    "embedUrl": "https://www.youtube.com/embed/Qvrvic7_zGk"
+  },
+  {
+    "id": 1441,
+    "number": 9,
+    "name": "Estudos de Caso (Módulo 9/20)",
+    "duration": 3965,
+    "embedUrl": "https://www.youtube.com/embed/mkNjeqobt9Y"
+  },
+  {
+    "id": 1442,
+    "number": 10,
+    "name": "Instrumentos de Coleta de Dados (Módulo 10/20)",
+    "duration": 4051,
+    "embedUrl": "https://www.youtube.com/embed/WnIgO7vbaKY"
+  },
+  {
+    "id": 1443,
+    "number": 11,
+    "name": "Métodos Quantitativos - Parte I (Módulo 11/20)",
+    "duration": 3736,
+    "embedUrl": "https://www.youtube.com/embed/8QVtn-3EdKc"
+  },
+  {
+    "id": 1444,
+    "number": 12,
+    "name": "Métodos Quantitativos - Parte II (Módulo 12/20)",
+    "duration": 3743,
+    "embedUrl": "https://www.youtube.com/embed/MSd7cx3dmDI"
+  },
+  {
+    "id": 1445,
+    "number": 13,
+    "name": "Análise Qualitativa I (Módulo 13/20)",
+    "duration": 4249,
+    "embedUrl": "https://www.youtube.com/embed/1feCpvpb4ns"
+  },
+  {
+    "id": 1446,
+    "number": 14,
+    "name": "Análise Qualitativa II (Módulo 14/20)",
+    "duration": 4117,
+    "embedUrl": "https://www.youtube.com/embed/aK4Npnkimhg"
+  },
+  {
+    "id": 1447,
+    "number": 15,
+    "name": "Análise de Dados com Grounded Theory (Módulo 15/20)",
+    "duration": 3709,
+    "embedUrl": "https://www.youtube.com/embed/E4BQhy34u1g"
+  },
+  {
+    "id": 1448,
+    "number": 16,
+    "name": "Boas Práticas para Compartilhamento de Dados de Pesquisas (Módulo 16/20)",
+    "duration": 3929,
+    "embedUrl": "https://www.youtube.com/embed/57A6-2xUxjo"
+  },
+  {
+    "id": 1449,
+    "number": 17,
+    "name": "A Escrita Acadêmica (Módulo 17/20)",
+    "duration": 4165,
+    "embedUrl": "https://www.youtube.com/embed/qAprWJ0DRZQ"
+  },
+  {
+    "id": 1450,
+    "number": 18,
+    "name": "Publicação e divulgação científica (Módulo 18/20)",
+    "duration": 4125,
+    "embedUrl": "https://www.youtube.com/embed/6lXf4HzNOfU"
+  },
+  {
+    "id": 1451,
+    "number": 19,
+    "name": "Como apresentar um artigo (Módulo 19/20)",
+    "duration": 4131,
+    "embedUrl": "https://www.youtube.com/embed/8XpO2LLOhDw"
+  },
+  {
+    "id": 1452,
+    "number": 20,
+    "name": "Ciência Aberta (Módulo 20/20)",
+    "duration": 3859,
+    "embedUrl": "https://www.youtube.com/embed/KjiL-xeJZV0"
+  }
+]

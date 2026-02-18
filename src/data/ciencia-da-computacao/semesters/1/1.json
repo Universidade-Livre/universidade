@@ -1,0 +1,653 @@
+[
+  {
+    "id": 1,
+    "number": 1,
+    "name": "[CIRCUITOS DIGITAIS] Aula 01 - Introdução aos Circuitos Digitais",
+    "duration": 1012,
+    "embedUrl": "https://www.youtube.com/embed/1lsU6RoU9Ko"
+  },
+  {
+    "id": 2,
+    "number": 2,
+    "name": "[CIRCUITOS DIGITAIS] Aula 02 - Sistemas de Numeração (Parte 1)",
+    "duration": 1966,
+    "embedUrl": "https://www.youtube.com/embed/RuXmtYdmQKY"
+  },
+  {
+    "id": 3,
+    "number": 3,
+    "name": "[CIRCUITOS DIGITAIS] Aula 03 - Sistemas de Numeração (Parte 2)",
+    "duration": 1176,
+    "embedUrl": "https://www.youtube.com/embed/MhaGPACGIEs"
+  },
+  {
+    "id": 4,
+    "number": 4,
+    "name": "[CIRCUITOS DIGITAIS] Aula 04 - Sistemas de Numeração - Exercícios",
+    "duration": 841,
+    "embedUrl": "https://www.youtube.com/embed/Pg2tvTNfBzQ"
+  },
+  {
+    "id": 5,
+    "number": 5,
+    "name": "[CIRCUITOS DIGITAIS] Aula 05 - Códigos Binários",
+    "duration": 1419,
+    "embedUrl": "https://www.youtube.com/embed/ZQkNfdwaG2c"
+  },
+  {
+    "id": 6,
+    "number": 6,
+    "name": "[CIRCUITOS DIGITAIS] Aula 06 - Aritmética Binária",
+    "duration": 1293,
+    "embedUrl": "https://www.youtube.com/embed/gBsNWWscIcg"
+  },
+  {
+    "id": 7,
+    "number": 7,
+    "name": "[CIRCUITOS DIGITAIS] Aula 07 - Representação de Números Binários Inteiros com Sinal",
+    "duration": 1307,
+    "embedUrl": "https://www.youtube.com/embed/PceEtFggO_Q"
+  },
+  {
+    "id": 8,
+    "number": 8,
+    "name": "[CIRCUITOS DIGITAIS] Aula 08 - Aritmética de Números BCD",
+    "duration": 755,
+    "embedUrl": "https://www.youtube.com/embed/i48FGijMVO0"
+  },
+  {
+    "id": 9,
+    "number": 9,
+    "name": "[CIRCUITOS DIGITAIS] Aula 09 - Ferramentas de Descrição de Circuitos Digitais",
+    "duration": 974,
+    "embedUrl": "https://www.youtube.com/embed/jzR0kYsay2U"
+  },
+  {
+    "id": 10,
+    "number": 10,
+    "name": "[CIRCUITOS DIGITAIS] Aula 10 - Funções e Portas Lógicas",
+    "duration": 1766,
+    "embedUrl": "https://www.youtube.com/embed/-4b58LvY6NI"
+  },
+  {
+    "id": 11,
+    "number": 11,
+    "name": "[CIRCUITOS DIGITAIS] Aula 11 - Propriedades da Álgebra Booleana",
+    "duration": 1571,
+    "embedUrl": "https://www.youtube.com/embed/Px3W4QHfrHc"
+  },
+  {
+    "id": 12,
+    "number": 12,
+    "name": "[CIRCUITOS DIGITAIS] Aula 12 - Análise de Expressões Lógicas",
+    "duration": 1661,
+    "embedUrl": "https://www.youtube.com/embed/XoWag-f1UTY"
+  },
+  {
+    "id": 13,
+    "number": 13,
+    "name": "[CIRCUITOS DIGITAIS] Aula 13 - Análise de Circuitos Combinacionais",
+    "duration": 1040,
+    "embedUrl": "https://www.youtube.com/embed/u7FJAOnWS08"
+  },
+  {
+    "id": 14,
+    "number": 14,
+    "name": "[CIRCUITOS DIGITAIS] Aula 14 - Elaboração de Diagrama de Circuito Lógico",
+    "duration": 1376,
+    "embedUrl": "https://www.youtube.com/embed/xzCpDBYKCTA"
+  },
+  {
+    "id": 15,
+    "number": 15,
+    "name": "[CIRCUITOS DIGITAIS] Aula 15 - Utilização do Logisim",
+    "duration": 834,
+    "embedUrl": "https://www.youtube.com/embed/32ritDV6XxU"
+  },
+  {
+    "id": 16,
+    "number": 16,
+    "name": "[CIRCUITOS DIGITAIS] Aula 16 - Formas Canônicas para Expressões Lógicas",
+    "duration": 1265,
+    "embedUrl": "https://www.youtube.com/embed/Q2s6ZFX3de8"
+  },
+  {
+    "id": 17,
+    "number": 17,
+    "name": "[CIRCUITOS DIGITAIS] Aula 17 - Síntese de Circuitos Combinacionais",
+    "duration": 996,
+    "embedUrl": "https://www.youtube.com/embed/lGIVvVAiR6U"
+  },
+  {
+    "id": 18,
+    "number": 18,
+    "name": "[CIRCUITOS DIGITAIS] Aula 18 - Simplificação Algébrica",
+    "duration": 1044,
+    "embedUrl": "https://www.youtube.com/embed/mOBy3LJV5sM"
+  },
+  {
+    "id": 19,
+    "number": 19,
+    "name": "[CIRCUITOS DIGITAIS] Aula 19 - Mapas de Karnaugh (Parte 1)",
+    "duration": 1455,
+    "embedUrl": "https://www.youtube.com/embed/8_Ip6PzYqrs"
+  },
+  {
+    "id": 20,
+    "number": 20,
+    "name": "[CIRCUITOS DIGITAIS] Aula 20 - Mapas de Karnaugh (Parte 2)",
+    "duration": 1349,
+    "embedUrl": "https://www.youtube.com/embed/AVb_9sXqfSk"
+  },
+  {
+    "id": 21,
+    "number": 21,
+    "name": "[CIRCUITOS DIGITAIS] Aula 21 - Mapas de Karnaugh (Parte 3)",
+    "duration": 1053,
+    "embedUrl": "https://www.youtube.com/embed/rv2r_hSLRN0"
+  },
+  {
+    "id": 22,
+    "number": 22,
+    "name": "[CIRCUITOS DIGITAIS] Aula 22 - Mapas de Karnaugh (Parte 4)",
+    "duration": 956,
+    "embedUrl": "https://www.youtube.com/embed/qNXLHeHurpk"
+  },
+  {
+    "id": 23,
+    "number": 23,
+    "name": "[CIRCUITOS DIGITAIS] Aula 23 - Exemplo de Projeto de Circuito Combinacional",
+    "duration": 819,
+    "embedUrl": "https://www.youtube.com/embed/ttoNkYJ38zQ"
+  },
+  {
+    "id": 24,
+    "number": 24,
+    "name": "[CIRCUITOS DIGITAIS] Aula 24 - Universalidade das Portas NAND e NOR",
+    "duration": 887,
+    "embedUrl": "https://www.youtube.com/embed/qXEx7nFvMh4"
+  },
+  {
+    "id": 25,
+    "number": 25,
+    "name": "[CIRCUITOS DIGITAIS] Aula 25 - Circuitos Somadores (Parte 1)",
+    "duration": 1193,
+    "embedUrl": "https://www.youtube.com/embed/r_DpiGT0YmA"
+  },
+  {
+    "id": 26,
+    "number": 26,
+    "name": "[CIRCUITOS DIGITAIS] Aula 26 - Circuitos Somadores (Parte 2)",
+    "duration": 704,
+    "embedUrl": "https://www.youtube.com/embed/rhZ0QmX6Gf0"
+  },
+  {
+    "id": 27,
+    "number": 27,
+    "name": "[CIRCUITOS DIGITAIS] Aula 27 - Somadores no Logisim",
+    "duration": 1623,
+    "embedUrl": "https://www.youtube.com/embed/6sBkmAlJlvs"
+  },
+  {
+    "id": 28,
+    "number": 28,
+    "name": "[CIRCUITOS DIGITAIS] Aula 28 - Circuitos Subtradores",
+    "duration": 1202,
+    "embedUrl": "https://www.youtube.com/embed/TQfRSFsRDAU"
+  },
+  {
+    "id": 29,
+    "number": 29,
+    "name": "[CIRCUITOS DIGITAIS] Aula 29 - Circuito Somador/Subtrador Compartilhado no Logisim",
+    "duration": 552,
+    "embedUrl": "https://www.youtube.com/embed/iiTMiSu_xbU"
+  },
+  {
+    "id": 30,
+    "number": 30,
+    "name": "[CIRCUITOS DIGITAIS] Aula 30 - Incrementadores e Decrementadores",
+    "duration": 318,
+    "embedUrl": "https://www.youtube.com/embed/XAGm1k_H49w"
+  },
+  {
+    "id": 31,
+    "number": 31,
+    "name": "[CIRCUITOS DIGITAIS] Aula 31 - Somadores BCD",
+    "duration": 667,
+    "embedUrl": "https://www.youtube.com/embed/fLZRFkFWQ4c"
+  },
+  {
+    "id": 32,
+    "number": 32,
+    "name": "[CIRCUITOS DIGITAIS] Aula 32 - Multiplicadores em Array",
+    "duration": 1011,
+    "embedUrl": "https://www.youtube.com/embed/6mf8qFEBxEU"
+  },
+  {
+    "id": 33,
+    "number": 33,
+    "name": "[CIRCUITOS DIGITAIS] Aula 33 - Comparadores de Magnitude",
+    "duration": 813,
+    "embedUrl": "https://www.youtube.com/embed/tVgocuuisjA"
+  },
+  {
+    "id": 34,
+    "number": 34,
+    "name": "[CIRCUITOS DIGITAIS] Aula 34 - Somadores Carry Look-a-Head",
+    "duration": 1421,
+    "embedUrl": "https://www.youtube.com/embed/l56a1Rp-LNs"
+  },
+  {
+    "id": 35,
+    "number": 35,
+    "name": "[CIRCUITOS DIGITAIS] Aula 35 - Geradores e Verificadores de Paridade",
+    "duration": 1012,
+    "embedUrl": "https://www.youtube.com/embed/z0qUmHXd8ZA"
+  },
+  {
+    "id": 36,
+    "number": 36,
+    "name": "[CIRCUITOS DIGITAIS] Aula 36 - Conversores de Código Binário (Parte 1)",
+    "duration": 739,
+    "embedUrl": "https://www.youtube.com/embed/h0vnz4ebT08"
+  },
+  {
+    "id": 37,
+    "number": 37,
+    "name": "[CIRCUITOS DIGITAIS] Aula 37 - Conversores de Código Binário (Parte 2)",
+    "duration": 948,
+    "embedUrl": "https://www.youtube.com/embed/RCbCm9TyZ9w"
+  },
+  {
+    "id": 38,
+    "number": 38,
+    "name": "[CIRCUITOS DIGITAIS] Aula 38 - Decodificadores para Display de 7 Segmentos",
+    "duration": 959,
+    "embedUrl": "https://www.youtube.com/embed/NJwesHY5nPQ"
+  },
+  {
+    "id": 39,
+    "number": 39,
+    "name": "[CIRCUITOS DIGITAIS] Aula 39 - Decodificadores",
+    "duration": 1406,
+    "embedUrl": "https://www.youtube.com/embed/C8Y8ST2hnqA"
+  },
+  {
+    "id": 40,
+    "number": 40,
+    "name": "[CIRCUITOS DIGITAIS] Aula 40 - Projeto Combinacional Utilizando Decodificadores",
+    "duration": 728,
+    "embedUrl": "https://www.youtube.com/embed/y-Ni9BIpS8c"
+  },
+  {
+    "id": 41,
+    "number": 41,
+    "name": "[CIRCUITOS DIGITAIS] Aula 41 - Codificadores",
+    "duration": 1051,
+    "embedUrl": "https://www.youtube.com/embed/_2RRcq8YIKk"
+  },
+  {
+    "id": 42,
+    "number": 42,
+    "name": "[CIRCUITOS DIGITAIS] Aula 42 - Codificadores de Prioridade",
+    "duration": 1496,
+    "embedUrl": "https://www.youtube.com/embed/qfqoSlvIkiA"
+  },
+  {
+    "id": 43,
+    "number": 43,
+    "name": "[CIRCUITOS DIGITAIS] Aula 43 - Multiplexadores",
+    "duration": 1641,
+    "embedUrl": "https://www.youtube.com/embed/e70pe-Cdtfc"
+  },
+  {
+    "id": 44,
+    "number": 44,
+    "name": "[CIRCUITOS DIGITAIS] Aula 44 - Associação de Multiplexadores",
+    "duration": 844,
+    "embedUrl": "https://www.youtube.com/embed/X8lHW9yfr30"
+  },
+  {
+    "id": 45,
+    "number": 45,
+    "name": "[CIRCUITOS DIGITAIS] Aula 45 - Implementação de Funções Combinacionais com Multiplexadores (Parte 1)",
+    "duration": 1095,
+    "embedUrl": "https://www.youtube.com/embed/_uBk4xDi-8c"
+  },
+  {
+    "id": 46,
+    "number": 46,
+    "name": "[CIRCUITOS DIGITAIS] Aula 46 - Implementação de Funções Combinacionais com Multiplexadores (Parte 2)",
+    "duration": 1240,
+    "embedUrl": "https://www.youtube.com/embed/wypiacFZFww"
+  },
+  {
+    "id": 47,
+    "number": 47,
+    "name": "[CIRCUITOS DIGITAIS] Aula 47 - Teorema da Expansão de Shannon",
+    "duration": 1044,
+    "embedUrl": "https://www.youtube.com/embed/Kjtvyf6e-9U"
+  },
+  {
+    "id": 48,
+    "number": 48,
+    "name": "[CIRCUITOS DIGITAIS] Aula 48 - Demultiplexadores",
+    "duration": 1136,
+    "embedUrl": "https://www.youtube.com/embed/Jmw4OiI0O3A"
+  },
+  {
+    "id": 49,
+    "number": 49,
+    "name": "[CIRCUITOS DIGITAIS] Aula 49 - Associação de Demultiplexadores",
+    "duration": 622,
+    "embedUrl": "https://www.youtube.com/embed/FWk2a7oTpxc"
+  },
+  {
+    "id": 50,
+    "number": 50,
+    "name": "[CIRCUITOS DIGITAIS] Aula 50 - Deslocadores",
+    "duration": 1498,
+    "embedUrl": "https://www.youtube.com/embed/EBrHRwnVMsU"
+  },
+  {
+    "id": 51,
+    "number": 51,
+    "name": "[CIRCUITOS DIGITAIS] Aula 51 - Unidade Lógico-Aritmética",
+    "duration": 860,
+    "embedUrl": "https://www.youtube.com/embed/SemyzwoLxDo"
+  },
+  {
+    "id": 52,
+    "number": 52,
+    "name": "[CIRCUITOS DIGITAIS] Aula 52 - Aplicações de Circuitos Combinacionais #1",
+    "duration": 1129,
+    "embedUrl": "https://www.youtube.com/embed/3uXHong2PvQ"
+  },
+  {
+    "id": 53,
+    "number": 53,
+    "name": "[CIRCUITOS DIGITAIS] Aula 53 - Aplicações de Circuitos Combinacionais #2",
+    "duration": 555,
+    "embedUrl": "https://www.youtube.com/embed/mcAnKpiPO-c"
+  },
+  {
+    "id": 54,
+    "number": 54,
+    "name": "[CIRCUITOS DIGITAIS] Aula 54 - Fundamentos de Circuitos Sequenciais",
+    "duration": 494,
+    "embedUrl": "https://www.youtube.com/embed/Q0hxfNu0EGw"
+  },
+  {
+    "id": 55,
+    "number": 55,
+    "name": "[CIRCUITOS DIGITAIS] Aula 55 - Máquinas de Estados Finitos",
+    "duration": 771,
+    "embedUrl": "https://www.youtube.com/embed/rkfQKM_jQK8"
+  },
+  {
+    "id": 56,
+    "number": 56,
+    "name": "[CIRCUITOS DIGITAIS] Aula 56 - Modelos para Máquinas de Estados",
+    "duration": 931,
+    "embedUrl": "https://www.youtube.com/embed/6sVrWGekNX4"
+  },
+  {
+    "id": 57,
+    "number": 57,
+    "name": "[CIRCUITOS DIGITAIS] Aula 57 - Tabela de Transição de Estados",
+    "duration": 858,
+    "embedUrl": "https://www.youtube.com/embed/qFXXLbwvWsg"
+  },
+  {
+    "id": 58,
+    "number": 58,
+    "name": "[CIRCUITOS DIGITAIS] Aula 58 - Diagrama de Transição de Estados",
+    "duration": 562,
+    "embedUrl": "https://www.youtube.com/embed/Q0QNvjRt_pk"
+  },
+  {
+    "id": 59,
+    "number": 59,
+    "name": "[CIRCUITOS DIGITAIS] Aula 59 - Latch SR",
+    "duration": 1547,
+    "embedUrl": "https://www.youtube.com/embed/YHEvh3PoPcE"
+  },
+  {
+    "id": 60,
+    "number": 60,
+    "name": "[CIRCUITOS DIGITAIS] Aula 60 - Latches SR Controlado",
+    "duration": 614,
+    "embedUrl": "https://www.youtube.com/embed/MaelrWb21QI"
+  },
+  {
+    "id": 61,
+    "number": 61,
+    "name": "[CIRCUITOS DIGITAIS] Aula 61 - Latch D (Transparente)",
+    "duration": 635,
+    "embedUrl": "https://www.youtube.com/embed/XZ5I9mJdg0w"
+  },
+  {
+    "id": 62,
+    "number": 62,
+    "name": "[CIRCUITOS DIGITAIS] Aula 62 - Latches com Portas NAND",
+    "duration": 252,
+    "embedUrl": "https://www.youtube.com/embed/XQe4qElLDWI"
+  },
+  {
+    "id": 63,
+    "number": 63,
+    "name": "[CIRCUITOS DIGITAIS] Aula 63 - Latches no Logisim",
+    "duration": 637,
+    "embedUrl": "https://www.youtube.com/embed/wYTRa2r3fjM"
+  },
+  {
+    "id": 64,
+    "number": 64,
+    "name": "[CIRCUITOS DIGITAIS] Aula 64 - Flip-Flop D",
+    "duration": 1639,
+    "embedUrl": "https://www.youtube.com/embed/E12RmfvaIf8"
+  },
+  {
+    "id": 65,
+    "number": 65,
+    "name": "[CIRCUITOS DIGITAIS] Aula 65 - Flip-Flop JK e Flip-Flop T",
+    "duration": 645,
+    "embedUrl": "https://www.youtube.com/embed/zQj0oDimU2I"
+  },
+  {
+    "id": 66,
+    "number": 66,
+    "name": "[CIRCUITOS DIGITAIS] Aula 66 - Entradas Assíncronas em Flip-Flops",
+    "duration": 308,
+    "embedUrl": "https://www.youtube.com/embed/2qOUSXgKUbc"
+  },
+  {
+    "id": 67,
+    "number": 67,
+    "name": "[CIRCUITOS DIGITAIS] Aula 67 - Flip-Flops no Logisim",
+    "duration": 448,
+    "embedUrl": "https://www.youtube.com/embed/6fEfOZJTQcQ"
+  },
+  {
+    "id": 68,
+    "number": 68,
+    "name": "[CIRCUITOS DIGITAIS] Aula 68 - Análise de Circuitos Sequenciais (Exemplo 1)",
+    "duration": 1660,
+    "embedUrl": "https://www.youtube.com/embed/f9L2vdplWgM"
+  },
+  {
+    "id": 69,
+    "number": 69,
+    "name": "[CIRCUITOS DIGITAIS] Aula 69 - Análise de Circuitos Sequenciais (Exemplo 2)",
+    "duration": 1171,
+    "embedUrl": "https://www.youtube.com/embed/h_Mx1DL14yE"
+  },
+  {
+    "id": 70,
+    "number": 70,
+    "name": "[CIRCUITOS DIGITAIS] Aula 70 - Análise de Circuitos Sequenciais (Exemplo 3)",
+    "duration": 1487,
+    "embedUrl": "https://www.youtube.com/embed/4Mx_cYvoZKY"
+  },
+  {
+    "id": 71,
+    "number": 71,
+    "name": "[CIRCUITOS DIGITAIS] Aula 71 - Análise de Circuitos Sequenciais (Exemplo 4)",
+    "duration": 886,
+    "embedUrl": "https://www.youtube.com/embed/__57NZcf52A"
+  },
+  {
+    "id": 72,
+    "number": 72,
+    "name": "[CIRCUITOS DIGITAIS] Aula 72 - Projeto de Circuitos Sequenciais (Exemplo 1)",
+    "duration": 2105,
+    "embedUrl": "https://www.youtube.com/embed/3LXF2p2LSQU"
+  },
+  {
+    "id": 73,
+    "number": 73,
+    "name": "[CIRCUITOS DIGITAIS] Aula 73 - Projeto de Circuitos Sequenciais (Exemplo 2)",
+    "duration": 1349,
+    "embedUrl": "https://www.youtube.com/embed/EUvxMNTFN4s"
+  },
+  {
+    "id": 74,
+    "number": 74,
+    "name": "[CIRCUITOS DIGITAIS] Aula 74 - Projeto de Circuitos Sequenciais (Exemplo 3)",
+    "duration": 1652,
+    "embedUrl": "https://www.youtube.com/embed/7Y0oWahVWUw"
+  },
+  {
+    "id": 75,
+    "number": 75,
+    "name": "[CIRCUITOS DIGITAIS] Aula 75 - Projeto de Circuitos Sequenciais (Exemplo 4)",
+    "duration": 1733,
+    "embedUrl": "https://www.youtube.com/embed/zctwOD5i9mQ"
+  },
+  {
+    "id": 76,
+    "number": 76,
+    "name": "[CIRCUITOS DIGITAIS] Aula 76 - Projeto de Circuitos Sequenciais (Exemplo 5)",
+    "duration": 1711,
+    "embedUrl": "https://www.youtube.com/embed/QZQeMbeXnoQ"
+  },
+  {
+    "id": 77,
+    "number": 77,
+    "name": "[CIRCUITOS DIGITAIS] Aula 77 - Projeto de Circuitos Sequenciais (Exemplo 6)",
+    "duration": 1776,
+    "embedUrl": "https://www.youtube.com/embed/Ez3nIadMiR8"
+  },
+  {
+    "id": 78,
+    "number": 78,
+    "name": "[CIRCUITOS DIGITAIS] Aula 78 - Projeto de Circuitos Sequenciais (Exemplo 7)",
+    "duration": 1187,
+    "embedUrl": "https://www.youtube.com/embed/BQC1pypMw1c"
+  },
+  {
+    "id": 79,
+    "number": 79,
+    "name": "[CIRCUITOS DIGITAIS] Aula 79 - Projeto de Circuitos Sequenciais (Exemplo 8)",
+    "duration": 1310,
+    "embedUrl": "https://www.youtube.com/embed/eW3VQYW-sTw"
+  },
+  {
+    "id": 80,
+    "number": 80,
+    "name": "[CIRCUITOS DIGITAIS] Aula 80 - Projeto de Circuitos Sequenciais (Exemplo 9)",
+    "duration": 1620,
+    "embedUrl": "https://www.youtube.com/embed/WzW6nU7NUus"
+  },
+  {
+    "id": 81,
+    "number": 81,
+    "name": "[CIRCUITOS DIGITAIS] Aula 81 - Projeto de Circuitos Sequenciais (Exemplo 10)",
+    "duration": 1132,
+    "embedUrl": "https://www.youtube.com/embed/ta-esYaoz4E"
+  },
+  {
+    "id": 82,
+    "number": 82,
+    "name": "[CIRCUITOS DIGITAIS] Aula 82 - Projeto de Circuitos Sequenciais (Exemplo 11)",
+    "duration": 1582,
+    "embedUrl": "https://www.youtube.com/embed/5Ya0o-pGumA"
+  },
+  {
+    "id": 83,
+    "number": 83,
+    "name": "[CIRCUITOS DIGITAIS] Aula 83 - Projeto de Circuitos Sequenciais (Exemplo 12)",
+    "duration": 1607,
+    "embedUrl": "https://www.youtube.com/embed/seZk9pKNYaA"
+  },
+  {
+    "id": 84,
+    "number": 84,
+    "name": "[CIRCUITOS DIGITAIS] Aula 84 - Projeto de Circuitos Sequenciais (Exemplo 13)",
+    "duration": 2280,
+    "embedUrl": "https://www.youtube.com/embed/29rFIM-izEc"
+  },
+  {
+    "id": 85,
+    "number": 85,
+    "name": "[CIRCUITOS DIGITAIS] Aula 85 - Projeto de Circuitos Sequenciais (Projeto com Multiplexadores)",
+    "duration": 3436,
+    "embedUrl": "https://www.youtube.com/embed/aYaEqsyxRP0"
+  },
+  {
+    "id": 86,
+    "number": 86,
+    "name": "[CIRCUITOS DIGITAIS] Aula 86 - Projeto de Circuitos Sequenciais (Máquina Moore vs. Máquina Mealy)",
+    "duration": 2545,
+    "embedUrl": "https://www.youtube.com/embed/AfWMnhgDO4k"
+  },
+  {
+    "id": 87,
+    "number": 87,
+    "name": "[CIRCUITOS DIGITAIS] Aula 87 - Minimização de Máquinas de Estados",
+    "duration": 711,
+    "embedUrl": "https://www.youtube.com/embed/AJj8DpeW_yY"
+  },
+  {
+    "id": 88,
+    "number": 88,
+    "name": "[CIRCUITOS DIGITAIS] Aula 88 - Tabela de Implicação",
+    "duration": 2085,
+    "embedUrl": "https://www.youtube.com/embed/9PCN3yNe4JU"
+  },
+  {
+    "id": 89,
+    "number": 89,
+    "name": "[CIRCUITOS DIGITAIS] Aula 89 - Particionamento Sucessivo",
+    "duration": 1824,
+    "embedUrl": "https://www.youtube.com/embed/Z1hZhMn29WY"
+  },
+  {
+    "id": 90,
+    "number": 90,
+    "name": "[CIRCUITOS DIGITAIS] Aula 90 - Relação de Máquinas Moore vs. Mealy",
+    "duration": 1048,
+    "embedUrl": "https://www.youtube.com/embed/NXjf7GWlA6A"
+  },
+  {
+    "id": 91,
+    "number": 91,
+    "name": "[CIRCUITOS DIGITAIS] Aula 91 - Estado Inicial de uma Máquina de Estados",
+    "duration": 579,
+    "embedUrl": "https://www.youtube.com/embed/gpObH7mDB-I"
+  },
+  {
+    "id": 92,
+    "number": 92,
+    "name": "[CIRCUITOS DIGITAIS] Aula 92 - Condições de Temporização em Máquinas de Estados",
+    "duration": 334,
+    "embedUrl": "https://www.youtube.com/embed/Kib0DmQCLjQ"
+  },
+  {
+    "id": 93,
+    "number": 93,
+    "name": "CIRCUITOS DIGITAIS - Aula 93 - Codificação dos Estados",
+    "duration": 2483,
+    "embedUrl": "https://www.youtube.com/embed/XYAXzeIpNXw"
+  }
+]

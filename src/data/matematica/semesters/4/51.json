@@ -1,0 +1,408 @@
+[
+  {
+    "id": 1990,
+    "number": 1,
+    "name": "Cursos Unicamp: Cálculo III - Introdução - Parte 1",
+    "duration": 2840,
+    "embedUrl": "https://www.youtube.com/embed/lempeC72Tyg"
+  },
+  {
+    "id": 1991,
+    "number": 2,
+    "name": "Cursos Unicamp - Cálculo III - Introdução - Parte 2",
+    "duration": 2505,
+    "embedUrl": "https://www.youtube.com/embed/5waZ5E7F-ew"
+  },
+  {
+    "id": 1992,
+    "number": 3,
+    "name": "Cursos Unicamp - Cálculo III - Equações Separáveis e Métodos de Substituição - Parte 1",
+    "duration": 2461,
+    "embedUrl": "https://www.youtube.com/embed/el8Pwa6ztAQ"
+  },
+  {
+    "id": 1993,
+    "number": 4,
+    "name": "Cursos Unicamp - Cálculo III - Equações Separáveis e Métodos de Substituição - Parte 2",
+    "duration": 2519,
+    "embedUrl": "https://www.youtube.com/embed/VGsIyKQInyk"
+  },
+  {
+    "id": 1994,
+    "number": 5,
+    "name": "Cursos Unicamp - Cálculo III - Equações Exatas, Fatores Integrantes - Parte1",
+    "duration": 2494,
+    "embedUrl": "https://www.youtube.com/embed/_HiODd5x-cs"
+  },
+  {
+    "id": 1995,
+    "number": 6,
+    "name": "Cursos Unicamp - Cálculo III - Equações Exatas, Fatores Integrantes - Parte 2",
+    "duration": 2570,
+    "embedUrl": "https://www.youtube.com/embed/Y5rpaYzRkJA"
+  },
+  {
+    "id": 1996,
+    "number": 7,
+    "name": "Cursos Unicamp - Cálculo III - Teorema de Existência e Unicidade - Parte 1",
+    "duration": 2287,
+    "embedUrl": "https://www.youtube.com/embed/01FK-H7Kbpk"
+  },
+  {
+    "id": 1997,
+    "number": 8,
+    "name": "Cursos Unicamp - Cálculo III - Teorema de Existência e Unicidade - Parte 2",
+    "duration": 2175,
+    "embedUrl": "https://www.youtube.com/embed/B18fCS7laQw"
+  },
+  {
+    "id": 1998,
+    "number": 9,
+    "name": "Cursos Unicamp - Cálculo III - E.D.O Linear de 2ª Ordem; Wronskiano - Parte 1",
+    "duration": 2433,
+    "embedUrl": "https://www.youtube.com/embed/2MxBPMOu69Y"
+  },
+  {
+    "id": 1999,
+    "number": 10,
+    "name": "Cursos Unicamp - Cálculo III - E.D.O Linear de 2ª Ordem; Wronskiano - Parte 2",
+    "duration": 2440,
+    "embedUrl": "https://www.youtube.com/embed/deSbiyiyYYk"
+  },
+  {
+    "id": 2000,
+    "number": 11,
+    "name": "Cursos Unicamp - Cálculo III - Fórmula de Abel; E.D.O Homogênea de Coeficientes Constantes -",
+    "duration": 2533,
+    "embedUrl": "https://www.youtube.com/embed/qpePb6jrVBs"
+  },
+  {
+    "id": 2001,
+    "number": 12,
+    "name": "Cursos Unicamp - Cálculo III - Fórmula de Abel; E.D.O Homogênea de Coeficientes Constantes -",
+    "duration": 2485,
+    "embedUrl": "https://www.youtube.com/embed/HdP4bZDA4vE"
+  },
+  {
+    "id": 2002,
+    "number": 13,
+    "name": "Cursos Unicamp - Cálculo III - Equações de Euler, Redução de Ordem - Parte 1",
+    "duration": 2810,
+    "embedUrl": "https://www.youtube.com/embed/TM_uhRgXfvA"
+  },
+  {
+    "id": 2003,
+    "number": 14,
+    "name": "Cursos Unicamp - Cálculo III - Equações de Euler, Redução de Ordem - Parte 2",
+    "duration": 2491,
+    "embedUrl": "https://www.youtube.com/embed/HSwfq1pH8VE"
+  },
+  {
+    "id": 2004,
+    "number": 15,
+    "name": "Cursos Unicamp - Cálculo III - Método dos Coeficientes Indeterminados - Parte 1",
+    "duration": 2639,
+    "embedUrl": "https://www.youtube.com/embed/ef_-20O-Y5I"
+  },
+  {
+    "id": 2005,
+    "number": 16,
+    "name": "Cursos Unicamp - Cálculo III - Método dos Coeficientes Indeterminados - Parte 2",
+    "duration": 2765,
+    "embedUrl": "https://www.youtube.com/embed/2Vo5CFtftd4"
+  },
+  {
+    "id": 2006,
+    "number": 17,
+    "name": "Cursos Unicamp - Cálculo III - Equações Não Homogêneas, Variação De Parâmetros - 1",
+    "duration": 2516,
+    "embedUrl": "https://www.youtube.com/embed/KlhO-aISAx8"
+  },
+  {
+    "id": 2007,
+    "number": 18,
+    "name": "Cursos Unicamp - Cálculo III - Equações Não Homogêneas, Variação De Parâmetros - 2",
+    "duration": 2527,
+    "embedUrl": "https://www.youtube.com/embed/AviIX_L7zvU"
+  },
+  {
+    "id": 2008,
+    "number": 19,
+    "name": "Cálculo III - Definição da Transformada de Laplace e Cálculo de Transformadas - parte 1",
+    "duration": 2496,
+    "embedUrl": "https://www.youtube.com/embed/bNiw3CMGsK4"
+  },
+  {
+    "id": 2009,
+    "number": 20,
+    "name": "Cálculo III - Definição da Transformada de Laplace e Cálculo de Transformadas - parte 2",
+    "duration": 2456,
+    "embedUrl": "https://www.youtube.com/embed/7npqDO4sJJ4"
+  },
+  {
+    "id": 2010,
+    "number": 21,
+    "name": "Cálculo III - Transformada da Derivada e da Integral; Frações Parciais - Parte 1",
+    "duration": 2759,
+    "embedUrl": "https://www.youtube.com/embed/FQY6EFpQnWQ"
+  },
+  {
+    "id": 2011,
+    "number": 22,
+    "name": "Cálculo III - Transformada da Derivada e da Integral; Frações Parciais - Parte 2",
+    "duration": 2704,
+    "embedUrl": "https://www.youtube.com/embed/3cYKiIpiLuo"
+  },
+  {
+    "id": 2012,
+    "number": 23,
+    "name": "Cálculo III - Derivada e Integral da Transformada; Integral de Convolução - parte 1",
+    "duration": 2555,
+    "embedUrl": "https://www.youtube.com/embed/t7jE0YIyVFs"
+  },
+  {
+    "id": 2013,
+    "number": 24,
+    "name": "Cálculo III - Derivada e Integral da Transformada; Integral de Convolução - parte 2",
+    "duration": 2489,
+    "embedUrl": "https://www.youtube.com/embed/ihmuGerz05c"
+  },
+  {
+    "id": 2014,
+    "number": 25,
+    "name": "Cálculo III - Equações sob Ação de Funções Descontínuas; Função Degrau; parte 1",
+    "duration": 2567,
+    "embedUrl": "https://www.youtube.com/embed/SA8TxzhPQ-I"
+  },
+  {
+    "id": 2015,
+    "number": 26,
+    "name": "Cálculo III - Equações sob Ação de Funções Descontínuas; Função Degrau; Parte 2",
+    "duration": 2415,
+    "embedUrl": "https://www.youtube.com/embed/LiXFcX87eSM"
+  },
+  {
+    "id": 2016,
+    "number": 27,
+    "name": "Cursos Unicamp - Cálculo III - Função Impulso; Delta de Dirac - Parte 1",
+    "duration": 2472,
+    "embedUrl": "https://www.youtube.com/embed/-81_31633gQ"
+  },
+  {
+    "id": 2017,
+    "number": 28,
+    "name": "Cursos Unicamp - Cálculo III - Função Impulso; Delta de Dirac - Parte 2",
+    "duration": 2084,
+    "embedUrl": "https://www.youtube.com/embed/4blJR4ZExko"
+  },
+  {
+    "id": 2018,
+    "number": 29,
+    "name": "Cálculo III - Sistema de Equações Lineares, Coeficientes Constantes - Autovalores Reais - parte1",
+    "duration": 2681,
+    "embedUrl": "https://www.youtube.com/embed/IL7uLqJ2zcU"
+  },
+  {
+    "id": 2019,
+    "number": 30,
+    "name": "Cálculo III - Sistema de Equações Lineares, Coeficientes Constantes - Autovalores Reais - parte 2",
+    "duration": 2409,
+    "embedUrl": "https://www.youtube.com/embed/oM3mXg2jBA4"
+  },
+  {
+    "id": 2020,
+    "number": 31,
+    "name": "Cálculo III - Sistema de Equações Lineares Homogêneas, Autovalores Complexos - parte 1",
+    "duration": 2725,
+    "embedUrl": "https://www.youtube.com/embed/pVwU-3PLtnY"
+  },
+  {
+    "id": 2021,
+    "number": 32,
+    "name": "Cálculo III - Sistema de Equações Lineares Homogêneas, Autovalores Complexos - parte 2",
+    "duration": 2700,
+    "embedUrl": "https://www.youtube.com/embed/oo5Ut1bYVx8"
+  },
+  {
+    "id": 2022,
+    "number": 33,
+    "name": "Cursos Unicamp - Cálculo III - Autovalores Repetidos - Parte 1",
+    "duration": 2687,
+    "embedUrl": "https://www.youtube.com/embed/GAXOW_BaifI"
+  },
+  {
+    "id": 2023,
+    "number": 34,
+    "name": "Cursos Unicamp - Cálculo III - Autovalores Repetidos - Parte 2",
+    "duration": 2497,
+    "embedUrl": "https://www.youtube.com/embed/FQq46peJrHY"
+  },
+  {
+    "id": 2024,
+    "number": 35,
+    "name": "Cursos Unicamp - Cálculo III - Sequências Numéricas - parte 1",
+    "duration": 2607,
+    "embedUrl": "https://www.youtube.com/embed/n1DQChhJpMc"
+  },
+  {
+    "id": 2025,
+    "number": 36,
+    "name": "Cursos Unicamp - Cálculo III - Sequências Numéricas - parte 2",
+    "duration": 2778,
+    "embedUrl": "https://www.youtube.com/embed/QQ5B5fPYFQc"
+  },
+  {
+    "id": 2026,
+    "number": 37,
+    "name": "Cursos Unicamp - Cálculo III - Séries Numéricas; Testes de Convergência - Parte 1",
+    "duration": 2751,
+    "embedUrl": "https://www.youtube.com/embed/JiWKLACcRME"
+  },
+  {
+    "id": 2027,
+    "number": 38,
+    "name": "Cursos Unicamp - Cálculo III - Séries Numéricas; Testes de Convergência - Parte 2",
+    "duration": 2780,
+    "embedUrl": "https://www.youtube.com/embed/AVUjsHZ9Um4"
+  },
+  {
+    "id": 2028,
+    "number": 39,
+    "name": "Cursos Unicamp - Cálculo III - Testes de Convergência e das Séries Alternadas - Parte 1",
+    "duration": 2673,
+    "embedUrl": "https://www.youtube.com/embed/W9BCFKULvaU"
+  },
+  {
+    "id": 2029,
+    "number": 40,
+    "name": "Cursos Unicamp - Cálculo III - Testes de Convergência e das Séries Alternadas - Parte 2",
+    "duration": 3199,
+    "embedUrl": "https://www.youtube.com/embed/cb0apXI5SaM"
+  },
+  {
+    "id": 2030,
+    "number": 41,
+    "name": "Cursos Unicamp - Cálculo III - Séries de Potências - Parte 1",
+    "duration": 2452,
+    "embedUrl": "https://www.youtube.com/embed/w1M69ifBFX4"
+  },
+  {
+    "id": 2031,
+    "number": 42,
+    "name": "Cursos Unicamp - Cálculo III - Séries de Potências - Parte 2",
+    "duration": 2334,
+    "embedUrl": "https://www.youtube.com/embed/PXmcPSLZxmQ"
+  },
+  {
+    "id": 2032,
+    "number": 43,
+    "name": "Cursos Unicamp - Cálculo III - Série de Potências em Ponto Ordinário - Parte 1",
+    "duration": 2918,
+    "embedUrl": "https://www.youtube.com/embed/8STPRjedg44"
+  },
+  {
+    "id": 2033,
+    "number": 44,
+    "name": "Cursos Unicamp - Cálculo III - Série de Potências em Ponto Ordinário - Parte 2",
+    "duration": 2839,
+    "embedUrl": "https://www.youtube.com/embed/C1FRI5CRQIo"
+  },
+  {
+    "id": 2034,
+    "number": 45,
+    "name": "Cursos Unicamp - Cálculo III - Exemplos; Ponto Singular Regular - Parte 1",
+    "duration": 2675,
+    "embedUrl": "https://www.youtube.com/embed/-xnGlLO4nbM"
+  },
+  {
+    "id": 2035,
+    "number": 46,
+    "name": "Cursos Unicamp - Cálculo III - Exemplos; Ponto Singular Regular - Parte 2",
+    "duration": 2758,
+    "embedUrl": "https://www.youtube.com/embed/gPoVK0acKCE"
+  },
+  {
+    "id": 2036,
+    "number": 47,
+    "name": "Cursos Unicamp - Cálculo III - Séries de Potências em Ponto Singular Regular - Parte 1",
+    "duration": 2599,
+    "embedUrl": "https://www.youtube.com/embed/B_bjR1xeGCU"
+  },
+  {
+    "id": 2037,
+    "number": 48,
+    "name": "Cursos Unicamp - Cálculo III - Séries de Potências em Ponto Singular Regular - Parte 2",
+    "duration": 2466,
+    "embedUrl": "https://www.youtube.com/embed/YnGY-dHNKYE"
+  },
+  {
+    "id": 2038,
+    "number": 49,
+    "name": "Cursos Unicamp - Cálculo III - Solução em Série; Ponto Singular Regular - Parte 1",
+    "duration": 2487,
+    "embedUrl": "https://www.youtube.com/embed/dSIwvBQ7AzQ"
+  },
+  {
+    "id": 2039,
+    "number": 50,
+    "name": "Cursos Unicamp - Cálculo III - Solução em Série; Ponto Singular Regular - Parte 2",
+    "duration": 2667,
+    "embedUrl": "https://www.youtube.com/embed/5KV5flB5cHA"
+  },
+  {
+    "id": 2040,
+    "number": 51,
+    "name": "Cursos Unicamp - Cálculo III - Séries de Fourier - Parte 1",
+    "duration": 2669,
+    "embedUrl": "https://www.youtube.com/embed/vEd-7rDFXNg"
+  },
+  {
+    "id": 2041,
+    "number": 52,
+    "name": "Cursos Unicamp - Cálculo III - Séries de Fourier - Parte 2",
+    "duration": 2574,
+    "embedUrl": "https://www.youtube.com/embed/p3-yeI9LINU"
+  },
+  {
+    "id": 2042,
+    "number": 53,
+    "name": "Cursos Unicamp - Cálculo III - Funções Pares e Ímpares; Extensão Periódica - Parte 1",
+    "duration": 2415,
+    "embedUrl": "https://www.youtube.com/embed/AZh6vZQmRSQ"
+  },
+  {
+    "id": 2043,
+    "number": 54,
+    "name": "Cursos Unicamp - Cálculo III - Funções Pares e Ímpares; Extensão Periódica - Parte 2",
+    "duration": 2655,
+    "embedUrl": "https://www.youtube.com/embed/0Rv2_xLrCm8"
+  },
+  {
+    "id": 2044,
+    "number": 55,
+    "name": "Cursos Unicamp - Cálculo III - Separação de Variáveis; Equação do Calor - Parte 1",
+    "duration": 2328,
+    "embedUrl": "https://www.youtube.com/embed/zc9WbbIJMjI"
+  },
+  {
+    "id": 2045,
+    "number": 56,
+    "name": "Cursos Unicamp - Cálculo III - Separação de Variáveis; Equação do Calor - Parte 2",
+    "duration": 2074,
+    "embedUrl": "https://www.youtube.com/embed/hhUXVJVlTes"
+  },
+  {
+    "id": 2046,
+    "number": 57,
+    "name": "Cursos Unicamp - Cálculo III - Equação da Onda e de Laplace - Parte 1",
+    "duration": 1559,
+    "embedUrl": "https://www.youtube.com/embed/ybwwDTRCzCA"
+  },
+  {
+    "id": 2047,
+    "number": 58,
+    "name": "Cursos Unicamp - Cálculo III - Equação da Onda e de Laplace - Parte 2",
+    "duration": 1400,
+    "embedUrl": "https://www.youtube.com/embed/mIXFe3BDM2s"
+  }
+]

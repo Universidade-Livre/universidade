@@ -1,0 +1,163 @@
+[
+  {
+    "id": 435,
+    "number": 1,
+    "name": "MAT3457 - Álgebra Linear 1 - Aula 1",
+    "duration": 4466,
+    "embedUrl": "https://www.youtube.com/embed/-JcQJFNVjaA"
+  },
+  {
+    "id": 436,
+    "number": 2,
+    "name": "MAT3457 - Álgebra Linear 1 - Aula 2",
+    "duration": 5578,
+    "embedUrl": "https://www.youtube.com/embed/A7hwTnMmW_s"
+  },
+  {
+    "id": 437,
+    "number": 3,
+    "name": "MAT3457 - Álgebra Linear 1 - Aula 3",
+    "duration": 5556,
+    "embedUrl": "https://www.youtube.com/embed/iaMTWxAS8FA"
+  },
+  {
+    "id": 438,
+    "number": 4,
+    "name": "MAT3457 - Álgebra Linear 1 - Aula 4",
+    "duration": 4999,
+    "embedUrl": "https://www.youtube.com/embed/s2-JsZ9lqik"
+  },
+  {
+    "id": 439,
+    "number": 5,
+    "name": "MAT3457 - Álgebra Linear 1 - Aula 5",
+    "duration": 5576,
+    "embedUrl": "https://www.youtube.com/embed/pCiXN-Tv4ws"
+  },
+  {
+    "id": 440,
+    "number": 6,
+    "name": "MAT3457 - Álgebra Linear 1 - Aula 6",
+    "duration": 5040,
+    "embedUrl": "https://www.youtube.com/embed/YvbMICRHt7w"
+  },
+  {
+    "id": 441,
+    "number": 7,
+    "name": "MAT3457 - Álgebra Linear 1 - Aula 7",
+    "duration": 5049,
+    "embedUrl": "https://www.youtube.com/embed/Hd--TEyYB5Y"
+  },
+  {
+    "id": 442,
+    "number": 8,
+    "name": "MAT3457 - Álgebra Linear 1 - Aula 8",
+    "duration": 5075,
+    "embedUrl": "https://www.youtube.com/embed/SJluqRqHmss"
+  },
+  {
+    "id": 443,
+    "number": 9,
+    "name": "MAT3457 - Álgebra Linear 1 - Aula 9",
+    "duration": 5476,
+    "embedUrl": "https://www.youtube.com/embed/6dSJViDpe8U"
+  },
+  {
+    "id": 444,
+    "number": 10,
+    "name": "MAT3457 - Álgebra Linear - Aula 10",
+    "duration": 5751,
+    "embedUrl": "https://www.youtube.com/embed/jwnS3bPn0zg"
+  },
+  {
+    "id": 445,
+    "number": 11,
+    "name": "MAT3457 - Álgebra Linear 1 - Aula 11",
+    "duration": 5642,
+    "embedUrl": "https://www.youtube.com/embed/1_pZ3C84JsU"
+  },
+  {
+    "id": 446,
+    "number": 12,
+    "name": "MAT3457 - Álgebra Linear 1 - Aula 12",
+    "duration": 5949,
+    "embedUrl": "https://www.youtube.com/embed/iSzRjrEEWsI"
+  },
+  {
+    "id": 447,
+    "number": 13,
+    "name": "MAT3457 - Álgebra Linear 1 - Aula 13",
+    "duration": 5210,
+    "embedUrl": "https://www.youtube.com/embed/RswSNr9jOLY"
+  },
+  {
+    "id": 448,
+    "number": 14,
+    "name": "MAT3457 - Álgebra Linear 1 - Aula 14",
+    "duration": 5673,
+    "embedUrl": "https://www.youtube.com/embed/yX8LBubhTJE"
+  },
+  {
+    "id": 449,
+    "number": 15,
+    "name": "MAT3457 - Álgebra Linear 1 - Aula 15",
+    "duration": 5531,
+    "embedUrl": "https://www.youtube.com/embed/v80av6PH6ls"
+  },
+  {
+    "id": 450,
+    "number": 16,
+    "name": "MAT3457 - Álgebra Linear 1 - Aula 16",
+    "duration": 5334,
+    "embedUrl": "https://www.youtube.com/embed/W9v4ALFfgjc"
+  },
+  {
+    "id": 451,
+    "number": 17,
+    "name": "MAT3457 - Álgebra Linear 1 - Aula 18",
+    "duration": 5264,
+    "embedUrl": "https://www.youtube.com/embed/lsrQcnmt7Pw"
+  },
+  {
+    "id": 452,
+    "number": 18,
+    "name": "MAT3457 - Álgebra Linear 1 - Aula 19",
+    "duration": 5611,
+    "embedUrl": "https://www.youtube.com/embed/3suEs11W6a4"
+  },
+  {
+    "id": 453,
+    "number": 19,
+    "name": "MAT3457 - Álgebra Linear 1 - Aula 20",
+    "duration": 5332,
+    "embedUrl": "https://www.youtube.com/embed/QCijNiH7ywQ"
+  },
+  {
+    "id": 454,
+    "number": 20,
+    "name": "MAT3457 - Álgebra Linear 1 - Aula 21",
+    "duration": 5453,
+    "embedUrl": "https://www.youtube.com/embed/wR3-xbXzuvc"
+  },
+  {
+    "id": 455,
+    "number": 21,
+    "name": "MAT3457 - Álgebra Linear 1 - Aula 22",
+    "duration": 5716,
+    "embedUrl": "https://www.youtube.com/embed/_XPIcck8-vI"
+  },
+  {
+    "id": 456,
+    "number": 22,
+    "name": "MAT3457 - Álgebra Linear 1 - Aula 23",
+    "duration": 5688,
+    "embedUrl": "https://www.youtube.com/embed/RtM-iHgHplA"
+  },
+  {
+    "id": 457,
+    "number": 23,
+    "name": "MAT3457 - Álgebra Linear 1 - Aula 24",
+    "duration": 5895,
+    "embedUrl": "https://www.youtube.com/embed/GLGIUXii0zU"
+  }
+]

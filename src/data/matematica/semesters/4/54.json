@@ -1,0 +1,324 @@
+[
+  {
+    "id": 2088,
+    "number": 1,
+    "name": "Aula 1 - Capítulo 1 - Forma Padrão (parte 1)",
+    "duration": 1069,
+    "embedUrl": "https://www.youtube.com/embed/Nd9W6Rl98Z0"
+  },
+  {
+    "id": 2089,
+    "number": 2,
+    "name": "Aula 2 - Capítulo 1 - Forma Padrão (parte 2)",
+    "duration": 1571,
+    "embedUrl": "https://www.youtube.com/embed/FSAe1y1haqY"
+  },
+  {
+    "id": 2090,
+    "number": 3,
+    "name": "Aula 3  - Capítulo2  - Simplex (introdução)",
+    "duration": 1701,
+    "embedUrl": "https://www.youtube.com/embed/GTM3fYhQYOQ"
+  },
+  {
+    "id": 2091,
+    "number": 4,
+    "name": "Aula 4 - Capítulo 2 - Simplex (descrição geral)",
+    "duration": 1780,
+    "embedUrl": "https://www.youtube.com/embed/6m6u1HP563I"
+  },
+  {
+    "id": 2092,
+    "number": 5,
+    "name": "Aula 5 - Capítulo 2 - Simplex (algoritmo)",
+    "duration": 1430,
+    "embedUrl": "https://www.youtube.com/embed/GzXKUw047hw"
+  },
+  {
+    "id": 2093,
+    "number": 6,
+    "name": "Aula 6 - Capítulo 2 - Simplex (um exemplo)",
+    "duration": 684,
+    "embedUrl": "https://www.youtube.com/embed/YlWttOQz3HY"
+  },
+  {
+    "id": 2094,
+    "number": 7,
+    "name": "Aula 7 - Capítulo 2 - Simplex (interpretação geométrica)",
+    "duration": 843,
+    "embedUrl": "https://www.youtube.com/embed/MwmOym3xTs0"
+  },
+  {
+    "id": 2095,
+    "number": 8,
+    "name": "Aula 8 - Capítulo 2 - Simplex (uma fase)",
+    "duration": 880,
+    "embedUrl": "https://www.youtube.com/embed/FmEZfCCrJbs"
+  },
+  {
+    "id": 2096,
+    "number": 9,
+    "name": "Aula 9 - Capítulo 2 - Simplex (duas fases - um exemplo)",
+    "duration": 1443,
+    "embedUrl": "https://www.youtube.com/embed/I7NpViAytDQ"
+  },
+  {
+    "id": 2097,
+    "number": 10,
+    "name": "Aula 10 - Capítulo 2 - Simplex (corretude do algoritmo)",
+    "duration": 1106,
+    "embedUrl": "https://www.youtube.com/embed/RvRxWHaGsx0"
+  },
+  {
+    "id": 2098,
+    "number": 11,
+    "name": "Aula 11 - Capítulo 3 - Teoria do Método Simplex (conjuntos convexos)",
+    "duration": 1083,
+    "embedUrl": "https://www.youtube.com/embed/S6bZRp_3ptM"
+  },
+  {
+    "id": 2099,
+    "number": 12,
+    "name": "Aula 12 - Capítulo 3 - Teoria do Método Simplex (cones)",
+    "duration": 551,
+    "embedUrl": "https://www.youtube.com/embed/EwQatmRDAEg"
+  },
+  {
+    "id": 2100,
+    "number": 13,
+    "name": "Aula13 - Capítulo 3 - Teoria do Método Simplex (direções viáveis)",
+    "duration": 2386,
+    "embedUrl": "https://www.youtube.com/embed/MVU0sJNScyk"
+  },
+  {
+    "id": 2101,
+    "number": 14,
+    "name": "Aula14 - Capítulo 3 - Teoria do Método Simplex (vértices)",
+    "duration": 1950,
+    "embedUrl": "https://www.youtube.com/embed/zB-VL7ffyL0"
+  },
+  {
+    "id": 2102,
+    "number": 15,
+    "name": "Aula 15 - Capítulo 3 - Teoria do Método Simplex (otimalidade)",
+    "duration": 1185,
+    "embedUrl": "https://www.youtube.com/embed/CnfG8Xy7GoI"
+  },
+  {
+    "id": 2103,
+    "number": 16,
+    "name": "Aula 16 - Capítulo 3 - Teoria do Método Simplex (ilimitação)",
+    "duration": 658,
+    "embedUrl": "https://www.youtube.com/embed/mKS_NmeLY6w"
+  },
+  {
+    "id": 2104,
+    "number": 17,
+    "name": "Aula 17 - Capítulo 3 - Teoria do Método Simplex (teoria x algoritmo)",
+    "duration": 1139,
+    "embedUrl": "https://www.youtube.com/embed/XjNrE8wsZwk"
+  },
+  {
+    "id": 2105,
+    "number": 18,
+    "name": "Aula18 - Capítulo 4 - Simplex Revisado (algoritmo)",
+    "duration": 1104,
+    "embedUrl": "https://www.youtube.com/embed/kjceZunhDWM"
+  },
+  {
+    "id": 2106,
+    "number": 19,
+    "name": "Aula19 - Capítulo 4 - Simplex Revisado (um exemplo)",
+    "duration": 1197,
+    "embedUrl": "https://www.youtube.com/embed/r3DhPxP1gaw"
+  },
+  {
+    "id": 2107,
+    "number": 20,
+    "name": "Aula 20 - Capítulo 4 - Simplex Revisado (geração de colunas)",
+    "duration": 758,
+    "embedUrl": "https://www.youtube.com/embed/s8qUDqFoO00"
+  },
+  {
+    "id": 2108,
+    "number": 21,
+    "name": "Aula 21 - Capítulo 5 - Ciclagem",
+    "duration": 543,
+    "embedUrl": "https://www.youtube.com/embed/LPBlFnsGC30"
+  },
+  {
+    "id": 2109,
+    "number": 22,
+    "name": "Aula 22 - Capítulo 5 - Degeneração",
+    "duration": 709,
+    "embedUrl": "https://www.youtube.com/embed/yWtkKj6D6gk"
+  },
+  {
+    "id": 2110,
+    "number": 23,
+    "name": "Aula 23 - Capítulo 5 - Simplex Lexicográfico",
+    "duration": 1635,
+    "embedUrl": "https://www.youtube.com/embed/0oiICsTcJeQ"
+  },
+  {
+    "id": 2111,
+    "number": 24,
+    "name": "Aula 24 - Capítulo 5 - Simplex Lexicográfico (um exemplo)",
+    "duration": 632,
+    "embedUrl": "https://www.youtube.com/embed/pguLjtu0bSQ"
+  },
+  {
+    "id": 2112,
+    "number": 25,
+    "name": "Aula 25 - Capítulo 5 -  Corretude do Simplex Lexicográfico",
+    "duration": 1509,
+    "embedUrl": "https://www.youtube.com/embed/I6xT9tpRraU"
+  },
+  {
+    "id": 2113,
+    "number": 26,
+    "name": "Aula 26 - Capítulo 6 - Dualidade (o problema dual)",
+    "duration": 1580,
+    "embedUrl": "https://www.youtube.com/embed/lahJwa8yjjQ"
+  },
+  {
+    "id": 2114,
+    "number": 27,
+    "name": "Aula 27 - Capítulo 6 - Dualidade (pares primal-dual)",
+    "duration": 1150,
+    "embedUrl": "https://www.youtube.com/embed/w8ss4wywQd0"
+  },
+  {
+    "id": 2115,
+    "number": 28,
+    "name": "Aula 28 - Capítulo 6 - Dualidade (teoremas)",
+    "duration": 1513,
+    "embedUrl": "https://www.youtube.com/embed/nFlObcXjkP0"
+  },
+  {
+    "id": 2116,
+    "number": 29,
+    "name": "Aula 29 - Capítulo 6 - Dualidade (obtenção de solução ótima)",
+    "duration": 1110,
+    "embedUrl": "https://www.youtube.com/embed/a_7ltD_nUIo"
+  },
+  {
+    "id": 2117,
+    "number": 30,
+    "name": "Aula 30 - Capítulo 6 - Dualidade (interpretação geométrica)",
+    "duration": 974,
+    "embedUrl": "https://www.youtube.com/embed/My100QKvGG8"
+  },
+  {
+    "id": 2118,
+    "number": 31,
+    "name": "Aula 31 - Capítulo 6 - Dualidade (interpretação econômica)",
+    "duration": 608,
+    "embedUrl": "https://www.youtube.com/embed/eE58GeICsSE"
+  },
+  {
+    "id": 2119,
+    "number": 32,
+    "name": "Aula 32 - Capítulo 7 - Método Dual Simplex",
+    "duration": 1385,
+    "embedUrl": "https://www.youtube.com/embed/qczkk6LCL6c"
+  },
+  {
+    "id": 2120,
+    "number": 33,
+    "name": "Aula 33 - Capítulo 7 - Exemplo Dual Simplex",
+    "duration": 374,
+    "embedUrl": "https://www.youtube.com/embed/hfzzuyhkYQ4"
+  },
+  {
+    "id": 2121,
+    "number": 34,
+    "name": "Aula 34 - Capítulo 7 - Interpretação geométrica",
+    "duration": 594,
+    "embedUrl": "https://www.youtube.com/embed/4zWTAQA3uN4"
+  },
+  {
+    "id": 2122,
+    "number": 35,
+    "name": "Aula 35 - Capítulo 7 - Solução básica dual viável inicial (parte 1)",
+    "duration": 904,
+    "embedUrl": "https://www.youtube.com/embed/D_JNvBV_HD0"
+  },
+  {
+    "id": 2123,
+    "number": 36,
+    "name": "Aula 36 - Capítulo 7 - Solução básica dual viável inicial (parte 2)",
+    "duration": 916,
+    "embedUrl": "https://www.youtube.com/embed/TwCLI59Lk44"
+  },
+  {
+    "id": 2124,
+    "number": 37,
+    "name": "Aula 37 - Capítulo 8 - Mudança nos coeficientes da função objetivo",
+    "duration": 1003,
+    "embedUrl": "https://www.youtube.com/embed/UCNk9D5C8Kk"
+  },
+  {
+    "id": 2125,
+    "number": 38,
+    "name": "Aula 38 - Capítulo 8 - Mudança nos termos independentes das restrições",
+    "duration": 427,
+    "embedUrl": "https://www.youtube.com/embed/3KTfKnmfqWM"
+  },
+  {
+    "id": 2126,
+    "number": 39,
+    "name": "Aula 39 - Capítulo 8 - Acréscimo de variáveis",
+    "duration": 352,
+    "embedUrl": "https://www.youtube.com/embed/IPREfcQu358"
+  },
+  {
+    "id": 2127,
+    "number": 40,
+    "name": "Aula 40 - Capítulo 8 - Acréscimo de restrições",
+    "duration": 619,
+    "embedUrl": "https://www.youtube.com/embed/_QvVMqunUvA"
+  },
+  {
+    "id": 2128,
+    "number": 41,
+    "name": "Aula 41 - Capítulo 8 - Parametrização dos coeficientes da função objetivo (vetor c)",
+    "duration": 722,
+    "embedUrl": "https://www.youtube.com/embed/jME-0dA4jpM"
+  },
+  {
+    "id": 2129,
+    "number": 42,
+    "name": "Aula 42 - Capítulo 8 -  Exemplo de parametrização dos coeficientes da função objetivo (vetor c)",
+    "duration": 731,
+    "embedUrl": "https://www.youtube.com/embed/6gJiUuMvQt4"
+  },
+  {
+    "id": 2130,
+    "number": 43,
+    "name": "Aula 43 - Capítulo 8 - Exemplo com multi parâmetros (vetor c)",
+    "duration": 673,
+    "embedUrl": "https://www.youtube.com/embed/PTZW36ZCE0A"
+  },
+  {
+    "id": 2131,
+    "number": 44,
+    "name": "Aula 44 - Capítulo 8 - Parametrização dos termos independentes das restrições (vetor b)",
+    "duration": 614,
+    "embedUrl": "https://www.youtube.com/embed/dvb-0FfsZzA"
+  },
+  {
+    "id": 2132,
+    "number": 45,
+    "name": "Aula 45 - Capítulo 8 - Exemplo de parametrização dos termos independentes das restrições (vetor b)",
+    "duration": 736,
+    "embedUrl": "https://www.youtube.com/embed/2jpZaUU8DNY"
+  },
+  {
+    "id": 2133,
+    "number": 46,
+    "name": "Aula 46 - Capítulo 8 -  Exemplo de multi parâmetros (vetor b)",
+    "duration": 788,
+    "embedUrl": "https://www.youtube.com/embed/Duaxr8LOUQs"
+  }
+]

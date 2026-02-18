@@ -1,0 +1,107 @@
+[
+  {
+    "id": 2073,
+    "number": 1,
+    "name": "Estatística e Probabilidade  - Apresentação da disciplina",
+    "duration": 192,
+    "embedUrl": "https://www.youtube.com/embed/7VQE278hIXc"
+  },
+  {
+    "id": 2074,
+    "number": 2,
+    "name": "Estatística e Probabilidade - Aula 01 - Aleatoriedade",
+    "duration": 1055,
+    "embedUrl": "https://www.youtube.com/embed/VRiFnz7Di20"
+  },
+  {
+    "id": 2075,
+    "number": 3,
+    "name": "Estatística e Probabilidade - Aula 02  - Pensamento probabilístico",
+    "duration": 851,
+    "embedUrl": "https://www.youtube.com/embed/F5FcmpAfGuE"
+  },
+  {
+    "id": 2076,
+    "number": 4,
+    "name": "Estatística e Probabilidade - Aula 03 - Análise combinatória - parte I",
+    "duration": 851,
+    "embedUrl": "https://www.youtube.com/embed/avPlaW1oW_A"
+  },
+  {
+    "id": 2077,
+    "number": 5,
+    "name": "Estatística e Probabilidade - Aula 04 - Análise combinatória - parte II",
+    "duration": 717,
+    "embedUrl": "https://www.youtube.com/embed/bSPk4LVZgDg"
+  },
+  {
+    "id": 2078,
+    "number": 6,
+    "name": "Estatística e Probabilidade - Aula 05 - Metodologia de pesquisa",
+    "duration": 423,
+    "embedUrl": "https://www.youtube.com/embed/7qmZM8VhwP0"
+  },
+  {
+    "id": 2079,
+    "number": 7,
+    "name": "Estatística e Probabilidade - Aula 06 - Metodologia Científica",
+    "duration": 1448,
+    "embedUrl": "https://www.youtube.com/embed/3FLBgd33_lI"
+  },
+  {
+    "id": 2080,
+    "number": 8,
+    "name": "Estatística e Probabilidade - Aula 07 - Tabelas",
+    "duration": 1171,
+    "embedUrl": "https://www.youtube.com/embed/gBOer0OnF4c"
+  },
+  {
+    "id": 2081,
+    "number": 9,
+    "name": "Estatística e Probabilidade - Aula 08 - Gráficos",
+    "duration": 1332,
+    "embedUrl": "https://www.youtube.com/embed/0R-UQLRk4VI"
+  },
+  {
+    "id": 2082,
+    "number": 10,
+    "name": "Estatística e Probabilidade - Aula 09 - Níveis de mensuração e seleção de métodos de análise",
+    "duration": 1164,
+    "embedUrl": "https://www.youtube.com/embed/TmjWDmmN75c"
+  },
+  {
+    "id": 2083,
+    "number": 11,
+    "name": "Estatística e Probabilidade - Aula 10 - Medidas de tendência central e de variabilidade",
+    "duration": 1342,
+    "embedUrl": "https://www.youtube.com/embed/efy2kjExwTU"
+  },
+  {
+    "id": 2084,
+    "number": 12,
+    "name": "Estatística e Probabilidade - Aula 11 - Inferências",
+    "duration": 1289,
+    "embedUrl": "https://www.youtube.com/embed/FM9tz8U2g2k"
+  },
+  {
+    "id": 2085,
+    "number": 13,
+    "name": "Estatística e Probabilidade - Aula 12 - Teste Qui-quadrado",
+    "duration": 1061,
+    "embedUrl": "https://www.youtube.com/embed/4QfHVbpAoSg"
+  },
+  {
+    "id": 2086,
+    "number": 14,
+    "name": "Estatística e Probabilidade - Aula 13 - Teste t de Student",
+    "duration": 686,
+    "embedUrl": "https://www.youtube.com/embed/AgDC9yoopUA"
+  },
+  {
+    "id": 2087,
+    "number": 15,
+    "name": "Estatística e Probabilidade - Aula 14 - Análise de Variância (ANOVA)",
+    "duration": 804,
+    "embedUrl": "https://www.youtube.com/embed/1ceP2FL5fzE"
+  }
+]

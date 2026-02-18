@@ -1,0 +1,48 @@
+services:
+  nextjs:
+    # build:
+    #   context: .
+    #   dockerfile: Dockerfile
+    image: ghcr.io/freitasspedro/ubl:latest
+    init: true
+    container_name: ubl-nextjs
+    ports:
+      - "3000:3000"
+      - "5555:5555"
+    environment:
+      DATABASE_URL: postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@postgres:5432/${POSTGRES_DB}
+      BETTER_AUTH_URL: ${BETTER_AUTH_URL}
+      BETTER_AUTH_SECRET: ${BETTER_AUTH_SECRET}
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - ubl-network
+    restart: unless-stopped
+
+  postgres:
+    image: postgres:18-alpine
+    container_name: ubl-postgres
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    volumes:
+      - ubl-postgres-data:/var/lib/postgresql/data
+    networks:
+      - ubl-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  ubl-postgres-data:
+
+networks:
+  ubl-network:
+    external: true

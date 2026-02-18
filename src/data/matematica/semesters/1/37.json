@@ -1,0 +1,100 @@
+[
+  {
+    "id": 1462,
+    "number": 1,
+    "name": "Teoria dos Conjuntos 01 - Fundamentos axiomáticos (Parte 1)",
+    "duration": 6128,
+    "embedUrl": "https://www.youtube.com/embed/CtDH3J7oFcI"
+  },
+  {
+    "id": 1463,
+    "number": 2,
+    "name": "Teoria dos Conjuntos 02 | Fundamentos axiomáticos (Parte 2)",
+    "duration": 5464,
+    "embedUrl": "https://www.youtube.com/embed/tHSqEdIklQQ"
+  },
+  {
+    "id": 1464,
+    "number": 3,
+    "name": "Teoria dos Conjuntos 03 | Operações entre conjuntos",
+    "duration": 4912,
+    "embedUrl": "https://www.youtube.com/embed/epyIFVbwj9s"
+  },
+  {
+    "id": 1465,
+    "number": 4,
+    "name": "Teoria dos Conjuntos 04 | Relações e funções",
+    "duration": 4411,
+    "embedUrl": "https://www.youtube.com/embed/pXcX2M-CgVA"
+  },
+  {
+    "id": 1466,
+    "number": 5,
+    "name": "Teoria dos Conjuntos 05 | Imagens diretas e inversas",
+    "duration": 2475,
+    "embedUrl": "https://www.youtube.com/embed/r_7Urp1nL6s"
+  },
+  {
+    "id": 1467,
+    "number": 6,
+    "name": "Teoria dos Conjuntos 06 | Funções injetivas, sobrejetivas e bijetivas",
+    "duration": 4442,
+    "embedUrl": "https://www.youtube.com/embed/pxALoHkoe98"
+  },
+  {
+    "id": 1468,
+    "number": 7,
+    "name": "Teoria dos Conjuntos 07 | Números naturais: os axiomas de Peano",
+    "duration": 3895,
+    "embedUrl": "https://www.youtube.com/embed/6wEMsEgl1Zc"
+  },
+  {
+    "id": 1469,
+    "number": 8,
+    "name": "Teoria dos Conjuntos 08 | O produto de números naturais",
+    "duration": 3836,
+    "embedUrl": "https://www.youtube.com/embed/FOo44NmhpLo"
+  },
+  {
+    "id": 1470,
+    "number": 9,
+    "name": "Teoria dos Conjuntos 09 | A ordem nos números naturais",
+    "duration": 6972,
+    "embedUrl": "https://www.youtube.com/embed/c9IrBTK8-Jo"
+  },
+  {
+    "id": 1471,
+    "number": 10,
+    "name": "Teoria dos Conjuntos 10 | Conjuntos finitos (Parte 1)",
+    "duration": 4443,
+    "embedUrl": "https://www.youtube.com/embed/i5u1gqWkG24"
+  },
+  {
+    "id": 1472,
+    "number": 11,
+    "name": "Teoria dos Conjuntos 11 | Conjuntos finitos (Parte 2)",
+    "duration": 5436,
+    "embedUrl": "https://www.youtube.com/embed/XEX_tJ_-1NI"
+  },
+  {
+    "id": 1473,
+    "number": 12,
+    "name": "Teoria dos Conjuntos 12 | Conjuntos finitos (Parte 3)",
+    "duration": 4665,
+    "embedUrl": "https://www.youtube.com/embed/0LzkSSy44sA"
+  },
+  {
+    "id": 1474,
+    "number": 13,
+    "name": "Teoria dos Conjuntos 13 | Conjuntos enumeráveis (Parte 1)",
+    "duration": 4377,
+    "embedUrl": "https://www.youtube.com/embed/5trNsGo6yWE"
+  },
+  {
+    "id": 1475,
+    "number": 14,
+    "name": "Teoria dos Conjuntos 14 | Conjuntos enumeráveis (Parte 2)",
+    "duration": 3090,
+    "embedUrl": "https://www.youtube.com/embed/uTZgVM8c-18"
+  }
+]

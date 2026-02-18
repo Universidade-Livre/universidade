@@ -1,0 +1,177 @@
+[
+  {
+    "id": 573,
+    "number": 1,
+    "name": "Apresentação da Disciplina (Turma 01)",
+    "duration": 4799,
+    "embedUrl": "https://www.youtube.com/embed/fjOiu6CD5pc"
+  },
+  {
+    "id": 574,
+    "number": 2,
+    "name": "Introdução, conceitos e definições Turma 01",
+    "duration": 4382,
+    "embedUrl": "https://www.youtube.com/embed/lBUPslIZX_w"
+  },
+  {
+    "id": 575,
+    "number": 3,
+    "name": "Introdução, conceitos e definições (Continuação) Turma 01",
+    "duration": 4215,
+    "embedUrl": "https://www.youtube.com/embed/zQQSpHsVrmk"
+  },
+  {
+    "id": 576,
+    "number": 4,
+    "name": "Subgrafos e Conectividade Turma 01",
+    "duration": 3034,
+    "embedUrl": "https://www.youtube.com/embed/vQV1eg0SXi0"
+  },
+  {
+    "id": 577,
+    "number": 5,
+    "name": "Trilha, Passeio, Caminho, Ciclo e Árvore (Turma 01)",
+    "duration": 3896,
+    "embedUrl": "https://www.youtube.com/embed/oYS7tmFO-qg"
+  },
+  {
+    "id": 578,
+    "number": 6,
+    "name": "Grafos Hamiltonianos e Eulerianos (Turma 01)",
+    "duration": 4392,
+    "embedUrl": "https://www.youtube.com/embed/xk2tUn-jTd0"
+  },
+  {
+    "id": 579,
+    "number": 7,
+    "name": "Clique, Conjunto Independente e Cobertura de Vértice (Turma 01)",
+    "duration": 4825,
+    "embedUrl": "https://www.youtube.com/embed/R9pvWpDkU7w"
+  },
+  {
+    "id": 580,
+    "number": 8,
+    "name": "Conjunto Dominante, Emparelhamento e Coloração (Turma 01)",
+    "duration": 5383,
+    "embedUrl": "https://www.youtube.com/embed/jO8IrUDCJCg"
+  },
+  {
+    "id": 581,
+    "number": 9,
+    "name": "Grafos Planares (Turma 01)",
+    "duration": 3578,
+    "embedUrl": "https://www.youtube.com/embed/qfBTH33umQs"
+  },
+  {
+    "id": 582,
+    "number": 10,
+    "name": "Correção da 1ª Avaliação (Turma 01)",
+    "duration": 2277,
+    "embedUrl": "https://www.youtube.com/embed/QufEjJ6MUm8"
+  },
+  {
+    "id": 583,
+    "number": 11,
+    "name": "Representação Computacional (Turma 01)",
+    "duration": 4189,
+    "embedUrl": "https://www.youtube.com/embed/xKWwY__KhRA"
+  },
+  {
+    "id": 584,
+    "number": 12,
+    "name": "Representação Computacional Codificação (Turma 01)",
+    "duration": 2542,
+    "embedUrl": "https://www.youtube.com/embed/JLtaPTcskAc"
+  },
+  {
+    "id": 585,
+    "number": 13,
+    "name": "Busca em profundidade (Turma 01)",
+    "duration": 4577,
+    "embedUrl": "https://www.youtube.com/embed/46Fle4eSUYE"
+  },
+  {
+    "id": 586,
+    "number": 14,
+    "name": "Busca em profundidade e nomenclatura das arestas (Turma 01)",
+    "duration": 4166,
+    "embedUrl": "https://www.youtube.com/embed/J763btsCJ0A"
+  },
+  {
+    "id": 587,
+    "number": 15,
+    "name": "Busca em profundidade - implementação (Turma 01)",
+    "duration": 1270,
+    "embedUrl": "https://www.youtube.com/embed/PXEcdAkqNlM"
+  },
+  {
+    "id": 588,
+    "number": 16,
+    "name": "Ordenação Topológica e Componentes Conexas (Turma 01)",
+    "duration": 4451,
+    "embedUrl": "https://www.youtube.com/embed/8WeIVOef2tU"
+  },
+  {
+    "id": 589,
+    "number": 17,
+    "name": "Busca em Largura - Turma 01",
+    "duration": 4058,
+    "embedUrl": "https://www.youtube.com/embed/2hPMnCKaiqE"
+  },
+  {
+    "id": 590,
+    "number": 18,
+    "name": "Busca em Largura - Implementação (Turma 01)",
+    "duration": 2206,
+    "embedUrl": "https://www.youtube.com/embed/SXS1eSl2wRc"
+  },
+  {
+    "id": 591,
+    "number": 19,
+    "name": "Caminho Mínimo - Algoritmo de Dijkstra (Turma 01)",
+    "duration": 3784,
+    "embedUrl": "https://www.youtube.com/embed/1ufKJYglAxU"
+  },
+  {
+    "id": 592,
+    "number": 20,
+    "name": "Caminho mínimo - algoritmo de Bellman-Ford (Turma 01)",
+    "duration": 4124,
+    "embedUrl": "https://www.youtube.com/embed/DuSxO9cX73s"
+  },
+  {
+    "id": 593,
+    "number": 21,
+    "name": "Árvore Geradora Mínima - Algoritmo de Prim (Turma 01)",
+    "duration": 4172,
+    "embedUrl": "https://www.youtube.com/embed/nMQId9eMOF8"
+  },
+  {
+    "id": 594,
+    "number": 22,
+    "name": "Árvore Geradora Mínima - Algoritmo de Kruskal (Turma 01)",
+    "duration": 3592,
+    "embedUrl": "https://www.youtube.com/embed/Rd8uBFYl07A"
+  },
+  {
+    "id": 595,
+    "number": 23,
+    "name": "Revisão para 2ª Avaliação (Turma 01)",
+    "duration": 1752,
+    "embedUrl": "https://www.youtube.com/embed/z-TVTUeYdvo"
+  },
+  {
+    "id": 596,
+    "number": 24,
+    "name": "Fluxo Máximo - Ford & Fulkerson (Turma 01)",
+    "duration": 4310,
+    "embedUrl": "https://www.youtube.com/embed/m-IRoh3xNIU"
+  },
+  {
+    "id": 597,
+    "number": 25,
+    "name": "Fluxo Máximo - Algoritmo Push-Relabel (Turma 01)",
+    "duration": 3110,
+    "embedUrl": "https://www.youtube.com/embed/fJMAzwjfQGk"
+  }
+]

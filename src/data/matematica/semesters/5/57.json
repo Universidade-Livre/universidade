@@ -1,0 +1,107 @@
+[
+  {
+    "id": 2237,
+    "number": 1,
+    "name": "Aula 01: Espaços Topológicos e Fechados",
+    "duration": 5674,
+    "embedUrl": "https://www.youtube.com/embed/-MquLI7EXqE"
+  },
+  {
+    "id": 2238,
+    "number": 2,
+    "name": "Aula 02: Fecho, Interior, Fronteira e Bases.",
+    "duration": 4525,
+    "embedUrl": "https://www.youtube.com/embed/CTDdW-Vy_nI"
+  },
+  {
+    "id": 2239,
+    "number": 3,
+    "name": "Aula 03: Axiomas de Separação",
+    "duration": 5771,
+    "embedUrl": "https://www.youtube.com/embed/5g6luM4aNh8"
+  },
+  {
+    "id": 2240,
+    "number": 4,
+    "name": "Aula 04: Axiomas de Enumerabilidade",
+    "duration": 5251,
+    "embedUrl": "https://www.youtube.com/embed/xIMi2Mh98NI"
+  },
+  {
+    "id": 2241,
+    "number": 5,
+    "name": "Aula 05: Funções Contínuas e Homeomorfismos",
+    "duration": 4769,
+    "embedUrl": "https://www.youtube.com/embed/i8jiMft0c2Y"
+  },
+  {
+    "id": 2242,
+    "number": 6,
+    "name": "Extra: Caracterização da Reta com a Topologia da Ordem",
+    "duration": 3160,
+    "embedUrl": "https://www.youtube.com/embed/O0B4H6x2KMU"
+  },
+  {
+    "id": 2243,
+    "number": 7,
+    "name": "Aula 06: Extensão de Funções",
+    "duration": 5101,
+    "embedUrl": "https://www.youtube.com/embed/cUWa1HEpq_k"
+  },
+  {
+    "id": 2244,
+    "number": 8,
+    "name": "Aula 07: Lema de Urysohn e Teorema de Tietze",
+    "duration": 3841,
+    "embedUrl": "https://www.youtube.com/embed/XU__D9Ma76c"
+  },
+  {
+    "id": 2245,
+    "number": 9,
+    "name": "Aula 08: Topologia Produto",
+    "duration": 5756,
+    "embedUrl": "https://www.youtube.com/embed/Wl1Z4dk1Tak"
+  },
+  {
+    "id": 2246,
+    "number": 10,
+    "name": "Extra: Teorema da Imersão",
+    "duration": 2209,
+    "embedUrl": "https://www.youtube.com/embed/tECynckI-8w"
+  },
+  {
+    "id": 2247,
+    "number": 11,
+    "name": "Aula 09: Topologia Quociente",
+    "duration": 4640,
+    "embedUrl": "https://www.youtube.com/embed/yVjLA7R4MzY"
+  },
+  {
+    "id": 2248,
+    "number": 12,
+    "name": "Aula 10: Espaços Compactos",
+    "duration": 6579,
+    "embedUrl": "https://www.youtube.com/embed/rVU27o7jAY4"
+  },
+  {
+    "id": 2249,
+    "number": 13,
+    "name": "Aula 11: Teorema de Tychonoff e algumas caracterizações",
+    "duration": 7529,
+    "embedUrl": "https://www.youtube.com/embed/eQkfTDrmpy8"
+  },
+  {
+    "id": 2250,
+    "number": 14,
+    "name": "Aula 12: Espaços Conexos",
+    "duration": 4710,
+    "embedUrl": "https://www.youtube.com/embed/-8iTLyGichU"
+  },
+  {
+    "id": 2251,
+    "number": 15,
+    "name": "Aula 13: Componentes, Conexidade por Caminhos e Propriedades Locais de Conexidade",
+    "duration": 5140,
+    "embedUrl": "https://www.youtube.com/embed/H2iwga-lMNw"
+  }
+]

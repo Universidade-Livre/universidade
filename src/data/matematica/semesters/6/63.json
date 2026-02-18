@@ -1,0 +1,219 @@
+[
+  {
+    "id": 2388,
+    "number": 1,
+    "name": "Teoria de Corpos 01 | Extensões algébricas",
+    "duration": 4265,
+    "embedUrl": "https://www.youtube.com/embed/-nrB-pN3TLw"
+  },
+  {
+    "id": 2389,
+    "number": 2,
+    "name": "Teoria de Corpos 02 | Extensões finitas",
+    "duration": 4574,
+    "embedUrl": "https://www.youtube.com/embed/PWMHEhW0kcc"
+  },
+  {
+    "id": 2390,
+    "number": 3,
+    "name": "Teoria de Corpos 03 | Extensões finitamente geradas",
+    "duration": 2799,
+    "embedUrl": "https://www.youtube.com/embed/LDUhMWu6ikU"
+  },
+  {
+    "id": 2391,
+    "number": 4,
+    "name": "Teoria de Corpos 04 | O fecho algébrico de uma extensão de corpos",
+    "duration": 2874,
+    "embedUrl": "https://www.youtube.com/embed/Cc7Gz4RhzmE"
+  },
+  {
+    "id": 2392,
+    "number": 5,
+    "name": "Teoria de Corpos 05 | Raízes de polinômios",
+    "duration": 3994,
+    "embedUrl": "https://www.youtube.com/embed/6YqT6W0qC94"
+  },
+  {
+    "id": 2393,
+    "number": 6,
+    "name": "Teoria de Corpos 06 | Multiplicidade de raízes de polinômios",
+    "duration": 3008,
+    "embedUrl": "https://www.youtube.com/embed/Uz9G_gcAk_0"
+  },
+  {
+    "id": 2394,
+    "number": 7,
+    "name": "Teoria de Corpos 07 | Multiplicidade via derivadas formais",
+    "duration": 5165,
+    "embedUrl": "https://www.youtube.com/embed/T9usW5Ns19c"
+  },
+  {
+    "id": 2395,
+    "number": 8,
+    "name": "Teoria de Corpos 08 | Corpos algebricamente fechados",
+    "duration": 5337,
+    "embedUrl": "https://www.youtube.com/embed/4sx0JSl6C_w"
+  },
+  {
+    "id": 2396,
+    "number": 9,
+    "name": "Teoria de Corpos 09 | Teorema de Kronecker (Parte 1)",
+    "duration": 3786,
+    "embedUrl": "https://www.youtube.com/embed/925wTAXMBSg"
+  },
+  {
+    "id": 2397,
+    "number": 10,
+    "name": "Teoria de Corpos 10 | Teorema de Kronecker (Parte 2: Aplicações)",
+    "duration": 3741,
+    "embedUrl": "https://www.youtube.com/embed/dStCELvoGW4"
+  },
+  {
+    "id": 2398,
+    "number": 11,
+    "name": "Teoria de Corpos 11 | O fecho algébrico de um corpo",
+    "duration": 4759,
+    "embedUrl": "https://www.youtube.com/embed/Ed-n4ao8Ff4"
+  },
+  {
+    "id": 2399,
+    "number": 12,
+    "name": "Teoria de Corpos 12 | Extensões de morfismos de corpos",
+    "duration": 4482,
+    "embedUrl": "https://www.youtube.com/embed/-8DlM1Io_Xk"
+  },
+  {
+    "id": 2400,
+    "number": 13,
+    "name": "Errata | Extensão de morfismos de corpos",
+    "duration": 1297,
+    "embedUrl": "https://www.youtube.com/embed/8DZUuY5HF7o"
+  },
+  {
+    "id": 2401,
+    "number": 14,
+    "name": "Teoria de Corpos 13 | Extensões de morfismos de corpos e a unicidade do fecho algébrico",
+    "duration": 3011,
+    "embedUrl": "https://www.youtube.com/embed/h7yNYdmb5EM"
+  },
+  {
+    "id": 2402,
+    "number": 15,
+    "name": "Teoria de Corpos 14 | Corpo de decomposição de um polinômio em ℚ[X]",
+    "duration": 4046,
+    "embedUrl": "https://www.youtube.com/embed/jtS5SbZDBjM"
+  },
+  {
+    "id": 2403,
+    "number": 16,
+    "name": "Teoria de Corpos 15 | Corpo de decomposição de uma família arbitrária de polinômios",
+    "duration": 4234,
+    "embedUrl": "https://www.youtube.com/embed/JkhLB5RfNic"
+  },
+  {
+    "id": 2404,
+    "number": 17,
+    "name": "Teoria de Corpos 16 | Unicidade do corpo de decomposição e extensões normais",
+    "duration": 4803,
+    "embedUrl": "https://www.youtube.com/embed/zuyKl-4t3jo"
+  },
+  {
+    "id": 2405,
+    "number": 18,
+    "name": "Teoria de Corpos 17 | O grau de separabilidade de uma extensão algébrica",
+    "duration": 4053,
+    "embedUrl": "https://www.youtube.com/embed/yX8PakBIVL8"
+  },
+  {
+    "id": 2406,
+    "number": 19,
+    "name": "Teoria de Corpos 18 | Extensões separáveis",
+    "duration": 4917,
+    "embedUrl": "https://www.youtube.com/embed/KEQxv-8lI5w"
+  },
+  {
+    "id": 2407,
+    "number": 20,
+    "name": "Teoria de Corpos 19 | O Teorema do Elemento Primitivo",
+    "duration": 5369,
+    "embedUrl": "https://www.youtube.com/embed/R00tDx8FDcQ"
+  },
+  {
+    "id": 2408,
+    "number": 21,
+    "name": "Teoria de Corpos 20 | Corpos finitos (Parte 1)",
+    "duration": 4016,
+    "embedUrl": "https://www.youtube.com/embed/VE5kcCTDVKM"
+  },
+  {
+    "id": 2409,
+    "number": 22,
+    "name": "Teoria de Corpos 21 | Corpos finitos (Parte 2)",
+    "duration": 3332,
+    "embedUrl": "https://www.youtube.com/embed/wMbIL93x-MY"
+  },
+  {
+    "id": 2410,
+    "number": 23,
+    "name": "Teoria de Corpos 22 | O fecho normal de uma extensão algébrica",
+    "duration": 4432,
+    "embedUrl": "https://www.youtube.com/embed/yHpzuFrFHZ0"
+  },
+  {
+    "id": 2411,
+    "number": 24,
+    "name": "Teoria de Corpos 23 | Extensões puramente inseparáveis",
+    "duration": 3996,
+    "embedUrl": "https://www.youtube.com/embed/1WBDKt7dGHE"
+  },
+  {
+    "id": 2412,
+    "number": 25,
+    "name": "Teoria de Corpos 24 | O fecho separável de uma extensão de corpos",
+    "duration": 3927,
+    "embedUrl": "https://www.youtube.com/embed/JhL4_c9xFqs"
+  },
+  {
+    "id": 2413,
+    "number": 26,
+    "name": "Teoria de Corpos 25 | O traço e a norma de uma extensão finita de corpos",
+    "duration": 6091,
+    "embedUrl": "https://www.youtube.com/embed/C0ZptBs4edQ"
+  },
+  {
+    "id": 2414,
+    "number": 27,
+    "name": "Teoria de Corpos 26 | O compositum",
+    "duration": 3003,
+    "embedUrl": "https://www.youtube.com/embed/opzTh2FoAak"
+  },
+  {
+    "id": 2415,
+    "number": 28,
+    "name": "Teoria de Corpos 27 | Bases de transcendência",
+    "duration": 4091,
+    "embedUrl": "https://www.youtube.com/embed/eyFpi9BeEns"
+  },
+  {
+    "id": 2416,
+    "number": 29,
+    "name": "Teoria de Corpos 28 | Alguns clássicos da transcendência",
+    "duration": 3846,
+    "embedUrl": "https://www.youtube.com/embed/a9jS-IN7pMM"
+  },
+  {
+    "id": 2417,
+    "number": 30,
+    "name": "Teoria de Corpos 29 | O grau de transcendência",
+    "duration": 3972,
+    "embedUrl": "https://www.youtube.com/embed/NQ8wOn99XaE"
+  },
+  {
+    "id": 2418,
+    "number": 31,
+    "name": "Teoria de Corpos 30 - Extensões finitamente geradas (feat. transcendência)",
+    "duration": 3035,
+    "embedUrl": "https://www.youtube.com/embed/aoNqmeTxccQ"
+  }
+]

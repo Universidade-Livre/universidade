@@ -1,0 +1,1045 @@
+[
+  {
+    "id": 1532,
+    "number": 1,
+    "name": "Seja APOIADOR e receba RECOMPENSAS",
+    "duration": 295,
+    "embedUrl": "https://www.youtube.com/embed/U_A2kwUfmlw"
+  },
+  {
+    "id": 1533,
+    "number": 2,
+    "name": "Curso Python #01 - Seja um Programador",
+    "duration": 1747,
+    "embedUrl": "https://www.youtube.com/embed/S9uPNppGsGo"
+  },
+  {
+    "id": 1534,
+    "number": 3,
+    "name": "Curso Python #02 - Para que serve o Python?",
+    "duration": 1313,
+    "embedUrl": "https://www.youtube.com/embed/Mp0vhMDI7fA"
+  },
+  {
+    "id": 1535,
+    "number": 4,
+    "name": "Curso Python #03 - Instalando o Python3 e o IDLE",
+    "duration": 1069,
+    "embedUrl": "https://www.youtube.com/embed/VuKvR1J2LQE"
+  },
+  {
+    "id": 1536,
+    "number": 5,
+    "name": "Curso Python #04 - Primeiros comandos em Python3",
+    "duration": 1653,
+    "embedUrl": "https://www.youtube.com/embed/31llNGKWDdo"
+  },
+  {
+    "id": 1537,
+    "number": 6,
+    "name": "Curso Python #05 - Instalando o PyCharm e o QPython3",
+    "duration": 1901,
+    "embedUrl": "https://www.youtube.com/embed/ElRd0cbXIv4"
+  },
+  {
+    "id": 1538,
+    "number": 7,
+    "name": "Exercício Python #001 - Deixando tudo pronto",
+    "duration": 751,
+    "embedUrl": "https://www.youtube.com/embed/nIHq1MtJaKs"
+  },
+  {
+    "id": 1539,
+    "number": 8,
+    "name": "Exercício Python #002 - Respondendo ao Usuário",
+    "duration": 286,
+    "embedUrl": "https://www.youtube.com/embed/FNqdV5Zb_5Q"
+  },
+  {
+    "id": 1540,
+    "number": 9,
+    "name": "Curso Python #06 - Tipos Primitivos e Saída de Dados",
+    "duration": 1781,
+    "embedUrl": "https://www.youtube.com/embed/hdDHg1p3YVc"
+  },
+  {
+    "id": 1541,
+    "number": 10,
+    "name": "Exercício Python #003 - Somando dois números",
+    "duration": 336,
+    "embedUrl": "https://www.youtube.com/embed/PB254Cfjlyk"
+  },
+  {
+    "id": 1542,
+    "number": 11,
+    "name": "Exercício Python #004 - Dissecando uma Variável",
+    "duration": 517,
+    "embedUrl": "https://www.youtube.com/embed/tHYxjJxtJko"
+  },
+  {
+    "id": 1543,
+    "number": 12,
+    "name": "Curso Python #07 - Operadores Aritméticos",
+    "duration": 2424,
+    "embedUrl": "https://www.youtube.com/embed/Vw6gLypRKmY"
+  },
+  {
+    "id": 1544,
+    "number": 13,
+    "name": "Exercício Python #005 - Antecessor e Sucessor",
+    "duration": 313,
+    "embedUrl": "https://www.youtube.com/embed/664e0G_S9nU"
+  },
+  {
+    "id": 1545,
+    "number": 14,
+    "name": "Exercício Python #006 - Dobro, Triplo, Raiz Quadrada",
+    "duration": 503,
+    "embedUrl": "https://www.youtube.com/embed/mqcNw_dhl8I"
+  },
+  {
+    "id": 1546,
+    "number": 15,
+    "name": "Exercício Python #007 - Média Aritmética",
+    "duration": 476,
+    "embedUrl": "https://www.youtube.com/embed/_QfISzy0IKs"
+  },
+  {
+    "id": 1547,
+    "number": 16,
+    "name": "Exercício Python #008 - Conversor de Medidas",
+    "duration": 357,
+    "embedUrl": "https://www.youtube.com/embed/KjcdG05EAZc"
+  },
+  {
+    "id": 1548,
+    "number": 17,
+    "name": "Exercício Python #009 - Tabuada",
+    "duration": 434,
+    "embedUrl": "https://www.youtube.com/embed/qajq3SI0QQs"
+  },
+  {
+    "id": 1549,
+    "number": 18,
+    "name": "Exercício Python #010 - Conversor de Moedas",
+    "duration": 447,
+    "embedUrl": "https://www.youtube.com/embed/xM4AX3Lp2mo"
+  },
+  {
+    "id": 1550,
+    "number": 19,
+    "name": "Exercício Python #011 - Pintando Parede",
+    "duration": 417,
+    "embedUrl": "https://www.youtube.com/embed/mzSJpn9ldt4"
+  },
+  {
+    "id": 1551,
+    "number": 20,
+    "name": "Exercício Python #012 - Calculando Descontos",
+    "duration": 561,
+    "embedUrl": "https://www.youtube.com/embed/4MAmKOT9FeU"
+  },
+  {
+    "id": 1552,
+    "number": 21,
+    "name": "Exercício Python #013 - Reajuste Salarial",
+    "duration": 382,
+    "embedUrl": "https://www.youtube.com/embed/cTkivN8XcJ0"
+  },
+  {
+    "id": 1553,
+    "number": 22,
+    "name": "Exercício Python #014 - Conversor de Temperaturas",
+    "duration": 410,
+    "embedUrl": "https://www.youtube.com/embed/9l_Gay8BuAw"
+  },
+  {
+    "id": 1554,
+    "number": 23,
+    "name": "Exercício Python #015 - Aluguel de Carros",
+    "duration": 468,
+    "embedUrl": "https://www.youtube.com/embed/I4NYUeetLAc"
+  },
+  {
+    "id": 1555,
+    "number": 24,
+    "name": "Curso Python #08 - Utilizando Módulos",
+    "duration": 2009,
+    "embedUrl": "https://www.youtube.com/embed/oOUyhGNib2Q"
+  },
+  {
+    "id": 1556,
+    "number": 25,
+    "name": "Exercício Python #016 - Quebrando um número",
+    "duration": 443,
+    "embedUrl": "https://www.youtube.com/embed/-iSbDpl5Jhw"
+  },
+  {
+    "id": 1557,
+    "number": 26,
+    "name": "Exercício Python #017 - Catetos e Hipotenusa",
+    "duration": 442,
+    "embedUrl": "https://www.youtube.com/embed/vmPW9iWsYkY"
+  },
+  {
+    "id": 1558,
+    "number": 27,
+    "name": "Exercício Python #018 - Seno, Cosseno e Tangente",
+    "duration": 519,
+    "embedUrl": "https://www.youtube.com/embed/9GvsphwW26k"
+  },
+  {
+    "id": 1559,
+    "number": 28,
+    "name": "Exercício Python #019 - Sorteando um item na lista",
+    "duration": 389,
+    "embedUrl": "https://www.youtube.com/embed/_Nk02-mfB5I"
+  },
+  {
+    "id": 1560,
+    "number": 29,
+    "name": "Exercício Python #020 - Sorteando uma ordem na lista",
+    "duration": 349,
+    "embedUrl": "https://www.youtube.com/embed/OPh0nngbBSY"
+  },
+  {
+    "id": 1561,
+    "number": 30,
+    "name": "Exercício Python #021 - Tocando um MP3",
+    "duration": 466,
+    "embedUrl": "https://www.youtube.com/embed/9FiEji_fzvk"
+  },
+  {
+    "id": 1562,
+    "number": 31,
+    "name": "Curso Python #09 - Manipulando Texto",
+    "duration": 2807,
+    "embedUrl": "https://www.youtube.com/embed/a7DH88vk2Sk"
+  },
+  {
+    "id": 1563,
+    "number": 32,
+    "name": "Exercício Python #022 - Analisador de Textos",
+    "duration": 657,
+    "embedUrl": "https://www.youtube.com/embed/EQQt-6QqXOs"
+  },
+  {
+    "id": 1564,
+    "number": 33,
+    "name": "Exercício Python #023 - Separando dígitos de um número",
+    "duration": 496,
+    "embedUrl": "https://www.youtube.com/embed/wD2aerLMBWA"
+  },
+  {
+    "id": 1565,
+    "number": 34,
+    "name": "Exercício Python #024 - Verificando as primeiras letras de um texto",
+    "duration": 348,
+    "embedUrl": "https://www.youtube.com/embed/QroT8cZMRnc"
+  },
+  {
+    "id": 1566,
+    "number": 35,
+    "name": "Exercício Python #025 - Procurando uma string dentro de outra",
+    "duration": 333,
+    "embedUrl": "https://www.youtube.com/embed/WHWGz2Dy1ZU"
+  },
+  {
+    "id": 1567,
+    "number": 36,
+    "name": "Exercício Python #026 - Primeira e última ocorrência de uma string",
+    "duration": 586,
+    "embedUrl": "https://www.youtube.com/embed/23UOVEetNPY"
+  },
+  {
+    "id": 1568,
+    "number": 37,
+    "name": "Exercício Python #027 - Primeiro e último nome de uma pessoa",
+    "duration": 463,
+    "embedUrl": "https://www.youtube.com/embed/SifYYsXhLM8"
+  },
+  {
+    "id": 1569,
+    "number": 38,
+    "name": "Curso Python #10 - Condições (Parte 1)",
+    "duration": 2085,
+    "embedUrl": "https://www.youtube.com/embed/K10u3XIf1-Q"
+  },
+  {
+    "id": 1570,
+    "number": 39,
+    "name": "Exercício Python #028 - Jogo da Adivinhação v.1.0",
+    "duration": 622,
+    "embedUrl": "https://www.youtube.com/embed/kchC5KLZSZ4"
+  },
+  {
+    "id": 1571,
+    "number": 40,
+    "name": "Exercício Python #029 - Radar eletrônico",
+    "duration": 521,
+    "embedUrl": "https://www.youtube.com/embed/hgJ_ETNGSj8"
+  },
+  {
+    "id": 1572,
+    "number": 41,
+    "name": "Exercício Python #030 - Par ou Ímpar?",
+    "duration": 354,
+    "embedUrl": "https://www.youtube.com/embed/4vFCzKuHOn4"
+  },
+  {
+    "id": 1573,
+    "number": 42,
+    "name": "Exercício Python #031 - Custo da Viagem",
+    "duration": 437,
+    "embedUrl": "https://www.youtube.com/embed/PGqHyzWoagc"
+  },
+  {
+    "id": 1574,
+    "number": 43,
+    "name": "Exercício Python #032 - Ano Bissexto",
+    "duration": 526,
+    "embedUrl": "https://www.youtube.com/embed/cyGY_83m4Xw"
+  },
+  {
+    "id": 1575,
+    "number": 44,
+    "name": "Exercício Python #033 - Maior e menor valores",
+    "duration": 505,
+    "embedUrl": "https://www.youtube.com/embed/a_8FbW5oH6I"
+  },
+  {
+    "id": 1576,
+    "number": 45,
+    "name": "Exercício Python #034 - Aumentos múltiplos",
+    "duration": 459,
+    "embedUrl": "https://www.youtube.com/embed/Sfadj_AzKHw"
+  },
+  {
+    "id": 1577,
+    "number": 46,
+    "name": "Exercício Python #035 - Analisando Triângulo v1.0",
+    "duration": 649,
+    "embedUrl": "https://www.youtube.com/embed/NZiNphKkxhg"
+  },
+  {
+    "id": 1578,
+    "number": 47,
+    "name": "Curso Python #11 - Cores no Terminal",
+    "duration": 1843,
+    "embedUrl": "https://www.youtube.com/embed/0hBIhkcA8O8"
+  },
+  {
+    "id": 1579,
+    "number": 48,
+    "name": "Mundo 02 - Curso de Python - Dicas e Regras",
+    "duration": 1069,
+    "embedUrl": "https://www.youtube.com/embed/nJkVHusJp6E"
+  },
+  {
+    "id": 1580,
+    "number": 49,
+    "name": "Curso Python #012 - Condições Aninhadas",
+    "duration": 1775,
+    "embedUrl": "https://www.youtube.com/embed/j9bYDjaAYzw"
+  },
+  {
+    "id": 1581,
+    "number": 50,
+    "name": "Exercício Python #036 - Aprovando Empréstimo",
+    "duration": 708,
+    "embedUrl": "https://www.youtube.com/embed/IV13X0QOMU8"
+  },
+  {
+    "id": 1582,
+    "number": 51,
+    "name": "Exercício Python #037 - Conversor de Bases Numéricas",
+    "duration": 674,
+    "embedUrl": "https://www.youtube.com/embed/B3F0IjH5WAM"
+  },
+  {
+    "id": 1583,
+    "number": 52,
+    "name": "Exercício Python #038 - Comparando números",
+    "duration": 401,
+    "embedUrl": "https://www.youtube.com/embed/iuPbB9uHczM"
+  },
+  {
+    "id": 1584,
+    "number": 53,
+    "name": "Exercício Python #039 - Alistamento Militar",
+    "duration": 775,
+    "embedUrl": "https://www.youtube.com/embed/ePwP4gU_waY"
+  },
+  {
+    "id": 1585,
+    "number": 54,
+    "name": "Exercício Python #040 - Aquele clássico da Média",
+    "duration": 588,
+    "embedUrl": "https://www.youtube.com/embed/QuWDyUeoaJs"
+  },
+  {
+    "id": 1586,
+    "number": 55,
+    "name": "Python Exercício #041 - Classificando Atletas",
+    "duration": 372,
+    "embedUrl": "https://www.youtube.com/embed/ZiC5NgSGJXU"
+  },
+  {
+    "id": 1587,
+    "number": 56,
+    "name": "Exercício Python #042 - Analisando Triângulos v2.0",
+    "duration": 831,
+    "embedUrl": "https://www.youtube.com/embed/ZX7sCPjcHA0"
+  },
+  {
+    "id": 1588,
+    "number": 57,
+    "name": "Exercício Python #043 - Índice de Massa Corporal",
+    "duration": 811,
+    "embedUrl": "https://www.youtube.com/embed/b7r34za963I"
+  },
+  {
+    "id": 1589,
+    "number": 58,
+    "name": "Exercício Python #044 - Gerenciador de Pagamentos",
+    "duration": 924,
+    "embedUrl": "https://www.youtube.com/embed/I-SH3QchuZ4"
+  },
+  {
+    "id": 1590,
+    "number": 59,
+    "name": "Exercício Python #045 - GAME: Pedra Papel e Tesoura",
+    "duration": 1007,
+    "embedUrl": "https://www.youtube.com/embed/tapTa6KVG-A"
+  },
+  {
+    "id": 1591,
+    "number": 60,
+    "name": "Curso Python #013 - Estrutura de repetição for",
+    "duration": 2125,
+    "embedUrl": "https://www.youtube.com/embed/cL4YDtFnCt4"
+  },
+  {
+    "id": 1592,
+    "number": 61,
+    "name": "Exercício Python #046 - Contagem regressiva",
+    "duration": 445,
+    "embedUrl": "https://www.youtube.com/embed/NR1RKt6NT8s"
+  },
+  {
+    "id": 1593,
+    "number": 62,
+    "name": "Exercício Python #047 - Contagem de pares",
+    "duration": 431,
+    "embedUrl": "https://www.youtube.com/embed/Qws8-E-YrlY"
+  },
+  {
+    "id": 1594,
+    "number": 63,
+    "name": "Exercício Python #048 - Soma ímpares múltiplos de três",
+    "duration": 580,
+    "embedUrl": "https://www.youtube.com/embed/iHjsUxNA-wo"
+  },
+  {
+    "id": 1595,
+    "number": 64,
+    "name": "Exercício Python #049 - Tabuada v.2.0",
+    "duration": 397,
+    "embedUrl": "https://www.youtube.com/embed/QtElJDa9ICM"
+  },
+  {
+    "id": 1596,
+    "number": 65,
+    "name": "Exercício Python #050 - Soma dos pares",
+    "duration": 489,
+    "embedUrl": "https://www.youtube.com/embed/rJaBLOW57Jg"
+  },
+  {
+    "id": 1597,
+    "number": 66,
+    "name": "Exercício Python #051 - Progressão Aritmética",
+    "duration": 518,
+    "embedUrl": "https://www.youtube.com/embed/-OnqSGh0u4g"
+  },
+  {
+    "id": 1598,
+    "number": 67,
+    "name": "Exercício Python #052 - Números primos",
+    "duration": 676,
+    "embedUrl": "https://www.youtube.com/embed/Er5Hyd4LyVw"
+  },
+  {
+    "id": 1599,
+    "number": 68,
+    "name": "Exercício Python #053 - Detector de Palíndromo",
+    "duration": 731,
+    "embedUrl": "https://www.youtube.com/embed/5VBWe6BXzRo"
+  },
+  {
+    "id": 1600,
+    "number": 69,
+    "name": "Exercício Python #054 - Grupo da Maioridade",
+    "duration": 602,
+    "embedUrl": "https://www.youtube.com/embed/IL5iBWoKRIs"
+  },
+  {
+    "id": 1601,
+    "number": 70,
+    "name": "Exercício Python #055 - Maior e menor da sequência",
+    "duration": 611,
+    "embedUrl": "https://www.youtube.com/embed/Kjpb_IAOKRQ"
+  },
+  {
+    "id": 1602,
+    "number": 71,
+    "name": "Exercício Python #056 - Analisador completo",
+    "duration": 827,
+    "embedUrl": "https://www.youtube.com/embed/fokDF4th0IY"
+  },
+  {
+    "id": 1603,
+    "number": 72,
+    "name": "Curso Python #014 - Estrutura de repetição while",
+    "duration": 2298,
+    "embedUrl": "https://www.youtube.com/embed/LH6OIn2lBaI"
+  },
+  {
+    "id": 1604,
+    "number": 73,
+    "name": "Exercício Python #057 - Validação de Dados",
+    "duration": 584,
+    "embedUrl": "https://www.youtube.com/embed/JGztEBLGj5E"
+  },
+  {
+    "id": 1605,
+    "number": 74,
+    "name": "Exercício Python #058 - Jogo da Adivinhação v2.0",
+    "duration": 686,
+    "embedUrl": "https://www.youtube.com/embed/-QkOIHJ1Chw"
+  },
+  {
+    "id": 1606,
+    "number": 75,
+    "name": "Exercício Python #059 - Criando um Menu de Opções",
+    "duration": 874,
+    "embedUrl": "https://www.youtube.com/embed/OBJL5vPj4-E"
+  },
+  {
+    "id": 1607,
+    "number": 76,
+    "name": "Exercício Python #060 - Cálculo do Fatorial",
+    "duration": 730,
+    "embedUrl": "https://www.youtube.com/embed/9dlBZlkvvxY"
+  },
+  {
+    "id": 1608,
+    "number": 77,
+    "name": "Exercício Python #061 - Progressão Aritmética v2.0",
+    "duration": 553,
+    "embedUrl": "https://www.youtube.com/embed/vu5ehetQGe8"
+  },
+  {
+    "id": 1609,
+    "number": 78,
+    "name": "Exercício Python #062 - Super Progressão Aritmética v3.0",
+    "duration": 577,
+    "embedUrl": "https://www.youtube.com/embed/BWAWq7n6PCk"
+  },
+  {
+    "id": 1610,
+    "number": 79,
+    "name": "Exercício Python #063 - Sequência de Fibonacci v1.0",
+    "duration": 688,
+    "embedUrl": "https://www.youtube.com/embed/w7yn1_Mfu0E"
+  },
+  {
+    "id": 1611,
+    "number": 80,
+    "name": "Exercício Python #064 - Tratando vários valores v1.0",
+    "duration": 722,
+    "embedUrl": "https://www.youtube.com/embed/mYlbttiLHM0"
+  },
+  {
+    "id": 1612,
+    "number": 81,
+    "name": "Exercício Python #065 - Maior e Menor valores",
+    "duration": 714,
+    "embedUrl": "https://www.youtube.com/embed/QNPuPlPM--0"
+  },
+  {
+    "id": 1613,
+    "number": 82,
+    "name": "Curso Python #15 - Interrompendo repetições while",
+    "duration": 2490,
+    "embedUrl": "https://www.youtube.com/embed/1OFp_-R2B2A"
+  },
+  {
+    "id": 1614,
+    "number": 83,
+    "name": "Exercício Python #066 - Vários números com flag",
+    "duration": 805,
+    "embedUrl": "https://www.youtube.com/embed/d2ug6quC1bk"
+  },
+  {
+    "id": 1615,
+    "number": 84,
+    "name": "Exercício Python #067 - Tabuada v3.0",
+    "duration": 528,
+    "embedUrl": "https://www.youtube.com/embed/X0a5aZg93Uc"
+  },
+  {
+    "id": 1616,
+    "number": 85,
+    "name": "Exercício Python #068 - Jogo do Par ou Ímpar",
+    "duration": 775,
+    "embedUrl": "https://www.youtube.com/embed/EIzgKCCDdc0"
+  },
+  {
+    "id": 1617,
+    "number": 86,
+    "name": "Exercício Python #069 - Análise de dados do grupo",
+    "duration": 784,
+    "embedUrl": "https://www.youtube.com/embed/4Ca6iRJo3M0"
+  },
+  {
+    "id": 1618,
+    "number": 87,
+    "name": "Exercício Python #070 - Estatísticas em produtos",
+    "duration": 908,
+    "embedUrl": "https://www.youtube.com/embed/hS8QdW-1HTo"
+  },
+  {
+    "id": 1619,
+    "number": 88,
+    "name": "Exercício Python #071 - Simulador de Caixa Eletrônico",
+    "duration": 810,
+    "embedUrl": "https://www.youtube.com/embed/_XGgwltYpYk"
+  },
+  {
+    "id": 1620,
+    "number": 89,
+    "name": "Curso Python #16 - Tuplas",
+    "duration": 3221,
+    "embedUrl": "https://www.youtube.com/embed/0LB3FSfjvao"
+  },
+  {
+    "id": 1621,
+    "number": 90,
+    "name": "Exercício Python #072 - Número por Extenso",
+    "duration": 657,
+    "embedUrl": "https://www.youtube.com/embed/ei2Kr3ccfO0"
+  },
+  {
+    "id": 1622,
+    "number": 91,
+    "name": "Exercício Python #073 - Tuplas com Times de Futebol",
+    "duration": 822,
+    "embedUrl": "https://www.youtube.com/embed/RexybLcGewA"
+  },
+  {
+    "id": 1623,
+    "number": 92,
+    "name": "Exercício Python #074 - Maior e menor valores em Tupla",
+    "duration": 568,
+    "embedUrl": "https://www.youtube.com/embed/mlwt2CRQkTQ"
+  },
+  {
+    "id": 1624,
+    "number": 93,
+    "name": "Exercício Python #075 - Análise de dados em uma Tupla",
+    "duration": 647,
+    "embedUrl": "https://www.youtube.com/embed/1u7oA8ckjAc"
+  },
+  {
+    "id": 1625,
+    "number": 94,
+    "name": "Exercício Python #076 - Lista de Preços com Tupla",
+    "duration": 538,
+    "embedUrl": "https://www.youtube.com/embed/Qp2cXfCHk2I"
+  },
+  {
+    "id": 1626,
+    "number": 95,
+    "name": "Exercício Python #077 - Contando vogais em Tupla",
+    "duration": 533,
+    "embedUrl": "https://www.youtube.com/embed/8BgSqrOpKvU"
+  },
+  {
+    "id": 1627,
+    "number": 96,
+    "name": "Curso Python #17 - Listas (Parte 1)",
+    "duration": 2417,
+    "embedUrl": "https://www.youtube.com/embed/N1hTsbW50eM"
+  },
+  {
+    "id": 1628,
+    "number": 97,
+    "name": "Exercício Python #078 - Maior e Menor valores na Lista",
+    "duration": 933,
+    "embedUrl": "https://www.youtube.com/embed/q8Z1cRdJnfk"
+  },
+  {
+    "id": 1629,
+    "number": 98,
+    "name": "Exercício Python #079 - Valores únicos em uma Lista",
+    "duration": 614,
+    "embedUrl": "https://www.youtube.com/embed/LkAzRnc_GPk"
+  },
+  {
+    "id": 1630,
+    "number": 99,
+    "name": "Exercício Python #080 - Lista ordenada sem repetições",
+    "duration": 799,
+    "embedUrl": "https://www.youtube.com/embed/QDpwjBYRcVE"
+  },
+  {
+    "id": 1631,
+    "number": 100,
+    "name": "Exercício Python #081 - Extraindo dados de uma Lista",
+    "duration": 692,
+    "embedUrl": "https://www.youtube.com/embed/SXJKAVVlvGA"
+  },
+  {
+    "id": 1632,
+    "number": 101,
+    "name": "Exercício Python #082 - Dividindo valores em várias listas",
+    "duration": 536,
+    "embedUrl": "https://www.youtube.com/embed/uk0gDFQEo_I"
+  },
+  {
+    "id": 1633,
+    "number": 102,
+    "name": "Exercício Python #083 - Validando expressões matemáticas",
+    "duration": 638,
+    "embedUrl": "https://www.youtube.com/embed/dvhP41Z7TLk"
+  },
+  {
+    "id": 1634,
+    "number": 103,
+    "name": "Curso Python #17 - Listas (Parte 2)",
+    "duration": 2341,
+    "embedUrl": "https://www.youtube.com/embed/YV_JQmZNFsk"
+  },
+  {
+    "id": 1635,
+    "number": 104,
+    "name": "Exercício Python #084 - Lista composta e análise de dados",
+    "duration": 1044,
+    "embedUrl": "https://www.youtube.com/embed/zPtvuLiEdKk"
+  },
+  {
+    "id": 1636,
+    "number": 105,
+    "name": "Exercício Python #085 - Listas com pares e ímpares",
+    "duration": 658,
+    "embedUrl": "https://www.youtube.com/embed/2-fy24bbMJ4"
+  },
+  {
+    "id": 1637,
+    "number": 106,
+    "name": "Exercício Python #086 - Matriz em Python",
+    "duration": 709,
+    "embedUrl": "https://www.youtube.com/embed/EGmlFdwD4C4"
+  },
+  {
+    "id": 1638,
+    "number": 107,
+    "name": "Exercício Python #087 - Mais sobre Matriz em Python",
+    "duration": 718,
+    "embedUrl": "https://www.youtube.com/embed/QhS829x6up4"
+  },
+  {
+    "id": 1639,
+    "number": 108,
+    "name": "Exercício Python #088 - Palpites para a Mega Sena",
+    "duration": 903,
+    "embedUrl": "https://www.youtube.com/embed/Hd7Ycaj61xE"
+  },
+  {
+    "id": 1640,
+    "number": 109,
+    "name": "Exercício Python #089 - Boletim com listas compostas",
+    "duration": 900,
+    "embedUrl": "https://www.youtube.com/embed/7xrCJnniqMw"
+  },
+  {
+    "id": 1641,
+    "number": 110,
+    "name": "Curso Python #19 - Dicionários",
+    "duration": 2717,
+    "embedUrl": "https://www.youtube.com/embed/ZWj8o692qGY"
+  },
+  {
+    "id": 1642,
+    "number": 111,
+    "name": "Exercício Python #090 - Dicionário em Python",
+    "duration": 555,
+    "embedUrl": "https://www.youtube.com/embed/HipQYUk4koA"
+  },
+  {
+    "id": 1643,
+    "number": 112,
+    "name": "Exercício Python #091 - Jogo de Dados em Python",
+    "duration": 831,
+    "embedUrl": "https://www.youtube.com/embed/cwrqIztaAwk"
+  },
+  {
+    "id": 1644,
+    "number": 113,
+    "name": "Exercício Python #092 - Cadastro de Trabalhador em Python",
+    "duration": 730,
+    "embedUrl": "https://www.youtube.com/embed/Vsqemzdrj78"
+  },
+  {
+    "id": 1645,
+    "number": 114,
+    "name": "Exercício Python #093 - Cadastro de Jogador de Futebol",
+    "duration": 775,
+    "embedUrl": "https://www.youtube.com/embed/5yKiud-YNaE"
+  },
+  {
+    "id": 1646,
+    "number": 115,
+    "name": "Exercício Python #094 - Unindo dicionários e listas",
+    "duration": 1098,
+    "embedUrl": "https://www.youtube.com/embed/ETnExBCFeps"
+  },
+  {
+    "id": 1647,
+    "number": 116,
+    "name": "Exercício Python #095 - Aprimorando os Dicionários",
+    "duration": 1214,
+    "embedUrl": "https://www.youtube.com/embed/mw1So0r317Y"
+  },
+  {
+    "id": 1648,
+    "number": 117,
+    "name": "Curso Python #20 - Funções (Parte 1)",
+    "duration": 3127,
+    "embedUrl": "https://www.youtube.com/embed/ezfr9d7wd_k"
+  },
+  {
+    "id": 1649,
+    "number": 118,
+    "name": "Exercício Python #096 - Função que calcula área",
+    "duration": 498,
+    "embedUrl": "https://www.youtube.com/embed/oV1s53YGtvE"
+  },
+  {
+    "id": 1650,
+    "number": 119,
+    "name": "Exercício Python #097 - Um print especial",
+    "duration": 472,
+    "embedUrl": "https://www.youtube.com/embed/Q6basnSo7r0"
+  },
+  {
+    "id": 1651,
+    "number": 120,
+    "name": "Exercício Python #098 - Função de Contador",
+    "duration": 996,
+    "embedUrl": "https://www.youtube.com/embed/DCBlt_z2UOE"
+  },
+  {
+    "id": 1652,
+    "number": 121,
+    "name": "Exercício Python #099 - Função que descobre o maior",
+    "duration": 621,
+    "embedUrl": "https://www.youtube.com/embed/vp9UX7wr92o"
+  },
+  {
+    "id": 1653,
+    "number": 122,
+    "name": "Exercício Python #100 - Funções para sortear e somar",
+    "duration": 721,
+    "embedUrl": "https://www.youtube.com/embed/MEs-41JcuhM"
+  },
+  {
+    "id": 1654,
+    "number": 123,
+    "name": "Curso Python #21 - Funções (Parte 2)",
+    "duration": 3004,
+    "embedUrl": "https://www.youtube.com/embed/etjJ_4Eqrk8"
+  },
+  {
+    "id": 1655,
+    "number": 124,
+    "name": "Exercício Python #101 - Funções para votação",
+    "duration": 560,
+    "embedUrl": "https://www.youtube.com/embed/czDcimdc3GU"
+  },
+  {
+    "id": 1656,
+    "number": 125,
+    "name": "Exercício Python #102 - Função para Fatorial",
+    "duration": 468,
+    "embedUrl": "https://www.youtube.com/embed/84jUX96cs7Q"
+  },
+  {
+    "id": 1657,
+    "number": 126,
+    "name": "Exercício Python #103 - Ficha do Jogador",
+    "duration": 475,
+    "embedUrl": "https://www.youtube.com/embed/FbOvilKfHMI"
+  },
+  {
+    "id": 1658,
+    "number": 127,
+    "name": "Exercício Python #104 - Validando entrada de dados em Python",
+    "duration": 499,
+    "embedUrl": "https://www.youtube.com/embed/VrQmMbPpbf0"
+  },
+  {
+    "id": 1659,
+    "number": 128,
+    "name": "Exercício Python #105 - Analisando e gerando Dicionários",
+    "duration": 605,
+    "embedUrl": "https://www.youtube.com/embed/Kbs97l38vVQ"
+  },
+  {
+    "id": 1660,
+    "number": 129,
+    "name": "Exercício Python #106 - Sistema interativo de ajuda em Python",
+    "duration": 839,
+    "embedUrl": "https://www.youtube.com/embed/BMKYnZoxy88"
+  },
+  {
+    "id": 1661,
+    "number": 130,
+    "name": "Curso Python #22 - Módulos e Pacotes",
+    "duration": 2270,
+    "embedUrl": "https://www.youtube.com/embed/s3r8_Aug4y8"
+  },
+  {
+    "id": 1662,
+    "number": 131,
+    "name": "Exercício Python #107 - Exercitando módulos em Python",
+    "duration": 768,
+    "embedUrl": "https://www.youtube.com/embed/y8pI8YBphQI"
+  },
+  {
+    "id": 1663,
+    "number": 132,
+    "name": "Exercício Python #108 - Formatando Moedas em Python",
+    "duration": 735,
+    "embedUrl": "https://www.youtube.com/embed/KtRkGEeUdqE"
+  },
+  {
+    "id": 1664,
+    "number": 133,
+    "name": "Exercício Python #109 - Formatando Moedas em Python",
+    "duration": 644,
+    "embedUrl": "https://www.youtube.com/embed/Y0zNYTHoGhQ"
+  },
+  {
+    "id": 1665,
+    "number": 134,
+    "name": "Exercício Python #110 - Reduzindo ainda mais seu programa",
+    "duration": 654,
+    "embedUrl": "https://www.youtube.com/embed/1Ks218WINT8"
+  },
+  {
+    "id": 1666,
+    "number": 135,
+    "name": "Exercício Python #111 - Transformando módulos em pacotes",
+    "duration": 553,
+    "embedUrl": "https://www.youtube.com/embed/uBQ0--sRFUI"
+  },
+  {
+    "id": 1667,
+    "number": 136,
+    "name": "Exercício Python #112 - Entrada de dados monetários",
+    "duration": 819,
+    "embedUrl": "https://www.youtube.com/embed/6vADeY5_pMs"
+  },
+  {
+    "id": 1668,
+    "number": 137,
+    "name": "Curso Python #23 - Tratamento de Erros e Exceções",
+    "duration": 2262,
+    "embedUrl": "https://www.youtube.com/embed/xz2B3bfNjEk"
+  },
+  {
+    "id": 1669,
+    "number": 138,
+    "name": "Exercício Python #113 - Funções aprofundadas em Python",
+    "duration": 815,
+    "embedUrl": "https://www.youtube.com/embed/KowQ_UIMuI8"
+  },
+  {
+    "id": 1670,
+    "number": 139,
+    "name": "Exercício Python #114 - Site está acessível?",
+    "duration": 583,
+    "embedUrl": "https://www.youtube.com/embed/8jAykqxIeqw"
+  },
+  {
+    "id": 1671,
+    "number": 140,
+    "name": "Exercício Python #115a - Criando um menu em Python",
+    "duration": 1104,
+    "embedUrl": "https://www.youtube.com/embed/pog8YmHkGMs"
+  },
+  {
+    "id": 1672,
+    "number": 141,
+    "name": "Exercício Python #115b - Arquivos com Python",
+    "duration": 912,
+    "embedUrl": "https://www.youtube.com/embed/bfTFe6bKLXk"
+  },
+  {
+    "id": 1673,
+    "number": 142,
+    "name": "Exercício Python #115c - Finalizando o projeto",
+    "duration": 794,
+    "embedUrl": "https://www.youtube.com/embed/-WZ1ddZK7Tc"
+  },
+  {
+    "id": 1674,
+    "number": 143,
+    "name": "Python Orientado a Objetos: O Guia Definitivo para Iniciantes - Onde está o Mundo 4 de Python?",
+    "duration": 1701,
+    "embedUrl": "https://www.youtube.com/embed/Mim6nnkdOto"
+  },
+  {
+    "id": 1675,
+    "number": 144,
+    "name": "Crise do Software: O motivo do surgimento da POO - Curso Python POO: Aula 01",
+    "duration": 2066,
+    "embedUrl": "https://www.youtube.com/embed/fjLL4dKqw6U"
+  },
+  {
+    "id": 1676,
+    "number": 145,
+    "name": "As 6 VANTAGENS da POO: Programação Orientada a Objetos - Curso Python POO: Aula 02",
+    "duration": 1482,
+    "embedUrl": "https://www.youtube.com/embed/3mw-2iu4kIc"
+  },
+  {
+    "id": 1677,
+    "number": 146,
+    "name": "POO para Iniciantes: Guia Definitivo - Classes, Objetos, Atributos, etc - Curso Python POO: Aula 03",
+    "duration": 1569,
+    "embedUrl": "https://www.youtube.com/embed/BQsv_BkoBCU"
+  },
+  {
+    "id": 1678,
+    "number": 147,
+    "name": "PyCharm mudou! Saiba como treinar Python no PC, celular e tablet",
+    "duration": 1098,
+    "embedUrl": "https://www.youtube.com/embed/XND4VeMMzqg"
+  },
+  {
+    "id": 1679,
+    "number": 148,
+    "name": "Python Orientado a Objetos: Criando Classes e Objetos na Prática - Curso Python POO: Aula 04",
+    "duration": 2121,
+    "embedUrl": "https://www.youtube.com/embed/dJyZmwLpxnE"
+  },
+  {
+    "id": 1680,
+    "number": 149,
+    "name": "Rich no Python: Cores, Emojis, Tabelas e Debug Muito Mais Bonitos - Curso Python POO: Aula Extra",
+    "duration": 1857,
+    "embedUrl": "https://www.youtube.com/embed/djLwj8oDT_s"
+  }
+]

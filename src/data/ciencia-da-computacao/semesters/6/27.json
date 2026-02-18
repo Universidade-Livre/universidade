@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1155,
+    "number": 1,
+    "name": "Aula 01. Apresentação do plano de ensino e introdução à IA",
+    "duration": 2199,
+    "embedUrl": "https://www.youtube.com/embed/-T3zDFxngf4"
+  },
+  {
+    "id": 1156,
+    "number": 2,
+    "name": "Discovery Brasil | Inteligência Artificial - IBM",
+    "duration": 5267,
+    "embedUrl": "https://www.youtube.com/embed/W95YlM5-iPk"
+  },
+  {
+    "id": 1157,
+    "number": 3,
+    "name": "Aula 03 - Introdução à Inteligência Artificial (part 1/2)",
+    "duration": 2252,
+    "embedUrl": "https://www.youtube.com/embed/GTuZ0WXcbI8"
+  },
+  {
+    "id": 1158,
+    "number": 4,
+    "name": "Aula 04 - Introdução à Inteligência Artificial (part 2/2)",
+    "duration": 1784,
+    "embedUrl": "https://www.youtube.com/embed/QZ3Z9TiNUSg"
+  },
+  {
+    "id": 1159,
+    "number": 5,
+    "name": "Aula 05 - Agentes Inteligentes. Part (1/2)",
+    "duration": 1222,
+    "embedUrl": "https://www.youtube.com/embed/FZDg2Olv1PA"
+  },
+  {
+    "id": 1160,
+    "number": 6,
+    "name": "Aula 06 - Agentes Inteligentes. Part (2/2)",
+    "duration": 1515,
+    "embedUrl": "https://www.youtube.com/embed/HXQ_-WTMxCM"
+  },
+  {
+    "id": 1161,
+    "number": 7,
+    "name": "Aula 07 - Agente de Resolução de Problemas. Part (1/4)",
+    "duration": 1214,
+    "embedUrl": "https://www.youtube.com/embed/6CNsXJwemUA"
+  },
+  {
+    "id": 1162,
+    "number": 8,
+    "name": "Aula 08 - Agente de Resolução de Problemas. Part (2/4)",
+    "duration": 1685,
+    "embedUrl": "https://www.youtube.com/embed/W8PIuI-_lAc"
+  },
+  {
+    "id": 1163,
+    "number": 9,
+    "name": "Aula 09 - Resolução de Problemas - Exercício Missionários e Canibais. Part (3/4)",
+    "duration": 984,
+    "embedUrl": "https://www.youtube.com/embed/N1dgi46v6Mk"
+  },
+  {
+    "id": 1164,
+    "number": 10,
+    "name": "Aula 10 - Agente de Resolução de Problemas - Heurísticas. Part (4/4)",
+    "duration": 2718,
+    "embedUrl": "https://www.youtube.com/embed/0QE7NG9zjfY"
+  },
+  {
+    "id": 1165,
+    "number": 11,
+    "name": "Aula 11 - Além da Busca Clássica Introdução:  Local Search e Hill climbing",
+    "duration": 2004,
+    "embedUrl": "https://www.youtube.com/embed/8AzBLvKzQjs"
+  },
+  {
+    "id": 1166,
+    "number": 12,
+    "name": "Aula 12 - Além da Busca Clássica Introdução: Simulated Annealing",
+    "duration": 1608,
+    "embedUrl": "https://www.youtube.com/embed/ds2Ps1kLk_I"
+  },
+  {
+    "id": 1167,
+    "number": 13,
+    "name": "Aula 13 - Além da Busca Clássica: Beam Search",
+    "duration": 1157,
+    "embedUrl": "https://www.youtube.com/embed/vVYZ9Mb51t0"
+  },
+  {
+    "id": 1168,
+    "number": 14,
+    "name": "Aula 14 - Além da Busca Clássica: Algoritmos Genéticos (1/2)",
+    "duration": 1411,
+    "embedUrl": "https://www.youtube.com/embed/D_TRdKEbc5c"
+  },
+  {
+    "id": 1169,
+    "number": 15,
+    "name": "Aula 15 - Além da Busca Clássica: Algoritmos Genéticos (2/2)",
+    "duration": 1551,
+    "embedUrl": "https://www.youtube.com/embed/Vk2X4m0lkAk"
+  },
+  {
+    "id": 1170,
+    "number": 16,
+    "name": "Aula 16 - Jogos com Adversários  ( Min-Max )",
+    "duration": 2167,
+    "embedUrl": "https://www.youtube.com/embed/dRn9qrUx1_4"
+  },
+  {
+    "id": 1171,
+    "number": 17,
+    "name": "Aula 17 - Problema de Satisfação de Restrições (PSR)",
+    "duration": 2057,
+    "embedUrl": "https://www.youtube.com/embed/WC3K-scfnjM"
+  },
+  {
+    "id": 1172,
+    "number": 18,
+    "name": "Aula 18 - Introdução à Representação do Conhecimento. Part (1/4)",
+    "duration": 2112,
+    "embedUrl": "https://www.youtube.com/embed/R-vdnt8H5pU"
+  },
+  {
+    "id": 1173,
+    "number": 19,
+    "name": "Aula 19 - Introdução à Representação do Conhecimento. Part (2/4)",
+    "duration": 1577,
+    "embedUrl": "https://www.youtube.com/embed/zoMLMzSVkn0"
+  },
+  {
+    "id": 1174,
+    "number": 20,
+    "name": "Aula 20 - Introdução à Representação do Conhecimento. Part (3/4)",
+    "duration": 1259,
+    "embedUrl": "https://www.youtube.com/embed/eNtXuvoTjR4"
+  },
+  {
+    "id": 1175,
+    "number": 21,
+    "name": "Aula 21 - Introdução à Representação do Conhecimento. Part (4/4)",
+    "duration": 2217,
+    "embedUrl": "https://www.youtube.com/embed/JWX8UJJvE8U"
+  },
+  {
+    "id": 1176,
+    "number": 22,
+    "name": "Aula 22 - Introdução ao aprendizado de máquina.  Part (1/6)",
+    "duration": 2394,
+    "embedUrl": "https://www.youtube.com/embed/mzlhQqNUzQo"
+  },
+  {
+    "id": 1177,
+    "number": 23,
+    "name": "Aula 23 - Introdução ao aprendizado de máquina. Part (2/6)",
+    "duration": 1844,
+    "embedUrl": "https://www.youtube.com/embed/BdsflRcqA0Q"
+  },
+  {
+    "id": 1178,
+    "number": 24,
+    "name": "Aula 24 - Introdução ao aprendizado de máquina. Part (3/6)",
+    "duration": 2418,
+    "embedUrl": "https://www.youtube.com/embed/2OTgcYUIfOc"
+  },
+  {
+    "id": 1179,
+    "number": 25,
+    "name": "Aula 25 - Introdução ao aprendizado de máquina. Part (4/6)",
+    "duration": 2731,
+    "embedUrl": "https://www.youtube.com/embed/u5dcmroFxAI"
+  },
+  {
+    "id": 1180,
+    "number": 26,
+    "name": "Explicações sobre Trabalho de Implementação ROBOCODE.",
+    "duration": 1215,
+    "embedUrl": "https://www.youtube.com/embed/FKXpU3LMiAc"
+  },
+  {
+    "id": 1181,
+    "number": 27,
+    "name": "Aula 26 - Introdução ao aprendizado de máquina. Part (5/6)",
+    "duration": 1965,
+    "embedUrl": "https://www.youtube.com/embed/YXQLhRE-SjE"
+  },
+  {
+    "id": 1182,
+    "number": 28,
+    "name": "Aula 27 - Introdução ao aprendizado de máquina. Part (6/6)",
+    "duration": 1120,
+    "embedUrl": "https://www.youtube.com/embed/6U4vH6Z6aEE"
+  },
+  {
+    "id": 1183,
+    "number": 29,
+    "name": "DISPUTAS TRABALHO ROBOCODE 2021.2",
+    "duration": 1776,
+    "embedUrl": "https://www.youtube.com/embed/oIGsYlzlrHM"
+  },
+  {
+    "id": 1184,
+    "number": 30,
+    "name": "All Machine Learning Models Explained in 5 Minutes | Types of ML Models Basics",
+    "duration": 301,
+    "embedUrl": "https://www.youtube.com/embed/yN7ypxC7838"
+  }
+]

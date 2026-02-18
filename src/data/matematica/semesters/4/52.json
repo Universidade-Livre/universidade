@@ -1,0 +1,177 @@
+[
+  {
+    "id": 2048,
+    "number": 1,
+    "name": "Cursos Unicamp - Física Geral II - Gravitação, massa e etc. - parte 1",
+    "duration": 2126,
+    "embedUrl": "https://www.youtube.com/embed/p3QjNd2eA14"
+  },
+  {
+    "id": 2049,
+    "number": 2,
+    "name": "Cursos Unicamp - Física Geral II - Gravitação, massa e etc. - parte 2",
+    "duration": 2173,
+    "embedUrl": "https://www.youtube.com/embed/XBbl-L922e4"
+  },
+  {
+    "id": 2050,
+    "number": 3,
+    "name": "Cursos Unicamp - Física Geral II - Gravimetria, matéria escura, energia potencial gravitacion",
+    "duration": 2406,
+    "embedUrl": "https://www.youtube.com/embed/dL0PtiqTfNo"
+  },
+  {
+    "id": 2051,
+    "number": 4,
+    "name": "Cursos Unicamp - Física Geral II - Gravimetria, matéria escura, energia potencial gravitacion",
+    "duration": 2273,
+    "embedUrl": "https://www.youtube.com/embed/HJyNoL1T5JA"
+  },
+  {
+    "id": 2052,
+    "number": 5,
+    "name": "Cursos Unicamp - Física Geral II - Equilíbrio e elasticidade - Parte 1",
+    "duration": 2491,
+    "embedUrl": "https://www.youtube.com/embed/jZLcZlZ51RQ"
+  },
+  {
+    "id": 2053,
+    "number": 6,
+    "name": "Cursos Unicamp - Física Geral II - Equilíbrio e elasticidade - Parte 2",
+    "duration": 2283,
+    "embedUrl": "https://www.youtube.com/embed/prTJJmzhyRo"
+  },
+  {
+    "id": 2054,
+    "number": 7,
+    "name": "Cursos Unicamp: Física Geral II - Fluidos - Parte 1",
+    "duration": 2691,
+    "embedUrl": "https://www.youtube.com/embed/hi2ORXrJk6k"
+  },
+  {
+    "id": 2055,
+    "number": 8,
+    "name": "Cursos Unicamp - Física Geral II - Fluidos - Parte 2",
+    "duration": 2681,
+    "embedUrl": "https://www.youtube.com/embed/B9s4PQt2TAc"
+  },
+  {
+    "id": 2056,
+    "number": 9,
+    "name": "Cursos Unicamp - Física Geral II - Calor e 1ª Lei da Termodinâmica - parte 1",
+    "duration": 2801,
+    "embedUrl": "https://www.youtube.com/embed/LVJyxS-sO0w"
+  },
+  {
+    "id": 2057,
+    "number": 10,
+    "name": "Cursos Unicamp - Física Geral II - Calor e 1ª Lei da Termodinâmica - parte 2",
+    "duration": 2735,
+    "embedUrl": "https://www.youtube.com/embed/XDCcDTpuDoY"
+  },
+  {
+    "id": 2058,
+    "number": 11,
+    "name": "Cursos Unicamp - Física Geral II - A 2ª lei da termodinâmica - parte 1",
+    "duration": 2448,
+    "embedUrl": "https://www.youtube.com/embed/T5IfNuCOa7w"
+  },
+  {
+    "id": 2059,
+    "number": 12,
+    "name": "Cursos Unicamp - Física Geral II - A 2ª lei da termodinâmica - parte 2",
+    "duration": 2636,
+    "embedUrl": "https://www.youtube.com/embed/MSFAbZpIi1c"
+  },
+  {
+    "id": 2060,
+    "number": 13,
+    "name": "Cursos Unicamp - Física Geral II - A entropia e a sua interpretação microscópica - Parte 1",
+    "duration": 2328,
+    "embedUrl": "https://www.youtube.com/embed/uSqApPtHUds"
+  },
+  {
+    "id": 2061,
+    "number": 14,
+    "name": "Cursos Unicamp - Física Geral II - A entropia e a sua interpretação microscópica - Parte 2",
+    "duration": 2828,
+    "embedUrl": "https://www.youtube.com/embed/lszr2DYTtUo"
+  },
+  {
+    "id": 2062,
+    "number": 15,
+    "name": "Cursos Unicamp - Física Geral II - Gases ideais e teoria cinética - Parte 1",
+    "duration": 2729,
+    "embedUrl": "https://www.youtube.com/embed/Zuuv8nJFy8E"
+  },
+  {
+    "id": 2063,
+    "number": 16,
+    "name": "Cursos Unicamp - Física Geral II - Gases ideais e teoria cinética - Parte 2",
+    "duration": 2679,
+    "embedUrl": "https://www.youtube.com/embed/ewnoinZ3R7E"
+  },
+  {
+    "id": 2064,
+    "number": 17,
+    "name": "Cursos Unicamp - Física Geral II - Oscilações - Parte 1",
+    "duration": 2221,
+    "embedUrl": "https://www.youtube.com/embed/WBUcT8NVwuk"
+  },
+  {
+    "id": 2065,
+    "number": 18,
+    "name": "Cursos Unicamp - Física Geral II - Oscilações - Parte 2",
+    "duration": 1968,
+    "embedUrl": "https://www.youtube.com/embed/HrC_7BFiT3Y"
+  },
+  {
+    "id": 2066,
+    "number": 19,
+    "name": "Cursos Unicamp - Física Geral II - Oscilações - Parte 3",
+    "duration": 1534,
+    "embedUrl": "https://www.youtube.com/embed/y4sB6oGZeLs"
+  },
+  {
+    "id": 2067,
+    "number": 20,
+    "name": "Cursos Unicamp - Física Geral II - Ondas I - Parte 1",
+    "duration": 2411,
+    "embedUrl": "https://www.youtube.com/embed/UCfLm9DRfuI"
+  },
+  {
+    "id": 2068,
+    "number": 21,
+    "name": "Cursos Unicamp - Física Geral II - Ondas I - Parte 2",
+    "duration": 2236,
+    "embedUrl": "https://www.youtube.com/embed/eU1tQwNnrLM"
+  },
+  {
+    "id": 2069,
+    "number": 22,
+    "name": "Cursos Unicamp - Física Geral II - Ondas II - Parte 1",
+    "duration": 2015,
+    "embedUrl": "https://www.youtube.com/embed/EV1d_u6K7A0"
+  },
+  {
+    "id": 2070,
+    "number": 23,
+    "name": "Cursos Unicamp - Física Geral II - Ondas II - Parte 2",
+    "duration": 2114,
+    "embedUrl": "https://www.youtube.com/embed/qnwNUQ1tuig"
+  },
+  {
+    "id": 2071,
+    "number": 24,
+    "name": "Cursos Unicamp - Física Geral II - Ondas III - Parte 1",
+    "duration": 2534,
+    "embedUrl": "https://www.youtube.com/embed/R7hmbj4wl5E"
+  },
+  {
+    "id": 2072,
+    "number": 25,
+    "name": "Cursos Unicamp - Física Geral II - Ondas III - Parte 2",
+    "duration": 2611,
+    "embedUrl": "https://www.youtube.com/embed/P4mKhOkCwIY"
+  }
+]

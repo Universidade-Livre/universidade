@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1786,
+    "number": 1,
+    "name": "Teoria dos Números – Apresentação da disciplina",
+    "duration": 252,
+    "embedUrl": "https://www.youtube.com/embed/0e1bgWE13-Y"
+  },
+  {
+    "id": 1787,
+    "number": 2,
+    "name": "Teoria dos Números – Aula 01 - Origem dos números e sistemas de numeração",
+    "duration": 851,
+    "embedUrl": "https://www.youtube.com/embed/zXNMbGle0OQ"
+  },
+  {
+    "id": 1788,
+    "number": 3,
+    "name": "Teoria dos Números – Aula 02 - Sistema de numeração indo-arábico",
+    "duration": 865,
+    "embedUrl": "https://www.youtube.com/embed/pRWwj4XrAtw"
+  },
+  {
+    "id": 1789,
+    "number": 4,
+    "name": "Teoria dos Números - Aula 03 - Princípio da indução e Princípio do menor inteiro",
+    "duration": 732,
+    "embedUrl": "https://www.youtube.com/embed/OEwfjWdZQws"
+  },
+  {
+    "id": 1790,
+    "number": 5,
+    "name": "Teoria dos Números - Aula 04 - Algoritmo da divisão",
+    "duration": 676,
+    "embedUrl": "https://www.youtube.com/embed/o67zA0UrGpg"
+  },
+  {
+    "id": 1791,
+    "number": 6,
+    "name": "Teoria dos Números - Aula 05 - Divisibilidade -  Máximo Divisor Comum",
+    "duration": 759,
+    "embedUrl": "https://www.youtube.com/embed/dEq81ItGcKg"
+  },
+  {
+    "id": 1792,
+    "number": 7,
+    "name": "Teoria dos Números – Aula 06 - Mínimo Múltiplo Comum - Equações Diofantinas Lineares",
+    "duration": 702,
+    "embedUrl": "https://www.youtube.com/embed/t_pT9fiivlc"
+  },
+  {
+    "id": 1793,
+    "number": 8,
+    "name": "Teoria dos Números - Aula 07 - Números primos - Teoria Fundamental da Arimética",
+    "duration": 665,
+    "embedUrl": "https://www.youtube.com/embed/DJGuxLAdN4Y"
+  },
+  {
+    "id": 1794,
+    "number": 9,
+    "name": "Teoria dos Números - Aula 08 - Números primos distribuição e conjecturas",
+    "duration": 767,
+    "embedUrl": "https://www.youtube.com/embed/Q2kXPBeEEH4"
+  },
+  {
+    "id": 1795,
+    "number": 10,
+    "name": "Teoria dos Números - Aula 09 - Teorias das congruências, propriedades e aplicações",
+    "duration": 975,
+    "embedUrl": "https://www.youtube.com/embed/Xqwix_DePvA"
+  },
+  {
+    "id": 1796,
+    "number": 11,
+    "name": "Teoria dos Números - Aula 10 - Congruências similares,  congruências simultâneas",
+    "duration": 867,
+    "embedUrl": "https://www.youtube.com/embed/ZA5qGr4eAEE"
+  },
+  {
+    "id": 1797,
+    "number": 12,
+    "name": "Teoria dos Números - Aula 11 - Relação de equivalência",
+    "duration": 561,
+    "embedUrl": "https://www.youtube.com/embed/RmxRgoef_C8"
+  },
+  {
+    "id": 1798,
+    "number": 13,
+    "name": "Teoria dos Números - Aula 12 - Relação de equivalência e conjunto quociente",
+    "duration": 673,
+    "embedUrl": "https://www.youtube.com/embed/y0DhBchRQ10"
+  },
+  {
+    "id": 1799,
+    "number": 14,
+    "name": "Teoria dos Números - Aula 13 - Números racionais, construção a partir dos inteiros",
+    "duration": 482,
+    "embedUrl": "https://www.youtube.com/embed/ILRkErP_CkU"
+  },
+  {
+    "id": 1800,
+    "number": 15,
+    "name": "Teoria dos Números - Aula 14 - Polinômios e divisibilidade",
+    "duration": 703,
+    "embedUrl": "https://www.youtube.com/embed/U-y-sLV6icY"
+  }
+]

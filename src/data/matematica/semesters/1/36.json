@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1453,
+    "number": 1,
+    "name": "Ingredientes básicos para o Cálculo - 01: Números reais",
+    "duration": 3959,
+    "embedUrl": "https://www.youtube.com/embed/8inI_MeSTuM"
+  },
+  {
+    "id": 1454,
+    "number": 2,
+    "name": "Ingredientes básicos para o Cálculo - 02: A intimidade dos números reais",
+    "duration": 4004,
+    "embedUrl": "https://www.youtube.com/embed/EjI8QNzYMwg"
+  },
+  {
+    "id": 1455,
+    "number": 3,
+    "name": "Ingredientes básicos para o Cálculo - 03: Qual a função das funções?",
+    "duration": 3192,
+    "embedUrl": "https://www.youtube.com/embed/TKDFnq2VEJ8"
+  },
+  {
+    "id": 1456,
+    "number": 4,
+    "name": "Ingredientes básicos para o Cálculo - 04: Contatos imediatos de 1º grau",
+    "duration": 2763,
+    "embedUrl": "https://www.youtube.com/embed/iYbkY1f-Rzo"
+  },
+  {
+    "id": 1457,
+    "number": 5,
+    "name": "Ingredientes básicos para o Cálculo - 05: Contatos imediatos de 2º grau",
+    "duration": 2491,
+    "embedUrl": "https://www.youtube.com/embed/R1c1g9ADzQc"
+  },
+  {
+    "id": 1458,
+    "number": 6,
+    "name": "Ingredientes básicos para o Cálculo - 06: Contatos imediatos de n-ésimo grau",
+    "duration": 4000,
+    "embedUrl": "https://www.youtube.com/embed/Rp9gUV8wmTg"
+  },
+  {
+    "id": 1459,
+    "number": 7,
+    "name": "Ingredientes básicos para o Cálculo - 07: Funções trigonométricas",
+    "duration": 4293,
+    "embedUrl": "https://www.youtube.com/embed/G4EVhxkZNCI"
+  },
+  {
+    "id": 1460,
+    "number": 8,
+    "name": "Ingredientes básicos para o Cálculo - 08: Funções exponenciais e logaritmicas",
+    "duration": 3769,
+    "embedUrl": "https://www.youtube.com/embed/tXzGOp83QgM"
+  },
+  {
+    "id": 1461,
+    "number": 9,
+    "name": "Ingredientes básicos para o Cálculo - 09: Composição de funções",
+    "duration": 1772,
+    "embedUrl": "https://www.youtube.com/embed/S_U_h_7lVDw"
+  }
+]

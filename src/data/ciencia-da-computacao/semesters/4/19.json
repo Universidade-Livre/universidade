@@ -1,0 +1,240 @@
+[
+  {
+    "id": 943,
+    "number": 1,
+    "name": "Apresentação da Disciplina Arquitetura de Computadores II da Unicamp",
+    "duration": 1121,
+    "embedUrl": "https://www.youtube.com/embed/jX1g1MjNIHI"
+  },
+  {
+    "id": 944,
+    "number": 2,
+    "name": "Benchmarks e Ferramentas",
+    "duration": 1012,
+    "embedUrl": "https://www.youtube.com/embed/NThFjzeBwr8"
+  },
+  {
+    "id": 945,
+    "number": 3,
+    "name": "O processador RISC-V",
+    "duration": 911,
+    "embedUrl": "https://www.youtube.com/embed/rn5TT7VuFQ0"
+  },
+  {
+    "id": 946,
+    "number": 4,
+    "name": "Visão Geral dos Conceitos da Disciplina",
+    "duration": 1058,
+    "embedUrl": "https://www.youtube.com/embed/lA_yc1dxYhY"
+  },
+  {
+    "id": 947,
+    "number": 5,
+    "name": "Tipos de Processadores",
+    "duration": 1190,
+    "embedUrl": "https://www.youtube.com/embed/xJ-_WfiILmk"
+  },
+  {
+    "id": 948,
+    "number": 6,
+    "name": "Descrição do Simulador do RISC-V",
+    "duration": 441,
+    "embedUrl": "https://www.youtube.com/embed/Bz4KOHIiAaI"
+  },
+  {
+    "id": 949,
+    "number": 7,
+    "name": "Cache - Visão Geral",
+    "duration": 1634,
+    "embedUrl": "https://www.youtube.com/embed/678x_oZmLp8"
+  },
+  {
+    "id": 950,
+    "number": 8,
+    "name": "Estrutura e Organização de Múltiplos Níveis de Cache",
+    "duration": 1036,
+    "embedUrl": "https://www.youtube.com/embed/hredPwpVdF8"
+  },
+  {
+    "id": 951,
+    "number": 9,
+    "name": "Memória Virtual",
+    "duration": 1642,
+    "embedUrl": "https://www.youtube.com/embed/xYTz_ZiZVFI"
+  },
+  {
+    "id": 952,
+    "number": 10,
+    "name": "Implementação de Caches",
+    "duration": 1377,
+    "embedUrl": "https://www.youtube.com/embed/7WAVftfDvVY"
+  },
+  {
+    "id": 953,
+    "number": 11,
+    "name": "Unidade de Busca de Instruções (Fetch Unit)",
+    "duration": 1004,
+    "embedUrl": "https://www.youtube.com/embed/cFOkyFrRUmk"
+  },
+  {
+    "id": 954,
+    "number": 12,
+    "name": "Preditores de desvios locais (Local Branch Predictor)",
+    "duration": 1532,
+    "embedUrl": "https://www.youtube.com/embed/7Z9fbBV3Ozo"
+  },
+  {
+    "id": 955,
+    "number": 13,
+    "name": "Preditor de Desvio de Correlação (gshare)",
+    "duration": 827,
+    "embedUrl": "https://www.youtube.com/embed/tVTbAqLXBhU"
+  },
+  {
+    "id": 956,
+    "number": 14,
+    "name": "Concluindo a Unidade de Busca de Instruções",
+    "duration": 705,
+    "embedUrl": "https://www.youtube.com/embed/wvYZAtPF664"
+  },
+  {
+    "id": 957,
+    "number": 15,
+    "name": "Decodificando Instruções num Processador",
+    "duration": 889,
+    "embedUrl": "https://www.youtube.com/embed/l1IQqoDoaBg"
+  },
+  {
+    "id": 958,
+    "number": 16,
+    "name": "Formatos de Instruções",
+    "duration": 720,
+    "embedUrl": "https://www.youtube.com/embed/-m3ZQDqMwEA"
+  },
+  {
+    "id": 959,
+    "number": 17,
+    "name": "Pipeline de Decodificação de Instruções",
+    "duration": 612,
+    "embedUrl": "https://www.youtube.com/embed/blQD6h8FJ4A"
+  },
+  {
+    "id": 960,
+    "number": 18,
+    "name": "Impacto do Conjunto de Instruções de um Processador",
+    "duration": 865,
+    "embedUrl": "https://www.youtube.com/embed/PI0T7r6imCU"
+  },
+  {
+    "id": 961,
+    "number": 19,
+    "name": "Estágio de Allocation e Dependência de Dados",
+    "duration": 541,
+    "embedUrl": "https://www.youtube.com/embed/jeX1lBFIKqQ"
+  },
+  {
+    "id": 962,
+    "number": 20,
+    "name": "Exemplo de Dependências de Dados",
+    "duration": 615,
+    "embedUrl": "https://www.youtube.com/embed/qw1yHpjIETY"
+  },
+  {
+    "id": 963,
+    "number": 21,
+    "name": "Implementação de Register Renaming",
+    "duration": 1408,
+    "embedUrl": "https://www.youtube.com/embed/myX_bwYbMHc"
+  },
+  {
+    "id": 964,
+    "number": 22,
+    "name": "Visão Geral sobre o Despacho de Instruções (Issue) de um Processador Superescalar",
+    "duration": 809,
+    "embedUrl": "https://www.youtube.com/embed/0Z5iVTvprCs"
+  },
+  {
+    "id": 965,
+    "number": 23,
+    "name": "Leitura de Dados antes do Despacho de Instruções",
+    "duration": 1531,
+    "embedUrl": "https://www.youtube.com/embed/RPBXP8XT3ok"
+  },
+  {
+    "id": 966,
+    "number": 24,
+    "name": "Despacho de Instruções com Leitura de Dados Posterior",
+    "duration": 827,
+    "embedUrl": "https://www.youtube.com/embed/09lWAJGLafA"
+  },
+  {
+    "id": 967,
+    "number": 25,
+    "name": "Despacho de Instruções de Memória",
+    "duration": 1595,
+    "embedUrl": "https://www.youtube.com/embed/gkp8RbUy3Jc"
+  },
+  {
+    "id": 968,
+    "number": 26,
+    "name": "As Unidades Funcionais do Estágio de Execução",
+    "duration": 1555,
+    "embedUrl": "https://www.youtube.com/embed/lsQVfqPOSAA"
+  },
+  {
+    "id": 969,
+    "number": 27,
+    "name": "Rede de Bypass das Unidades Funcionais do Processador",
+    "duration": 1270,
+    "embedUrl": "https://www.youtube.com/embed/etZJI7AAXo0"
+  },
+  {
+    "id": 970,
+    "number": 28,
+    "name": "Clustering de Unidades Funcionais no Processador",
+    "duration": 489,
+    "embedUrl": "https://www.youtube.com/embed/cvHJx14Fy14"
+  },
+  {
+    "id": 971,
+    "number": 29,
+    "name": "Estágio de Commit do Processador",
+    "duration": 1033,
+    "embedUrl": "https://www.youtube.com/embed/RHbykjvDQ4M"
+  },
+  {
+    "id": 972,
+    "number": 30,
+    "name": "Recuperando de falhas e liberando recursos no estágio de commit",
+    "duration": 727,
+    "embedUrl": "https://www.youtube.com/embed/NAY3-hXml54"
+  },
+  {
+    "id": 973,
+    "number": 31,
+    "name": "Desempenho de Computadores: Execução Serial",
+    "duration": 715,
+    "embedUrl": "https://www.youtube.com/embed/Pfxm8GPJSm0"
+  },
+  {
+    "id": 974,
+    "number": 32,
+    "name": "Desempenho de Sistemas Computacionais: Execução Paralela",
+    "duration": 1355,
+    "embedUrl": "https://www.youtube.com/embed/xrgrck-nb8s"
+  },
+  {
+    "id": 975,
+    "number": 33,
+    "name": "Workload Design",
+    "duration": 1031,
+    "embedUrl": "https://www.youtube.com/embed/M93Ai6uKO4g"
+  },
+  {
+    "id": 976,
+    "number": 34,
+    "name": "Reducing Workload",
+    "duration": 1910,
+    "embedUrl": "https://www.youtube.com/embed/tbsnV52ogY8"
+  }
+]

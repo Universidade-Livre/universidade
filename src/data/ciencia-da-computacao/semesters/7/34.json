@@ -1,0 +1,149 @@
+[
+  {
+    "id": 1412,
+    "number": 1,
+    "name": "Números Complexos",
+    "duration": 7545,
+    "embedUrl": "https://www.youtube.com/embed/siQAsHPRb0w"
+  },
+  {
+    "id": 1413,
+    "number": 2,
+    "name": "Espaço vetorial Complexo",
+    "duration": 16356,
+    "embedUrl": "https://www.youtube.com/embed/EnxBTTMXxIo"
+  },
+  {
+    "id": 1414,
+    "number": 3,
+    "name": "Bits Quânticos",
+    "duration": 2206,
+    "embedUrl": "https://www.youtube.com/embed/n1wQxA68Cws"
+  },
+  {
+    "id": 1415,
+    "number": 4,
+    "name": "Estados de Bell, Paralelismo, Algoritmo de Deutsch",
+    "duration": 6120,
+    "embedUrl": "https://www.youtube.com/embed/3mwQRbi2skc"
+  },
+  {
+    "id": 1416,
+    "number": 5,
+    "name": "Teorema da Não Clonagem",
+    "duration": 998,
+    "embedUrl": "https://www.youtube.com/embed/G_pPzw3UVTo"
+  },
+  {
+    "id": 1417,
+    "number": 6,
+    "name": "Teletransporte Quântico",
+    "duration": 1505,
+    "embedUrl": "https://www.youtube.com/embed/1nBTY_f-KAA"
+  },
+  {
+    "id": 1418,
+    "number": 7,
+    "name": "Aula 1 - Informação quântica",
+    "duration": 8533,
+    "embedUrl": "https://www.youtube.com/embed/WNYur9BjnH0"
+  },
+  {
+    "id": 1419,
+    "number": 8,
+    "name": "Algoritmo de Deutsch",
+    "duration": 2349,
+    "embedUrl": "https://www.youtube.com/embed/Sb5WRs8XUuU"
+  },
+  {
+    "id": 1420,
+    "number": 9,
+    "name": "Teletransporte Quântico - 2016",
+    "duration": 1805,
+    "embedUrl": "https://www.youtube.com/embed/JWNDlSWDUU0"
+  },
+  {
+    "id": 1421,
+    "number": 10,
+    "name": "Algoritmo de Deutsch-Jozsa",
+    "duration": 3473,
+    "embedUrl": "https://www.youtube.com/embed/g-O9aRzGeHs"
+  },
+  {
+    "id": 1422,
+    "number": 11,
+    "name": "Algoritmo de Deutsch-Jozsa - Exemplo 3 qubits",
+    "duration": 850,
+    "embedUrl": "https://www.youtube.com/embed/jBc35cih6Wc"
+  },
+  {
+    "id": 1423,
+    "number": 12,
+    "name": "Formalismo do Operador Densidade - Mecânica quântica",
+    "duration": 2156,
+    "embedUrl": "https://www.youtube.com/embed/xmBZKohaTxs"
+  },
+  {
+    "id": 1424,
+    "number": 13,
+    "name": "Canais Quânticos",
+    "duration": 2154,
+    "embedUrl": "https://www.youtube.com/embed/qZhCNo_yRRg"
+  },
+  {
+    "id": 1425,
+    "number": 14,
+    "name": "Operação Traço Parcial",
+    "duration": 2253,
+    "embedUrl": "https://www.youtube.com/embed/zIrpDPyebmk"
+  },
+  {
+    "id": 1426,
+    "number": 15,
+    "name": "Operadores de Kraus",
+    "duration": 2508,
+    "embedUrl": "https://www.youtube.com/embed/6lMYJFYqsAI"
+  },
+  {
+    "id": 1427,
+    "number": 16,
+    "name": "Aprendizado de Máquina Quântico",
+    "duration": 3351,
+    "embedUrl": "https://www.youtube.com/embed/8_l0ZycV900"
+  },
+  {
+    "id": 1428,
+    "number": 17,
+    "name": "Quantum Neural Network for Calibrating Question Answering System",
+    "duration": 703,
+    "embedUrl": "https://www.youtube.com/embed/zcvjU5PfOn0"
+  },
+  {
+    "id": 1429,
+    "number": 18,
+    "name": "Supremacia Quântica",
+    "duration": 551,
+    "embedUrl": "https://www.youtube.com/embed/9O3vYfQyaCM"
+  },
+  {
+    "id": 1430,
+    "number": 19,
+    "name": "Explorando Problemas da Física com ML e Algoritmos Variacionais - VII Workshop de CQ - UFSC",
+    "duration": 4392,
+    "embedUrl": "https://www.youtube.com/embed/mxjSZ-2F19w"
+  },
+  {
+    "id": 1431,
+    "number": 20,
+    "name": "Quantum Computing Today: Errors and Mitigation Strategies in the NISQ Era - IFT - Unesp",
+    "duration": 1309,
+    "embedUrl": "https://www.youtube.com/embed/P9pS0A_Gans"
+  },
+  {
+    "id": 1432,
+    "number": 21,
+    "name": "Aprendizado de Máquina Quântico, algoritmos e resultados",
+    "duration": 2536,
+    "embedUrl": "https://www.youtube.com/embed/17MoFHkEWvo"
+  }
+]

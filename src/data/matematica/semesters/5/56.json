@@ -1,0 +1,590 @@
+[
+  {
+    "id": 2153,
+    "number": 1,
+    "name": "Cálculo IV - Aula 1 - Sequências Numéricas I - Parte 1 de 4",
+    "duration": 1336,
+    "embedUrl": "https://www.youtube.com/embed/BrufXJ2AhNo"
+  },
+  {
+    "id": 2154,
+    "number": 2,
+    "name": "Cálculo IV - Aula 1 - Sequências Numéricas I - Parte 2 de 4",
+    "duration": 1255,
+    "embedUrl": "https://www.youtube.com/embed/-WXsYcWLr30"
+  },
+  {
+    "id": 2155,
+    "number": 3,
+    "name": "Cálculo IV - Aula 1 - Sequências Numéricas I - Parte 3 de 4",
+    "duration": 1445,
+    "embedUrl": "https://www.youtube.com/embed/j8bd446q2wk"
+  },
+  {
+    "id": 2156,
+    "number": 4,
+    "name": "Cálculo IV - Aula 1 - Sequências Numéricas I - Parte 4 de 4",
+    "duration": 1417,
+    "embedUrl": "https://www.youtube.com/embed/767sM0V6Ss4"
+  },
+  {
+    "id": 2157,
+    "number": 5,
+    "name": "Cálculo IV - Aula 2 - Sequências Numéricas II - Parte 1 de 3",
+    "duration": 1250,
+    "embedUrl": "https://www.youtube.com/embed/lUfv3bspiGw"
+  },
+  {
+    "id": 2158,
+    "number": 6,
+    "name": "Cálculo IV - Aula 2 - Sequências Numéricas II - Parte 2 de 3",
+    "duration": 1385,
+    "embedUrl": "https://www.youtube.com/embed/LxjSbzWipak"
+  },
+  {
+    "id": 2159,
+    "number": 7,
+    "name": "Cálculo IV - Aula 2 - Sequências Numéricas II - Parte 3 de 3",
+    "duration": 1602,
+    "embedUrl": "https://www.youtube.com/embed/hSuUyOXvfvk"
+  },
+  {
+    "id": 2160,
+    "number": 8,
+    "name": "Cálculo IV - Aula 2 - Séries Numéricas - Conceitos Básicos",
+    "duration": 1798,
+    "embedUrl": "https://www.youtube.com/embed/8MjfOpAINUk"
+  },
+  {
+    "id": 2161,
+    "number": 9,
+    "name": "Cálculo IV - Aula 3 - Critérios de Convergência - Parte 1 de 8",
+    "duration": 1225,
+    "embedUrl": "https://www.youtube.com/embed/d_U9WfFXTXY"
+  },
+  {
+    "id": 2162,
+    "number": 10,
+    "name": "Cálculo IV - Aula 3 - Critérios de Convergência - Parte 2 de 8",
+    "duration": 1637,
+    "embedUrl": "https://www.youtube.com/embed/IqnYmacgmpY"
+  },
+  {
+    "id": 2163,
+    "number": 11,
+    "name": "Cálculo IV - Aula 3 - Critérios de Convergência - Parte 3 de 8",
+    "duration": 1385,
+    "embedUrl": "https://www.youtube.com/embed/jC9MWU3VrsU"
+  },
+  {
+    "id": 2164,
+    "number": 12,
+    "name": "Cálculo IV - Aula 3 - Critérios de Convergência - Parte 4 de 8",
+    "duration": 1472,
+    "embedUrl": "https://www.youtube.com/embed/UOoV1FX5oO8"
+  },
+  {
+    "id": 2165,
+    "number": 13,
+    "name": "Cálculo IV - Aula 4 - Critérios de Convergência - Parte 5 de 8",
+    "duration": 1268,
+    "embedUrl": "https://www.youtube.com/embed/F_Mx__unOeM"
+  },
+  {
+    "id": 2166,
+    "number": 14,
+    "name": "Cálculo IV - Aula 4 - Critérios de Convergência - Parte 6 de 8",
+    "duration": 1315,
+    "embedUrl": "https://www.youtube.com/embed/XZeLekfACKs"
+  },
+  {
+    "id": 2167,
+    "number": 15,
+    "name": "Cálculo IV - Aula 4 - Critérios de Convergência - Parte 7 de 8",
+    "duration": 1266,
+    "embedUrl": "https://www.youtube.com/embed/o0fS-j0BYqg"
+  },
+  {
+    "id": 2168,
+    "number": 16,
+    "name": "Cálculo IV - Aula 4 - Critérios de Convergência - Parte 8 de 8",
+    "duration": 1579,
+    "embedUrl": "https://www.youtube.com/embed/5x24l90oZFk"
+  },
+  {
+    "id": 2169,
+    "number": 17,
+    "name": "Cálculo IV - Aula 5 - Convergência Condicional ou Absoluta I",
+    "duration": 1582,
+    "embedUrl": "https://www.youtube.com/embed/PPu7D3bIwsc"
+  },
+  {
+    "id": 2170,
+    "number": 18,
+    "name": "Cálculo IV - Aula 5 - Convergência Condicional ou Absoluta II",
+    "duration": 1611,
+    "embedUrl": "https://www.youtube.com/embed/UGD6c-3whJA"
+  },
+  {
+    "id": 2171,
+    "number": 19,
+    "name": "Cálculo IV - Aula 5 - Séries de Potências - Introdução I",
+    "duration": 1498,
+    "embedUrl": "https://www.youtube.com/embed/M3459ZGJFd4"
+  },
+  {
+    "id": 2172,
+    "number": 20,
+    "name": "Cálculo IV - Aula 6 - Séries de Potências. Introdução II.",
+    "duration": 1823,
+    "embedUrl": "https://www.youtube.com/embed/dEIytPdERKQ"
+  },
+  {
+    "id": 2173,
+    "number": 21,
+    "name": "Cálculo IV - Aula 6 - Séries de Potências - Parte 1 de 5",
+    "duration": 1287,
+    "embedUrl": "https://www.youtube.com/embed/EigL60vEwCc"
+  },
+  {
+    "id": 2174,
+    "number": 22,
+    "name": "Cálculo IV - Aula 6 - Séries de Potências - Parte 2 de 5 (Continua depois da Aula 7)",
+    "duration": 1770,
+    "embedUrl": "https://www.youtube.com/embed/MFO89oazdPQ"
+  },
+  {
+    "id": 2175,
+    "number": 23,
+    "name": "Cálculo IV - Aula 7 - Revisão e Aprofundamento - Séries de Potências - Parte 1 de 7",
+    "duration": 1644,
+    "embedUrl": "https://www.youtube.com/embed/HqnYPbD3xvk"
+  },
+  {
+    "id": 2176,
+    "number": 24,
+    "name": "Cálculo IV - Aula 7 - Revisão e Aprofundamento - Séries de Potências - Parte 2 de 7",
+    "duration": 1471,
+    "embedUrl": "https://www.youtube.com/embed/w0L8c4MkDjE"
+  },
+  {
+    "id": 2177,
+    "number": 25,
+    "name": "Cálculo IV - Aula 7 - Revisão e Aprofundamento - Séries de Potências - Parte 3 de 7",
+    "duration": 1305,
+    "embedUrl": "https://www.youtube.com/embed/uIX-OaOat_8"
+  },
+  {
+    "id": 2178,
+    "number": 26,
+    "name": "Cálculo IV - Aula 7 - Revisão e Aprofundamento - Séries de Potências - Parte 4 de 7",
+    "duration": 1624,
+    "embedUrl": "https://www.youtube.com/embed/HYSzJ3VKNaw"
+  },
+  {
+    "id": 2179,
+    "number": 27,
+    "name": "Cálculo IV - Aula 7 - Revisão e Aprofundamento - Séries de Potências - Parte 5 de 7",
+    "duration": 1353,
+    "embedUrl": "https://www.youtube.com/embed/Y9Prh7iYVcg"
+  },
+  {
+    "id": 2180,
+    "number": 28,
+    "name": "Cálculo IV - Aula 7 - Revisão e Aprofundamento - Séries de Potências - Parte 6 de 7",
+    "duration": 1715,
+    "embedUrl": "https://www.youtube.com/embed/NCxoy1Ncw8A"
+  },
+  {
+    "id": 2181,
+    "number": 29,
+    "name": "Cálculo IV - Aula 7 - Revisão e Aprofundamento - Séries de Potências - Parte 7 de 7",
+    "duration": 1870,
+    "embedUrl": "https://www.youtube.com/embed/FcXHCFG2hDw"
+  },
+  {
+    "id": 2182,
+    "number": 30,
+    "name": "Cálculo IV - Aula 8 - Séries de Potências - Parte 3 de 5 (Continuação da Aula 6)",
+    "duration": 1564,
+    "embedUrl": "https://www.youtube.com/embed/ZkP8S6-2Ljo"
+  },
+  {
+    "id": 2183,
+    "number": 31,
+    "name": "Cálculo IV - Aula 8 - Séries de Potências - Parte 4 de 5",
+    "duration": 1913,
+    "embedUrl": "https://www.youtube.com/embed/8ad2ly1clvc"
+  },
+  {
+    "id": 2184,
+    "number": 32,
+    "name": "Cálculo IV - Aula 8 - Séries de Potências - Parte 5 de 5",
+    "duration": 1656,
+    "embedUrl": "https://www.youtube.com/embed/Dmiud-Xoy0A"
+  },
+  {
+    "id": 2185,
+    "number": 33,
+    "name": "Cálculo IV - Aula 9 - Séries de Taylor - Parte 1 de 7",
+    "duration": 1613,
+    "embedUrl": "https://www.youtube.com/embed/XNg3c8Pm53U"
+  },
+  {
+    "id": 2186,
+    "number": 34,
+    "name": "Cálculo IV - Aula 9 - Séries de Taylor - Parte 2 de 7",
+    "duration": 1648,
+    "embedUrl": "https://www.youtube.com/embed/g8giCcjyl-8"
+  },
+  {
+    "id": 2187,
+    "number": 35,
+    "name": "Cálculo IV - Aula 9 - Séries de Taylor - Parte 3 de 7",
+    "duration": 1388,
+    "embedUrl": "https://www.youtube.com/embed/4Vd4W0qc68I"
+  },
+  {
+    "id": 2188,
+    "number": 36,
+    "name": "Cálculo IV - Aula 9 - Séries de Taylor - Parte 4 de 7",
+    "duration": 1532,
+    "embedUrl": "https://www.youtube.com/embed/CavnRpUt9bA"
+  },
+  {
+    "id": 2189,
+    "number": 37,
+    "name": "Cálculo IV - Aula 10 - Séries de Taylor - Parte 5 de 7",
+    "duration": 1578,
+    "embedUrl": "https://www.youtube.com/embed/mD0D0c5_9iE"
+  },
+  {
+    "id": 2190,
+    "number": 38,
+    "name": "Cálculo IV - Aula 10 - Séries de Taylor - Parte 6 de 7",
+    "duration": 1605,
+    "embedUrl": "https://www.youtube.com/embed/E72lVIEWkPg"
+  },
+  {
+    "id": 2191,
+    "number": 39,
+    "name": "Cálculo IV - Aula 10 - Séries de Taylor - Parte 7 de 7",
+    "duration": 1635,
+    "embedUrl": "https://www.youtube.com/embed/uTkn4KJPSr0"
+  },
+  {
+    "id": 2192,
+    "number": 40,
+    "name": "Cálculo IV - Aula 11 - Séries de Fourier - Parte 1 de 8",
+    "duration": 2074,
+    "embedUrl": "https://www.youtube.com/embed/JFdBfemyXRU"
+  },
+  {
+    "id": 2193,
+    "number": 41,
+    "name": "Cálculo IV - Aula 11 - Séries de Fourier - Parte 2 de 8",
+    "duration": 1398,
+    "embedUrl": "https://www.youtube.com/embed/VJQkBy8m-VQ"
+  },
+  {
+    "id": 2194,
+    "number": 42,
+    "name": "Cálculo IV - Aula 11 - Séries de Fourier - Parte 3 de 8",
+    "duration": 1862,
+    "embedUrl": "https://www.youtube.com/embed/C9ZNQu93Zp0"
+  },
+  {
+    "id": 2195,
+    "number": 43,
+    "name": "Cálculo IV - Aula 12 - Séries de Fourier - Parte 4 de 8",
+    "duration": 1716,
+    "embedUrl": "https://www.youtube.com/embed/4tNRuKw9YVc"
+  },
+  {
+    "id": 2196,
+    "number": 44,
+    "name": "Cálculo IV - Aula 12 - Séries de Fourier - Parte 5 de 8",
+    "duration": 1938,
+    "embedUrl": "https://www.youtube.com/embed/zq3SjPDkxQM"
+  },
+  {
+    "id": 2197,
+    "number": 45,
+    "name": "Cálculo IV - Aula 12 - Séries de Fourier - Parte 6 de 8",
+    "duration": 1622,
+    "embedUrl": "https://www.youtube.com/embed/51K6yCJwA0Y"
+  },
+  {
+    "id": 2198,
+    "number": 46,
+    "name": "Cálculo IV - Aula 13 - Séries de Fourier - Parte 7 de 8",
+    "duration": 1977,
+    "embedUrl": "https://www.youtube.com/embed/LKp2fi0NWOw"
+  },
+  {
+    "id": 2199,
+    "number": 47,
+    "name": "Cálculo IV - Aula 13 - Séries de Fourier - Parte 8 de 8",
+    "duration": 1734,
+    "embedUrl": "https://www.youtube.com/embed/AQqbNkScX2g"
+  },
+  {
+    "id": 2200,
+    "number": 48,
+    "name": "Cálculo IV - Aula 13 - Exercícios de Séries de Potências",
+    "duration": 1354,
+    "embedUrl": "https://www.youtube.com/embed/MSqsEiOUwWU"
+  },
+  {
+    "id": 2201,
+    "number": 49,
+    "name": "Cálculo IV - Aula 14 - Revisão e Aprofundamento - Séries de Taylor - Parte 3 de 4",
+    "duration": 1135,
+    "embedUrl": "https://www.youtube.com/embed/hQfM2tF1VQg"
+  },
+  {
+    "id": 2202,
+    "number": 50,
+    "name": "Cálculo IV - Aula 14 - Revisão e Aprofundamento - Séries de Taylor - Parte 4 de 4",
+    "duration": 1250,
+    "embedUrl": "https://www.youtube.com/embed/sDUW26Yhmf8"
+  },
+  {
+    "id": 2203,
+    "number": 51,
+    "name": "Cálculo IV - Aula 14 - Revisão e Aprofundamento - Séries de Taylor - Parte 1 de 4",
+    "duration": 1664,
+    "embedUrl": "https://www.youtube.com/embed/M3Ve6qPsY9I"
+  },
+  {
+    "id": 2204,
+    "number": 52,
+    "name": "Cálculo IV - Aula 14 - Revisão e Aprofundamento - Séries de Taylor - Parte 2 de 4",
+    "duration": 1632,
+    "embedUrl": "https://www.youtube.com/embed/ldOL7jfU9aI"
+  },
+  {
+    "id": 2205,
+    "number": 53,
+    "name": "Cálculo IV - Aula 15 - Revisão e Aprofundamento - Séries de Fourier - Parte 1 de 4",
+    "duration": 1445,
+    "embedUrl": "https://www.youtube.com/embed/eHcKsANp2zw"
+  },
+  {
+    "id": 2206,
+    "number": 54,
+    "name": "Cálculo IV - Aula 15 - Revisão e Aprofundamento - Séries de Fourier - Parte 2 de 4",
+    "duration": 1402,
+    "embedUrl": "https://www.youtube.com/embed/paEgp7e4eSY"
+  },
+  {
+    "id": 2207,
+    "number": 55,
+    "name": "Cálculo IV - Aula 15 - Revisão e Aprofundamento - Séries de Fourier - Parte 3 de 4",
+    "duration": 1476,
+    "embedUrl": "https://www.youtube.com/embed/j0qaFRqtT3A"
+  },
+  {
+    "id": 2208,
+    "number": 56,
+    "name": "Cálculo IV - Aula 15 - Revisão e Aprofundamento - Séries de Fourier - Parte 4 de 4",
+    "duration": 1292,
+    "embedUrl": "https://www.youtube.com/embed/S1ZnT08ZyqE"
+  },
+  {
+    "id": 2209,
+    "number": 57,
+    "name": "Cálculo IV - Aula 16 - Equações Diferenciais Ordinárias - Parte 1",
+    "duration": 1694,
+    "embedUrl": "https://www.youtube.com/embed/XHyX5M6GO6w"
+  },
+  {
+    "id": 2210,
+    "number": 58,
+    "name": "Cálculo IV - Aula 16 - Equações Diferenciais Ordinárias - Parte 2",
+    "duration": 1684,
+    "embedUrl": "https://www.youtube.com/embed/Lt-pTKZney4"
+  },
+  {
+    "id": 2211,
+    "number": 59,
+    "name": "Cálculo IV - Aula 16 - Equações Diferenciais Ordinárias - Parte 3",
+    "duration": 1589,
+    "embedUrl": "https://www.youtube.com/embed/jVx230CAOiE"
+  },
+  {
+    "id": 2212,
+    "number": 60,
+    "name": "Cálculo IV - Aula 17 - Equações Diferenciais Ordinárias - Parte 4",
+    "duration": 1372,
+    "embedUrl": "https://www.youtube.com/embed/RMcE9YM3Aqs"
+  },
+  {
+    "id": 2213,
+    "number": 61,
+    "name": "Cálculo IV - Aula 17 - Equações Diferenciais Ordinárias - Parte 5",
+    "duration": 1472,
+    "embedUrl": "https://www.youtube.com/embed/GScauDYFrY0"
+  },
+  {
+    "id": 2214,
+    "number": 62,
+    "name": "Cálculo IV - Aula 17 - Equações Diferenciais Ordinárias - Parte 6",
+    "duration": 1307,
+    "embedUrl": "https://www.youtube.com/embed/EuMoy9qZIic"
+  },
+  {
+    "id": 2215,
+    "number": 63,
+    "name": "Cálculo IV - Aula 17 - Equações Diferenciais Ordinárias - Parte 7",
+    "duration": 1594,
+    "embedUrl": "https://www.youtube.com/embed/qLFPeLgG-mY"
+  },
+  {
+    "id": 2216,
+    "number": 64,
+    "name": "Cálculo IV - Aula 18 - Equações Diferenciais Ordinárias - Parte 8",
+    "duration": 1113,
+    "embedUrl": "https://www.youtube.com/embed/OxmYqpyTCS4"
+  },
+  {
+    "id": 2217,
+    "number": 65,
+    "name": "Cálculo IV - Aula 18 - Equações Diferenciais Ordinárias - Parte 9",
+    "duration": 1703,
+    "embedUrl": "https://www.youtube.com/embed/6w0B1NZUEfs"
+  },
+  {
+    "id": 2218,
+    "number": 66,
+    "name": "Cálculo IV - Aula 18 - Equações Diferenciais Ordinárias - Parte 10",
+    "duration": 1268,
+    "embedUrl": "https://www.youtube.com/embed/Kx-KqvoeLDI"
+  },
+  {
+    "id": 2219,
+    "number": 67,
+    "name": "Cálculo IV - Aula 18 - Equações Diferenciais Ordinárias - Parte 11",
+    "duration": 1525,
+    "embedUrl": "https://www.youtube.com/embed/3vrhfLfDNlw"
+  },
+  {
+    "id": 2220,
+    "number": 68,
+    "name": "Cálculo IV - Aula 19  - Equações Diferenciais Ordinárias - Parte 12",
+    "duration": 1885,
+    "embedUrl": "https://www.youtube.com/embed/552HYhPGzCc"
+  },
+  {
+    "id": 2221,
+    "number": 69,
+    "name": "Cálculo IV - Aula 19 - Equações Diferenciais Ordinárias - Parte 13",
+    "duration": 1543,
+    "embedUrl": "https://www.youtube.com/embed/_1k_dBqEJQc"
+  },
+  {
+    "id": 2222,
+    "number": 70,
+    "name": "Cálculo IV - Aula 19 - Equações Diferenciais Ordinárias - Parte 14",
+    "duration": 1604,
+    "embedUrl": "https://www.youtube.com/embed/hbTxiZkvwXg"
+  },
+  {
+    "id": 2223,
+    "number": 71,
+    "name": "Cálculo IV - Aula 20 - Equações Diferenciais Ordinárias - Parte 15",
+    "duration": 1708,
+    "embedUrl": "https://www.youtube.com/embed/DVvR070MlVs"
+  },
+  {
+    "id": 2224,
+    "number": 72,
+    "name": "Cálculo IV - Aula 20 - Equações Diferenciais Ordinárias - Parte 16",
+    "duration": 1990,
+    "embedUrl": "https://www.youtube.com/embed/UHclnF9obvU"
+  },
+  {
+    "id": 2225,
+    "number": 73,
+    "name": "Cálculo IV - Aula 20 - Equações Diferenciais Ordinárias - Parte 17",
+    "duration": 1346,
+    "embedUrl": "https://www.youtube.com/embed/KLCk0Rq0yWg"
+  },
+  {
+    "id": 2226,
+    "number": 74,
+    "name": "Cálculo IV - Aula 21 - Equações Diferenciais Ordinárias - Parte 18",
+    "duration": 1684,
+    "embedUrl": "https://www.youtube.com/embed/ceUkeX4F1MY"
+  },
+  {
+    "id": 2227,
+    "number": 75,
+    "name": "Cálculo IV - Aula 21 - Equações Diferenciais Ordinárias - Parte 19",
+    "duration": 1383,
+    "embedUrl": "https://www.youtube.com/embed/qAhgvox74vU"
+  },
+  {
+    "id": 2228,
+    "number": 76,
+    "name": "Cálculo IV - Aula 21 - Equações Diferenciais Ordinárias - Parte 20",
+    "duration": 1604,
+    "embedUrl": "https://www.youtube.com/embed/_zRjsTNZDNY"
+  },
+  {
+    "id": 2229,
+    "number": 77,
+    "name": "Cálculo IV - Aula 21 - Equações Diferenciais Ordinárias - Parte 21",
+    "duration": 970,
+    "embedUrl": "https://www.youtube.com/embed/V_6wYC4bFv8"
+  },
+  {
+    "id": 2230,
+    "number": 78,
+    "name": "Cálculo IV - Aula 22 - Revisão e Aprofundamento - Equações Diferenciais - Parte 1",
+    "duration": 1797,
+    "embedUrl": "https://www.youtube.com/embed/RqkPSR-kYCo"
+  },
+  {
+    "id": 2231,
+    "number": 79,
+    "name": "Cálculo IV - Aula 22 - Revisão e Aprofundamento - Equações Diferenciais - Parte 2",
+    "duration": 1411,
+    "embedUrl": "https://www.youtube.com/embed/wo6SNnhgNeE"
+  },
+  {
+    "id": 2232,
+    "number": 80,
+    "name": "Cálculo IV - Aula 22 - Revisão e Aprofundamento - Equações Diferenciais - Parte 3",
+    "duration": 1278,
+    "embedUrl": "https://www.youtube.com/embed/R0o5gXtvLsA"
+  },
+  {
+    "id": 2233,
+    "number": 81,
+    "name": "Cálculo IV - Aula 22 - Revisão e Aprofundamento - Equações Diferenciais - Parte 4",
+    "duration": 1116,
+    "embedUrl": "https://www.youtube.com/embed/Et5L0J3yVPU"
+  },
+  {
+    "id": 2234,
+    "number": 82,
+    "name": "Cálculo IV - Aula 23 - Revisão e Aprofundamento - Equações Diferenciais - Parte 5",
+    "duration": 1255,
+    "embedUrl": "https://www.youtube.com/embed/iW5p7CXTnbk"
+  },
+  {
+    "id": 2235,
+    "number": 83,
+    "name": "Cálculo IV - Aula 23 - Revisão e Aprofundamento - Equações Diferenciais - Parte 6",
+    "duration": 1830,
+    "embedUrl": "https://www.youtube.com/embed/c64U5ttODD4"
+  },
+  {
+    "id": 2236,
+    "number": 84,
+    "name": "Cálculo IV - Aula 23 - Revisão e Aprofundamento - Equações Diferenciais - Parte 7",
+    "duration": 1686,
+    "embedUrl": "https://www.youtube.com/embed/LmHOvNXC7x8"
+  }
+]

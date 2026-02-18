@@ -1,0 +1,149 @@
+[
+  {
+    "id": 2252,
+    "number": 1,
+    "name": "Os Números Complexos - Aula 01 - Variável Complexa para Engenharia (FGA/UnB)",
+    "duration": 3546,
+    "embedUrl": "https://www.youtube.com/embed/_k1arnt1I5s"
+  },
+  {
+    "id": 2253,
+    "number": 2,
+    "name": "Raízes de Números Complexos - Aula 02 - Variável Complexa para Engenharia (FGA/UnB)",
+    "duration": 3500,
+    "embedUrl": "https://www.youtube.com/embed/_6SjEzJ8j68"
+  },
+  {
+    "id": 2254,
+    "number": 3,
+    "name": "Funções de Variável Complexa - Aula 03 - Variável Complexa para Engenharia (FGA/UnB)",
+    "duration": 3310,
+    "embedUrl": "https://www.youtube.com/embed/SbPm4xLx_aQ"
+  },
+  {
+    "id": 2255,
+    "number": 4,
+    "name": "Limites - Aula 04 - Variável Complexa para Engenharia (FGA/UnB)",
+    "duration": 2016,
+    "embedUrl": "https://www.youtube.com/embed/G3W3xIdKi0E"
+  },
+  {
+    "id": 2256,
+    "number": 5,
+    "name": "Derivadas - Aula 05 - Variável Complexa para Engenharia (FGA/UnB)",
+    "duration": 3250,
+    "embedUrl": "https://www.youtube.com/embed/dt5nCJCXgOY"
+  },
+  {
+    "id": 2257,
+    "number": 6,
+    "name": "Analiticidade - Aula 06 - Variável Complexa para Engenharia (FGA/UnB)",
+    "duration": 2585,
+    "embedUrl": "https://www.youtube.com/embed/6Ccfp4VbKUI"
+  },
+  {
+    "id": 2258,
+    "number": 7,
+    "name": "Equações de Cauchy-Riemann - Aula 07 - Variável Complexa para Engenharia (FGA/UnB)",
+    "duration": 4019,
+    "embedUrl": "https://www.youtube.com/embed/tPExevykzBE"
+  },
+  {
+    "id": 2259,
+    "number": 8,
+    "name": "Funções Elementares (Parte 1) - Aula 08 - Variável Complexa para Engenharia (FGA/UnB)",
+    "duration": 3515,
+    "embedUrl": "https://www.youtube.com/embed/9NmxxVoD_A8"
+  },
+  {
+    "id": 2260,
+    "number": 9,
+    "name": "Funções Elementares (Parte 2) - Aula 09 - Variável Complexa para Engenharia (FGA/UnB)",
+    "duration": 3626,
+    "embedUrl": "https://www.youtube.com/embed/wbFsmCgpO3A"
+  },
+  {
+    "id": 2261,
+    "number": 10,
+    "name": "Integração Complexa - Aula 10 - Variável Complexa para Engenharia (FGA/UnB)",
+    "duration": 3885,
+    "embedUrl": "https://www.youtube.com/embed/-OmDio0gYZY"
+  },
+  {
+    "id": 2262,
+    "number": 11,
+    "name": "Teorema de Cauchy-Goursat - Aula 11 - Variável Complexa para Engenharia (FGA/UnB)",
+    "duration": 3810,
+    "embedUrl": "https://www.youtube.com/embed/vX_Tm_Tacy4"
+  },
+  {
+    "id": 2263,
+    "number": 12,
+    "name": "Fórmula Integral de Cauchy - Aula 12 - Variável Complexa para Engenharia (FGA/UnB)",
+    "duration": 3855,
+    "embedUrl": "https://www.youtube.com/embed/r22Sghwn4E8"
+  },
+  {
+    "id": 2264,
+    "number": 13,
+    "name": "Sequências e Séries - Aula 13 - Variável Complexa para Engenharia (FGA/UnB)",
+    "duration": 4030,
+    "embedUrl": "https://www.youtube.com/embed/RC7o0_P7TdU"
+  },
+  {
+    "id": 2265,
+    "number": 14,
+    "name": "Série de Taylor - Aula 14 - Variável Complexa para Engenharia (FGA/UnB)",
+    "duration": 4486,
+    "embedUrl": "https://www.youtube.com/embed/_0uOEi8kndA"
+  },
+  {
+    "id": 2266,
+    "number": 15,
+    "name": "Série de Laurent - Aula 15 - Variável Complexa para Engenharia (FGA/UnB)",
+    "duration": 3869,
+    "embedUrl": "https://www.youtube.com/embed/e7MAukbZHyk"
+  },
+  {
+    "id": 2267,
+    "number": 16,
+    "name": "Singularides e Pólos - Aula 16 - Variável Complexa para Engenharia (FGA/UnB)",
+    "duration": 3003,
+    "embedUrl": "https://www.youtube.com/embed/SobeuJJ8Ihc"
+  },
+  {
+    "id": 2268,
+    "number": 17,
+    "name": "Resíduos e Teorema dos Resíduos - Aula 17 - Variável Complexa para Engenharia (FGA/UnB)",
+    "duration": 3855,
+    "embedUrl": "https://www.youtube.com/embed/LKQnzMGJ1yw"
+  },
+  {
+    "id": 2269,
+    "number": 18,
+    "name": "Integrais Trigonométricas Reais - Aula 18 - Variável Complexa para Engenharia (FGA/UnB)",
+    "duration": 2684,
+    "embedUrl": "https://www.youtube.com/embed/1ZLgKi0VVHI"
+  },
+  {
+    "id": 2270,
+    "number": 19,
+    "name": "Integrais Impróprias Reais - Aula 19 - Variável Complexa para Engenharia (FGA/UnB)",
+    "duration": 3056,
+    "embedUrl": "https://www.youtube.com/embed/r3KkRLj8cd0"
+  },
+  {
+    "id": 2271,
+    "number": 20,
+    "name": "Soma de Séries Infinitas - Aula 20 - Variável Complexa para Engenharia (FGA/UnB)",
+    "duration": 3551,
+    "embedUrl": "https://www.youtube.com/embed/vtzBjHFfGlY"
+  },
+  {
+    "id": 2272,
+    "number": 21,
+    "name": "Invertendo a Transformada de Laplace - Aula 21 - Variável Complexa para Engenharia (FGA/UnB)",
+    "duration": 3920,
+    "embedUrl": "https://www.youtube.com/embed/Bh2wx6TGh_M"
+  }
+]

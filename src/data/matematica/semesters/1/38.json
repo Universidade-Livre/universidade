@@ -1,0 +1,198 @@
+[
+  {
+    "id": 1476,
+    "number": 1,
+    "name": "Lógica e Matemática Discreta - Aula 01 - Apresentação da Disciplina",
+    "duration": 1736,
+    "embedUrl": "https://www.youtube.com/embed/bW_e68PoN4Q"
+  },
+  {
+    "id": 1477,
+    "number": 2,
+    "name": "Lógica e Matemática Discreta - Aula 02 - Lógica",
+    "duration": 1325,
+    "embedUrl": "https://www.youtube.com/embed/EElh5FJ7FhI"
+  },
+  {
+    "id": 1478,
+    "number": 3,
+    "name": "Lógica e Matemática Discreta - Aula 03 - Lógica e Linguagem",
+    "duration": 1402,
+    "embedUrl": "https://www.youtube.com/embed/MOJPp7n_5dQ"
+  },
+  {
+    "id": 1479,
+    "number": 4,
+    "name": "Lógica e Matemática Discreta - Aula 04 - Demonstrações I",
+    "duration": 1410,
+    "embedUrl": "https://www.youtube.com/embed/I92EYq0FLaU"
+  },
+  {
+    "id": 1480,
+    "number": 5,
+    "name": "Lógica e Matemática Discreta - Aula 05 - Demonstrações II",
+    "duration": 1422,
+    "embedUrl": "https://www.youtube.com/embed/bmm9Q6pCzHE"
+  },
+  {
+    "id": 1481,
+    "number": 6,
+    "name": "Lógica e Matemática Discreta - Aula 06 - Noções da Teoria dos Conjuntos I",
+    "duration": 1473,
+    "embedUrl": "https://www.youtube.com/embed/Esg9NLDZFdI"
+  },
+  {
+    "id": 1482,
+    "number": 7,
+    "name": "Lógica e Matemática Discreta - Aula 07 - Quantificadores e Funções",
+    "duration": 1433,
+    "embedUrl": "https://www.youtube.com/embed/ENptMNeiDTQ"
+  },
+  {
+    "id": 1483,
+    "number": 8,
+    "name": "Lógica e Matemática Discreta - Aula 08 - Números",
+    "duration": 1387,
+    "embedUrl": "https://www.youtube.com/embed/8guZB85DYF8"
+  },
+  {
+    "id": 1484,
+    "number": 9,
+    "name": "Lógica e Matemática Discreta - Aula 09 - Princípio da Indução Finita I",
+    "duration": 1360,
+    "embedUrl": "https://www.youtube.com/embed/QhoTDQZsfcU"
+  },
+  {
+    "id": 1485,
+    "number": 10,
+    "name": "Lógica e Matemática Discreta - Aula 10 - Princípio da Indução Finita II",
+    "duration": 1503,
+    "embedUrl": "https://www.youtube.com/embed/PmnFIiQnBK0"
+  },
+  {
+    "id": 1486,
+    "number": 11,
+    "name": "Lógica e Matemática Discreta - Aula 11 - P.I.F e Boa Ordenação",
+    "duration": 1446,
+    "embedUrl": "https://www.youtube.com/embed/31Ovf0d3NxU"
+  },
+  {
+    "id": 1487,
+    "number": 12,
+    "name": "Lógica e Matemática Discreta - Aula 12 - Técnicas de contagem:  Reunião e Produto cartesiano",
+    "duration": 1382,
+    "embedUrl": "https://www.youtube.com/embed/L5W8aEp_kNs"
+  },
+  {
+    "id": 1488,
+    "number": 13,
+    "name": "Lógica e Matemática Discreta - Aula 13 - Princípio Fundamental da Contagem - Parte I",
+    "duration": 1416,
+    "embedUrl": "https://www.youtube.com/embed/XyQ302OVdlE"
+  },
+  {
+    "id": 1489,
+    "number": 14,
+    "name": "Lógica e Matemática Discreta - Aula 14 - Princípio Fundamental da Contagem - Parte II",
+    "duration": 1463,
+    "embedUrl": "https://www.youtube.com/embed/zDlNYWeKN9E"
+  },
+  {
+    "id": 1490,
+    "number": 15,
+    "name": "Lógica e Matemática Discreta - Aula 15 - Permutações sem repetição",
+    "duration": 1328,
+    "embedUrl": "https://www.youtube.com/embed/SVXCfdtXdiI"
+  },
+  {
+    "id": 1491,
+    "number": 16,
+    "name": "Lógica e Matemática Discreta - Aula 16 - Permutações com repetição",
+    "duration": 1386,
+    "embedUrl": "https://www.youtube.com/embed/DsHnvrhWwnE"
+  },
+  {
+    "id": 1492,
+    "number": 17,
+    "name": "Lógica e Matemática Discreta - Aula 17 - Permutações circulares e caóticas",
+    "duration": 1527,
+    "embedUrl": "https://www.youtube.com/embed/FrJSVVHvoIY"
+  },
+  {
+    "id": 1493,
+    "number": 18,
+    "name": "Lógica e Matemática Discreta - Aula 18 - Arranjos",
+    "duration": 1372,
+    "embedUrl": "https://www.youtube.com/embed/q84zG9bmJT8"
+  },
+  {
+    "id": 1494,
+    "number": 19,
+    "name": "Lógica e Matemática Discreta - Aula 19 - Combinações I",
+    "duration": 1404,
+    "embedUrl": "https://www.youtube.com/embed/wLv9uKwUIVE"
+  },
+  {
+    "id": 1495,
+    "number": 20,
+    "name": "Lógica e Matemática Discreta - Aula 20 - Combinações II",
+    "duration": 1569,
+    "embedUrl": "https://www.youtube.com/embed/PBaFPKKEvFk"
+  },
+  {
+    "id": 1496,
+    "number": 21,
+    "name": "Lógica e Matemática Discreta - Aula 21 - Binômio de Newton I",
+    "duration": 1404,
+    "embedUrl": "https://www.youtube.com/embed/ji-Rz31jKT0"
+  },
+  {
+    "id": 1497,
+    "number": 22,
+    "name": "Lógica e Matemática Discreta - Aula 22 - Binômio de Newton II",
+    "duration": 1403,
+    "embedUrl": "https://www.youtube.com/embed/wIEtzZzwh-4"
+  },
+  {
+    "id": 1498,
+    "number": 23,
+    "name": "Lógica e Matemática Discreta - Aula 23 - Aplicações I",
+    "duration": 1384,
+    "embedUrl": "https://www.youtube.com/embed/-trNZtVHG1o"
+  },
+  {
+    "id": 1499,
+    "number": 24,
+    "name": "Lógica e Matemática Discreta - Aula 24 - Aplicações II",
+    "duration": 1571,
+    "embedUrl": "https://www.youtube.com/embed/CNutlRgys14"
+  },
+  {
+    "id": 1500,
+    "number": 25,
+    "name": "Lógica e Matemática Discreta - Aula 25 - Revisão e exercícios I",
+    "duration": 1324,
+    "embedUrl": "https://www.youtube.com/embed/zH1vLYs08JQ"
+  },
+  {
+    "id": 1501,
+    "number": 26,
+    "name": "Lógica e Matemática Discreta - Aula 26 - Revisão e exercícios II",
+    "duration": 1599,
+    "embedUrl": "https://www.youtube.com/embed/0W7pBq_LbbA"
+  },
+  {
+    "id": 1502,
+    "number": 27,
+    "name": "Lógica e Matemática Discreta - Aula 27 - Revisão e exercícios III",
+    "duration": 1260,
+    "embedUrl": "https://www.youtube.com/embed/TYT3O3c6Tns"
+  },
+  {
+    "id": 1503,
+    "number": 28,
+    "name": "Lógica e Matemática Discreta - Aula 28 - Revisão e exercícios IV",
+    "duration": 1548,
+    "embedUrl": "https://www.youtube.com/embed/-EpxNtgnZ6U"
+  }
+]

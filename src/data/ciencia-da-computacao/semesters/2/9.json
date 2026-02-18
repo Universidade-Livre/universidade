@@ -1,0 +1,408 @@
+[
+  {
+    "id": 479,
+    "number": 1,
+    "name": "A quem se destina este curso",
+    "duration": 234,
+    "embedUrl": "https://www.youtube.com/embed/WT_zCgSHSTQ"
+  },
+  {
+    "id": 480,
+    "number": 2,
+    "name": "01 - O que é ciência da computação",
+    "duration": 744,
+    "embedUrl": "https://www.youtube.com/embed/rh65Lh5V7S0"
+  },
+  {
+    "id": 481,
+    "number": 3,
+    "name": "Instalando o Python3 e o IDLE no Windows",
+    "duration": 226,
+    "embedUrl": "https://www.youtube.com/embed/1aUuW0aA7l0"
+  },
+  {
+    "id": 482,
+    "number": 4,
+    "name": "Instalação do python e IDLE no Linux (ubuntu)",
+    "duration": 197,
+    "embedUrl": "https://www.youtube.com/embed/SqLhPI6pPy4"
+  },
+  {
+    "id": 483,
+    "number": 5,
+    "name": "Consertando a configuração do Python3 no Windows",
+    "duration": 107,
+    "embedUrl": "https://www.youtube.com/embed/0SrKE9lVPTk"
+  },
+  {
+    "id": 484,
+    "number": 6,
+    "name": "02 - Primeiras linhas em Python",
+    "duration": 454,
+    "embedUrl": "https://www.youtube.com/embed/LN8ejPwSzkU"
+  },
+  {
+    "id": 485,
+    "number": 7,
+    "name": "03 - Variáveis e scripts (programas) em Python",
+    "duration": 633,
+    "embedUrl": "https://www.youtube.com/embed/tqF0MjcOqcI"
+  },
+  {
+    "id": 486,
+    "number": 8,
+    "name": "Executando programas em python (Nelson Lago)",
+    "duration": 272,
+    "embedUrl": "https://www.youtube.com/embed/r8CSesZpFjo"
+  },
+  {
+    "id": 487,
+    "number": 9,
+    "name": "04 - Valores e tipos em Python",
+    "duration": 578,
+    "embedUrl": "https://www.youtube.com/embed/UZ7_oudJ150"
+  },
+  {
+    "id": 488,
+    "number": 10,
+    "name": "O que é Software Livre? (Nelson Lago)",
+    "duration": 809,
+    "embedUrl": "https://www.youtube.com/embed/sZg9nrUTgJE"
+  },
+  {
+    "id": 489,
+    "number": 11,
+    "name": "05 - Entrada de dados",
+    "duration": 1003,
+    "embedUrl": "https://www.youtube.com/embed/ECFj-bWzU8I"
+  },
+  {
+    "id": 490,
+    "number": 12,
+    "name": "06 - Tipos booleanos e precedência de operadores",
+    "duration": 881,
+    "embedUrl": "https://www.youtube.com/embed/sgfmuFRZuWs"
+  },
+  {
+    "id": 491,
+    "number": 13,
+    "name": "07 - Condicionais",
+    "duration": 833,
+    "embedUrl": "https://www.youtube.com/embed/ngeVlLJ250s"
+  },
+  {
+    "id": 492,
+    "number": 14,
+    "name": "08 - Exercício resolvido (Bhaskara)",
+    "duration": 582,
+    "embedUrl": "https://www.youtube.com/embed/v_QoUdfahng"
+  },
+  {
+    "id": 493,
+    "number": 15,
+    "name": "09 - Repetições (laços) com while",
+    "duration": 1213,
+    "embedUrl": "https://www.youtube.com/embed/TllYO06DpUk"
+  },
+  {
+    "id": 494,
+    "number": 16,
+    "name": "10 - Indicadores de passagem",
+    "duration": 1042,
+    "embedUrl": "https://www.youtube.com/embed/RBjrLgdMaMI"
+  },
+  {
+    "id": 495,
+    "number": 17,
+    "name": "11 - Depuração",
+    "duration": 432,
+    "embedUrl": "https://www.youtube.com/embed/Aa8-39qwbUU"
+  },
+  {
+    "id": 496,
+    "number": 18,
+    "name": "12 - Funções",
+    "duration": 1028,
+    "embedUrl": "https://www.youtube.com/embed/AMUxtcJ8yfc"
+  },
+  {
+    "id": 497,
+    "number": 19,
+    "name": "13 - Exercício resolvido (coeficiente binomial) e testes",
+    "duration": 1045,
+    "embedUrl": "https://www.youtube.com/embed/se9JcK05PGw"
+  },
+  {
+    "id": 498,
+    "number": 20,
+    "name": "14 - Testes automatizados",
+    "duration": 1096,
+    "embedUrl": "https://www.youtube.com/embed/c_5UByqX6kE"
+  },
+  {
+    "id": 499,
+    "number": 21,
+    "name": "Melô do Teste Automatizado + Entrevista Testes em Startups de Software",
+    "duration": 401,
+    "embedUrl": "https://www.youtube.com/embed/eGH9--FcDxY"
+  },
+  {
+    "id": 500,
+    "number": 22,
+    "name": "15 - Exercício Resolvido - Refatoração (Fórmula de Bhaskara)",
+    "duration": 768,
+    "embedUrl": "https://www.youtube.com/embed/GhWEOe81bJw"
+  },
+  {
+    "id": 501,
+    "number": 23,
+    "name": "16 - Depuração com funções",
+    "duration": 423,
+    "embedUrl": "https://www.youtube.com/embed/pYgAX8BuJN8"
+  },
+  {
+    "id": 502,
+    "number": 24,
+    "name": "17 - Repetições encaixadas",
+    "duration": 671,
+    "embedUrl": "https://www.youtube.com/embed/dRCDOH1lugs"
+  },
+  {
+    "id": 503,
+    "number": 25,
+    "name": "18 - Exercício resolvido (fatorial)",
+    "duration": 509,
+    "embedUrl": "https://www.youtube.com/embed/pbzea8fXj98"
+  },
+  {
+    "id": 504,
+    "number": 26,
+    "name": "19 - Exercicio resolvido (fatoração)",
+    "duration": 615,
+    "embedUrl": "https://www.youtube.com/embed/9AUu2xjOACI"
+  },
+  {
+    "id": 505,
+    "number": 27,
+    "name": "20 - Exercício resolvido (verificação de primos)",
+    "duration": 740,
+    "embedUrl": "https://www.youtube.com/embed/Wcug8mjU8Sg"
+  },
+  {
+    "id": 506,
+    "number": 28,
+    "name": "21 - Coleções (listas, vetores)",
+    "duration": 1214,
+    "embedUrl": "https://www.youtube.com/embed/krVca97F13I"
+  },
+  {
+    "id": 507,
+    "number": 29,
+    "name": "22 - Repetições com \"for\"",
+    "duration": 931,
+    "embedUrl": "https://www.youtube.com/embed/ctmPwp52b7w"
+  },
+  {
+    "id": 508,
+    "number": 30,
+    "name": "23 - Manipulação de listas",
+    "duration": 1504,
+    "embedUrl": "https://www.youtube.com/embed/LrXapVI66so"
+  },
+  {
+    "id": 509,
+    "number": 31,
+    "name": "24 - Objetos na memória",
+    "duration": 620,
+    "embedUrl": "https://www.youtube.com/embed/4TN8IdsJ78k"
+  },
+  {
+    "id": 510,
+    "number": 32,
+    "name": "25 - Matrizes",
+    "duration": 1191,
+    "embedUrl": "https://www.youtube.com/embed/c9yjwWNiNQw"
+  },
+  {
+    "id": 511,
+    "number": 33,
+    "name": "26 - Exercício resolvido (máxima e mínima)",
+    "duration": 1453,
+    "embedUrl": "https://www.youtube.com/embed/EpvCXjuHifg"
+  },
+  {
+    "id": 512,
+    "number": 34,
+    "name": "27 - Strings",
+    "duration": 953,
+    "embedUrl": "https://www.youtube.com/embed/DdhNltkI_hE"
+  },
+  {
+    "id": 513,
+    "number": 35,
+    "name": "28 - Comparação de strings",
+    "duration": 516,
+    "embedUrl": "https://www.youtube.com/embed/EWQTdbtCtKw"
+  },
+  {
+    "id": 514,
+    "number": 36,
+    "name": "29 - 4 Pequenos conceitos úteis",
+    "duration": 739,
+    "embedUrl": "https://www.youtube.com/embed/eH5kd48NfM0"
+  },
+  {
+    "id": 515,
+    "number": 37,
+    "name": "30 - Módulo em Python",
+    "duration": 861,
+    "embedUrl": "https://www.youtube.com/embed/6rSUPRZJFRM"
+  },
+  {
+    "id": 516,
+    "number": 38,
+    "name": "31 - Manipulação de matrizes (soma)",
+    "duration": 582,
+    "embedUrl": "https://www.youtube.com/embed/x_hNj2C-kVs"
+  },
+  {
+    "id": 517,
+    "number": 39,
+    "name": "32 - Exercício resolvido (multiplicação de matrizes)",
+    "duration": 670,
+    "embedUrl": "https://www.youtube.com/embed/gCKza8cYdJY"
+  },
+  {
+    "id": 518,
+    "number": 40,
+    "name": "33 - Programação Orientada a Objetos - Parte 1",
+    "duration": 899,
+    "embedUrl": "https://www.youtube.com/embed/frtaUi3B6Sc"
+  },
+  {
+    "id": 519,
+    "number": 41,
+    "name": "34 - Programação Orientada a Objetos - Parte 2",
+    "duration": 842,
+    "embedUrl": "https://www.youtube.com/embed/LsbakVX54RY"
+  },
+  {
+    "id": 520,
+    "number": 42,
+    "name": "35 - Códigos testáveis",
+    "duration": 1465,
+    "embedUrl": "https://www.youtube.com/embed/RYpV10216pw"
+  },
+  {
+    "id": 521,
+    "number": 43,
+    "name": "36 - Busca Sequencial",
+    "duration": 729,
+    "embedUrl": "https://www.youtube.com/embed/bsFhgaaHeV4"
+  },
+  {
+    "id": 522,
+    "number": 44,
+    "name": "37 - Complexidade computacional",
+    "duration": 435,
+    "embedUrl": "https://www.youtube.com/embed/a06rEkp7rNw"
+  },
+  {
+    "id": 523,
+    "number": 45,
+    "name": "38 - Algoritmos de Ordenação - Seleção Direta",
+    "duration": 698,
+    "embedUrl": "https://www.youtube.com/embed/JggjFK5PkMs"
+  },
+  {
+    "id": 524,
+    "number": 46,
+    "name": "39 - Algoritmos de Ordenação da Bolha",
+    "duration": 510,
+    "embedUrl": "https://www.youtube.com/embed/tN-PwzkKcsk"
+  },
+  {
+    "id": 525,
+    "number": 47,
+    "name": "40 - Comparação de Desempenho",
+    "duration": 768,
+    "embedUrl": "https://www.youtube.com/embed/gW6PUkzkIUw"
+  },
+  {
+    "id": 526,
+    "number": 48,
+    "name": "41 - Melhoria no algoritmo da Bolha",
+    "duration": 738,
+    "embedUrl": "https://www.youtube.com/embed/NDUbLp1Ro2Q"
+  },
+  {
+    "id": 527,
+    "number": 49,
+    "name": "42 - Testes automatizados em algoritmos de ordenação",
+    "duration": 671,
+    "embedUrl": "https://www.youtube.com/embed/kh3pKfh8TYU"
+  },
+  {
+    "id": 528,
+    "number": 50,
+    "name": "43 - Busca Binária",
+    "duration": 778,
+    "embedUrl": "https://www.youtube.com/embed/NxriUYWxoEU"
+  },
+  {
+    "id": 529,
+    "number": 51,
+    "name": "44 - Recursão - Parte 1",
+    "duration": 718,
+    "embedUrl": "https://www.youtube.com/embed/AyPJx1RIDuY"
+  },
+  {
+    "id": 530,
+    "number": 52,
+    "name": "45 - Recursão - Parte 2",
+    "duration": 1554,
+    "embedUrl": "https://www.youtube.com/embed/386wQ0bP9vw"
+  },
+  {
+    "id": 531,
+    "number": 53,
+    "name": "Scrapy 1 (Felipe Besson)",
+    "duration": 628,
+    "embedUrl": "https://www.youtube.com/embed/rj8Sqsgh5TM"
+  },
+  {
+    "id": 532,
+    "number": 54,
+    "name": "Scrapy 2 (Felipe Besson)",
+    "duration": 581,
+    "embedUrl": "https://www.youtube.com/embed/DRfEY-qzyvk"
+  },
+  {
+    "id": 533,
+    "number": 55,
+    "name": "Inspeção de elementos de uma página Web - Scrapy 3 (Felipe Besson)",
+    "duration": 84,
+    "embedUrl": "https://www.youtube.com/embed/SXA58yKo9IY"
+  },
+  {
+    "id": 534,
+    "number": 56,
+    "name": "Jogos (Alfredo Goldman)",
+    "duration": 378,
+    "embedUrl": "https://www.youtube.com/embed/HQ2q8-EmUCs"
+  },
+  {
+    "id": 535,
+    "number": 57,
+    "name": "Dicas finais para o exercício COH-PIAH",
+    "duration": 417,
+    "embedUrl": "https://www.youtube.com/embed/6Z2wLXGdPCM"
+  },
+  {
+    "id": 536,
+    "number": 58,
+    "name": "Impactos da Computação na Sociedade - Software livre no mundo e no Brasil",
+    "duration": 1167,
+    "embedUrl": "https://www.youtube.com/embed/E8a6avKhZgA"
+  }
+]

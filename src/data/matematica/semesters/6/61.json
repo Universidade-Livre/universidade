@@ -1,0 +1,226 @@
+[
+  {
+    "id": 2321,
+    "number": 1,
+    "name": "Alfabetização em anéis - 01: O que é um anel?",
+    "duration": 4395,
+    "embedUrl": "https://www.youtube.com/embed/3uLKG6_XHeg"
+  },
+  {
+    "id": 2322,
+    "number": 2,
+    "name": "Alfabetização em anéis - 02: Corpos, domínios e anéis reduzidos",
+    "duration": 4881,
+    "embedUrl": "https://www.youtube.com/embed/EHiVY4k3NZA"
+  },
+  {
+    "id": 2323,
+    "number": 3,
+    "name": "Alfabetização em anéis - 02.5: Potências em um anel",
+    "duration": 3552,
+    "embedUrl": "https://www.youtube.com/embed/9-EqzcJ7ySI"
+  },
+  {
+    "id": 2324,
+    "number": 4,
+    "name": "Alfabetização em anéis - 03: Subanéis e ideais",
+    "duration": 5055,
+    "embedUrl": "https://www.youtube.com/embed/ClPVH_4ziMs"
+  },
+  {
+    "id": 2325,
+    "number": 5,
+    "name": "Alfabetização em anéis - 04: Morfismos de anéis",
+    "duration": 4573,
+    "embedUrl": "https://www.youtube.com/embed/YkK7u4nKIkg"
+  },
+  {
+    "id": 2326,
+    "number": 6,
+    "name": "Alfabetização em anéis - 05: Anéis quocientes: primeiro encontro.",
+    "duration": 4437,
+    "embedUrl": "https://www.youtube.com/embed/50_0i3u0wpY"
+  },
+  {
+    "id": 2327,
+    "number": 7,
+    "name": "Alfabetização em anéis - 06: Anéis quocientes: início da relação",
+    "duration": 4613,
+    "embedUrl": "https://www.youtube.com/embed/64ANO9Po7xU"
+  },
+  {
+    "id": 2328,
+    "number": 8,
+    "name": "Alfabetização em anéis - 07: ideais primos",
+    "duration": 4477,
+    "embedUrl": "https://www.youtube.com/embed/gGLlMZZKLpA"
+  },
+  {
+    "id": 2329,
+    "number": 9,
+    "name": "Alfabetização em anéis - 08: Ideais maximais",
+    "duration": 4801,
+    "embedUrl": "https://www.youtube.com/embed/DkujV9JONes"
+  },
+  {
+    "id": 2330,
+    "number": 10,
+    "name": "Alfabetização em anéis - 09: Ideais radicais",
+    "duration": 6046,
+    "embedUrl": "https://www.youtube.com/embed/F0KnIU9Yve8"
+  },
+  {
+    "id": 2331,
+    "number": 11,
+    "name": "Alfabetização em anéis - 10: Produto de ideais",
+    "duration": 3695,
+    "embedUrl": "https://www.youtube.com/embed/r1hX6ZP2G30"
+  },
+  {
+    "id": 2332,
+    "number": 12,
+    "name": "Alfabetização em anéis - 11: Produto de anéis e o Teorema Chinês dos Restos",
+    "duration": 4123,
+    "embedUrl": "https://www.youtube.com/embed/I92npVReP_k"
+  },
+  {
+    "id": 2333,
+    "number": 13,
+    "name": "Alfabetização em anéis - 12: Como evitar primos",
+    "duration": 2295,
+    "embedUrl": "https://www.youtube.com/embed/WLQL9-6OAEU"
+  },
+  {
+    "id": 2334,
+    "number": 14,
+    "name": "Alfabetização em anéis - 13: O corpo de frações de um domínio",
+    "duration": 5664,
+    "embedUrl": "https://www.youtube.com/embed/9RLpJRVuqG4"
+  },
+  {
+    "id": 2335,
+    "number": 15,
+    "name": "Alfabetização em anéis - 14: O anel de polinômios",
+    "duration": 5732,
+    "embedUrl": "https://www.youtube.com/embed/w_z6YZu6gZA"
+  },
+  {
+    "id": 2336,
+    "number": 16,
+    "name": "Alfabetização em anéis - 15: Domínios euclidianos",
+    "duration": 4870,
+    "embedUrl": "https://www.youtube.com/embed/_xcOAFWu620"
+  },
+  {
+    "id": 2337,
+    "number": 17,
+    "name": "Alfabetização em anéis - 16: O serviço sujo característico",
+    "duration": 3292,
+    "embedUrl": "https://www.youtube.com/embed/arsbCf7SZTU"
+  },
+  {
+    "id": 2338,
+    "number": 18,
+    "name": "Errata característica",
+    "duration": 583,
+    "embedUrl": "https://www.youtube.com/embed/1hMRXLb2XGw"
+  },
+  {
+    "id": 2339,
+    "number": 19,
+    "name": "Alfabetização em anéis - 17: A característica de um anel",
+    "duration": 4523,
+    "embedUrl": "https://www.youtube.com/embed/kJKOEZ_uhrI"
+  },
+  {
+    "id": 2340,
+    "number": 20,
+    "name": "Alfabetização em anéis - 18: Domínios de fatoração única (Parte 1)",
+    "duration": 3430,
+    "embedUrl": "https://www.youtube.com/embed/aaQpdY9JpBk"
+  },
+  {
+    "id": 2341,
+    "number": 21,
+    "name": "Alfabetização em anéis - 19: Domínios de fatoração única (Parte 2)",
+    "duration": 2812,
+    "embedUrl": "https://www.youtube.com/embed/GRBQdg3iYWk"
+  },
+  {
+    "id": 2342,
+    "number": 22,
+    "name": "Alfabetização em anéis - 20: O Lema de Gauss",
+    "duration": 5106,
+    "embedUrl": "https://www.youtube.com/embed/MlXiihb_7Gs"
+  },
+  {
+    "id": 2343,
+    "number": 23,
+    "name": "Alfabetização em anéis 21 | Critérios de irredutibilidade para polinômios",
+    "duration": 3774,
+    "embedUrl": "https://www.youtube.com/embed/yKSvF4Z68qU"
+  },
+  {
+    "id": 2344,
+    "number": 24,
+    "name": "Exercício - Potências de ideais comaximais ainda são comaximais",
+    "duration": 423,
+    "embedUrl": "https://www.youtube.com/embed/MtaVOI0SpcI"
+  },
+  {
+    "id": 2345,
+    "number": 25,
+    "name": "Exercício - Polinômios primos entre si sobre um DFU permanecem primos entre si no corpo de frações",
+    "duration": 428,
+    "embedUrl": "https://www.youtube.com/embed/-g3wIqObmQk"
+  },
+  {
+    "id": 2346,
+    "number": 26,
+    "name": "Exercício - Um domínio é um corpo se, e somente se, seu anel de polinômios é principal",
+    "duration": 820,
+    "embedUrl": "https://www.youtube.com/embed/YxowXS9cEWg"
+  },
+  {
+    "id": 2347,
+    "number": 27,
+    "name": "Bônus | Anéis indecomponíveis",
+    "duration": 2150,
+    "embedUrl": "https://www.youtube.com/embed/xxGuKIpXW-4"
+  },
+  {
+    "id": 2348,
+    "number": 28,
+    "name": "Bônus | Quociente e decomponibilidade",
+    "duration": 1560,
+    "embedUrl": "https://www.youtube.com/embed/hFW9dhJpZRc"
+  },
+  {
+    "id": 2349,
+    "number": 29,
+    "name": "Bônus | Um anel é principal se, e somente se, todo ideal primo é principal",
+    "duration": 1169,
+    "embedUrl": "https://www.youtube.com/embed/7nvBkUfJCDs"
+  },
+  {
+    "id": 2350,
+    "number": 30,
+    "name": "Bônus | Um anel é domínio principal se e somente se é um DFU e todo ideal primo não-nulo é maximal",
+    "duration": 752,
+    "embedUrl": "https://www.youtube.com/embed/Jc5xiVI4XYE"
+  },
+  {
+    "id": 2351,
+    "number": 31,
+    "name": "Bônus | Será que todo subdomínio de DFU é DFU?",
+    "duration": 490,
+    "embedUrl": "https://www.youtube.com/embed/wqCcDGM53Aw"
+  },
+  {
+    "id": 2352,
+    "number": 32,
+    "name": "Bônus |  Anel de polinômios em cardinalidade arbitrária",
+    "duration": 5683,
+    "embedUrl": "https://www.youtube.com/embed/FORHkmZIfPs"
+  }
+]
