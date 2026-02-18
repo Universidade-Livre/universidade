@@ -52,6 +52,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: read
+      packages: read
       id-token: write
 
     steps:
@@ -65,8 +66,10 @@ jobs:
       - name: Deploy via SSH
         uses: appleboy/ssh-action@v1
         env:
-          REPO: ${{ github.repository }}
+          REPO_OWNER: ${{ github.repository_owner }}
+          REPO_NAME: ${{ github.event.repository.name }}
           SHA: ${{ github.sha }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           POSTGRES_DB: ${{ secrets.POSTGRES_DB }}
           POSTGRES_USER: ${{ secrets.POSTGRES_USER }}
           POSTGRES_PASSWORD: ${{ secrets.POSTGRES_PASSWORD }}
@@ -77,9 +80,17 @@ jobs:
           username: ${{ secrets.SSH_USERNAME }}
           key: ${{ secrets.SSH_KEY }}
           port: ${{ secrets.SSH_PORT }}
-          envs: REPO,SHA,POSTGRES_DB,POSTGRES_USER,POSTGRES_PASSWORD,BETTER_AUTH_URL,BETTER_AUTH_SECRET
+          envs: REPO_OWNER,REPO_NAME,SHA,GITHUB_TOKEN,POSTGRES_DB,POSTGRES_USER,POSTGRES_PASSWORD,BETTER_AUTH_URL,BETTER_AUTH_SECRET
           script: |
             set -euo pipefail
-            curl -fsSL https://raw.githubusercontent.com/$REPO/$SHA/docker-compose.prod.yml \
-              | docker compose -p ubl -f - up -d --pull always
+            echo "$GITHUB_TOKEN" | docker login ghcr.io -u "$REPO_OWNER" --password-stdin
+            curl -fsSL \
+              --retry 5 \
+              --retry-delay 3 \
+              --retry-connrefused \
+              --retry-all-errors \
+              -H "Authorization: Bearer $GITHUB_TOKEN" \
+              -H "Accept: application/vnd.github.raw" \
+              "https://raw.githubusercontent.com/$REPO_OWNER/$REPO_NAME/$SHA/docker-compose.prod.yml" \
+            | docker compose -p ubl -f - up -d --pull always
             docker image prune -af
