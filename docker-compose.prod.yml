@@ -3,7 +3,7 @@ services:
     # build:
     #   context: .
     #   dockerfile: Dockerfile
-    image: ghcr.io/freitasspedro/ubl:latest
+    image: ghcr.io/universidade-livre/universidade
     init: true
     container_name: ubl-nextjs
     ports:
