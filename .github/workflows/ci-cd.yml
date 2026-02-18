@@ -3,7 +3,18 @@ name: CI/CD
 on:
   push:
     branches: [master]
+    paths:
+      - "src/**"
+      - "prisma/**"
+      - "package.json"
+      - "package-lock.json"
+      - "Dockerfile"
+      - "docker-compose.prod.yml"
   workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref_name }}
+  cancel-in-progress: true
 
 jobs:
   build:
@@ -46,6 +57,13 @@ jobs:
           labels: ${{ steps.meta.outputs.labels }}
           cache-from: type=registry,ref=${{ steps.meta.outputs.images }}:latest
           cache-to: type=inline
+
+      - name: Clean up old GHCR images
+        uses: actions/delete-package-versions@v5
+        with:
+          package-name: ${{ github.event.repository.name }}
+          package-type: container
+          min-versions-to-keep: 5
 
   deploy:
     needs: build
