@@ -3,13 +3,10 @@ name: CI/CD
 on:
   push:
     branches: [master]
-    paths:
-      - "src/**"
-      - "prisma/**"
-      - "package.json"
-      - "package-lock.json"
-      - "Dockerfile"
-      - "docker-compose.prod.yml"
+    paths-ignore:
+      - "**/*.md"
+      - "scripts/**"
+      - ".env*.example"
   workflow_dispatch:
 
 concurrency:

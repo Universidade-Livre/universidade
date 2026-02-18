@@ -2,7 +2,7 @@ import SubjectBooks from "@/components/modules/courses/subject/subject-books";
 import SubjectBooksToggle from "@/components/modules/courses/subject/subject-books-toggle";
 import SubjectPrerequisites from "@/components/modules/courses/subject/subject-prerequisites";
 import { cn } from "@/lib/utils";
-import { Subject as SubjectType } from "@/types/subject.interface";
+import { Subject as SubjectType } from "@/types/course/subject.interface";
 
 interface SubjectProps {
   index: number;
