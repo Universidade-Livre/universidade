@@ -2,12 +2,12 @@
 
 import { Progress } from "@/components/ui/progress";
 import { ScrollArea } from "@/components/ui/scroll-area";
-import useUserProgressStore from "@/stores/user-progress-store";
+import useUserLessonProgressStore from "@/stores/user-lesson-progress-store";
 import { CourseOverview } from "@/types/course/course.interface";
 import { Lesson } from "@/types/course/lesson.interface";
 import { SemesterOverview } from "@/types/course/semester.interface";
 import { Subject } from "@/types/course/subject.interface";
-import { UserSubjectProgress } from "@/types/user-progress/user-subject-progress.interface";
+import { UserSubjectLessonProgress } from "@/types/user-progress/user-subject-lesson-progress.interface";
 import { useRouter } from "next/navigation";
 import { useShallow } from "zustand/react/shallow";
 import SubjectProgressSidebarItem from "./subject-progress-sidebar-item";
@@ -28,15 +28,15 @@ export const SubjectProgressSidebar = ({
   lessons,
 }: SubjectProgressSidebarProps) => {
   const router = useRouter();
-  const [, toggleLessonCompletion, getSubjectProgress] = useUserProgressStore(
+  const [, toggleLessonCompletion, getSubjectProgress] = useUserLessonProgressStore(
     useShallow((state) => [
       state.progress,
-      state.toggleLessonCompletion,
+      state.toggleLessonProgress,
       state.getSubjectProgress,
     ]),
   );
 
-  const subjectProgress: UserSubjectProgress = getSubjectProgress(
+  const subjectProgress: UserSubjectLessonProgress = getSubjectProgress(
     subject.id,
     subject.lessons,
   );
@@ -48,7 +48,7 @@ export const SubjectProgressSidebar = ({
           Playlist de Aulas
         </h3>
         <span className="text-sm font-semibold text-zinc-200">
-          {subjectProgress.completed} de {subjectProgress.total}
+          {subjectProgress.completed} de {subjectProgress.totalLessons}
         </span>
       </div>
       <Progress value={subjectProgress.percentage} />

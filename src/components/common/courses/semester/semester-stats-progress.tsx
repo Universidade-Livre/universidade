@@ -1,6 +1,6 @@
 "use client";
 
-import useUserProgressStore from "@/stores/user-progress-store";
+import useUserLessonProgressStore from "@/stores/user-lesson-progress-store";
 import { Course } from "@/types/course/course.interface";
 
 interface SemesterStatsProgressProps {
@@ -9,7 +9,7 @@ interface SemesterStatsProgressProps {
 }
 
 export const SemesterStatsProgress = ({ semesterNumber, course }: SemesterStatsProgressProps) => {
-  const getSubjectProgress = useUserProgressStore((state) => state.getSubjectProgress);
+  const getSubjectProgress = useUserLessonProgressStore((state) => state.getSubjectProgress);
   return (
     <span>
       {course.semesters

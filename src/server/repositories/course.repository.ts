@@ -1,34 +1,34 @@
 import "server-only";
 
 import { prisma } from "@/lib/prisma";
+import { CourseModel } from "@/server/models/course.model";
 
-export const courseInclude = {
-  semesters: {
-    orderBy: { number: "asc" as const },
+export async function getCourseModelBySlug(courseSlug: string): Promise<CourseModel | null> {
+  return await prisma.course.findUnique({
+    where: { slug: courseSlug },
     include: {
-      subjects: {
-        orderBy: { number: "asc" as const },
+      semesters: {
+        orderBy: { number: "asc" },
         include: {
-          books: true,
-          lessons: {
-            select: {
-              durationSeconds: true,
-            },
-          },
-          prerequisites: {
+          subjects: {
+            orderBy: { number: "asc" },
             include: {
-              prerequisite: true,
+              books: true,
+              lessons: {
+                select: {
+                  id: true,
+                  durationSeconds: true,
+                },
+              },
+              prerequisites: {
+                include: {
+                  prerequisite: true,
+                },
+              },
             },
           },
         },
       },
     },
-  },
-};
-
-export async function getCourseModelBySlug(courseSlug: string) {
-  return await prisma.course.findUnique({
-    where: { slug: courseSlug },
-    include: courseInclude,
   });
 }

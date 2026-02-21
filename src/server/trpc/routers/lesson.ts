@@ -1,3 +1,5 @@
+import "server-only";
+
 import {
   getLessonById,
   getLessonsBySubjectId,
@@ -8,7 +10,7 @@ import { TRPCError } from "@trpc/server";
 import { z } from "zod";
 
 export const lessonRouter = createTRPCRouter({
-  byId: publicProcedure
+  getById: publicProcedure
     .input(
       z.object({
         lessonId: z.string(),
@@ -25,7 +27,7 @@ export const lessonRouter = createTRPCRouter({
 
       return lesson;
     }),
-  bySubjectId: publicProcedure
+  getBySubjectId: publicProcedure
     .input(
       z.object({
         subjectId: z.string(),

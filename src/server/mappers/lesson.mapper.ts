@@ -1,10 +1,9 @@
 import "server-only";
 
-import { lessonInclude } from "@/server/repositories/lesson.repository";
+import { LessonModel } from "@/server/models/lesson.model";
 import { Lesson } from "@/types/course/lesson.interface";
-import { Prisma } from "@prisma/client";
 
-export function toLessonFromInclude(lesson: Prisma.LessonGetPayload<{ include: typeof lessonInclude }>): Lesson {
+export function toLessonFromModel(lesson: LessonModel): Lesson {
   return {
     id: lesson.id,
     number: lesson.number,

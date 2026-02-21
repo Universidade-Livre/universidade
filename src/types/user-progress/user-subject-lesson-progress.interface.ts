@@ -1,4 +1,4 @@
-export interface UserSubjectProgress {
+export interface UserSubjectLessonProgress {
   percentage: number;
   completed: number;
   completedIds: string[];

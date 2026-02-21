@@ -3,11 +3,11 @@
 import { Card } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 import { cn } from "@/lib/utils";
-import useUserProgressStore from "@/stores/user-progress-store";
+import useUserLessonProgressStore from "@/stores/user-lesson-progress-store";
 import { CourseOverview } from "@/types/course/course.interface";
 import { SemesterOverview } from "@/types/course/semester.interface";
 import { SubjectOverview } from "@/types/course/subject.interface";
-import { UserSubjectProgress } from "@/types/user-progress/user-subject-progress.interface";
+import { UserSubjectLessonProgress } from "@/types/user-progress/user-subject-lesson-progress.interface";
 import { ArrowRight, CheckCircle2, Circle } from "lucide-react";
 import Link from "next/link";
 
@@ -46,8 +46,8 @@ export const getTheme = (progress: number) => {
 };
 
 export const SubjectProgress = ({ course, semester, subject, totalLessons }: SubjectProgressProps) => {
-  const getSubjectProgress = useUserProgressStore((state) => state.getSubjectProgress);
-  const progress: UserSubjectProgress = getSubjectProgress(subject.id, totalLessons);
+  const getSubjectProgress = useUserLessonProgressStore((state) => state.getSubjectProgress);
+  const progress: UserSubjectLessonProgress = getSubjectProgress(subject.id, totalLessons);
   const theme = getTheme(progress.percentage);
 
   return (
@@ -116,7 +116,7 @@ export const SubjectProgress = ({ course, semester, subject, totalLessons }: Sub
             )}
 
             <div className="pt-0.5 text-xs text-zinc-400">
-              {progress.completed} de {progress.total} aulas
+              {progress.completed} de {progress.totalLessons} aulas
               concluídas
             </div>
           </div>
