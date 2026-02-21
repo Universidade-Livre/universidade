@@ -25,7 +25,7 @@ export const HomeProgressItem = ({ subject, subjectProgress }: HomeProgressItemP
   return (
     <Card
       key={subject.id}
-      className="text-left hover:border-zinc-700/80 p-6 flex flex-col gap-3"
+      className="text-left hover:border-zinc-700/80 p-6 flex flex-col gap-3 min-h-56"
     >
       <CardHeader className="p-0 space-y-1">
         <CardDescription className="font-semibold text-gray-400 leading-tight line-clamp-2 sm:min-h-10 lg:min-h-0">

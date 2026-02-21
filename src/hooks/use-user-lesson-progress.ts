@@ -4,14 +4,19 @@ import { authClient } from "@/lib/auth-client";
 import { trpc } from "@/lib/trpc";
 import useUserLessonProgressStore from "@/stores/user-lesson-progress-store";
 import { UserLessonProgress } from "@/types/user-progress/user-lesson-progress.interface";
+import { useEffect } from "react";
 import { useShallow } from "zustand/react/shallow";
 
 export const useUserLessonProgress = () => {
-  const { data: session, isPending } = authClient.useSession();
+  const { data: session, isPending, refetch } = authClient.useSession();
   const isAuthenticated: boolean = !!session?.user?.id;
 
+  useEffect(() => {
+    void refetch();
+  }, [refetch]);
+
   const { data: serverProgress, isLoading, isError } = trpc.userLessonProgress.get.useQuery(undefined, {
-    enabled: isAuthenticated,
+    enabled: !isPending && isAuthenticated,
   });
 
   const trpcUtils = trpc.useUtils();

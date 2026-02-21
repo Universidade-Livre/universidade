@@ -7,12 +7,7 @@ interface SemesterStatsProps {
 }
 
 export const SemesterStats = ({ semester }: SemesterStatsProps) => {
-  const semesterDuration: string = formatDuration(
-    semester.subjects.reduce(
-      (acc, subject) => acc + (subject.lessonsDurationSeconds ?? 0),
-      0,
-    ),
-  );
+  const semesterDuration: string = formatDuration(semester.subjectsDurationSeconds);
 
   return (
     <div className="flex flex-col sm:flex-row sm:items-center gap-4 text-sm text-zinc-400 bg-zinc-950/30 p-4 rounded-xl border border-white/5 backdrop-blur-md w-full sm:w-auto">
@@ -24,7 +19,7 @@ export const SemesterStats = ({ semester }: SemesterStatsProps) => {
           <span className="text-xs text-zinc-500 uppercase font-bold">
             Disciplinas
           </span>
-          <span className="text-zinc-200 font-medium">
+          <span className="inline-flex items-center gap-0.5 font-medium tabular-nums text-zinc-200">
             {semester.subjects.length}
           </span>
         </div>

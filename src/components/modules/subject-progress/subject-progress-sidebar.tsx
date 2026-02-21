@@ -2,6 +2,7 @@
 
 import { Progress } from "@/components/ui/progress";
 import { ScrollArea } from "@/components/ui/scroll-area";
+import { Skeleton } from "@/components/ui/skeleton";
 import useUserSubjectLessonProgress from "@/hooks/use-user-subject-lesson-progress";
 import { Lesson } from "@/types/course/lesson.interface";
 import { UserSubjectLessonProgress } from "@/types/user-progress/user-subject-lesson-progress.interface";
@@ -16,6 +17,7 @@ interface SubjectProgressSidebarProps {
 export const SubjectProgressSidebar = ({ currentLesson, lessons }: SubjectProgressSidebarProps) => {
   const router = useRouter();
   const { getSubjectLessonProgress, toggleLessonProgress, isLoading, isError } = useUserSubjectLessonProgress();
+
   if (isError) {
     throw new Error("Não foi possível carregar o progresso da disciplina.");
   }
@@ -28,16 +30,14 @@ export const SubjectProgressSidebar = ({ currentLesson, lessons }: SubjectProgre
           Playlist de Aulas
         </h3>
         <span className="text-sm font-semibold text-zinc-200">
-          {isLoading
-            ? "Carregando..."
-            : `${subjectProgress.completed} de ${subjectProgress.total}`}
+          {isLoading ? (
+            <Skeleton className="h-4 w-20 rounded-sm bg-zinc-300/25" />
+          ) : (
+            `${subjectProgress.completed} de ${subjectProgress.total}`
+          )}
         </span>
       </div>
-      {isLoading ? (
-        <div className="h-2 w-full animate-pulse rounded-full border border-zinc-700 bg-zinc-800/70" />
-      ) : (
-        <Progress value={subjectProgress.percentage} />
-      )}
+      <Progress value={subjectProgress.percentage} />
       <div className="flex min-h-0 flex-1 flex-col">
         <ScrollArea
           type="always"

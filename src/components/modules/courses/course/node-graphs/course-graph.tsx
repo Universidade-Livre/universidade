@@ -12,7 +12,7 @@ import {
   type Node,
 } from "@xyflow/react";
 import "@xyflow/react/dist/style.css";
-import React from "react";
+import { useEffect, useMemo } from "react";
 
 interface CourseGraphNode extends Node {
   data: {
@@ -85,11 +85,11 @@ const buildCourseGraph = (course: Course) => {
 };
 
 const CourseGraph = ({ course }: { course: Course }) => {
-  const flow = React.useMemo(() => buildCourseGraph(course), [course]);
+  const flow = useMemo(() => buildCourseGraph(course), [course]);
   const [nodes, setNodes, onNodesChange] = useNodesState(flow.initialNodes);
   const [edges, setEdges] = useEdgesState(flow.initialEdges);
 
-  React.useEffect(() => {
+  useEffect(() => {
     setNodes(flow.initialNodes);
     setEdges(flow.initialEdges);
   }, [flow, setEdges, setNodes]);

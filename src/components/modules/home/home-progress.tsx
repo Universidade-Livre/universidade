@@ -1,6 +1,7 @@
 "use client";
 
 import HomeProgressItem from "@/components/modules/home/home-progress-item";
+import HomeProgressSkeleton from "@/components/modules/home/home-progress-skeleton";
 import {
   Card,
   CardDescription,
@@ -21,7 +22,16 @@ import useUserSubjectLessonProgress, {
 
 export const HomeProgress = () => {
   const { subjects, getSubjectLessonProgress, orderBy, setOrderBy, isLoading, isError } = useUserSubjectLessonProgress();
-  if (!subjects || subjects.length === 0 || isLoading || isError) {
+
+  if (isLoading) {
+    return <HomeProgressSkeleton />;
+  }
+
+  if (isError) {
+    throw new Error("Erro ao carregar o progresso das disciplinas.");
+  }
+
+  if (!subjects || subjects.length === 0) {
     return null;
   }
 

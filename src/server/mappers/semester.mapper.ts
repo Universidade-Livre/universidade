@@ -12,18 +12,24 @@ export function toSemesterFromModel(semester: SemesterModel): Semester {
     alternativeName: semester.course.alternativeName,
   };
 
+  const subjects = semester.subjects.map((subject) =>
+    toSubjectFromModel({
+      ...subject,
+      semester: {
+        id: semester.id,
+        number: semester.number,
+        course: courseInfo,
+      },
+    }),
+  );
+
   return {
     id: semester.id,
     number: semester.number,
-    subjects: semester.subjects.map((subject) =>
-      toSubjectFromModel({
-        ...subject,
-        semester: {
-          id: semester.id,
-          number: semester.number,
-          course: courseInfo,
-        },
-      }),
+    subjects,
+    subjectsDurationSeconds: subjects.reduce(
+      (accumulator, subject) => accumulator + subject.lessonsDurationSeconds,
+      0,
     ),
     info: {
       course: courseInfo,

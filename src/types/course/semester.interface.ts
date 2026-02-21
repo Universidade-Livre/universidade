@@ -5,6 +5,7 @@ export interface Semester {
   id: string;
   number: number;
   subjects: Subject[];
+  subjectsDurationSeconds: number;
   info: {
     course: CourseInfo;
   };
