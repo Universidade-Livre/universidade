@@ -46,14 +46,20 @@ export const useUserSubjectLessonProgress = () => {
     [progress.lessons, subjectsGroupedByLessonIds],
   );
 
-  const getSubjectLessonProgress = useCallback<(subjectId: string) => UserSubjectLessonProgress>(
-    (subjectId: string): UserSubjectLessonProgress =>
-      subjectLessonProgressMap.get(subjectId) ?? {
-        percentage: 0,
-        completed: 0,
+  const getSubjectLessonProgress = useCallback<(subjectId: string, fallbackTotalLessons?: number) => UserSubjectLessonProgress>(
+    (subjectId: string, fallbackTotalLessons = 0): UserSubjectLessonProgress => {
+      const { total = 0, completed = 0 } = subjectLessonProgressMap.get(subjectId) ?? {};
+      const currentTotal: number = Math.max(total, fallbackTotalLessons);
+      const currentCompleted = Math.min(completed, currentTotal);
+      return {
+        percentage: currentTotal
+          ? Math.round((currentCompleted / currentTotal) * 100)
+          : 0,
+        completed: currentCompleted,
         completedIds: progress.lessons,
-        total: 0,
-      },
+        total: currentTotal,
+      };
+    },
     [progress.lessons, subjectLessonProgressMap],
   );
 

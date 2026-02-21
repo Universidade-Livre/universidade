@@ -22,7 +22,11 @@ export const SubjectProgressSidebar = ({ currentLesson, lessons }: SubjectProgre
     throw new Error("Não foi possível carregar o progresso da disciplina.");
   }
 
-  const subjectProgress: UserSubjectLessonProgress = getSubjectLessonProgress(currentLesson.info.subject.id);
+  const subjectProgress: UserSubjectLessonProgress = getSubjectLessonProgress(
+    currentLesson.info.subject.id,
+    lessons.length,
+  );
+
   return (
     <aside className="flex min-h-0 flex-col gap-4 p-4 sm:p-6 lg:h-full">
       <div className="flex items-center justify-between pr-2">

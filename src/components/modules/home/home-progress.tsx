@@ -83,7 +83,7 @@ export const HomeProgress = () => {
               <HomeProgressItem
                 key={subject.id}
                 subject={subject}
-                subjectProgress={getSubjectLessonProgress(subject.id)}
+                subjectProgress={getSubjectLessonProgress(subject.id, subject.lessons)}
               />
             ))}
           </div>

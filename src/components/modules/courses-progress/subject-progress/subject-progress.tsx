@@ -48,7 +48,7 @@ export const SubjectProgress = ({ subject }: SubjectProgressProps) => {
     throw new Error("Não foi possível carregar o progresso da disciplina.");
   }
 
-  const subjectProgress: UserSubjectLessonProgress = getSubjectLessonProgress(subject.id);
+  const subjectProgress: UserSubjectLessonProgress = getSubjectLessonProgress(subject.id, subject.lessons);
   const theme = getTheme(subjectProgress.percentage);
 
   return (
