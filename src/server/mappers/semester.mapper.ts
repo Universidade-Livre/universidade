@@ -16,11 +16,12 @@ export function toSemesterFromModel(semester: SemesterModel): Semester {
     id: semester.id,
     number: semester.number,
     subjects: semester.subjects.map((subject) =>
-      toSubjectFromModel(subject, {
-        course: courseInfo,
+      toSubjectFromModel({
+        ...subject,
         semester: {
           id: semester.id,
           number: semester.number,
+          course: courseInfo,
         },
       }),
     ),

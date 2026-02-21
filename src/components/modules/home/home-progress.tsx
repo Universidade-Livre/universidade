@@ -15,13 +15,13 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import useUserActiveSubjects, {
-  UserActiveSubjectOrder,
-} from "@/hooks/use-user-active-subjects";
+import useUserSubjectLessonProgress, {
+  UserSubjectLessonProgressOrder,
+} from "@/hooks/use-user-subject-lesson-progress";
 
 export const HomeProgress = () => {
-  const { activeSubjects, orderBy, setOrderBy, isLoading, isError } = useUserActiveSubjects();
-  if (!activeSubjects || activeSubjects.length === 0 || isLoading || isError) {
+  const { subjects, orderBy, setOrderBy, isLoading, isError } = useUserSubjectLessonProgress();
+  if (!subjects || subjects.length === 0 || isLoading || isError) {
     return null;
   }
 
@@ -40,14 +40,14 @@ export const HomeProgress = () => {
               <Select
                 value={orderBy}
                 onValueChange={(value) =>
-                  setOrderBy(value as UserActiveSubjectOrder)
+                  setOrderBy(value as UserSubjectLessonProgressOrder)
                 }
               >
                 <SelectTrigger className="w-32 cursor-pointer">
                   <SelectValue placeholder="Ordenar por" />
                 </SelectTrigger>
                 <SelectContent>
-                  {Object.values(UserActiveSubjectOrder).map((option) => (
+                  {Object.values(UserSubjectLessonProgressOrder).map((option) => (
                     <SelectItem
                       key={option}
                       value={option}
@@ -67,10 +67,10 @@ export const HomeProgress = () => {
 
         <ScrollArea className="h-60">
           <div className="pt-0 pr-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 items-start">
-            {activeSubjects.map((subjectWithProgress) => (
+            {subjects.map((subject) => (
               <HomeProgressItem
-                key={subjectWithProgress.subject.id}
-                activeSubject={subjectWithProgress}
+                key={subject.id}
+                subject={subject}
               />
             ))}
           </div>

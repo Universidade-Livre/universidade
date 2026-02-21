@@ -17,7 +17,6 @@ export async function getSubjectModelsByLessonIds(lessonIds: string[]): Promise<
     orderBy: { number: "asc" },
     include: {
       lessons: {
-        where: { id: { in: lessonIds } },
         select: {
           id: true,
           durationSeconds: true,

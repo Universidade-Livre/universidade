@@ -12,7 +12,7 @@ export interface SubjectModel {
   lessons: Array<Pick<LessonModel, "id" | "durationSeconds">>;
   books: SubjectBookModel[];
   prerequisites: Array<{ prerequisite: Pick<SubjectModel, "id" | "name" | "number"> }>;
-  semester?: Pick<SemesterModel, "id" | "number"> & {
+  semester: Pick<SemesterModel, "id" | "number"> & {
     course: Pick<CourseModel, "slug" | "name" | "alternativeName">;
   };
 }
