@@ -15,9 +15,12 @@ interface SubjectProgressSidebarProps {
 
 export const SubjectProgressSidebar = ({ currentLesson, lessons }: SubjectProgressSidebarProps) => {
   const router = useRouter();
-  const { getSubjectLessonProgress, toggleLessonProgress } = useUserSubjectLessonProgress();
-  const subjectProgress: UserSubjectLessonProgress = getSubjectLessonProgress(currentLesson.info.subject.id);
+  const { getSubjectLessonProgress, toggleLessonProgress, isLoading, isError } = useUserSubjectLessonProgress();
+  if (isError) {
+    throw new Error("Não foi possível carregar o progresso da disciplina.");
+  }
 
+  const subjectProgress: UserSubjectLessonProgress = getSubjectLessonProgress(currentLesson.info.subject.id);
   return (
     <aside className="flex min-h-0 flex-col gap-4 p-4 sm:p-6 lg:h-full">
       <div className="flex items-center justify-between pr-2">
@@ -25,10 +28,16 @@ export const SubjectProgressSidebar = ({ currentLesson, lessons }: SubjectProgre
           Playlist de Aulas
         </h3>
         <span className="text-sm font-semibold text-zinc-200">
-          {subjectProgress.completed} de {subjectProgress.total}
+          {isLoading
+            ? "Carregando..."
+            : `${subjectProgress.completed} de ${subjectProgress.total}`}
         </span>
       </div>
-      <Progress value={subjectProgress.percentage} />
+      {isLoading ? (
+        <div className="h-2 w-full animate-pulse rounded-full border border-zinc-700 bg-zinc-800/70" />
+      ) : (
+        <Progress value={subjectProgress.percentage} />
+      )}
       <div className="flex min-h-0 flex-1 flex-col">
         <ScrollArea
           type="always"
@@ -41,6 +50,7 @@ export const SubjectProgressSidebar = ({ currentLesson, lessons }: SubjectProgre
                 lesson={lesson}
                 isSelected={currentLesson.number === lesson.number}
                 isCompleted={subjectProgress.completedIds.includes(lesson.id)}
+                isToggleDisabled={isLoading}
                 onSelect={(nextLesson) => {
                   router.push(
                     `/meu-curso/${nextLesson.info.course.slug}/etapas/${nextLesson.info.semester.number}/disciplinas/${nextLesson.info.subject.number}/aulas/${nextLesson.number}`,

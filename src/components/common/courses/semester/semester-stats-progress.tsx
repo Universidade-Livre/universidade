@@ -8,7 +8,15 @@ interface SemesterStatsProgressProps {
 }
 
 export const SemesterStatsProgress = ({ semester }: SemesterStatsProgressProps) => {
-  const { getSubjectLessonProgress } = useUserSubjectLessonProgress();
+  const { getSubjectLessonProgress, isLoading, isError } = useUserSubjectLessonProgress();
+  if (isError) {
+    throw new Error("Não foi possível carregar o progresso do semestre.");
+  }
+
+  if (isLoading) {
+    return <span className="text-zinc-400">...</span>;
+  }
+
   return (
     <span>
       {semester.subjects.filter(

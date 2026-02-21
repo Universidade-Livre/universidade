@@ -41,7 +41,7 @@ export const getTheme = (progress: number) => {
 };
 
 export const SubjectProgress = ({ subject }: SubjectProgressProps) => {
-  const { getSubjectLessonProgress } = useUserSubjectLessonProgress();
+  const { getSubjectLessonProgress, isLoading, isError } = useUserSubjectLessonProgress();
   const subjectProgress: UserSubjectLessonProgress = getSubjectLessonProgress(subject.id);
   const theme = getTheme(subjectProgress.percentage);
 
@@ -74,14 +74,20 @@ export const SubjectProgress = ({ subject }: SubjectProgressProps) => {
             <div
               className={cn(
                 "hidden sm:flex items-center gap-2 text-xs font-medium transition-colors border rounded-full px-3 py-1 cursor-pointer",
-                subjectProgress.percentage === 100
+                isError
+                  ? "border-red-400/35 bg-red-950/20 text-red-200/90"
+                  : subjectProgress.percentage === 100
                   ? "border-emerald-300/40 bg-emerald-500/10 text-emerald-100/90"
                   : subjectProgress.percentage > 0
                     ? "border-blue-400/35 bg-blue-950/30 text-blue-200/85"
                     : "border-zinc-500/40 bg-zinc-800/30 text-zinc-300/90",
               )}
             >
-              {subjectProgress.percentage === 100
+              {isLoading
+                ? "Carregando"
+                : isError
+                  ? "Indisponível"
+                  : subjectProgress.percentage === 100
                 ? "Revisar"
                 : subjectProgress.percentage > 0
                   ? "Continuar"
@@ -93,26 +99,35 @@ export const SubjectProgress = ({ subject }: SubjectProgressProps) => {
           <div className="space-y-1.5 text-xs">
             <div className="flex items-center justify-between text-zinc-300">
               <span>
-                {subjectProgress.percentage === 100
+                {isLoading
+                  ? "Carregando..."
+                  : isError
+                    ? "Erro ao carregar"
+                    : subjectProgress.percentage === 100
                   ? "Concluído"
                   : subjectProgress.percentage > 0
                     ? "Progresso"
                     : "Comece a assistir"}
               </span>
-              <span className={theme.color}>{subjectProgress.percentage}%</span>
+              <span className={theme.color}>{isLoading ? "--" : `${subjectProgress.percentage}%`}</span>
             </div>
 
-            {subjectProgress.percentage > 0 && (
+            {isLoading ? (
+              <div className="h-1.5 w-full animate-pulse rounded-full border border-zinc-700 bg-zinc-800/70" />
+            ) : subjectProgress.percentage > 0 ? (
               <div className="h-1.5 w-full overflow-hidden rounded-full border border-zinc-600/60 bg-zinc-900/80">
                 <div className="h-full w-full">
                   <Progress value={subjectProgress.percentage} />
                 </div>
               </div>
-            )}
+            ) : null}
 
             <div className="pt-0.5 text-xs text-zinc-400">
-              {subjectProgress.completed} de {subjectProgress.total} aulas
-              concluídas
+              {isLoading
+                ? "Carregando progresso..."
+                : isError
+                  ? "Não foi possível carregar o progresso."
+                  : `${subjectProgress.completed} de ${subjectProgress.total} aulas concluídas`}
             </div>
           </div>
         </div>
