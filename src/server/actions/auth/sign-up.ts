@@ -1,6 +1,7 @@
 "use server";
 
 import { auth } from "@/lib/auth";
+import { revalidatePath } from "next/cache";
 import { headers } from "next/headers";
 import { redirect } from "next/navigation";
 import { z } from "zod";
@@ -53,5 +54,7 @@ export const signUpAction = async (
     };
   }
 
+  revalidatePath("/", "layout");
+  revalidatePath("/", "page");
   redirect("/");
 }
