@@ -14,12 +14,8 @@ export enum UserSubjectLessonProgressOrder {
 export const useUserSubjectLessonProgress = () => {
   const [orderBy, setOrderBy] = useState<UserSubjectLessonProgressOrder>(UserSubjectLessonProgressOrder.Progress);
   const { progress, toggleLessonProgress, isLoading: isProgressLoading } = useUserLessonProgress();
-  const { data: subjectsGroupedByLessonIds, isLoading: isSubjectLoading, isError } = trpc.subject.getGroupedByLessonIds.useQuery(
+  const { data: subjectsGroupedByLessonIds = [], isLoading: isSubjectLoading, isError } = trpc.subject.getGroupedByLessonIds.useQuery(
     { lessonIds: progress.lessons },
-    {
-      enabled: progress.lessons.length > 0,
-      placeholderData: (prev) => prev,
-    },
   );
 
   return {
@@ -32,24 +28,26 @@ export const useUserSubjectLessonProgress = () => {
           ? Math.round((completedLessons / totalLessons) * 100)
           : 0,
         completed: completedLessons,
-        completedIds: progress.lessons,
+        completedIds: lessonIds,
         total: totalLessons,
       };
     },
-    subjects: subjectsGroupedByLessonIds
-      ?.map(([, subject]) => subject)
-      .sort((a, b) => {
+    subjects: [...subjectsGroupedByLessonIds]
+      .sort(([lessonIdsA, subjectA], [lessonIdsB, subjectB]) => {
         switch (orderBy) {
-          // case UserSubjectLessonProgressOrder.Progress:
-          //   return b.subjectProgress.percentage - a.subjectProgress.percentage;
+          case UserSubjectLessonProgressOrder.Progress:
+            return subjectA.lessons > 0 && subjectB.lessons > 0
+              ? lessonIdsB.length / subjectB.lessons - lessonIdsA.length / subjectA.lessons
+              : 0;
           case UserSubjectLessonProgressOrder.Semester:
-            return a.info.semester.number - b.info.semester.number;
+            return subjectA.info.semester.number - subjectB.info.semester.number;
           case UserSubjectLessonProgressOrder.Course:
-            return a.info.course.name.localeCompare(b.info.course.name);
+            return subjectA.info.course.name.localeCompare(subjectB.info.course.name);
           default:
             return 0;
         }
-      }),
+      })
+      .map(([, subject]) => subject),
     orderBy: orderBy,
     setOrderBy: setOrderBy,
     toggleLessonProgress: toggleLessonProgress,
