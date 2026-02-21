@@ -6,7 +6,7 @@ import { createTRPCRouter } from "@/server/trpc/trpc";
 
 export const appRouter = createTRPCRouter({
   subject: subjectRouter,
-  userProgress: userLessonProgressRouter,
+  userLessonProgress: userLessonProgressRouter,
 });
 
 export type AppRouter = typeof appRouter;

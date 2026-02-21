@@ -12,7 +12,7 @@ const progressSchema: z.ZodType<UserLessonProgress> = z.object({
 
 interface UserLessonProgressStore {
   progress: UserLessonProgress;
-  toggleLessonProgress: (lessonId: string) => void;
+  toggleUserLessonProgress: (lessonId: string) => void;
 }
 
 export const useUserLessonProgressStore = create<UserLessonProgressStore>()(

@@ -46,7 +46,7 @@ export const getTheme = (progress: number) => {
 
 export const SubjectProgress = ({ course, semester, subject }: SubjectProgressProps) => {
   const { getSubjectLessonProgress } = useUserSubjectLessonProgress();
-  const subjectProgress: UserSubjectLessonProgress = getSubjectLessonProgress(subject.id, subject.lessons);
+  const subjectProgress: UserSubjectLessonProgress = getSubjectLessonProgress(subject.id);
   const theme = getTheme(subjectProgress.percentage);
 
   return (

@@ -18,19 +18,9 @@ import {
 import useUserSubjectLessonProgress, {
   UserSubjectLessonProgressOrder,
 } from "@/hooks/use-user-subject-lesson-progress";
-import { UserSubjectLessonProgress } from "@/types/user-progress/user-subject-lesson-progress.interface";
-import { useMemo } from "react";
 
 export const HomeProgress = () => {
-  const { subjects, orderBy, setOrderBy, getSubjectLessonProgress, isError } = useUserSubjectLessonProgress();
-  const subjectProgressById = useMemo<Record<string, UserSubjectLessonProgress>>(
-    () => subjects.reduce<Record<string, UserSubjectLessonProgress>>((acc, subject) => {
-      acc[subject.id] = getSubjectLessonProgress(subject.id, subject.lessons);
-      return acc;
-    }, {}),
-    [getSubjectLessonProgress, subjects],
-  );
-
+  const { subjects, getSubjectLessonProgress, orderBy, setOrderBy, isError } = useUserSubjectLessonProgress();
   if (!subjects || subjects.length === 0 || isError) {
     return null;
   }
@@ -57,15 +47,17 @@ export const HomeProgress = () => {
                   <SelectValue placeholder="Ordenar por" />
                 </SelectTrigger>
                 <SelectContent>
-                  {Object.values(UserSubjectLessonProgressOrder).map((option) => (
-                    <SelectItem
-                      key={option}
-                      value={option}
-                      className="cursor-pointer"
-                    >
-                      {option.charAt(0).toUpperCase() + option.slice(1)}
-                    </SelectItem>
-                  ))}
+                  {Object.values(UserSubjectLessonProgressOrder).map(
+                    (option) => (
+                      <SelectItem
+                        key={option}
+                        value={option}
+                        className="cursor-pointer"
+                      >
+                        {option.charAt(0).toUpperCase() + option.slice(1)}
+                      </SelectItem>
+                    ),
+                  )}
                 </SelectContent>
               </Select>
             </div>
@@ -81,7 +73,7 @@ export const HomeProgress = () => {
               <HomeProgressItem
                 key={subject.id}
                 subject={subject}
-                subjectProgress={subjectProgressById[subject.id]}
+                subjectProgress={getSubjectLessonProgress(subject.id)}
               />
             ))}
           </div>

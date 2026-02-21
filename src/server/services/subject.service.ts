@@ -3,35 +3,19 @@ import "server-only";
 import { toSubjectFromModel } from "@/server/mappers/subject.mapper";
 import { getSubjectModelsByLessonIds } from "@/server/repositories/subject.repository";
 import { Subject } from "@/types/course/subject.interface";
+import { SubjectModel } from "@/server/models/subject.model";
 
-export type SubjectsByLessonId = Record<string, Subject[]>;
-
-export async function getSubjectsGroupedByLessonIds(lessonIds: string[]): Promise<SubjectsByLessonId> {
+export async function getSubjectsGroupedByLessonIds(lessonIds: string[]): Promise<Array<[lessonIds: string[], subject: Subject]>> {
   if (lessonIds.length === 0) {
-    return {};
+    return [];
   }
 
   const uniqueLessonIds: string[] = Array.from(new Set(lessonIds));
-  const lessonIdSet: Set<string> = new Set(uniqueLessonIds);
-  const groupedSubjects: SubjectsByLessonId = Object.fromEntries(
-    uniqueLessonIds.map((lessonId) => [lessonId, [] as Subject[]]),
-  );
-
-  const subjects = await getSubjectModelsByLessonIds(uniqueLessonIds);
-  subjects.forEach((subject) => {
-    if (!subject.semester) {
-      return;
-    }
-
-    const mappedSubject: Subject = toSubjectFromModel(subject);
-    subject.lessons.forEach((lesson) => {
-      if (!lessonIdSet.has(lesson.id)) {
-        return;
-      }
-
-      groupedSubjects[lesson.id].push(mappedSubject);
-    });
-  });
-
-  return groupedSubjects;
+  const subjects: SubjectModel[] = await getSubjectModelsByLessonIds(uniqueLessonIds);
+  return subjects.map((subject) => [
+    subject.lessons
+      .filter((lesson) => uniqueLessonIds.includes(lesson.id))
+      .map((lesson) => lesson.id),
+    toSubjectFromModel(subject),
+  ]);
 }

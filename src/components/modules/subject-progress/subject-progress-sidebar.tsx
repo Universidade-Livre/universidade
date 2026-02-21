@@ -28,7 +28,7 @@ export const SubjectProgressSidebar = ({
 }: SubjectProgressSidebarProps) => {
   const router = useRouter();
   const { getSubjectLessonProgress, toggleLessonProgress } = useUserSubjectLessonProgress();
-  const subjectProgress: UserSubjectLessonProgress = getSubjectLessonProgress(subject.id, subject.lessons);
+  const subjectProgress: UserSubjectLessonProgress = getSubjectLessonProgress(subject.id);
 
   return (
     <aside className="flex min-h-0 flex-col gap-4 p-4 sm:p-6 lg:h-full">
