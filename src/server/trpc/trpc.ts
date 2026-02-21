@@ -1,3 +1,5 @@
+import "server-only";
+
 import { TRPCContext } from "@/server/trpc/context";
 import { initTRPC, TRPCError } from "@trpc/server";
 

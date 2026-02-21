@@ -20,12 +20,12 @@ FROM base AS runtime
 RUN addgroup --system --gid 1001 nodejs && adduser --system --uid 1001 nextjs
 
 WORKDIR /app
-COPY --from=builder --chown=nextjs:nodejs /app/node_modules/dotenv node_modules/dotenv
 COPY --from=builder --chown=nextjs:nodejs /app/.next/standalone .
 COPY --from=builder --chown=nextjs:nodejs /app/.next/static .next/static
 COPY --from=builder --chown=nextjs:nodejs /app/public public
 COPY --from=builder --chown=nextjs:nodejs /app/prisma prisma
 COPY --from=builder --chown=nextjs:nodejs /app/prisma.config.ts .
+COPY --from=deps --chown=nextjs:nodejs /app/node_modules/dotenv node_modules/dotenv
 COPY --from=deps --chown=nextjs:nodejs /opt/prisma /opt/prisma
 
 USER nextjs

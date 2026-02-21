@@ -1,14 +1,17 @@
+import { CourseInfo } from "@/types/course-info/course-info.interface";
+import { SemesterInfo } from "@/types/course-info/semester-info.interface";
 import { SubjectBook } from "@/types/course/subject-book.interface";
 
-export interface SubjectOverview {
+export interface Subject {
   id: string;
   name: string;
   number: number;
-}
-
-export interface Subject extends SubjectOverview {
   lessons: number;
   lessonsDurationSeconds: number;
   books: SubjectBook[];
-  prerequisites: SubjectOverview[];
+  prerequisites: Array<Pick<Subject, "id" | "name" | "number">>;
+  info: {
+    course: CourseInfo;
+    semester: SemesterInfo;
+  };
 }

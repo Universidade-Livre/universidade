@@ -7,15 +7,16 @@ datasource db {
 }
 
 model User {
-  id            String    @id
-  name          String
-  email         String    @unique
-  emailVerified Boolean   @default(false)
-  image         String?
-  createdAt     DateTime  @default(now())
-  updatedAt     DateTime  @updatedAt
-  accounts      Account[]
-  sessions      Session[]
+  id               String               @id
+  name             String
+  email            String               @unique
+  emailVerified    Boolean              @default(false)
+  image            String?
+  createdAt        DateTime             @default(now())
+  updatedAt        DateTime             @updatedAt
+  accounts         Account[]
+  sessions         Session[]
+  lessonProgresses UserLessonProgress[]
 
   @@map("user")
 }
@@ -127,14 +128,26 @@ model SubjectBook {
 }
 
 model Lesson {
-  id              String  @id @default(cuid())
+  id              String               @id @default(cuid())
   number          Int
   name            String
   durationSeconds Int?
   embedUrl        String
   subjectId       String
-  subject         Subject @relation(fields: [subjectId], references: [id], onDelete: Cascade)
+  subject         Subject              @relation(fields: [subjectId], references: [id], onDelete: Cascade)
+  progresses      UserLessonProgress[]
 
   @@unique([subjectId, number])
   @@map("lesson")
+}
+
+model UserLessonProgress {
+  userId   String
+  lessonId String
+  user     User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  lesson   Lesson @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+
+  @@id([userId, lessonId])
+  @@index([lessonId])
+  @@map("user_lesson_progress")
 }

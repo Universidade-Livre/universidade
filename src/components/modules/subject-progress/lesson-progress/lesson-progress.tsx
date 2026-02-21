@@ -6,19 +6,13 @@ import { Lesson } from "@/types/course/lesson.interface";
 import { Clock3, ListVideo } from "lucide-react";
 
 interface LessonProgressProps {
-  courseName: string;
-  subjectName: string;
   lesson: Lesson;
 }
 
-export const LessonProgress = ({ courseName, subjectName, lesson }: LessonProgressProps) => {
+export const LessonProgress = ({ lesson }: LessonProgressProps) => {
   return (
     <Card className="flex min-h-0 flex-col gap-3 border-0 bg-transparent p-4 shadow-none sm:gap-4 sm:p-6 lg:h-full">
-      <LessonProgressBreadcrumb
-        courseName={courseName}
-        subjectName={subjectName}
-        lessonName={lesson.name}
-      />
+      <LessonProgressBreadcrumb lesson={lesson} />
       <div className="relative w-full aspect-video min-h-55 sm:min-h-80 lg:aspect-auto lg:flex-1 lg:min-h-0">
         <div className="h-full rounded-md overflow-hidden transition-opacity">
           <VideoPlayer key={lesson.id} url={lesson.embedUrl} />
@@ -45,7 +39,7 @@ export const LessonProgress = ({ courseName, subjectName, lesson }: LessonProgre
               {lesson.name}
             </h2>
             <p className="text-sm text-zinc-400">
-              Disciplina: <span className="text-zinc-400">{subjectName}</span>
+              Disciplina: <span className="text-zinc-400">{lesson.info.subject.name}</span>
             </p>
           </div>
         </div>

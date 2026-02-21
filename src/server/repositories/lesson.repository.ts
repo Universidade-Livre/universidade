@@ -1,22 +1,40 @@
 import "server-only";
 
 import { prisma } from "@/lib/prisma";
+import { LessonModel } from "@/server/models/lesson.model";
 
-export const lessonInclude = {
-  subject: true,
-};
-
-export async function getLessonModelById(lessonId: string) {
-  return prisma.lesson.findUnique({
-    where: { id: lessonId },
-    include: lessonInclude,
+export async function getLessonModelsBySubjectId(subjectId: string): Promise<LessonModel[]> {
+  return await prisma.lesson.findMany({
+    where: { subjectId: subjectId },
+    orderBy: { number: "asc" },
+    include: {
+      subject: {
+        include: {
+          semester: {
+            include: {
+              course: {
+                select: {
+                  slug: true,
+                  name: true,
+                  alternativeName: true,
+                },
+              },
+            },
+          },
+        },
+      },
+    },
   });
 }
 
-export async function getLessonModelsBySubjectId(subjectId: string) {
-  return prisma.lesson.findMany({
-    where: { subjectId: subjectId },
+export async function getLessonModelsByUserId(userId: string): Promise<Array<Pick<LessonModel, "id">>> {
+  return await prisma.lesson.findMany({
+    where: {
+      progresses: {
+        some: { userId: userId },
+      },
+    },
     orderBy: { number: "asc" },
-    include: lessonInclude,
+    select: { id: true },
   });
 }

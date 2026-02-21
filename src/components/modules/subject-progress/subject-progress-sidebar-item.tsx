@@ -7,16 +7,18 @@ interface SubjectProgressSidebarItemProps {
   lesson: Lesson;
   isSelected: boolean;
   isCompleted: boolean;
+  isToggleDisabled?: boolean;
   onSelect: (lesson: Lesson) => void;
-  onToggleCompletion: (lessonId: string) => void;
+  onToggleUserLessonProgress: (lessonId: string) => void;
 }
 
 export const SubjectProgressSidebarItem = ({
   lesson,
   isSelected,
   isCompleted,
+  isToggleDisabled = false,
   onSelect,
-  onToggleCompletion,
+  onToggleUserLessonProgress,
 }: SubjectProgressSidebarItemProps) => {
   return (
     <li>
@@ -38,7 +40,8 @@ export const SubjectProgressSidebarItem = ({
       >
         <Checkbox
           checked={isCompleted}
-          onCheckedChange={() => onToggleCompletion(lesson.id)}
+          disabled={isToggleDisabled}
+          onCheckedChange={() => onToggleUserLessonProgress(lesson.id)}
           onClick={(event) => {
             event.stopPropagation();
           }}

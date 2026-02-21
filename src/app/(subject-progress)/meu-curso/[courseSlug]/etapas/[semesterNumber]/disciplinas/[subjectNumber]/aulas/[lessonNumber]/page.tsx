@@ -3,7 +3,6 @@ import { getCourseBySlug } from "@/server/services/course.service";
 import { getLessonsBySubjectId } from "@/server/services/lesson.service";
 import { Course } from "@/types/course/course.interface";
 import { Lesson } from "@/types/course/lesson.interface";
-import { Semester } from "@/types/course/semester.interface";
 import { Subject } from "@/types/course/subject.interface";
 import { notFound } from "next/navigation";
 import { z } from "zod";
@@ -23,9 +22,10 @@ export const LessonPage = async ({ params: rawParams }: { params: Promise<z.inpu
 
   const { courseSlug, semesterNumber, subjectNumber, lessonNumber } = params.data;
   const course: Course | null = await getCourseBySlug(courseSlug);
-  const semester: Semester | undefined = course?.semesters.find((semester) => semester.number === semesterNumber);
-  const subject: Subject | undefined = semester?.subjects.find((subject) => subject.number === subjectNumber);
-  if (!course || !semester || !subject) {
+  const subject: Subject | undefined = course?.semesters
+    .find((semester) => semester.number === semesterNumber)
+    ?.subjects.find((subject) => subject.number === subjectNumber);
+  if (!course || !subject) {
     notFound();
   }
 
@@ -37,9 +37,6 @@ export const LessonPage = async ({ params: rawParams }: { params: Promise<z.inpu
 
   return (
     <SubjectProgress
-      course={course}
-      semester={semester}
-      subject={subject}
       lessons={lessons}
       currentLesson={lesson}
     />

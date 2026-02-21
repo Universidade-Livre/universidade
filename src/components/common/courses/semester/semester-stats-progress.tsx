@@ -1,23 +1,27 @@
 "use client";
 
-import useUserProgressStore from "@/stores/user-progress-store";
-import { Course } from "@/types/course/course.interface";
+import useUserSubjectLessonProgress from "@/hooks/use-user-subject-lesson-progress";
+import { Semester } from "@/types/course/semester.interface";
 
 interface SemesterStatsProgressProps {
-  semesterNumber: number;
-  course: Course;
+  semester: Semester;
 }
 
-export const SemesterStatsProgress = ({ semesterNumber, course }: SemesterStatsProgressProps) => {
-  const getSubjectProgress = useUserProgressStore((state) => state.getSubjectProgress);
+export const SemesterStatsProgress = ({ semester }: SemesterStatsProgressProps) => {
+  const { getSubjectLessonProgress, isLoading, isError } = useUserSubjectLessonProgress();
+  if (isError) {
+    throw new Error("Não foi possível carregar o progresso do semestre.");
+  }
+
+  if (isLoading) {
+    return <span className="text-zinc-400">...</span>;
+  }
+
   return (
     <span>
-      {course.semesters
-        .find((semester) => semester.number === semesterNumber)
-        ?.subjects.filter(
-          (subject) =>
-            getSubjectProgress(subject.id, subject.lessons).percentage === 100,
-        ).length ?? 0}
+      {semester.subjects.filter(
+        (subject) => getSubjectLessonProgress(subject.id).percentage === 100,
+      ).length}
     </span>
   );
 };

@@ -1,15 +1,26 @@
 import "server-only";
 
-import { lessonInclude } from "@/server/repositories/lesson.repository";
+import { LessonModel } from "@/server/models/lesson.model";
 import { Lesson } from "@/types/course/lesson.interface";
-import { Prisma } from "@prisma/client";
 
-export function toLessonFromInclude(lesson: Prisma.LessonGetPayload<{ include: typeof lessonInclude }>): Lesson {
+export function toLessonFromModel(lesson: LessonModel): Lesson {
   return {
     id: lesson.id,
     number: lesson.number,
     name: lesson.name,
     durationSeconds: lesson.durationSeconds,
     embedUrl: lesson.embedUrl,
+    info: {
+      course: lesson.subject.semester.course,
+      semester: {
+        id: lesson.subject.semester.id,
+        number: lesson.subject.semester.number,
+      },
+      subject: {
+        id: lesson.subject.id,
+        number: lesson.subject.number,
+        name: lesson.subject.name,
+      },
+    },
   };
 }
