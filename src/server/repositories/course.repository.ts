@@ -40,7 +40,7 @@ export async function getCourseModelBySlug(courseSlug: string): Promise<CourseMo
                   },
                 },
               },
-              prerequisites: {
+              dependents: {
                 include: {
                   prerequisite: true,
                 },

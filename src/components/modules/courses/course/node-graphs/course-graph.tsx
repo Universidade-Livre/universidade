@@ -14,32 +14,13 @@ import {
 import "@xyflow/react/dist/style.css";
 import { useEffect, useMemo } from "react";
 
-interface CourseGraphNode extends Node {
-  data: {
-    name: string;
-    prerequisites: string[];
-    semester: number;
-    isSelected?: boolean;
-    isClicked?: boolean;
-    hasActiveSelection?: boolean;
-  };
-  position: {
-    x: number;
-    y: number;
-  };
-}
-
-const edgeColor: string = "#9aa3b0";
-
 const buildCourseGraph = (course: Course) => {
-  const nodes: CourseGraphNode[] = [];
+  const nodes: Node[] = [];
   const edges: Edge[] = [];
-
   course.semesters.forEach((semester) => {
     semester.subjects.forEach((subject, subjectIndex) => {
-      const nodeId = subject.name;
       nodes.push({
-        id: nodeId,
+        id: subject.id,
         type: "courseNode",
         data: {
           name: subject.name,
@@ -56,28 +37,27 @@ const buildCourseGraph = (course: Course) => {
 
   course.semesters.forEach((semester) => {
     semester.subjects.forEach((subject) => {
-      if (subject.prerequisites && subject.prerequisites.length > 0) {
-        subject.prerequisites.forEach((prerequisite) => {
-          const sourceExist = nodes.find((node) => node.id === prerequisite.name);
-          if (!sourceExist) return;
-          edges.push({
-            id: `e-${prerequisite}-${subject.name}`,
-            source: prerequisite.name,
-            target: subject.name,
-            type: "smoothstep",
-            markerEnd: {
-              type: MarkerType.ArrowClosed,
-              color: edgeColor,
-            },
-            animated: false,
-            style: {
-              strokeWidth: 1.6,
-              stroke: edgeColor,
-              opacity: 0.75,
-            },
-          });
+      subject.prerequisites.forEach((prerequisite) => {
+        if (!nodes.some((node) => node.id === prerequisite.id)) return;
+        if (edges.some((edge) => edge.id === `e-${prerequisite.id}-${subject.id}`)) return;
+
+        edges.push({
+          id: `e-${prerequisite.id}-${subject.id}`,
+          source: prerequisite.id,
+          target: subject.id,
+          type: "smoothstep",
+          markerEnd: {
+            type: MarkerType.ArrowClosed,
+            color: "#9aa3b0",
+          },
+          animated: false,
+          style: {
+            strokeWidth: 1.6,
+            stroke: "#9aa3b0",
+            opacity: 0.75,
+          },
         });
-      }
+      });
     });
   });
 
@@ -94,12 +74,6 @@ const CourseGraph = ({ course }: { course: Course }) => {
     setEdges(flow.initialEdges);
   }, [flow, setEdges, setNodes]);
 
-  const fitViewOptions = {
-    padding: 0.2,
-    maxZoom: 0.8,
-    minZoom: 0.5,
-  };
-
   return (
     <div className="h-full w-full">
       <ReactFlow
@@ -107,9 +81,8 @@ const CourseGraph = ({ course }: { course: Course }) => {
         edges={edges}
         proOptions={{ hideAttribution: true }}
         onNodesChange={onNodesChange}
-        onNodeClick={(_event, selectedNode: CourseGraphNode) => {
-          if (!selectedNode) return;
-          const connectedSet = new Set<string>();
+        onNodeClick={(_event, selectedNode) => {
+          const connectedSet: Set<string> = new Set<string>();
           edges.forEach((edge) => {
             if (edge.source === selectedNode.id) {
               connectedSet.add(edge.target);
@@ -120,16 +93,23 @@ const CourseGraph = ({ course }: { course: Course }) => {
 
           setEdges((eds) =>
             eds.map((edge) => {
-              const isConnectedEdge =
+              const isConnectedEdge: boolean =
                 edge.source === selectedNode.id ||
                 edge.target === selectedNode.id;
+
               return {
                 ...edge,
                 animated: isConnectedEdge,
                 style: {
-                  stroke: isConnectedEdge ? "#f59e0b" : edgeColor,
-                  strokeWidth: isConnectedEdge ? 2.4 : 1.6,
-                  opacity: isConnectedEdge ? 0.95 : 0.75,
+                  stroke: isConnectedEdge
+                    ? "#f59e0b"
+                    : "#9aa3b0",
+                  strokeWidth: isConnectedEdge
+                    ? 2.4
+                    : 1.6,
+                  opacity: isConnectedEdge
+                    ? 0.95
+                    : 0.75,
                 },
               };
             }),
@@ -154,7 +134,7 @@ const CourseGraph = ({ course }: { course: Course }) => {
               animated: false,
               style: {
                 strokeWidth: 1.6,
-                stroke: edgeColor,
+                stroke: "#9aa3b0",
                 opacity: 0.75,
               },
             })),
@@ -177,7 +157,7 @@ const CourseGraph = ({ course }: { course: Course }) => {
         minZoom={0.2}
         maxZoom={1}
         fitView
-        fitViewOptions={fitViewOptions}
+        fitViewOptions={{ padding: 0.2, maxZoom: 0.8, minZoom: 0.5 }}
       >
         <Background gap={24} size={1.8} color="#94a3b866" />
       </ReactFlow>

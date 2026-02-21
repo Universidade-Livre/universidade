@@ -24,7 +24,7 @@ export async function getSubjectModelsByLessonIds(lessonIds: string[]): Promise<
         orderBy: { number: "asc" },
       },
       books: true,
-      prerequisites: {
+      dependents: {
         include: {
           prerequisite: true,
         },
