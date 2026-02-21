@@ -10,6 +10,13 @@ export async function getCourseModelBySlug(courseSlug: string): Promise<CourseMo
       semesters: {
         orderBy: { number: "asc" },
         include: {
+          course: {
+            select: {
+              slug: true,
+              name: true,
+              alternativeName: true,
+            },
+          },
           subjects: {
             orderBy: { number: "asc" },
             include: {

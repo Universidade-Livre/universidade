@@ -4,7 +4,7 @@ import { toSubjectBookFromModel } from "@/server/mappers/subject-book.mapper";
 import { SubjectModel } from "@/server/models/subject.model";
 import { Subject } from "@/types/course/subject.interface";
 
-export function toSubjectFromModel(subject: SubjectModel): Subject {
+export function toSubjectFromModel(subject: SubjectModel, info: Subject["info"]): Subject {
   return {
     id: subject.id,
     name: subject.name,
@@ -20,5 +20,6 @@ export function toSubjectFromModel(subject: SubjectModel): Subject {
       name: p.prerequisite.name,
       number: p.prerequisite.number,
     })),
+    info: info,
   };
 }

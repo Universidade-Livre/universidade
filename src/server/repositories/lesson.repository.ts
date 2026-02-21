@@ -6,7 +6,23 @@ import { LessonModel } from "@/server/models/lesson.model";
 export async function getLessonModelById(lessonId: string): Promise<LessonModel | null> {
   return await prisma.lesson.findUnique({
     where: { id: lessonId },
-    include: { subject: true },
+    include: {
+      subject: {
+        include: {
+          semester: {
+            include: {
+              course: {
+                select: {
+                  slug: true,
+                  name: true,
+                  alternativeName: true,
+                },
+              },
+            },
+          },
+        },
+      },
+    },
   });
 }
 
@@ -14,7 +30,23 @@ export async function getLessonModelsBySubjectId(subjectId: string): Promise<Les
   return await prisma.lesson.findMany({
     where: { subjectId: subjectId },
     orderBy: { number: "asc" },
-    include: { subject: true },
+    include: {
+      subject: {
+        include: {
+          semester: {
+            include: {
+              course: {
+                select: {
+                  slug: true,
+                  name: true,
+                  alternativeName: true,
+                },
+              },
+            },
+          },
+        },
+      },
+    },
   });
 }
 

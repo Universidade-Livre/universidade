@@ -10,5 +10,16 @@ export function toLessonFromModel(lesson: LessonModel): Lesson {
     name: lesson.name,
     durationSeconds: lesson.durationSeconds,
     embedUrl: lesson.embedUrl,
+    info: {
+      course: lesson.subject.semester.course,
+      semester: {
+        id: lesson.subject.semester.id,
+        number: lesson.subject.semester.number,
+      },
+      subject: {
+        id: lesson.subject.id,
+        number: lesson.subject.number,
+      },
+    },
   };
 }

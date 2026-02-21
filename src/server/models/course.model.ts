@@ -1,6 +1,6 @@
 import "server-only";
 
-import { SemesterModel } from "@/server/models/semester.model";
+import type { SemesterModel } from "@/server/models/semester.model";
 
 export interface CourseModel {
   id: string;

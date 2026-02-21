@@ -30,6 +30,19 @@ export async function getSubjectModelsByLessonIds(lessonIds: string[]): Promise<
           prerequisite: true,
         },
       },
+      semester: {
+        select: {
+          id: true,
+          number: true,
+          course: {
+            select: {
+              slug: true,
+              name: true,
+              alternativeName: true,
+            },
+          },
+        },
+      },
     },
   });
 }
