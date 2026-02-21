@@ -3,20 +3,17 @@ import {
   NavigationMenuLink,
 } from "@/components/ui/navigation-menu";
 import { cn } from "@/lib/utils";
-import { Course } from "@/types/course/course.interface";
 import { Semester } from "@/types/course/semester.interface";
 import Link from "next/link";
 
 interface CourseProgressNavigationItemProps {
   activeSemesterNumber: number;
   semester: Semester;
-  course: Course;
 }
 
 export const CourseProgressNavigationItem = ({
   activeSemesterNumber,
   semester,
-  course,
 }: CourseProgressNavigationItemProps) => {
   const isActive: boolean = semester.number === activeSemesterNumber;
   return (
@@ -31,7 +28,7 @@ export const CourseProgressNavigationItem = ({
             : "text-zinc-400 hover:text-zinc-200 hover:bg-zinc-800/50",
         )}
       >
-        <Link href={`/meu-curso/${course.slug}/etapas/${semester.number}`}>
+        <Link href={`/meu-curso/${semester.info.course.slug}/etapas/${semester.number}`}>
           <span>Etapa {semester.number}</span>
           {isActive && (
             <span className="absolute -bottom-px left-1/2 -translate-x-1/2 w-1/3 h-0.5 bg-blue-500 rounded-full opacity-70" />

@@ -1,22 +1,19 @@
 "use client";
 
 import useUserSubjectLessonProgress from "@/hooks/use-user-subject-lesson-progress";
-import { Course } from "@/types/course/course.interface";
+import { Semester } from "@/types/course/semester.interface";
 
 interface SemesterStatsProgressProps {
-  semesterNumber: number;
-  course: Course;
+  semester: Semester;
 }
 
-export const SemesterStatsProgress = ({ semesterNumber, course }: SemesterStatsProgressProps) => {
+export const SemesterStatsProgress = ({ semester }: SemesterStatsProgressProps) => {
   const { getSubjectLessonProgress } = useUserSubjectLessonProgress();
   return (
     <span>
-      {course.semesters
-        .find((semester) => semester.number === semesterNumber)
-        ?.subjects.filter(
-          (subject) => getSubjectLessonProgress(subject.id).percentage === 100,
-        ).length ?? 0}
+      {semester.subjects.filter(
+        (subject) => getSubjectLessonProgress(subject.id).percentage === 100,
+      ).length}
     </span>
   );
 };

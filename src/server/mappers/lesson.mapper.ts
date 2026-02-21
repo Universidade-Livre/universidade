@@ -19,6 +19,7 @@ export function toLessonFromModel(lesson: LessonModel): Lesson {
       subject: {
         id: lesson.subject.id,
         number: lesson.subject.number,
+        name: lesson.subject.name,
       },
     },
   };

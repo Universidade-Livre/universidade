@@ -1,28 +1,23 @@
 import CourseProgressNavigation from "@/components/modules/courses-progress/course-progress/course-progress-navigation";
 import SemesterProgress from "@/components/modules/courses-progress/semester-progress/semester-progress";
 import SubjectProgress from "@/components/modules/courses-progress/subject-progress/subject-progress";
-import { Course } from "@/types/course/course.interface";
+import { Semester } from "@/types/course/semester.interface";
 
 interface CourseProgressProps {
-  semesterNumber: number;
-  course: Course;
+  semester: Semester;
+  semesters: Semester[];
 }
 
-export const CourseProgress = ({ semesterNumber, course }: CourseProgressProps) => {
-  const semester = course.semesters.find((currentSemester) => currentSemester.number === semesterNumber);
-  if (!semester) {
-    return null;
-  }
-
+export const CourseProgress = ({ semester, semesters }: CourseProgressProps) => {
   return (
     <div className="flex flex-col w-full space-y-8 mb-10">
       <div className="flex flex-col w-full items-center space-y-4">
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-center">
-          {course.name}
+          {semester.info.course.name}
         </h2>
         <CourseProgressNavigation
-          activeSemesterNumber={semesterNumber}
-          course={course}
+          activeSemesterNumber={semester.number}
+          semesters={semesters}
         />
       </div>
       <div className="w-full animate-in fade-in slide-in-from-bottom-4 duration-500">
@@ -32,8 +27,6 @@ export const CourseProgress = ({ semesterNumber, course }: CourseProgressProps) 
             {semester.subjects.map((subject) => (
               <SubjectProgress
                 key={subject.id}
-                course={course}
-                semester={semester}
                 subject={subject}
               />
             ))}

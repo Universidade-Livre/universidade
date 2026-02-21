@@ -19,7 +19,7 @@ export const useUserLessonProgressStore = create<UserLessonProgressStore>()(
   persist(
     immer((set) => ({
       progress: { lessons: [] },
-      toggleLessonProgress: (lessonId) => {
+      toggleUserLessonProgress: (lessonId) => {
         set((state) => {
           const lessons: string[] = state.progress.lessons;
           state.progress.lessons = lessons.includes(lessonId)

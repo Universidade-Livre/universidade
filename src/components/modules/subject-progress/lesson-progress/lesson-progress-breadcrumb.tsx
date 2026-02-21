@@ -6,16 +6,15 @@ import {
   BreadcrumbPage,
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
+import { Lesson } from "@/types/course/lesson.interface";
 import { ChevronRight, HomeIcon } from "lucide-react";
 import Link from "next/link";
 
 interface LessonProgressBreadcrumbProps {
-  courseName: string;
-  subjectName: string;
-  lessonName: string;
+  lesson: Lesson;
 }
 
-export const LessonProgressBreadcrumb = ({ courseName, subjectName, lessonName }: LessonProgressBreadcrumbProps) => {
+export const LessonProgressBreadcrumb = ({ lesson }: LessonProgressBreadcrumbProps) => {
   return (
     <Breadcrumb className="shrink-0">
       <BreadcrumbList className="min-w-0 flex-nowrap text-sm text-zinc-400">
@@ -34,7 +33,7 @@ export const LessonProgressBreadcrumb = ({ courseName, subjectName, lessonName }
         <BreadcrumbItem>
           <BreadcrumbLink asChild>
             <Link href="../../.." className="hover:text-zinc-200">
-              {courseName}
+              {lesson.info.course.name}
             </Link>
           </BreadcrumbLink>
         </BreadcrumbItem>
@@ -46,7 +45,7 @@ export const LessonProgressBreadcrumb = ({ courseName, subjectName, lessonName }
         <BreadcrumbItem className="min-w-0">
           <BreadcrumbLink asChild>
             <Link href=".." className="block truncate hover:text-zinc-200">
-              {subjectName}
+              {lesson.info.subject.name}
             </Link>
           </BreadcrumbLink>
         </BreadcrumbItem>
@@ -57,7 +56,7 @@ export const LessonProgressBreadcrumb = ({ courseName, subjectName, lessonName }
 
         <BreadcrumbItem className="min-w-0 flex-1">
           <BreadcrumbPage className="block truncate font-normal text-zinc-400">
-            {lessonName}
+            {lesson.name}
           </BreadcrumbPage>
         </BreadcrumbItem>
       </BreadcrumbList>

@@ -3,32 +3,20 @@
 import { Progress } from "@/components/ui/progress";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import useUserSubjectLessonProgress from "@/hooks/use-user-subject-lesson-progress";
-import { Course } from "@/types/course/course.interface";
 import { Lesson } from "@/types/course/lesson.interface";
-import { Semester } from "@/types/course/semester.interface";
-import { Subject } from "@/types/course/subject.interface";
 import { UserSubjectLessonProgress } from "@/types/user-progress/user-subject-lesson-progress.interface";
 import { useRouter } from "next/navigation";
 import SubjectProgressSidebarItem from "./subject-progress-sidebar-item";
 
 interface SubjectProgressSidebarProps {
-  course: Course;
-  semester: Semester;
-  subject: Subject;
-  currentLesson?: Lesson;
+  currentLesson: Lesson;
   lessons: Lesson[];
 }
 
-export const SubjectProgressSidebar = ({
-  course,
-  semester,
-  subject,
-  currentLesson,
-  lessons,
-}: SubjectProgressSidebarProps) => {
+export const SubjectProgressSidebar = ({ currentLesson, lessons }: SubjectProgressSidebarProps) => {
   const router = useRouter();
   const { getSubjectLessonProgress, toggleLessonProgress } = useUserSubjectLessonProgress();
-  const subjectProgress: UserSubjectLessonProgress = getSubjectLessonProgress(subject.id);
+  const subjectProgress: UserSubjectLessonProgress = getSubjectLessonProgress(currentLesson.info.subject.id);
 
   return (
     <aside className="flex min-h-0 flex-col gap-4 p-4 sm:p-6 lg:h-full">
@@ -51,14 +39,14 @@ export const SubjectProgressSidebar = ({
               <SubjectProgressSidebarItem
                 key={lesson.id}
                 lesson={lesson}
-                isSelected={currentLesson?.number === lesson.number}
+                isSelected={currentLesson.number === lesson.number}
                 isCompleted={subjectProgress.completedIds.includes(lesson.id)}
                 onSelect={(nextLesson) => {
                   router.push(
-                    `/meu-curso/${course.slug}/etapas/${semester.number}/disciplinas/${subject.number}/aulas/${nextLesson.number}`,
+                    `/meu-curso/${nextLesson.info.course.slug}/etapas/${nextLesson.info.semester.number}/disciplinas/${nextLesson.info.subject.number}/aulas/${nextLesson.number}`,
                   );
                 }}
-                onToggleLessonProgress={(lessonId) =>
+                onToggleUserLessonProgress={(lessonId) =>
                   toggleLessonProgress(lessonId)
                 }
               />

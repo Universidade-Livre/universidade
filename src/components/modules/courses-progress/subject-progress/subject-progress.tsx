@@ -4,16 +4,12 @@ import { Card } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 import useUserSubjectLessonProgress from "@/hooks/use-user-subject-lesson-progress";
 import { cn } from "@/lib/utils";
-import { Course } from "@/types/course/course.interface";
-import { Semester } from "@/types/course/semester.interface";
 import { Subject } from "@/types/course/subject.interface";
 import { UserSubjectLessonProgress } from "@/types/user-progress/user-subject-lesson-progress.interface";
 import { ArrowRight, CheckCircle2, Circle } from "lucide-react";
 import Link from "next/link";
 
 interface SubjectProgressProps {
-  course: Course;
-  semester: Semester;
   subject: Subject;
 }
 
@@ -44,14 +40,14 @@ export const getTheme = (progress: number) => {
     };
 };
 
-export const SubjectProgress = ({ course, semester, subject }: SubjectProgressProps) => {
+export const SubjectProgress = ({ subject }: SubjectProgressProps) => {
   const { getSubjectLessonProgress } = useUserSubjectLessonProgress();
   const subjectProgress: UserSubjectLessonProgress = getSubjectLessonProgress(subject.id);
   const theme = getTheme(subjectProgress.percentage);
 
   return (
     <Link
-      href={`/meu-curso/${course.slug}/etapas/${semester.number}/disciplinas/${subject.number}`}
+      href={`/meu-curso/${subject.info.course.slug}/etapas/${subject.info.semester.number}/disciplinas/${subject.number}`}
       className="group block"
     >
       <Card

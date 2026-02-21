@@ -10,7 +10,7 @@ export interface LessonModel {
   name: string;
   durationSeconds: number | null;
   embedUrl: string;
-  subject: Pick<SubjectModel, "id" | "number"> & {
+  subject: Pick<SubjectModel, "id" | "number" | "name"> & {
     semester: Pick<SemesterModel, "id" | "number"> & {
       course: Pick<CourseModel, "slug" | "name" | "alternativeName">;
     };
