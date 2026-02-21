@@ -19,7 +19,7 @@ export const CourseProgressSelectorPreview = ({ course }: CourseProgressSelector
     <Link
       href={`/meu-curso/${course.slug}`}
       className={cn(
-        "group relative flex h-full min-h-60 flex-col overflow-hidden rounded-xl border border-zinc-700 bg-zinc-900 p-5 shadow-lg shadow-black/35 transition-all duration-200 ease-out hover:-translate-y-0.5 hover:border-zinc-500/70 hover:shadow-xl hover:shadow-black/45 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-300 sm:p-6",
+        "group relative flex h-full min-h-60 flex-col overflow-hidden rounded-xl border border-zinc-700 bg-zinc-900 p-5 shadow-lg shadow-black/35 transition-all duration-200 ease-out hover:-translate-y-0.5 hover:border-zinc-600/65 hover:shadow-xl hover:shadow-black/45 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-300 sm:p-6",
       )}
     >
       <div className="pointer-events-none absolute inset-0 bg-linear-to-b from-transparent via-transparent to-zinc-950/30" />

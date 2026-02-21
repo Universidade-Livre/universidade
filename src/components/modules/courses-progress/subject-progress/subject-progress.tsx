@@ -2,7 +2,6 @@
 
 import { Card } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
-import { Skeleton } from "@/components/ui/skeleton";
 import useUserSubjectLessonProgress from "@/hooks/use-user-subject-lesson-progress";
 import { cn } from "@/lib/utils";
 import { Subject } from "@/types/course/subject.interface";
@@ -19,7 +18,6 @@ export const getTheme = (progress: number) => {
     return {
       color: "text-emerald-300",
       iconColor: "text-emerald-400",
-      border: "group-hover:border-emerald-500/30 border-emerald-400/40",
       background: "bg-linear-to-r from-emerald-900/10 to-emerald-700/35",
       icon: CheckCircle2,
     };
@@ -27,7 +25,6 @@ export const getTheme = (progress: number) => {
     return {
       color: "text-blue-100/85",
       iconColor: "text-amber-500",
-      border: "group-hover:border-blue-600/45 border-blue-500/45",
       background: "bg-linear-to-r from-blue-950/35 to-blue-900/40",
       icon: CheckCircle2,
     };
@@ -35,14 +32,13 @@ export const getTheme = (progress: number) => {
     return {
       color: "text-zinc-300",
       iconColor: "text-zinc-300",
-      border: "group-hover:border-zinc-400/80 border-zinc-600/75",
       background: "bg-zinc-900/70",
       icon: Circle,
     };
 };
 
 export const SubjectProgress = ({ subject }: SubjectProgressProps) => {
-  const { getSubjectLessonProgress, isLoading, isError } = useUserSubjectLessonProgress();
+  const { getSubjectLessonProgress, isError } = useUserSubjectLessonProgress();
 
   if (isError) {
     throw new Error("Não foi possível carregar o progresso da disciplina.");
@@ -58,8 +54,7 @@ export const SubjectProgress = ({ subject }: SubjectProgressProps) => {
     >
       <Card
         className={cn(
-          "flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-5 border transition-all duration-300 ease-out hover:bg-zinc-800/75 hover:translate-x-1 hover:shadow-lg p-4 sm:p-6",
-          theme.border,
+          "flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-5 transition-all duration-300 ease-out hover:bg-zinc-800/75 hover:translate-x-1 hover:shadow-lg p-4 sm:p-6",
           theme.background,
         )}
       >
@@ -77,55 +72,42 @@ export const SubjectProgress = ({ subject }: SubjectProgressProps) => {
             <h3 className="text-base sm:text-lg font-medium text-zinc-200 group-hover:text-white truncate pr-4">
               {subject.name}
             </h3>
-            {isLoading ? (
-              <Skeleton className="hidden h-7 w-26 rounded-full bg-zinc-300/25 sm:flex" />
-            ) : (
-              <div
-                className={cn(
-                  "hidden sm:flex items-center gap-2 text-xs font-medium transition-colors border rounded-full px-3 py-1 cursor-pointer",
-                  subjectProgress.percentage === 100
-                    ? "border-emerald-300/40 bg-emerald-500/10 text-emerald-100/90"
-                    : subjectProgress.percentage > 0
-                      ? "border-blue-400/35 bg-blue-950/30 text-blue-200/85"
-                      : "border-zinc-500/40 bg-zinc-800/30 text-zinc-300/90",
-                )}
-              >
-                {subjectProgress.percentage === 100
-                  ? "Revisar"
+            <div
+              className={cn(
+                "hidden sm:flex items-center gap-2 text-xs font-medium transition-colors border rounded-full px-3 py-1 cursor-pointer",
+                subjectProgress.percentage === 100
+                  ? "border-emerald-300/40 bg-emerald-500/10 text-emerald-100/90"
                   : subjectProgress.percentage > 0
-                    ? "Continuar"
-                    : "Iniciar"}
-                <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
-              </div>
-            )}
+                    ? "border-blue-400/35 bg-blue-950/30 text-blue-200/85"
+                    : "border-zinc-500/40 bg-zinc-800/30 text-zinc-300/90",
+              )}
+            >
+              {subjectProgress.percentage === 100
+                ? "Revisar"
+                : subjectProgress.percentage > 0
+                  ? "Continuar"
+                  : "Iniciar"}
+              <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
+            </div>
           </div>
 
           <div className="space-y-1.5 text-xs">
             <div className="flex items-center justify-between text-zinc-300">
-              {isLoading ? (
-                <>
-                  <Skeleton className="h-3.5 w-24 bg-zinc-300/25" />
-                  <Skeleton className="h-3.5 w-10 bg-zinc-300/25" />
-                </>
-              ) : (
-                <>
-                  <span>
-                    {subjectProgress.percentage === 100
-                      ? "Concluído"
-                      : subjectProgress.percentage > 0
-                        ? "Progresso"
-                        : "Comece a assistir"}
-                  </span>
-                  <span
-                    className={theme.color}
-                  >{`${subjectProgress.percentage}%`}</span>
-                </>
-              )}
+              <>
+                <span>
+                  {subjectProgress.percentage === 100
+                    ? "Concluído"
+                    : subjectProgress.percentage > 0
+                      ? "Progresso"
+                      : "Comece a assistir"}
+                </span>
+                <span
+                  className={theme.color}
+                >{`${subjectProgress.percentage}%`}</span>
+              </>
             </div>
 
-            {isLoading ? (
-              <Skeleton className="h-1.5 w-full rounded-full bg-zinc-700/70" />
-            ) : subjectProgress.percentage > 0 ? (
+            {subjectProgress.percentage > 0 ? (
               <div className="h-1.5 w-full overflow-hidden rounded-full border border-zinc-600/60 bg-zinc-900/80">
                 <div className="h-full w-full">
                   <Progress value={subjectProgress.percentage} />
@@ -134,11 +116,7 @@ export const SubjectProgress = ({ subject }: SubjectProgressProps) => {
             ) : null}
 
             <div className="pt-0.5 text-xs text-zinc-400">
-              {isLoading ? (
-                <Skeleton className="h-3.5 w-44 bg-zinc-300/20" />
-              ) : (
-                `${subjectProgress.completed} de ${subjectProgress.total} aulas concluídas`
-              )}
+              {`${subjectProgress.completed} de ${subjectProgress.total} aulas concluídas`}
             </div>
           </div>
         </div>
