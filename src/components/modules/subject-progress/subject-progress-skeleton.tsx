@@ -6,7 +6,7 @@ export const SubjectProgressSkeleton = () => {
       <div className="mx-auto h-auto w-full max-w-360 min-h-0 px-4 py-6 sm:px-6 lg:h-full">
         <div className="min-h-0 rounded-lg border border-zinc-800/80 bg-card p-3 shadow-2xl shadow-black/45 ring-1 ring-zinc-700/40 sm:p-4 lg:h-full">
           <div className="grid min-h-0 grid-cols-1 items-stretch gap-0 lg:h-full lg:grid-cols-[minmax(0,5fr)_minmax(0,2fr)]">
-            <div className="flex min-h-0 flex-col gap-3 border-b border-zinc-800/80 p-4 sm:gap-4 sm:p-6 lg:border-b-0 lg:border-r">
+            <div className="flex min-h-0 flex-col gap-3 border-b border-zinc-800/80 px-4 pb-4 pt-2 sm:gap-4 sm:px-6 sm:pb-6 sm:pt-3 lg:border-b-0 lg:border-r">
               <div className="flex items-center gap-2 sm:gap-3">
                 <Skeleton className="h-4 w-4 rounded-sm bg-zinc-300/25" />
                 <Skeleton className="h-3 w-20 bg-zinc-300/25 sm:w-24" />

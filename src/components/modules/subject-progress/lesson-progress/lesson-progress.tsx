@@ -11,7 +11,7 @@ interface LessonProgressProps {
 
 export const LessonProgress = ({ lesson }: LessonProgressProps) => {
   return (
-    <Card className="flex min-h-0 flex-col gap-3 border-0 bg-transparent p-4 shadow-none sm:gap-4 sm:p-6 lg:h-full">
+    <Card className="flex min-h-0 flex-col gap-3 border-0 bg-transparent px-4 pb-4 pt-2 shadow-none sm:gap-4 sm:px-6 sm:pb-6 sm:pt-3 lg:h-full">
       <LessonProgressBreadcrumb lesson={lesson} />
       <div className="relative w-full aspect-video min-h-55 sm:min-h-80 lg:aspect-auto lg:flex-1 lg:min-h-0">
         <div className="h-full rounded-md overflow-hidden transition-opacity">
