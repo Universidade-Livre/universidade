@@ -77,7 +77,7 @@ export const HomeProgress = () => {
           </CardDescription>
         </CardHeader>
 
-        <ScrollArea className="h-60">
+        <ScrollArea className="h-60" viewportClassName="overscroll-y-contain">
           <div className="pt-0 pr-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 items-start">
             {subjects.map((subject) => (
               <HomeProgressItem

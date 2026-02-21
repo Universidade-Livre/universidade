@@ -46,6 +46,7 @@ export const SubjectProgressSidebar = ({ currentLesson, lessons }: SubjectProgre
         <ScrollArea
           type="always"
           className="h-[55vh] sm:h-[60vh] lg:h-full w-full overflow-hidden"
+          viewportClassName="overscroll-y-contain"
         >
           <ul className="space-y-2 pr-4">
             {lessons.map((lesson) => (

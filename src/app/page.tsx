@@ -25,7 +25,7 @@ export const HomePage = () => {
         imageSrc={sectionIllustrationAltImg}
         imageAlt=""
         imageReverse
-        className="bg-accent"
+        className="bg-zinc-800"
       >
         <Button
           asChild

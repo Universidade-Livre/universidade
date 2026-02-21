@@ -11,8 +11,10 @@ interface LessonProgressProps {
 
 export const LessonProgress = ({ lesson }: LessonProgressProps) => {
   return (
-    <Card className="flex min-h-0 flex-col gap-3 border-0 bg-transparent px-4 pb-4 pt-2 shadow-none sm:gap-4 sm:px-6 sm:pb-6 sm:pt-3 lg:h-full">
-      <LessonProgressBreadcrumb lesson={lesson} />
+    <Card className="flex min-h-0 flex-col gap-3 border-0 bg-transparent px-4 py-4 shadow-none sm:gap-4 sm:px-6 sm:py-6 lg:h-full">
+      <div className="-mt-1">
+        <LessonProgressBreadcrumb lesson={lesson} />
+      </div>
       <div className="relative w-full aspect-video min-h-55 sm:min-h-80 lg:aspect-auto lg:flex-1 lg:min-h-0">
         <div className="h-full rounded-md overflow-hidden transition-opacity">
           <VideoPlayer key={lesson.id} url={lesson.embedUrl} />

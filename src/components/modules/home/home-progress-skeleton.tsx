@@ -26,7 +26,7 @@ export const HomeProgressSkeleton = () => {
             <Skeleton className="h-[1.25em] w-full max-w-xs sm:max-w-md" />
           </CardDescription>
         </CardHeader>
-        <ScrollArea className="h-60">
+        <ScrollArea className="h-60" viewportClassName="overscroll-y-contain">
           <div className="grid grid-cols-1 items-start gap-6 pt-0 pr-3 sm:grid-cols-2 sm:pr-4 lg:grid-cols-4">
             {Array.from({ length: 4 }).map((_, index) => (
               <Card key={index} className="text-left p-6 flex min-h-56 flex-col gap-3">
