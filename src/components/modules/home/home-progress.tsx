@@ -20,7 +20,7 @@ import useUserSubjectLessonProgress, {
 } from "@/hooks/use-user-subject-lesson-progress";
 
 export const HomeProgress = () => {
-  const { getSubjectLessonProgress, subjects, orderBy, setOrderBy, isLoading, isError } = useUserSubjectLessonProgress();
+  const { subjects, getSubjectLessonProgress, orderBy, setOrderBy, isLoading, isError } = useUserSubjectLessonProgress();
   if (!subjects || subjects.length === 0 || isLoading || isError) {
     return null;
   }
