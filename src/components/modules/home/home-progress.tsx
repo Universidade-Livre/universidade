@@ -18,10 +18,20 @@ import {
 import useUserSubjectLessonProgress, {
   UserSubjectLessonProgressOrder,
 } from "@/hooks/use-user-subject-lesson-progress";
+import { UserSubjectLessonProgress } from "@/types/user-progress/user-subject-lesson-progress.interface";
+import { useMemo } from "react";
 
 export const HomeProgress = () => {
-  const { subjects, orderBy, setOrderBy, isLoading, isError } = useUserSubjectLessonProgress();
-  if (!subjects || subjects.length === 0 || isLoading || isError) {
+  const { subjects, orderBy, setOrderBy, getSubjectLessonProgress, isError } = useUserSubjectLessonProgress();
+  const subjectProgressById = useMemo<Record<string, UserSubjectLessonProgress>>(
+    () => subjects.reduce<Record<string, UserSubjectLessonProgress>>((acc, subject) => {
+      acc[subject.id] = getSubjectLessonProgress(subject.id, subject.lessons);
+      return acc;
+    }, {}),
+    [getSubjectLessonProgress, subjects],
+  );
+
+  if (!subjects || subjects.length === 0 || isError) {
     return null;
   }
 
@@ -71,6 +81,7 @@ export const HomeProgress = () => {
               <HomeProgressItem
                 key={subject.id}
                 subject={subject}
+                subjectProgress={subjectProgressById[subject.id]}
               />
             ))}
           </div>

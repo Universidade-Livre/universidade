@@ -12,20 +12,16 @@ import {
   TooltipContent,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
-import useUserSubjectLessonProgress from "@/hooks/use-user-subject-lesson-progress";
 import { Subject } from "@/types/course/subject.interface";
 import { UserSubjectLessonProgress } from "@/types/user-progress/user-subject-lesson-progress.interface";
 import Link from "next/link";
 
 interface HomeProgressItemProps {
   subject: Subject;
+  subjectProgress: UserSubjectLessonProgress;
 }
 
-export const HomeProgressItem = ({ subject }: HomeProgressItemProps) => {
-  const { getSubjectLessonProgress } = useUserSubjectLessonProgress();
-  const subjectProgress: UserSubjectLessonProgress = getSubjectLessonProgress(subject.id);
-  const courseName: string = subject.info.course.alternativeName || subject.info.course.name;
-
+export const HomeProgressItem = ({ subject, subjectProgress }: HomeProgressItemProps) => {
   return (
     <Card
       key={subject.id}
@@ -33,7 +29,7 @@ export const HomeProgressItem = ({ subject }: HomeProgressItemProps) => {
     >
       <CardHeader className="p-0 space-y-1">
         <CardDescription className="font-semibold text-gray-400 leading-tight line-clamp-2 sm:min-h-10 lg:min-h-0">
-          {courseName} -
+          {subject.info.course.alternativeName || subject.info.course.name} -
           Etapa {subject.info.semester.number}
         </CardDescription>
         <CardTitle className="p-0 text-left text-xl text-white font-semibold leading-tight line-clamp-1">
