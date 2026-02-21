@@ -2,7 +2,6 @@ import CourseProgressNavigation from "@/components/modules/courses-progress/cour
 import SemesterProgress from "@/components/modules/courses-progress/semester-progress/semester-progress";
 import SubjectProgress from "@/components/modules/courses-progress/subject-progress/subject-progress";
 import { Course } from "@/types/course/course.interface";
-import { SubjectOverview } from "@/types/course/subject.interface";
 
 interface CourseProgressProps {
   semesterNumber: number;
@@ -30,23 +29,14 @@ export const CourseProgress = ({ semesterNumber, course }: CourseProgressProps) 
         <div className="space-y-6">
           <SemesterProgress semester={semester} />
           <div className="grid grid-cols-1 gap-3">
-            {semester.subjects.map((subject) => {
-              const subjectOverview: SubjectOverview = {
-                id: subject.id,
-                name: subject.name,
-                number: subject.number,
-              };
-
-              return (
-                <SubjectProgress
-                  key={subject.id}
-                  course={course}
-                  semester={semester}
-                  subject={subjectOverview}
-                  totalLessons={subject.lessons}
-                />
-              );
-            })}
+            {semester.subjects.map((subject) => (
+              <SubjectProgress
+                key={subject.id}
+                course={course}
+                semester={semester}
+                subject={subject}
+              />
+            ))}
           </div>
         </div>
       </div>

@@ -2,19 +2,18 @@
 
 import { Progress } from "@/components/ui/progress";
 import { ScrollArea } from "@/components/ui/scroll-area";
-import useUserLessonProgressStore from "@/stores/user-lesson-progress-store";
-import { CourseOverview } from "@/types/course/course.interface";
+import useUserSubjectLessonProgress from "@/hooks/use-user-subject-lesson-progress";
+import { Course } from "@/types/course/course.interface";
 import { Lesson } from "@/types/course/lesson.interface";
-import { SemesterOverview } from "@/types/course/semester.interface";
+import { Semester } from "@/types/course/semester.interface";
 import { Subject } from "@/types/course/subject.interface";
 import { UserSubjectLessonProgress } from "@/types/user-progress/user-subject-lesson-progress.interface";
 import { useRouter } from "next/navigation";
-import { useShallow } from "zustand/react/shallow";
 import SubjectProgressSidebarItem from "./subject-progress-sidebar-item";
 
 interface SubjectProgressSidebarProps {
-  course: CourseOverview;
-  semester: SemesterOverview;
+  course: Course;
+  semester: Semester;
   subject: Subject;
   currentLesson?: Lesson;
   lessons: Lesson[];
@@ -28,18 +27,8 @@ export const SubjectProgressSidebar = ({
   lessons,
 }: SubjectProgressSidebarProps) => {
   const router = useRouter();
-  const [, toggleLessonCompletion, getSubjectProgress] = useUserLessonProgressStore(
-    useShallow((state) => [
-      state.progress,
-      state.toggleLessonProgress,
-      state.getSubjectProgress,
-    ]),
-  );
-
-  const subjectProgress: UserSubjectLessonProgress = getSubjectProgress(
-    subject.id,
-    subject.lessons,
-  );
+  const { getSubjectLessonProgress, toggleLessonProgress } = useUserSubjectLessonProgress();
+  const subjectProgress: UserSubjectLessonProgress = getSubjectLessonProgress(subject.id);
 
   return (
     <aside className="flex min-h-0 flex-col gap-4 p-4 sm:p-6 lg:h-full">
@@ -48,7 +37,7 @@ export const SubjectProgressSidebar = ({
           Playlist de Aulas
         </h3>
         <span className="text-sm font-semibold text-zinc-200">
-          {subjectProgress.completed} de {subjectProgress.totalLessons}
+          {subjectProgress.completed} de {subjectProgress.total}
         </span>
       </div>
       <Progress value={subjectProgress.percentage} />
@@ -69,13 +58,8 @@ export const SubjectProgressSidebar = ({
                     `/meu-curso/${course.slug}/etapas/${semester.number}/disciplinas/${subject.number}/aulas/${nextLesson.number}`,
                   );
                 }}
-                onToggleCompletion={(lessonId) =>
-                  toggleLessonCompletion(
-                    course.slug,
-                    semester.id,
-                    subject.id,
-                    lessonId,
-                  )
+                onToggleLessonProgress={(lessonId) =>
+                  toggleLessonProgress(lessonId)
                 }
               />
             ))}

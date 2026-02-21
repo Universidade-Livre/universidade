@@ -14,18 +14,15 @@ export enum UserSubjectLessonProgressOrder {
 
 export const useUserSubjectLessonProgress = () => {
   const [orderBy, setOrderBy] = useState<UserSubjectLessonProgressOrder>(UserSubjectLessonProgressOrder.Progress);
-  const { progress, isLoading: isProgressLoading } = useUserLessonProgress();
-  const { data: subjectsGroupedByLessonIds, isLoading: isSubjectLoading, isError } = trpc.subject.getGroupedByLessonIds.useQuery(
+  const { progress, toggleLessonProgress, isLoading: isProgressLoading } = useUserLessonProgress();
+  const { data: subjects, isLoading: isSubjectLoading, isError } = trpc.subject.getByLessonIds.useQuery(
     { lessonIds: progress.lessons },
     { enabled: progress.lessons.length > 0 },
   );
 
   return {
     getSubjectLessonProgress: (subjectId: string): UserSubjectLessonProgress => {
-      const subject: Subject | undefined = subjectsGroupedByLessonIds
-        ?.map(([, subject]) => subject)
-        ?.find((subject) => subject.id === subjectId);
-
+      const subject: Subject | undefined = subjects?.find((subject) => subject.id === subjectId);
       const totalLessons: number = subject?.lessons ?? 0;
       const completedLessons: number = progress.lessons.length;
       return {
@@ -37,8 +34,10 @@ export const useUserSubjectLessonProgress = () => {
         total: totalLessons,
       };
     },
+    subjects: subjects,
     orderBy: orderBy,
     setOrderBy: setOrderBy,
+    toggleLessonProgress: toggleLessonProgress,
     isLoading: isProgressLoading || isSubjectLoading,
     isError: isError,
   };

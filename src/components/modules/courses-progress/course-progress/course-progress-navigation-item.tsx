@@ -3,14 +3,14 @@ import {
   NavigationMenuLink,
 } from "@/components/ui/navigation-menu";
 import { cn } from "@/lib/utils";
-import { CourseOverview } from "@/types/course/course.interface";
-import { SemesterOverview } from "@/types/course/semester.interface";
+import { Course } from "@/types/course/course.interface";
+import { Semester } from "@/types/course/semester.interface";
 import Link from "next/link";
 
 interface CourseProgressNavigationItemProps {
   activeSemesterNumber: number;
-  semester: SemesterOverview;
-  course: CourseOverview;
+  semester: Semester;
+  course: Course;
 }
 
 export const CourseProgressNavigationItem = ({

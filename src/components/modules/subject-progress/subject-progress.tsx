@@ -1,13 +1,13 @@
 import LessonProgress from "@/components/modules/subject-progress/lesson-progress/lesson-progress";
 import SubjectProgressSidebar from "@/components/modules/subject-progress/subject-progress-sidebar";
-import { CourseOverview } from "@/types/course/course.interface";
+import { Course } from "@/types/course/course.interface";
 import { Lesson } from "@/types/course/lesson.interface";
-import { SemesterOverview } from "@/types/course/semester.interface";
+import { Semester } from "@/types/course/semester.interface";
 import { Subject } from "@/types/course/subject.interface";
 
 interface SubjectProgressProps {
-  course: CourseOverview;
-  semester: SemesterOverview;
+  course: Course;
+  semester: Semester;
   subject: Subject;
   lessons: Lesson[];
   currentLesson: Lesson;

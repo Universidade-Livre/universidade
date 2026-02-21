@@ -1,10 +1,7 @@
 import { Subject } from "@/types/course/subject.interface";
 
-export interface SemesterOverview {
+export interface Semester {
   id: string;
   number: number;
-}
-
-export interface Semester extends SemesterOverview {
   subjects: Subject[];
 }

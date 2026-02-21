@@ -2,20 +2,19 @@
 
 import { Card } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
+import useUserSubjectLessonProgress from "@/hooks/use-user-subject-lesson-progress";
 import { cn } from "@/lib/utils";
-import useUserLessonProgressStore from "@/stores/user-lesson-progress-store";
-import { CourseOverview } from "@/types/course/course.interface";
-import { SemesterOverview } from "@/types/course/semester.interface";
-import { SubjectOverview } from "@/types/course/subject.interface";
+import { Course } from "@/types/course/course.interface";
+import { Semester } from "@/types/course/semester.interface";
+import { Subject } from "@/types/course/subject.interface";
 import { UserSubjectLessonProgress } from "@/types/user-progress/user-subject-lesson-progress.interface";
 import { ArrowRight, CheckCircle2, Circle } from "lucide-react";
 import Link from "next/link";
 
 interface SubjectProgressProps {
-  course: CourseOverview;
-  semester: SemesterOverview;
-  subject: SubjectOverview;
-  totalLessons: number;
+  course: Course;
+  semester: Semester;
+  subject: Subject;
 }
 
 export const getTheme = (progress: number) => {
@@ -45,10 +44,10 @@ export const getTheme = (progress: number) => {
     };
 };
 
-export const SubjectProgress = ({ course, semester, subject, totalLessons }: SubjectProgressProps) => {
-  const getSubjectProgress = useUserLessonProgressStore((state) => state.getSubjectProgress);
-  const progress: UserSubjectLessonProgress = getSubjectProgress(subject.id, totalLessons);
-  const theme = getTheme(progress.percentage);
+export const SubjectProgress = ({ course, semester, subject }: SubjectProgressProps) => {
+  const { getSubjectLessonProgress } = useUserSubjectLessonProgress();
+  const subjectProgress: UserSubjectLessonProgress = getSubjectLessonProgress(subject.id);
+  const theme = getTheme(subjectProgress.percentage);
 
   return (
     <Link
@@ -79,16 +78,16 @@ export const SubjectProgress = ({ course, semester, subject, totalLessons }: Sub
             <div
               className={cn(
                 "hidden sm:flex items-center gap-2 text-xs font-medium transition-colors border rounded-full px-3 py-1 cursor-pointer",
-                progress.percentage === 100
+                subjectProgress.percentage === 100
                   ? "border-emerald-300/40 bg-emerald-500/10 text-emerald-100/90"
-                  : progress.percentage > 0
+                  : subjectProgress.percentage > 0
                     ? "border-blue-400/35 bg-blue-950/30 text-blue-200/85"
                     : "border-zinc-500/40 bg-zinc-800/30 text-zinc-300/90",
               )}
             >
-              {progress.percentage === 100
+              {subjectProgress.percentage === 100
                 ? "Revisar"
-                : progress.percentage > 0
+                : subjectProgress.percentage > 0
                   ? "Continuar"
                   : "Iniciar"}
               <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
@@ -98,25 +97,25 @@ export const SubjectProgress = ({ course, semester, subject, totalLessons }: Sub
           <div className="space-y-1.5 text-xs">
             <div className="flex items-center justify-between text-zinc-300">
               <span>
-                {progress.percentage === 100
+                {subjectProgress.percentage === 100
                   ? "Concluído"
-                  : progress.percentage > 0
+                  : subjectProgress.percentage > 0
                     ? "Progresso"
                     : "Comece a assistir"}
               </span>
-              <span className={theme.color}>{progress.percentage}%</span>
+              <span className={theme.color}>{subjectProgress.percentage}%</span>
             </div>
 
-            {progress.percentage > 0 && (
+            {subjectProgress.percentage > 0 && (
               <div className="h-1.5 w-full overflow-hidden rounded-full border border-zinc-600/60 bg-zinc-900/80">
                 <div className="h-full w-full">
-                  <Progress value={progress.percentage} />
+                  <Progress value={subjectProgress.percentage} />
                 </div>
               </div>
             )}
 
             <div className="pt-0.5 text-xs text-zinc-400">
-              {progress.completed} de {progress.totalLessons} aulas
+              {subjectProgress.completed} de {subjectProgress.total} aulas
               concluídas
             </div>
           </div>
