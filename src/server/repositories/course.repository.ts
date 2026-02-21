@@ -27,6 +27,19 @@ export async function getCourseModelBySlug(courseSlug: string): Promise<CourseMo
                   durationSeconds: true,
                 },
               },
+              semester: {
+                select: {
+                  id: true,
+                  number: true,
+                  course: {
+                    select: {
+                      slug: true,
+                      name: true,
+                      alternativeName: true,
+                    },
+                  },
+                },
+              },
               prerequisites: {
                 include: {
                   prerequisite: true,
