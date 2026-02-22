@@ -29,7 +29,9 @@ export const signUpAction = async (
     );
 
     return {
-      errorMessages: messages.length > 0 ? messages : ["Dados inválidos."],
+      errorMessages: messages.length > 0
+        ? messages
+        : ["Não foi possível validar os dados informados. Verifique os campos e tente novamente."],
     };
   }
 
@@ -42,15 +44,13 @@ export const signUpAction = async (
 
   if (response.status === 422) {
     return {
-      errorMessages: ["Já existe uma conta cadastrada com esse e-mail."],
+      errorMessages: ["Não foi possível validar os dados informados. Verifique os campos e tente novamente."],
     };
   }
 
   if (!response.ok) {
     return {
-      errorMessages: [
-        "Ocorreu um erro inesperado ao cadastrar sua conta. Tente novamente mais tarde.",
-      ],
+      errorMessages: ["Ocorreu um erro inesperado ao cadastrar sua conta. Tente novamente mais tarde."],
     };
   }
 

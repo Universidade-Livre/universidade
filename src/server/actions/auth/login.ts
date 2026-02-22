@@ -23,7 +23,9 @@ export const loginAction = async (
     );
 
     return {
-      errorMessages: messages.length > 0 ? messages : ["Dados inválidos."],
+      errorMessages: messages.length > 0
+        ? messages
+        : ["Não foi possível validar os dados informados. Verifique os campos e tente novamente."],
     };
   }
 
@@ -36,15 +38,13 @@ export const loginAction = async (
 
   if (response.status === 401) {
     return {
-      errorMessages: ["E-mail ou senha inválidos."],
+      errorMessages: ["Não foi possível validar os dados informados. Verifique os campos e tente novamente."],
     };
   }
 
   if (!response.ok) {
     return {
-      errorMessages: [
-        "Ocorreu um erro inesperado ao entrar na sua conta. Tente novamente mais tarde.",
-      ],
+      errorMessages: ["Ocorreu um erro inesperado ao entrar na sua conta. Tente novamente mais tarde."],
     };
   }
 
