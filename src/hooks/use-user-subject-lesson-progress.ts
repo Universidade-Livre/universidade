@@ -1,7 +1,7 @@
 "use client";
 
+import useSubjectsGroupedByLessonIds from "@/hooks/use-subjects-grouped-by-lesson-ids";
 import useUserLessonProgress from "@/hooks/use-user-lesson-progress";
-import { trpc } from "@/lib/trpc";
 import { Subject } from "@/types/course/subject.interface";
 import { UserSubjectLessonProgress } from "@/types/user-progress/user-subject-lesson-progress.interface";
 import { useCallback, useMemo, useState } from "react";
@@ -15,14 +15,7 @@ export enum UserSubjectLessonProgressOrder {
 export const useUserSubjectLessonProgress = () => {
   const [orderBy, setOrderBy] = useState<UserSubjectLessonProgressOrder>(UserSubjectLessonProgressOrder.Progress);
   const { progress, toggleUserLessonProgress, isLoading: isProgressLoading, isError: isProgressError } = useUserLessonProgress();
-  const { data: subjectsGroupedByLessonIds = [], isLoading: isSubjectLoading, isError: isSubjectError } = trpc.subject.getGroupedByLessonIds.useQuery(
-    { lessonIds: progress.lessons },
-    {
-      placeholderData: (previousData) => progress.lessons.length > 0
-        ? previousData
-        : [],
-    },
-  );
+  const { subjectsGroupedByLessonIds, isLoading: isSubjectLoading, isError: isSubjectError } = useSubjectsGroupedByLessonIds(progress.lessons);
 
   const subjectLessonProgressMap = useMemo<Map<string, UserSubjectLessonProgress>>(
     () =>
@@ -37,18 +30,18 @@ export const useUserSubjectLessonProgress = () => {
                 ? Math.round((completedLessons / totalLessons) * 100)
                 : 0,
               completed: completedLessons,
-              completedIds: progress.lessons,
+              completedIds: lessonIds,
               total: totalLessons,
             },
           ];
         }),
       ),
-    [progress.lessons, subjectsGroupedByLessonIds],
+    [subjectsGroupedByLessonIds],
   );
 
   const getSubjectLessonProgress = useCallback<(subjectId: string, fallbackTotalLessons?: number) => UserSubjectLessonProgress>(
     (subjectId: string, fallbackTotalLessons = 0): UserSubjectLessonProgress => {
-      const { total = 0, completed = 0 } = subjectLessonProgressMap.get(subjectId) ?? {};
+      const { total = 0, completed = 0, completedIds = [] } = subjectLessonProgressMap.get(subjectId) ?? {};
       const currentTotal: number = Math.max(total, fallbackTotalLessons);
       const currentCompleted = Math.min(completed, currentTotal);
       return {
@@ -56,11 +49,11 @@ export const useUserSubjectLessonProgress = () => {
           ? Math.round((currentCompleted / currentTotal) * 100)
           : 0,
         completed: currentCompleted,
-        completedIds: progress.lessons,
+        completedIds: completedIds,
         total: currentTotal,
       };
     },
-    [progress.lessons, subjectLessonProgressMap],
+    [subjectLessonProgressMap],
   );
 
   const subjects = useMemo<Subject[]>(
