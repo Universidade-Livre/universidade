@@ -6,12 +6,26 @@ import { headers } from "next/headers";
 import { redirect } from "next/navigation";
 import { z } from "zod";
 
+const MIN_NAME_LENGTH: number = 3;
+const MAX_NAME_LENGTH: number = 100;
+const MAX_EMAIL_LENGTH: number = 254;
+const MIN_PASSWORD_LENGTH: number = 8;
+const MAX_PASSWORD_LENGTH: number = 128;
+
 const formSchema = z
   .object({
-    name: z.string().trim().min(3, { message: "O nome deve ter pelo menos 3 caracteres." }),
-    email: z.email({ message: "Email inválido." }),
-    password: z.string().trim().min(8, { message: "A senha deve ter pelo menos 8 caracteres." }),
-    confirmPassword: z.string().trim().min(8, { message: "A confirmação de senha deve ter pelo menos 8 caracteres." }),
+    name: z.string().trim()
+      .min(MIN_NAME_LENGTH, { message: `O nome deve ter pelo menos ${MIN_NAME_LENGTH} caracteres.` })
+      .max(MAX_NAME_LENGTH, { message: `O nome deve ter no máximo ${MAX_NAME_LENGTH} caracteres.` }),
+    email: z
+      .email({ message: "Email inválido." })
+      .max(MAX_EMAIL_LENGTH, { message: `O email deve ter no máximo ${MAX_EMAIL_LENGTH} caracteres.` }),
+    password: z.string().trim()
+      .min(MIN_PASSWORD_LENGTH, { message: `A senha deve ter pelo menos ${MIN_PASSWORD_LENGTH} caracteres.` })
+      .max(MAX_PASSWORD_LENGTH, { message: `A senha deve ter no máximo ${MAX_PASSWORD_LENGTH} caracteres.` }),
+    confirmPassword: z.string().trim()
+      .min(MIN_PASSWORD_LENGTH, { message: `A confirmação de senha deve ter pelo menos ${MIN_PASSWORD_LENGTH} caracteres.` })
+      .max(MAX_PASSWORD_LENGTH, { message: `A confirmação de senha deve ter no máximo ${MAX_PASSWORD_LENGTH} caracteres.` }),
   })
   .refine((data) => data.password === data.confirmPassword, {
     message: "As senhas não coincidem.",

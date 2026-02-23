@@ -12,7 +12,11 @@ export const userLessonProgressRouter = createTRPCRouter({
     return getUserProgressByUserId(ctx.session.user.id);
   }),
   toggleLessonProgress: protectedProcedure
-    .input(z.object({ lessonId: z.string().min(1) }))
+    .input(
+      z.object({
+        lessonId: z.string().min(1).max(64),
+      }),
+    )
     .mutation(async ({ ctx, input }) => {
       await toggleUserLessonProgressByUserIdAndLessonId(
         ctx.session.user.id,

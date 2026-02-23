@@ -6,9 +6,17 @@ import { headers } from "next/headers";
 import { redirect } from "next/navigation";
 import { z } from "zod";
 
+const MIN_PASSWORD_LENGTH: number = 8;
+const MAX_EMAIL_LENGTH: number = 254;
+const MAX_PASSWORD_LENGTH: number = 128;
+
 const formSchema = z.object({
-  email: z.email({ message: "Email inválido." }),
-  password: z.string().trim().min(8, { message: "A senha deve ter pelo menos 8 caracteres." }),
+  email: z
+    .email({ message: "Email inválido." })
+    .max(MAX_EMAIL_LENGTH, { message: `O email deve ter no máximo ${MAX_EMAIL_LENGTH} caracteres.` }),
+  password: z.string().trim()
+    .min(MIN_PASSWORD_LENGTH, { message: `A senha deve ter pelo menos ${MIN_PASSWORD_LENGTH} caracteres.` })
+    .max(MAX_PASSWORD_LENGTH, { message: `A senha deve ter no máximo ${MAX_PASSWORD_LENGTH} caracteres.` }),
   rememberMe: z.preprocess((value) => value === "true", z.boolean()),
 });
 

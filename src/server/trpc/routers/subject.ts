@@ -10,7 +10,9 @@ export const subjectRouter = createTRPCRouter({
   getGroupedByLessonIds: publicProcedure
     .input(
       z.object({
-        lessonIds: z.array(z.string().min(1)).max(MAX_LESSON_IDS),
+        lessonIds: z
+          .array(z.string().min(1).max(64))
+          .max(MAX_LESSON_IDS),
       }),
     )
     .query(async ({ input }) => {
