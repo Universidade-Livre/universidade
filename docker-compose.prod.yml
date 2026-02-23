@@ -10,7 +10,6 @@ services:
       - "3000:3000"
       - "5555:5555"
     environment:
-      NEXT_PUBLIC_URL: ${NEXT_PUBLIC_URL}
       POSTGRES_HOST: postgres
       POSTGRES_PORT: 5432
       POSTGRES_DB: ${POSTGRES_DB}
