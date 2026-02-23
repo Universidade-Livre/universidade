@@ -2,11 +2,11 @@ import LessonMapper from "@/mappers/lesson.mapper";
 import CourseRepository from "@/repositories/course.repository";
 import LessonRepository from "@/repositories/lesson.repository";
 import YoutubeService from "@/services/youtube.service";
-import type Course from "@/types/course.interface";
-import type Lesson from "@/types/lesson.interface";
-import type Semester from "@/types/semester.interface";
-import type Subject from "@/types/subject.interface";
-import type Video from "@/types/video.interface";
+import type { Course } from "@/types/course.interface";
+import type { Lesson } from "@/types/lesson.interface";
+import type { Semester } from "@/types/semester.interface";
+import type { Subject } from "@/types/subject.interface";
+import type { Video } from "@/types/video.interface";
 
 export default class CourseService {
   private readonly youtubeService: YoutubeService;

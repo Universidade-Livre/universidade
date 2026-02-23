@@ -1,4 +1,4 @@
-export default interface Video {
+export interface Video {
   snippet: {
     title: string;
     resourceId: {

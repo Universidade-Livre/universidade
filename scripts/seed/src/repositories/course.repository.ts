@@ -1,6 +1,6 @@
 import { prisma } from "@/lib/prisma";
-import type CourseData from "@/types/course.interface";
-import type SubjectData from "@/types/subject.interface";
+import type { Course as CourseData } from "@/types/course.interface";
+import type { Subject as SubjectData } from "@/types/subject.interface";
 import type {
   Course as CourseModel,
   Semester as SemesterModel,

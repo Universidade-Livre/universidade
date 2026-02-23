@@ -1,8 +1,8 @@
 import { prisma } from "@/lib/prisma";
-import type CourseData from "@/types/course.interface";
-import type LessonData from "@/types/lesson.interface";
-import type SemesterData from "@/types/semester.interface";
-import type SubjectData from "@/types/subject.interface";
+import type { Course as CourseData } from "@/types/course.interface";
+import type { Lesson as LessonData } from "@/types/lesson.interface";
+import type { Semester as SemesterData } from "@/types/semester.interface";
+import type { Subject as SubjectData } from "@/types/subject.interface";
 
 export default class LessonRepository {
   static async create(

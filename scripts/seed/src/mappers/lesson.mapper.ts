@@ -1,6 +1,6 @@
-import type Lesson from "@/types/lesson.interface";
-import type Video from "@/types/video.interface";
 import { toSeconds } from "@/lib/time";
+import type { Lesson } from "@/types/lesson.interface";
+import type { Video } from "@/types/video.interface";
 
 export default class LessonMapper {
   static toLessonsData(videos: Video[], videoDurations: Map<string, string>): Lesson[] {

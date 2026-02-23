@@ -1,6 +1,6 @@
-import type Subject from "@/types/subject.interface";
+import type { Subject } from "@/types/subject.interface";
 
-export default interface Semester {
+export interface Semester {
   number: number;
   subjects: Subject[];
 }

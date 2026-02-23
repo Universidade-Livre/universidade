@@ -1,6 +1,6 @@
-import type SubjectBook from "@/types/subject-book.interface";
+import type { SubjectBook } from "@/types/subject-book.interface";
 
-export default interface Subject {
+export interface Subject {
   number: number;
   name: string;
   url: string;

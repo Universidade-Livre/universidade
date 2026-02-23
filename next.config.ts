@@ -1,4 +1,23 @@
+import { env } from "@/env";
 import type { NextConfig } from "next";
+
+const buildContentSecurityPolicyHeader = (frameSources?: string[]): string => {
+  return `
+      default-src 'self';
+      script-src 'self' 'unsafe-inline'${env.NODE_ENV === "development" ? " 'unsafe-eval'" : ""};
+      style-src 'self' 'unsafe-inline';
+      img-src 'self' blob: data:;
+      font-src 'self';
+      object-src 'none';
+      base-uri 'self';
+      frame-src ${frameSources ? frameSources.join(" ") : "'none'"};
+      form-action 'self';
+      frame-ancestors 'none';
+      upgrade-insecure-requests;
+  `
+    .replace(/\s{2,}/g, " ")
+    .trim();
+};
 
 const nextConfig: NextConfig = {
   /* config options here */
@@ -8,7 +27,7 @@ const nextConfig: NextConfig = {
   async headers() {
     return [
       {
-        source: "/(.*)",
+        source: "/:path*",
         headers: [
           {
             key: "X-Frame-Options",
@@ -17,6 +36,10 @@ const nextConfig: NextConfig = {
           {
             key: "X-Content-Type-Options",
             value: "nosniff",
+          },
+          {
+            key: "Content-Security-Policy",
+            value: buildContentSecurityPolicyHeader(),
           },
           {
             key: "Permissions-Policy",
@@ -29,6 +52,15 @@ const nextConfig: NextConfig = {
           {
             key: "Referrer-Policy",
             value: "strict-origin-when-cross-origin",
+          },
+        ],
+      },
+      {
+        source:  "/meu-curso/:courseSlug/etapas/:semesterNumber/disciplinas/:subjectNumber/aulas/:lessonId",
+        headers: [
+          {
+            key: "Content-Security-Policy",
+            value: buildContentSecurityPolicyHeader(["https://www.youtube.com"]),
           },
         ],
       },

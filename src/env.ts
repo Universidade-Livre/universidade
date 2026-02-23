@@ -13,7 +13,9 @@ export const env = createEnv({
   },
   client: {},
   shared: {
-    NODE_ENV: z.enum(["development", "test", "production"]).optional(),
+    NODE_ENV: z
+      .enum(["development", "test", "production"])
+      .default("development"),
   },
   runtimeEnv: {
     POSTGRES_HOST: process.env.POSTGRES_HOST,

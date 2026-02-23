@@ -1,4 +1,4 @@
-import type Course from "@/types/course.interface";
+import type { Course } from "@/types/course.interface";
 
 export const courseMath: Course = {
   slug: "matematica",
