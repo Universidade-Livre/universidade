@@ -1,6 +1,6 @@
 import "server-only";
 
-import { env } from "@/env";
+import { env } from "@/lib/env";
 import { PrismaPg } from "@prisma/adapter-pg";
 import { PrismaClient } from "@prisma/client";
 

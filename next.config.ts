@@ -1,4 +1,4 @@
-import { env } from "@/env";
+import { env } from "@/lib/env";
 import type { NextConfig } from "next";
 
 const buildContentSecurityPolicyHeader = (frameSources?: string[]): string => {
