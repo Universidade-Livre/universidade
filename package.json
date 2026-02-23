@@ -7,7 +7,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "check:types": "tsc --noEmit --pretty",
+    "check:dependencies": "knip",
+    "db:generate": "prisma generate",
+    "db:migrate": "prisma migrate",
+    "db:studio": "prisma studio"
   },
   "dependencies": {
     "@prisma/adapter-pg": "^7.4.0",
