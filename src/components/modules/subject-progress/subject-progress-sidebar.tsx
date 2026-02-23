@@ -1,5 +1,6 @@
 "use client";
 
+import SubjectProgressSidebarItem from "@/components/modules/subject-progress/subject-progress-sidebar-item";
 import { Progress } from "@/components/ui/progress";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Skeleton } from "@/components/ui/skeleton";
@@ -7,14 +8,13 @@ import useUserSubjectLessonProgress from "@/hooks/use-user-subject-lesson-progre
 import { Lesson } from "@/types/course/lesson.interface";
 import { UserSubjectLessonProgress } from "@/types/user-progress/user-subject-lesson-progress.interface";
 import { useRouter } from "next/navigation";
-import SubjectProgressSidebarItem from "./subject-progress-sidebar-item";
 
 interface SubjectProgressSidebarProps {
   currentLesson: Lesson;
   lessons: Lesson[];
 }
 
-export const SubjectProgressSidebar = ({ currentLesson, lessons }: SubjectProgressSidebarProps) => {
+const SubjectProgressSidebar = ({ currentLesson, lessons }: SubjectProgressSidebarProps) => {
   const router = useRouter();
   const { getSubjectLessonProgress, toggleLessonProgress, isLoading, isError } = useUserSubjectLessonProgress();
 
