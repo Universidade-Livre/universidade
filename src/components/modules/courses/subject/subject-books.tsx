@@ -1,12 +1,24 @@
+import { SubjectBook } from "@/types/course/subject-book.interface";
 import { ExternalLink, LibraryBig } from "lucide-react";
 
 interface SubjectBooksProps {
-  subject: {
-    books?: { name: string; url: string }[];
-  };
+  books: SubjectBook[];
 }
 
-export const SubjectBooks = ({ subject }: SubjectBooksProps) => {
+export const SubjectBooks = ({ books }: SubjectBooksProps) => {
+  const validBooks: SubjectBook[] = books.filter((book) => {
+    try {
+      const url: URL = new URL(book.url.trim());
+      return (
+        url.protocol === "https:" &&
+        url.hostname === "github.com" &&
+        url.pathname.startsWith("/Universidade-Livre/")
+      );
+    } catch {
+      return false;
+    }
+  });
+
   return (
     <div className="mt-2 overflow-hidden border-t border-white/10 pt-2 animate-in fade-in slide-in-from-top-10 duration-400 ease-out">
       <div className="mb-1 flex items-center gap-2">
@@ -15,11 +27,11 @@ export const SubjectBooks = ({ subject }: SubjectBooksProps) => {
           Leituras Recomendadas
         </h5>
       </div>
-      {subject.books && subject.books.length > 0 ? (
+      {validBooks && validBooks.length > 0 ? (
         <div className="grid gap-3 cursor-pointer">
-          {subject.books.map((book, bookIndex) => (
+          {validBooks.map((book) => (
             <a
-              key={bookIndex}
+              key={book.id}
               href={book.url}
               target="_blank"
               rel="noopener noreferrer"

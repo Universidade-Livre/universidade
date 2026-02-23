@@ -1,9 +1,10 @@
 import { Badge } from "@/components/ui/badge";
 import { cn } from "@/lib/utils";
+import { Subject } from "@/types/course/subject.interface";
 import { Asterisk } from "lucide-react";
 
 interface SubjectPrerequisitesProps {
-  prerequisites: string[];
+  prerequisites: Array<Pick<Subject, "id" | "name" | "number">>;
 }
 
 export const SubjectPrerequisites = ({ prerequisites }: SubjectPrerequisitesProps) => {
@@ -23,13 +24,13 @@ export const SubjectPrerequisites = ({ prerequisites }: SubjectPrerequisitesProp
           {prerequisites.length > 0 ? "Pré-requisitos" : "Sem pré-requisitos"}
         </span>
       </Badge>
-      {prerequisites.map((prereq, i) => (
+      {prerequisites.map((prerequisite) => (
         <Badge
-          key={i}
+          key={prerequisite.id}
           variant="outline"
           className="bg-linear-to-r from-purple-500/10 to-pink-800/20 text-purple-200 border-purple-500/30 px-2 py-1"
         >
-          {prereq}
+          {prerequisite.name}
         </Badge>
       ))}
     </div>

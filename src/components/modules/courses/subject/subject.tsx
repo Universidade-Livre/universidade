@@ -28,15 +28,13 @@ export const Subject = ({ index, subject }: SubjectProps) => {
           </div>
           <div className="mt-2 flex flex-wrap items-center gap-2">
             <SubjectPrerequisites
-              prerequisites={subject.prerequisites.map(
-                (prerequisite) => prerequisite.name,
-              )}
+              prerequisites={subject.prerequisites}
             />
           </div>
         </div>
 
         <SubjectBooksToggle>
-          <SubjectBooks subject={subject} />
+          <SubjectBooks books={subject.books} />
         </SubjectBooksToggle>
       </div>
     </li>

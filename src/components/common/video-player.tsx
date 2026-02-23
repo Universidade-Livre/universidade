@@ -5,11 +5,11 @@ interface VideoPlayerProps {
 export const VideoPlayer = ({ url }: VideoPlayerProps) => {
   const isValidEmbedUrl = (embedUrl: string): boolean => {
     try {
-      const parsedUrl: URL = new URL(embedUrl.trim());
+      const url: URL = new URL(embedUrl.trim());
       return (
-        parsedUrl.protocol === "https:" &&
-        parsedUrl.hostname.replace(/^www\./, "") === "youtube.com" &&
-        parsedUrl.pathname.startsWith("/embed/")
+        url.protocol === "https:" &&
+        url.hostname.replace(/^www\./, "") === "youtube.com" &&
+        url.pathname.startsWith("/embed/")
       );
     } catch {
       return false;
