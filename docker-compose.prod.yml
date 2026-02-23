@@ -1,8 +1,8 @@
 services:
   nextjs:
-    # build:
-    #   context: .
-    #   dockerfile: Dockerfile
+    build:
+      context: .
+      dockerfile: docker/nextjs/Dockerfile
     image: ghcr.io/universidade-livre/universidade
     init: true
     container_name: ubl-nextjs
