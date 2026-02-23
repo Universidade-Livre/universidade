@@ -9,11 +9,7 @@ export const SubjectBooks = ({ books }: SubjectBooksProps) => {
   const validBooks: SubjectBook[] = books.filter((book) => {
     try {
       const url: URL = new URL(book.url.trim());
-      return (
-        url.protocol === "https:" &&
-        url.hostname === "github.com" &&
-        url.pathname.startsWith("/Universidade-Livre/")
-      );
+      return url.protocol === "https:" && url.hostname === "github.com";
     } catch {
       return false;
     }
