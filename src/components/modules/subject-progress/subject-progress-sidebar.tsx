@@ -16,11 +16,7 @@ interface SubjectProgressSidebarProps {
 
 const SubjectProgressSidebar = ({ currentLesson, lessons }: SubjectProgressSidebarProps) => {
   const router = useRouter();
-  const { getSubjectLessonProgress, toggleLessonProgress, isLoading, isError } = useUserSubjectLessonProgress();
-
-  if (isError) {
-    throw new Error("Não foi possível carregar o progresso da disciplina.");
-  }
+  const { getSubjectLessonProgress, toggleLessonProgress, isLoading } = useUserSubjectLessonProgress();
 
   const subjectProgress: UserSubjectLessonProgress = getSubjectLessonProgress(
     currentLesson.info.subject.id,

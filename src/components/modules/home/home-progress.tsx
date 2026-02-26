@@ -21,14 +21,10 @@ import useUserSubjectLessonProgress, {
 } from "@/hooks/use-user-subject-lesson-progress";
 
 export const HomeProgress = () => {
-  const { subjects, getSubjectLessonProgress, orderBy, setOrderBy, isLoading, isError } = useUserSubjectLessonProgress();
+  const { subjects, getSubjectLessonProgress, orderBy, setOrderBy, isLoading } = useUserSubjectLessonProgress();
 
   if (isLoading) {
     return <HomeProgressSkeleton />;
-  }
-
-  if (isError) {
-    throw new Error("Erro ao carregar o progresso das disciplinas.");
   }
 
   if (!subjects || subjects.length === 0) {
