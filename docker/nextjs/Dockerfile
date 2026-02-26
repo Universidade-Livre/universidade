@@ -27,7 +27,6 @@ COPY --from=builder --chown=nextjs:nodejs /app/public public
 COPY --from=builder --chown=nextjs:nodejs /app/prisma prisma
 COPY --from=builder --chown=nextjs:nodejs /app/prisma.config.ts .
 COPY --from=deps --chown=nextjs:nodejs /app/node_modules/dotenv node_modules/dotenv
-COPY --from=deps --chown=nextjs:nodejs /app/node_modules/prisma node_modules/prisma
 COPY --from=deps --chown=nextjs:nodejs /opt/prisma /opt/prisma
 
 USER nextjs
