@@ -17,7 +17,7 @@ services:
       BETTER_AUTH_URL: ${BETTER_AUTH_URL}
       BETTER_AUTH_SECRET: ${BETTER_AUTH_SECRET}
     depends_on:
-      nextjs-migrate:
+      migrate:
         condition: service_completed_successfully
       postgres:
         condition: service_healthy
