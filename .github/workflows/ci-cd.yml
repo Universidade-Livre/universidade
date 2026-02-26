@@ -39,9 +39,7 @@ jobs:
           package-name: ${{ github.event.repository.name }}
           package-type: container
           min-versions-to-keep: 5
-          ignore-versions: |
-            ^nextjs$
-            ^migrate$
+          delete-only-untagged-versions: true
 
   deploy:
     needs: [postbuild]

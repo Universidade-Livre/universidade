@@ -49,5 +49,5 @@ jobs:
           push: true
           tags: ${{ steps.metadata.outputs.tags }}
           labels: ${{ steps.metadata.outputs.labels }}
-          cache-from: type=registry,ref=${{ steps.metadata.outputs.images }}:${{ inputs.tag }}
-          cache-to: type=inline
+          cache-from: type=gha,scope=${{ inputs.tag }}
+          cache-to: type=gha,scope=${{ inputs.tag }},mode=max
