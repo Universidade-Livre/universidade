@@ -14,43 +14,20 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  prebuild:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: read
-
-    outputs:
-      should_build_migrate: ${{ steps.migrate_changes.outputs.any_changed }}
-
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      
-      - id: migrate_changes
-        name: Detect changes in migration image essential files
-        uses: tj-actions/changed-files@v47
-        with:
-          files: |
-            package.json
-
   build-migrate:
-    needs: [prebuild]
     uses: ./.github/workflows/build.yml
     with:
       tag: migrate
       dockerfile: docker/nextjs/Dockerfile.migrate
-      should_build: ${{ needs.prebuild.outputs.should_build_migrate }}
   
   build-nextjs:
-    needs: [prebuild]
     uses: ./.github/workflows/build.yml
     with:
       tag: nextjs
-      dockerfile: docker/nextjs/Dockerfile
+      dockerfile: docker/nextjs/Dockerfile.nextjs
 
   postbuild:
     needs: [build-migrate, build-nextjs]
-    if: always()
     runs-on: ubuntu-latest
     permissions:
       packages: write

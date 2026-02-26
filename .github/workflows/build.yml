@@ -9,14 +9,9 @@ on:
       dockerfile:
         required: true
         type: string
-      should_build:
-        required: false
-        type: boolean
-        default: true
 
 jobs:
   build:
-    if: inputs.should_build == true
     runs-on: ubuntu-latest
     permissions:
       contents: read
