@@ -40,6 +40,7 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - id: metadata
+        name: Generate image metadata
         uses: docker/metadata-action@v5
         with:
           images: ${{ env.REGISTRY }}/${{ github.repository }}
@@ -47,7 +48,8 @@ jobs:
             type=raw,value=${{ inputs.tag }}
             type=sha
 
-      - uses: docker/build-push-action@v6
+      - name: Build and Push
+        uses: docker/build-push-action@v6
         with:
           context: .
           file: ${{ inputs.dockerfile }}
