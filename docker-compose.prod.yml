@@ -1,14 +1,13 @@
 services:
   nextjs:
-    build:
-      context: .
-      dockerfile: docker/nextjs/Dockerfile
-    image: ghcr.io/universidade-livre/universidade
+    # build:
+    #   context: .
+    #   dockerfile: docker/nextjs/Dockerfile
+    image: ghcr.io/universidade-livre/universidade:nextjs
     init: true
     container_name: ubl-nextjs
     ports:
       - "3000:3000"
-      - "5555:5555"
     environment:
       POSTGRES_HOST: postgres
       POSTGRES_PORT: 5432
@@ -18,11 +17,33 @@ services:
       BETTER_AUTH_URL: ${BETTER_AUTH_URL}
       BETTER_AUTH_SECRET: ${BETTER_AUTH_SECRET}
     depends_on:
+      nextjs-migrate:
+        condition: service_completed_successfully
       postgres:
         condition: service_healthy
     networks:
       - ubl-network
     restart: unless-stopped
+
+  nextjs-migrate:
+    # build:
+    #   context: .
+    #   dockerfile: docker/nextjs/Dockerfile.migrate
+    image: ghcr.io/universidade-livre/universidade:migrate
+    init: true
+    container_name: ubl-nextjs-migrate
+    environment:
+      POSTGRES_HOST: postgres
+      POSTGRES_PORT: 5432
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - ubl-network
+    restart: no
 
   postgres:
     image: postgres:18-alpine

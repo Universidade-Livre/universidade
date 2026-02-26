@@ -35,5 +35,5 @@ scripts/
 Thumbs.db
 
 # Docker metadata (optional)
-Dockerfile
+docker/
 .dockerignore
