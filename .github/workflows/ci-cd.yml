@@ -50,6 +50,7 @@ jobs:
 
   postbuild:
     needs: [build-migrate, build-nextjs]
+    if: always()
     runs-on: ubuntu-latest
     permissions:
       packages: write
