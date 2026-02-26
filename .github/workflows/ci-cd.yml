@@ -14,61 +14,61 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  build:
+  prebuild:
     runs-on: ubuntu-latest
     permissions:
       contents: read
-      packages: write
 
-    env:
-      REGISTRY: ghcr.io
+    outputs:
+      should_build_migrate: ${{ steps.migrate_changes.outputs.any_changed }}
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
-      - name: Set up Docker BuildX
-        uses: docker/setup-buildx-action@v3
-
-      - name: Login to GHCR
-        uses: docker/login-action@v3
+      
+      - id: migrate_changes
+        name: Detect changes in migration image essential files
+        uses: tj-actions/changed-files@v47
         with:
-          registry: ${{ env.REGISTRY }}
-          username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}
+          files: |
+            package.json
 
-      - id: meta
-        name: Generate image metadata
-        uses: docker/metadata-action@v5
-        with:
-          images: ${{ env.REGISTRY }}/${{ github.repository }}
-          tags: |
-            type=raw,value=latest
-            type=sha
+  build-migrate:
+    needs: [prebuild]
+    uses: ./.github/workflows/build.yml
+    with:
+      tag: migrate
+      dockerfile: docker/nextjs/Dockerfile.migrate
+      should_build: ${{ needs.prebuild.outputs.should_build_migrate }}
+  
+  build-nextjs:
+    needs: [prebuild]
+    uses: ./.github/workflows/build.yml
+    with:
+      tag: nextjs
+      dockerfile: docker/nextjs/Dockerfile
 
-      - name: Build and Push
-        uses: docker/build-push-action@v6
-        with:
-          context: .
-          file: docker/nextjs/Dockerfile
-          push: true
-          tags: ${{ steps.meta.outputs.tags }}
-          labels: ${{ steps.meta.outputs.labels }}
-          cache-from: type=registry,ref=${{ steps.meta.outputs.images }}:latest
-          cache-to: type=inline
+  postbuild:
+    needs: [build-migrate, build-nextjs]
+    runs-on: ubuntu-latest
+    permissions:
+      packages: write
 
+    steps:
       - name: Clean up old GHCR images
         uses: actions/delete-package-versions@v5
         with:
           package-name: ${{ github.event.repository.name }}
           package-type: container
           min-versions-to-keep: 5
+          ignore-versions: |
+            ^nextjs$
+            ^migrate$
 
   deploy:
-    needs: build
+    needs: [postbuild]
     runs-on: ubuntu-latest
     permissions:
-      contents: read
       packages: read
       id-token: write
 

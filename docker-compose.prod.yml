@@ -25,13 +25,13 @@ services:
       - ubl-network
     restart: unless-stopped
 
-  nextjs-migrate:
+  migrate:
     # build:
     #   context: .
     #   dockerfile: docker/nextjs/Dockerfile.migrate
     image: ghcr.io/universidade-livre/universidade:migrate
     init: true
-    container_name: ubl-nextjs-migrate
+    container_name: ubl-migrate
     environment:
       POSTGRES_HOST: postgres
       POSTGRES_PORT: 5432
