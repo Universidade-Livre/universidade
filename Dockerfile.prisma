@@ -19,4 +19,4 @@ COPY --chown=nonroot:nonroot prisma prisma
 COPY --chown=nonroot:nonroot prisma.config.ts .
 
 ENV NODE_ENV=production
-CMD ["node_modules/prisma/build/index.js", "migrate", "deploy"]
+CMD []

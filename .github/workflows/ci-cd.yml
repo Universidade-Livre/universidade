@@ -14,11 +14,11 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  build-migrate:
+  build-prisma:
     uses: ./.github/workflows/build.yml
     with:
-      tag: migrate
-      dockerfile: Dockerfile.migrate
+      tag: prisma
+      dockerfile: Dockerfile.prisma
       paths: |
         changes:
           - .github/workflows/**
@@ -26,7 +26,7 @@ jobs:
           - prisma.config.ts
           - package.json
           - package-lock.json
-          - Dockerfile.migrate
+          - Dockerfile.prisma
 
   build-nextjs:
     uses: ./.github/workflows/build.yml
@@ -35,8 +35,7 @@ jobs:
       dockerfile: Dockerfile.nextjs
 
   postbuild:
-    needs: [build-migrate, build-nextjs]
-    if: always()
+    needs: [build-prisma, build-nextjs]
     runs-on: ubuntu-latest
     permissions:
       packages: write
