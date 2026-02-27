@@ -18,16 +18,25 @@ jobs:
     uses: ./.github/workflows/build.yml
     with:
       tag: migrate
-      dockerfile: docker/nextjs/Dockerfile.migrate
-  
+      dockerfile: Dockerfile.migrate
+      paths: |
+        changes:
+          - .github/workflows/**
+          - prisma/**
+          - prisma.config.ts
+          - package.json
+          - package-lock.json
+          - Dockerfile.migrate
+
   build-nextjs:
     uses: ./.github/workflows/build.yml
     with:
       tag: nextjs
-      dockerfile: docker/nextjs/Dockerfile.nextjs
+      dockerfile: Dockerfile.nextjs
 
   postbuild:
     needs: [build-migrate, build-nextjs]
+    if: always()
     runs-on: ubuntu-latest
     permissions:
       packages: write
