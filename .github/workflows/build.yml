@@ -46,13 +46,11 @@ jobs:
 
       - id: exists
         name: Check if image exists in GHCR
-        run: |
-          exists=false
-          docker manifest inspect ghcr.io/${{ github.repository }}:${{ inputs.tag }} >/dev/null 2>&1 && exists=true
-          echo "exists=$exists" >> "$GITHUB_OUTPUT"
+        if: ${{ inputs.paths != '' }}
+        run: echo "exists=$(docker manifest inspect ghcr.io/${{ github.repository }}:${{ inputs.tag }} >/dev/null 2>&1 && echo true || echo false)" >> "$GITHUB_OUTPUT"
 
       - id: metadata
-        if: ${{ steps.exists.outputs.exists == 'false' || (inputs.paths != '' && steps.filter.outputs.changes == 'true') }}
+        if: ${{ inputs.paths == '' || steps.exists.outputs.exists == 'false' || steps.filter.outputs.changes == 'true' }}
         name: Generate image metadata
         uses: docker/metadata-action@v5
         with:
@@ -60,7 +58,7 @@ jobs:
           tags: type=raw,value=${{ inputs.tag }}
 
       - name: Build and Push
-        if: ${{ steps.exists.outputs.exists == 'false' || (inputs.paths != '' && steps.filter.outputs.changes == 'true') }}
+        if: ${{ inputs.paths == '' || steps.exists.outputs.exists == 'false' || steps.filter.outputs.changes == 'true' }}
         uses: docker/build-push-action@v6
         with:
           context: .
