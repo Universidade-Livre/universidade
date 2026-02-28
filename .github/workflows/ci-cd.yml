@@ -84,6 +84,7 @@ jobs:
           envs: REPO_OWNER,REPO_NAME,SHA,GITHUB_TOKEN,POSTGRES_DB,POSTGRES_USER,POSTGRES_PASSWORD,BETTER_AUTH_URL,BETTER_AUTH_SECRET
           script: |
             set -euo pipefail
+            trap 'docker logout ghcr.io || true' EXIT
             echo "$GITHUB_TOKEN" | docker login ghcr.io -u "$REPO_OWNER" --password-stdin
             curl -fsSL \
               --retry 5 \
