@@ -39,7 +39,7 @@ const nextConfig: NextConfig = {
           },
           {
             key: "Content-Security-Policy",
-            value: buildContentSecurityPolicyHeader(),
+            value: buildContentSecurityPolicyHeader(["https://www.youtube.com"]),
           },
           {
             key: "Permissions-Policy",
@@ -52,15 +52,6 @@ const nextConfig: NextConfig = {
           {
             key: "Referrer-Policy",
             value: "strict-origin-when-cross-origin",
-          },
-        ],
-      },
-      {
-        source:  "/meu-curso/:courseSlug/etapas/:semesterNumber/disciplinas/:subjectNumber/aulas/:lessonId",
-        headers: [
-          {
-            key: "Content-Security-Policy",
-            value: buildContentSecurityPolicyHeader(["https://www.youtube.com"]),
           },
         ],
       },
